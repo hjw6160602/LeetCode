@@ -1,0 +1,35 @@
+//
+//  LinkedList.h
+//  LinkedList
+//
+//  Created by 贺嘉炜 on 2018/12/25.
+//  Copyright © 2018年 贺嘉炜. All rights reserved.
+//
+
+#ifndef LinkedList_h
+#define LinkedList_h
+
+#include  <stdbool.h>
+
+// 定义链表中的节点
+struct Node {
+    int value;           // 节点中的成员
+    struct Node *pNext;  // 指向下一个节点的指针
+};
+
+// 函数声明
+/** 创建链表函数 */
+struct Node* CreateList(void);
+/** 遍历链表函数 */
+void TraverseList(struct Node*);
+/**
+ * 链表节点插入函数
+ * param1 是头节点
+ * param2 要在第几个节点前插入
+ * param3 是要插入的数据
+ */
+bool Insert_Node(struct Node*, int, int);
+/** 在链表尾部插入节点 */
+void AddToTail(struct Node **, int);
+
+#endif /* LinkedList_h */

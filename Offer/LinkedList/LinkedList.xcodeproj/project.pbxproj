@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67D2CAAB21D219A300D830C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D2CAAA21D219A300D830C2 /* main.cpp */; };
+		CAB118F521D280AF00E7FDDF /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = CAB118F421D280AF00E7FDDF /* LinkedList.c */; };
 		CAD91D0821D14145003458A4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD91D0721D14145003458A4 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		67D2CAA321D2198900D830C2 /* ListNode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ListNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D2CAAA21D219A300D830C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CAB118F321D2808C00E7FDDF /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		CAB118F421D280AF00E7FDDF /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		CAD91D0421D14145003458A4 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD91D0721D14145003458A4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +89,8 @@
 		CAD91D0621D14145003458A4 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				CAB118F321D2808C00E7FDDF /* LinkedList.h */,
+				CAB118F421D280AF00E7FDDF /* LinkedList.c */,
 				CAD91D0721D14145003458A4 /* main.c */,
 			);
 			path = LinkedList;
@@ -178,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB118F521D280AF00E7FDDF /* LinkedList.c in Sources */,
 				CAD91D0821D14145003458A4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

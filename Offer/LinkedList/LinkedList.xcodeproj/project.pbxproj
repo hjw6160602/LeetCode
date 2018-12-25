@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67D2CAAB21D219A300D830C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67D2CAAA21D219A300D830C2 /* main.cpp */; };
 		CAD91D0821D14145003458A4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CAD91D0721D14145003458A4 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		67D2CAA121D2198900D830C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		CAD91D0221D14145003458A4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		67D2CAA321D2198900D830C2 /* ListNode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ListNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D2CAAA21D219A300D830C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CAD91D0421D14145003458A4 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD91D0721D14145003458A4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67D2CAA021D2198900D830C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAD91D0121D14145003458A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D2CAA421D2198900D830C2 /* ListNode */ = {
+			isa = PBXGroup;
+			children = (
+				67D2CAAA21D219A300D830C2 /* main.cpp */,
+			);
+			path = ListNode;
+			sourceTree = "<group>";
+		};
 		CAD91CFB21D14145003458A4 = {
 			isa = PBXGroup;
 			children = (
 				CAD91D0621D14145003458A4 /* LinkedList */,
+				67D2CAA421D2198900D830C2 /* ListNode */,
 				CAD91D0521D14145003458A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				CAD91D0421D14145003458A4 /* LinkedList */,
+				67D2CAA321D2198900D830C2 /* ListNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +94,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		67D2CAA221D2198900D830C2 /* ListNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D2CAA921D2198A00D830C2 /* Build configuration list for PBXNativeTarget "ListNode" */;
+			buildPhases = (
+				67D2CA9F21D2198900D830C2 /* Sources */,
+				67D2CAA021D2198900D830C2 /* Frameworks */,
+				67D2CAA121D2198900D830C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListNode;
+			productName = ListNode;
+			productReference = 67D2CAA321D2198900D830C2 /* ListNode */;
+			productType = "com.apple.product-type.tool";
+		};
 		CAD91D0321D14145003458A4 /* LinkedList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD91D0B21D14145003458A4 /* Build configuration list for PBXNativeTarget "LinkedList" */;
@@ -88,9 +134,14 @@
 		CAD91CFC21D14145003458A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "贺嘉炜";
 				TargetAttributes = {
+					67D2CAA221D2198900D830C2 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
 					CAD91D0321D14145003458A4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -109,11 +160,20 @@
 			projectRoot = "";
 			targets = (
 				CAD91D0321D14145003458A4 /* LinkedList */,
+				67D2CAA221D2198900D830C2 /* ListNode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		67D2CA9F21D2198900D830C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D2CAAB21D219A300D830C2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CAD91D0021D14145003458A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +185,44 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		67D2CAA721D2198A00D830C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		67D2CAA821D2198A00D830C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		CAD91D0921D14145003458A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -257,6 +355,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		67D2CAA921D2198A00D830C2 /* Build configuration list for PBXNativeTarget "ListNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D2CAA721D2198A00D830C2 /* Debug */,
+				67D2CAA821D2198A00D830C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CAD91CFF21D14145003458A4 /* Build configuration list for PBXProject "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

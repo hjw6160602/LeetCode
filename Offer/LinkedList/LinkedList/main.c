@@ -9,23 +9,22 @@
 #include <stdio.h>
 
 //    定义链表中的节点
-typedef struct node
-{
-    int member;                //    节点中的成员
-    struct node *pNext;        //    指向下一个节点的指针
-}Node,*pNode;
+struct Node {
+    int value;                //    节点中的成员
+    struct Node *pNext;        //    指向下一个节点的指针
+};
 
-
-void AddToTail(ListNode **pHead, int value) {
-    node.value = value;
-    node.next = NULL;
-    Node *pNew = node;
+void AddToTail(struct Node **pHead, int value) {
+    struct Node *node;
+    node->value = value;
+    node->pNext = NULL;
+    struct Node *pNew = node;
     if(*pHead == NULL) {
-        pHead = pNew;
+        pHead = &pNew;
     } else {
-        Node *pNode = *pHead;
+        struct Node *pNode = *pHead;
         while(*pHead != NULL) {
-            pNode = pNode->next;
+            pNode = pNode->pNext;
         }
         pNode = pNew;
     }

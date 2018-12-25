@@ -28,7 +28,7 @@ void TraverseList(struct Node*);
  * param2 要在第几个节点前插入
  * param3 是要插入的数据
  */
-bool Insert_Node(struct Node*, int, int);
+bool InsertNode(struct Node*, int, int);
 /** 在链表尾部插入节点 */
 void AddToTail(struct Node **, int);
 

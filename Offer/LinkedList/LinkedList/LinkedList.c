@@ -31,12 +31,12 @@ struct Node* CreateList()  {
         pNew->pNext = NULL;     // 将新节点中的指针置为空
         pTail = pNew;           // 将新节点赋给最后的一个节点
     }
-    return pHead;                                    //返回头节点
+    return pHead; //返回头节点
 }
 
 //    遍历链表函数
 void TraverseList(struct Node *pHead) {
-    struct Node *p = pHead->pNext;                            //将头节点的指针给予临时节点p
+    struct Node *p = pHead->pNext; // 将头节点的指针给予临时节点p
     while(NULL != p) {
         printf("%d",p->value);
         p = p->pNext;
@@ -46,6 +46,35 @@ void TraverseList(struct Node *pHead) {
     }
     printf("\n");
     return ;
+}
+
+bool InsertNode(struct Node* pHead, int index, int value) {
+    if (index < 0 || NULL == pHead) {
+        return false;
+    }
+    int i = 0;
+    struct Node *pNode = pHead;
+    while (NULL != pNode) {
+        if (NULL == pNode->pNext && i == index) {
+            struct Node* pNew = (struct Node*)malloc(sizeof(struct Node*));
+            printf("111111111");
+            pNew->value = value;
+            pNew->pNext = NULL;
+            pNode->pNext = pNew;
+            return true;
+        }
+        pNode = pNode->pNext;
+        if (i == index) {
+            printf("222222222");
+            struct Node* pNew = (struct Node*)malloc(sizeof(struct Node*));
+            pNew->value = value;
+            pNew->pNext = pNode->pNext;
+            pNode->pNext = pNew;
+            return true;
+        }
+        i++;
+    }
+    return false;
 }
 
 void AddToTail(struct Node **pHead, int value) {

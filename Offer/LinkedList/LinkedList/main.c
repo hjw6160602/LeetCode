@@ -9,9 +9,20 @@
 #include <stdio.h>
 #include "LinkedList.h"
 
+
+
 int main(int argc, const char * argv[]) {
     struct Node *pHead = CreateList();
     AddToTail(&pHead, 200);
+    
+//    pHead->pNext = NULL;
+    bool succ = InsertNode(pHead, 100, 300);
+    if (succ) {
+        printf("insert succeed!\n");
+    } else {
+        printf("insert failed!\n");
+    }
+    
     TraverseList(pHead);
     return 0;
 }

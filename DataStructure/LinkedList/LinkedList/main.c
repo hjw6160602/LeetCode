@@ -22,8 +22,10 @@ int main(int argc, const char * argv[]) {
     } else {
         printf("insert failed!\n");
     }
-    struct Node* pHead2 = ReverseList(pHead);
+//    struct Node* pHead2 = ReverseList(pHead);
+    struct Node* pNode = FindKthToTail(pHead, 99);
+    printf("%d \n", pNode->value);
     TraverseList(pHead);
-    TraverseList(pHead2);
+//    TraverseList(pHead2);
     return 0;
 }

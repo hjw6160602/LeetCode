@@ -77,6 +77,37 @@ bool InsertNode(struct Node* pHead, int index, int value) {
     return false;
 }
 
+void DeleteNode(struct Node **pHead, struct Node *pToBeDeleted) {
+    if (!pHead || !pToBeDeleted) {
+        return;
+    }
+    // 要删除的节点不是尾节点
+    if (pToBeDeleted->pNext != NULL) {
+        struct Node *pNext = pToBeDeleted->pNext;
+        pToBeDeleted->value = pNext->value;
+        pToBeDeleted->pNext = pNext->pNext;
+        free(pNext);
+        printf("%p", pNext);
+        pNext = NULL;
+    }
+    // 链表中只有一个节点，删除头结点（也是尾节点）
+    else if (*pHead == pToBeDeleted) {
+        free(pToBeDeleted);
+        pToBeDeleted = NULL;
+        *pHead = NULL;
+    }
+    // 链表中有多个节点，删除的节点为尾节点时
+    else {
+        struct Node *pNode = *pHead;
+        while (pNode->pNext != pToBeDeleted) {
+            pNode = pNode->pNext;
+        }
+        pNode->pNext = NULL;
+        free(pToBeDeleted);
+        pToBeDeleted = NULL;
+    }
+}
+
 void AddToTail(struct Node **pHead, int value) {
     struct Node *pNew = (struct Node*)malloc(sizeof(struct Node));
     pNew->value = value;
@@ -90,6 +121,30 @@ void AddToTail(struct Node **pHead, int value) {
         }
         pNode->pNext = pNew;
     }
+}
+
+struct Node* FindKthToTail(struct Node *pHead, unsigned int k) {
+    if (pHead == NULL || k == 0) {
+        return NULL;
+    }
+    
+    struct Node *pAhead = pHead;
+    struct Node *pBehind = NULL;
+    
+    for (unsigned int i = 0; i < k - 1;  ++i) {
+        if (pAhead->pNext != NULL) {
+            pAhead = pAhead->pNext;
+        } else {
+            // 如果k大于链表的长度，返回NULL;
+            return NULL;
+        }
+    }
+    pBehind = pHead;
+    while (pAhead->pNext != NULL) {
+        pAhead = pAhead->pNext;
+        pBehind = pBehind->pNext;
+    }
+    return pBehind;
 }
 
 struct Node* ReverseList(struct Node* pHead) {

@@ -12,7 +12,7 @@
 
 
 int main(int argc, const char * argv[]) {
-    struct Node *pHead = CreateList();
+    struct Node* pHead = CreateList();
     AddToTail(&pHead, 200);
     
 //    pHead->pNext = NULL;
@@ -22,7 +22,8 @@ int main(int argc, const char * argv[]) {
     } else {
         printf("insert failed!\n");
     }
-    
+    struct Node* pHead2 = ReverseList(pHead);
     TraverseList(pHead);
+    TraverseList(pHead2);
     return 0;
 }

@@ -91,3 +91,21 @@ void AddToTail(struct Node **pHead, int value) {
         pNode->pNext = pNew;
     }
 }
+
+struct Node* ReverseList(struct Node* pHead) {
+    struct Node* pReversedHead = NULL;
+    struct Node* pNode = pHead;
+    struct Node* pPrevNode = NULL;
+    
+    while (NULL != pNode) {
+        struct Node* pNextNode = pNode->pNext;
+        if (NULL == pNextNode) {
+            pReversedHead = pNode;
+        }
+        pNode->pNext = pPrevNode;
+        pPrevNode = pNode;
+        pNode = pNextNode;
+    }
+    return pReversedHead;
+    
+}

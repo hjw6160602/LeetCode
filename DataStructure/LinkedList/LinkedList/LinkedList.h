@@ -31,5 +31,7 @@ void TraverseList(struct Node*);
 bool InsertNode(struct Node*, int, int);
 /** 在链表尾部插入节点 */
 void AddToTail(struct Node **, int);
+/** 反转链表 */
+struct Node* ReverseList(struct Node*);
 
 #endif /* LinkedList_h */

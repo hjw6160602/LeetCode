@@ -11,6 +11,7 @@
 		67753B9521E508C200EF3417 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67753B9421E508C200EF3417 /* main.c */; };
 		67753B9B21E508DC00EF3417 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 67753B9921E508DC00EF3417 /* LinkedList.c */; };
 		67753BA321E5090100EF3417 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67753BA221E5090100EF3417 /* main.cpp */; };
+		67753BA921E511F400EF3417 /* BinaryTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 67753BA821E511F400EF3417 /* BinaryTree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		67753B9A21E508DC00EF3417 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		67753BA021E5090100EF3417 /* ListNode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ListNode; sourceTree = BUILT_PRODUCTS_DIR; };
 		67753BA221E5090100EF3417 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		67753BA721E511F400EF3417 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		67753BA821E511F400EF3417 /* BinaryTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinaryTree.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 		67753B8821E508A000EF3417 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
+				67753BA721E511F400EF3417 /* BinaryTree.h */,
+				67753BA821E511F400EF3417 /* BinaryTree.c */,
 				67753B8921E508A000EF3417 /* main.c */,
 			);
 			path = BinaryTree;
@@ -110,8 +115,8 @@
 		67753B9321E508C200EF3417 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				67753B9921E508DC00EF3417 /* LinkedList.c */,
 				67753B9A21E508DC00EF3417 /* LinkedList.h */,
+				67753B9921E508DC00EF3417 /* LinkedList.c */,
 				67753B9421E508C200EF3417 /* main.c */,
 			);
 			path = LinkedList;
@@ -223,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67753BA921E511F400EF3417 /* BinaryTree.c in Sources */,
 				67753B8A21E508A000EF3417 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

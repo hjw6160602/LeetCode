@@ -162,5 +162,13 @@ struct Node* ReverseList(struct Node* pHead) {
         pNode = pNextNode;
     }
     return pReversedHead;
-    
+}
+
+void PrintListReversingly_Recursively(struct Node *pHead) {
+    if (pHead != NULL) {
+        if (pHead->pNext != NULL) {
+            PrintListReversingly_Recursively(pHead->pNext);
+        }
+        printf("%d<-", pHead->value);
+    }
 }

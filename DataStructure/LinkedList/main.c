@@ -16,16 +16,20 @@ int main(int argc, const char * argv[]) {
     AddToTail(&pHead, 200);
     
 //    pHead->pNext = NULL;
-    bool succ = InsertNode(pHead, 100, 300);
-    if (succ) {
-        printf("insert succeed!\n");
-    } else {
-        printf("insert failed!\n");
-    }
+//    bool succ = InsertNode(pHead, 100, 300);
+//    if (succ) {
+//        printf("insert succeed!\n");
+//    } else {
+//        printf("insert failed!\n");
+//    }
 //    struct Node* pHead2 = ReverseList(pHead);
-    struct Node* pNode = FindKthToTail(pHead, 99);
-    printf("%d \n", pNode->value);
-    TraverseList(pHead);
+//    struct Node* pNode = FindKthToTail(pHead, 99);
+//    printf("%d \n", pNode->value);
+    
+//    TraverseList(pHead);
 //    TraverseList(pHead2);
+    
+    PrintListReversingly_Recursively(pHead);
+    printf("\n");
     return 0;
 }

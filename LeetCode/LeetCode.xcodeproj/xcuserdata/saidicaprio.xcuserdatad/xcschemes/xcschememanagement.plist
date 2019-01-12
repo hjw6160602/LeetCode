@@ -4,30 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StringToInt.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>SubSet.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>Test.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>combination.xcscheme_^#shared#^_</key>
+		<key>Fibonacci.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ToLowerCase.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>67753B5721E5037300EF3417</key>
+		<key>67D8478F21E9A0B2009D21C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

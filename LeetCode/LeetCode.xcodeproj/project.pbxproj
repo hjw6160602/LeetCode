@@ -7,12 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67635CF321EC8DFD00235C81 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67635CF221EC8DFD00235C81 /* main.c */; };
+		67635CF921EC8E2900235C81 /* RangeSumOfBST.c in Sources */ = {isa = PBXBuildFile; fileRef = 67635CF821EC8E2900235C81 /* RangeSumOfBST.c */; };
+		6764EB9A21EC860100544DA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764EB9921EC860100544DA6 /* main.swift */; };
+		67D03C9221F0AC180081A00E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D03C9121F0AC180081A00E /* main.c */; };
+		67D03C9821F0AC2A0081A00E /* SortArrayByParity.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D03C9721F0AC2A0081A00E /* SortArrayByParity.c */; };
 		67D847B121E9A148009D21C2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B021E9A148009D21C2 /* main.c */; };
 		67D847B421E9A162009D21C2 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B321E9A162009D21C2 /* Fibonacci.c */; };
 		67D847BC21E9A530009D21C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D847BB21E9A530009D21C2 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		67635CEE21EC8DFD00235C81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6764EB9521EC860100544DA6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		67D03C8D21F0AC180081A00E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		67D847A721E9A135009D21C2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,6 +66,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		67635CF021EC8DFD00235C81 /* RangeSumOfBST */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RangeSumOfBST; sourceTree = BUILT_PRODUCTS_DIR; };
+		67635CF221EC8DFD00235C81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		67635CF721EC8E2900235C81 /* RangeSumOfBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumOfBST.h; sourceTree = "<group>"; };
+		67635CF821EC8E2900235C81 /* RangeSumOfBST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RangeSumOfBST.c; sourceTree = "<group>"; };
+		6764EB9721EC860100544DA6 /* UniqueEmailAddresses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UniqueEmailAddresses; sourceTree = BUILT_PRODUCTS_DIR; };
+		6764EB9921EC860100544DA6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6764EB9E21EC862D00544DA6 /* UniqueEmailAddresses.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UniqueEmailAddresses.go; sourceTree = "<group>"; };
+		6764EB9F21EC862D00544DA6 /* main.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.go; sourceTree = "<group>"; };
+		67D03C8F21F0AC180081A00E /* SortArrayByParity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortArrayByParity; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D03C9121F0AC180081A00E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		67D03C9621F0AC2A0081A00E /* SortArrayByParity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortArrayByParity.h; sourceTree = "<group>"; };
+		67D03C9721F0AC2A0081A00E /* SortArrayByParity.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SortArrayByParity.c; sourceTree = "<group>"; };
 		67D847A921E9A135009D21C2 /* Fibonacci */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fibonacci; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D847B021E9A148009D21C2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		67D847B221E9A162009D21C2 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
@@ -43,6 +87,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		67635CED21EC8DFD00235C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6764EB9421EC860100544DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D03C8C21F0AC180081A00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67D847A621E9A135009D21C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,11 +125,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67635CF121EC8DFD00235C81 /* RangeSumOfBST */ = {
+			isa = PBXGroup;
+			children = (
+				67635CF721EC8E2900235C81 /* RangeSumOfBST.h */,
+				67635CF821EC8E2900235C81 /* RangeSumOfBST.c */,
+				67635CF221EC8DFD00235C81 /* main.c */,
+			);
+			path = RangeSumOfBST;
+			sourceTree = "<group>";
+		};
+		6764EB9821EC860100544DA6 /* UniqueEmailAddresses */ = {
+			isa = PBXGroup;
+			children = (
+				6764EB9F21EC862D00544DA6 /* main.go */,
+				6764EB9E21EC862D00544DA6 /* UniqueEmailAddresses.go */,
+				6764EB9921EC860100544DA6 /* main.swift */,
+			);
+			path = UniqueEmailAddresses;
+			sourceTree = "<group>";
+		};
+		67D03C9021F0AC180081A00E /* SortArrayByParity */ = {
+			isa = PBXGroup;
+			children = (
+				67D03C9621F0AC2A0081A00E /* SortArrayByParity.h */,
+				67D03C9721F0AC2A0081A00E /* SortArrayByParity.c */,
+				67D03C9121F0AC180081A00E /* main.c */,
+			);
+			path = SortArrayByParity;
+			sourceTree = "<group>";
+		};
 		67D8478721E9A0B2009D21C2 = {
 			isa = PBXGroup;
 			children = (
 				67D847AA21E9A135009D21C2 /* Fibonacci */,
 				67D847BA21E9A530009D21C2 /* ToLowerCase */,
+				6764EB9821EC860100544DA6 /* UniqueEmailAddresses */,
+				67635CF121EC8DFD00235C81 /* RangeSumOfBST */,
+				67D03C9021F0AC180081A00E /* SortArrayByParity */,
 				67D8479121E9A0B2009D21C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +172,9 @@
 			children = (
 				67D847A921E9A135009D21C2 /* Fibonacci */,
 				67D847B921E9A530009D21C2 /* ToLowerCase */,
+				6764EB9721EC860100544DA6 /* UniqueEmailAddresses */,
+				67635CF021EC8DFD00235C81 /* RangeSumOfBST */,
+				67D03C8F21F0AC180081A00E /* SortArrayByParity */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +200,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		67635CEF21EC8DFD00235C81 /* RangeSumOfBST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67635CF621EC8DFD00235C81 /* Build configuration list for PBXNativeTarget "RangeSumOfBST" */;
+			buildPhases = (
+				67635CEC21EC8DFD00235C81 /* Sources */,
+				67635CED21EC8DFD00235C81 /* Frameworks */,
+				67635CEE21EC8DFD00235C81 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RangeSumOfBST;
+			productName = RangeSumOfBST;
+			productReference = 67635CF021EC8DFD00235C81 /* RangeSumOfBST */;
+			productType = "com.apple.product-type.tool";
+		};
+		6764EB9621EC860100544DA6 /* UniqueEmailAddresses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6764EB9D21EC860100544DA6 /* Build configuration list for PBXNativeTarget "UniqueEmailAddresses" */;
+			buildPhases = (
+				6764EB9321EC860100544DA6 /* Sources */,
+				6764EB9421EC860100544DA6 /* Frameworks */,
+				6764EB9521EC860100544DA6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniqueEmailAddresses;
+			productName = UniqueEmailAddresses;
+			productReference = 6764EB9721EC860100544DA6 /* UniqueEmailAddresses */;
+			productType = "com.apple.product-type.tool";
+		};
+		67D03C8E21F0AC180081A00E /* SortArrayByParity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D03C9521F0AC180081A00E /* Build configuration list for PBXNativeTarget "SortArrayByParity" */;
+			buildPhases = (
+				67D03C8B21F0AC180081A00E /* Sources */,
+				67D03C8C21F0AC180081A00E /* Frameworks */,
+				67D03C8D21F0AC180081A00E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortArrayByParity;
+			productName = SortArrayByParity;
+			productReference = 67D03C8F21F0AC180081A00E /* SortArrayByParity */;
+			productType = "com.apple.product-type.tool";
+		};
 		67D847A821E9A135009D21C2 /* Fibonacci */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D847AD21E9A135009D21C2 /* Build configuration list for PBXNativeTarget "Fibonacci" */;
@@ -143,6 +295,15 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = saidicaprio;
 				TargetAttributes = {
+					67635CEF21EC8DFD00235C81 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6764EB9621EC860100544DA6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					67D03C8E21F0AC180081A00E = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					67D847A821E9A135009D21C2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -165,11 +326,40 @@
 			targets = (
 				67D847A821E9A135009D21C2 /* Fibonacci */,
 				67D847B821E9A530009D21C2 /* ToLowerCase */,
+				6764EB9621EC860100544DA6 /* UniqueEmailAddresses */,
+				67635CEF21EC8DFD00235C81 /* RangeSumOfBST */,
+				67D03C8E21F0AC180081A00E /* SortArrayByParity */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		67635CEC21EC8DFD00235C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67635CF921EC8E2900235C81 /* RangeSumOfBST.c in Sources */,
+				67635CF321EC8DFD00235C81 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6764EB9321EC860100544DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6764EB9A21EC860100544DA6 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D03C8B21F0AC180081A00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D03C9221F0AC180081A00E /* main.c in Sources */,
+				67D03C9821F0AC2A0081A00E /* SortArrayByParity.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		67D847A521E9A135009D21C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,6 +380,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		67635CF421EC8DFD00235C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67635CF521EC8DFD00235C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6764EB9B21EC860100544DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6764EB9C21EC860100544DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		67D03C9321F0AC180081A00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67D03C9421F0AC180081A00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		67D8479521E9A0B2009D21C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,6 +586,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		67635CF621EC8DFD00235C81 /* Build configuration list for PBXNativeTarget "RangeSumOfBST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67635CF421EC8DFD00235C81 /* Debug */,
+				67635CF521EC8DFD00235C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6764EB9D21EC860100544DA6 /* Build configuration list for PBXNativeTarget "UniqueEmailAddresses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6764EB9B21EC860100544DA6 /* Debug */,
+				6764EB9C21EC860100544DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D03C9521F0AC180081A00E /* Build configuration list for PBXNativeTarget "SortArrayByParity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D03C9321F0AC180081A00E /* Debug */,
+				67D03C9421F0AC180081A00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		67D8478B21E9A0B2009D21C2 /* Build configuration list for PBXProject "LeetCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -12,7 +12,6 @@
 #include <stdio.h>
 
 #define N  4
-#define M  3
 
 /**
  * 组合
@@ -22,4 +21,5 @@
  */
 void comb(int deep, int n, int m);
 
+void display(int arr[], int m);
 #endif /* combination_h */

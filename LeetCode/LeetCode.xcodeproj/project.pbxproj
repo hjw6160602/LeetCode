@@ -15,6 +15,7 @@
 		67D847B121E9A148009D21C2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B021E9A148009D21C2 /* main.c */; };
 		67D847B421E9A162009D21C2 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B321E9A162009D21C2 /* Fibonacci.c */; };
 		67D847BC21E9A530009D21C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D847BB21E9A530009D21C2 /* main.swift */; };
+		67E8904F22042487003CE671 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E8904E22042487003CE671 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		67E8904A22042487003CE671 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +94,8 @@
 		67D847B321E9A162009D21C2 /* Fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
 		67D847B921E9A530009D21C2 /* ToLowerCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToLowerCase; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D847BB21E9A530009D21C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67E8904C22042487003CE671 /* TwoSum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoSum; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E8904E22042487003CE671 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +128,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67D847B621E9A530009D21C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E8904922042487003CE671 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,6 +182,7 @@
 				6764EB9821EC860100544DA6 /* UniqueEmailAddresses */,
 				67635CF121EC8DFD00235C81 /* RangeSumOfBST */,
 				67D03C9021F0AC180081A00E /* SortArrayByParity */,
+				67E8904D22042487003CE671 /* TwoSum */,
 				67D8479121E9A0B2009D21C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,6 +195,7 @@
 				6764EB9721EC860100544DA6 /* UniqueEmailAddresses */,
 				67635CF021EC8DFD00235C81 /* RangeSumOfBST */,
 				67D03C8F21F0AC180081A00E /* SortArrayByParity */,
+				67E8904C22042487003CE671 /* TwoSum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +216,14 @@
 				67D847BB21E9A530009D21C2 /* main.swift */,
 			);
 			path = ToLowerCase;
+			sourceTree = "<group>";
+		};
+		67E8904D22042487003CE671 /* TwoSum */ = {
+			isa = PBXGroup;
+			children = (
+				67E8904E22042487003CE671 /* main.swift */,
+			);
+			path = TwoSum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +314,23 @@
 			productReference = 67D847B921E9A530009D21C2 /* ToLowerCase */;
 			productType = "com.apple.product-type.tool";
 		};
+		67E8904B22042487003CE671 /* TwoSum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E8905222042487003CE671 /* Build configuration list for PBXNativeTarget "TwoSum" */;
+			buildPhases = (
+				67E8904822042487003CE671 /* Sources */,
+				67E8904922042487003CE671 /* Frameworks */,
+				67E8904A22042487003CE671 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoSum;
+			productName = TwoSum;
+			productReference = 67E8904C22042487003CE671 /* TwoSum */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,6 +356,9 @@
 					67D847B821E9A530009D21C2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					67E8904B22042487003CE671 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 67D8478B21E9A0B2009D21C2 /* Build configuration list for PBXProject "LeetCode" */;
@@ -329,6 +378,7 @@
 				6764EB9621EC860100544DA6 /* UniqueEmailAddresses */,
 				67635CEF21EC8DFD00235C81 /* RangeSumOfBST */,
 				67D03C8E21F0AC180081A00E /* SortArrayByParity */,
+				67E8904B22042487003CE671 /* TwoSum */,
 			);
 		};
 /* End PBXProject section */
@@ -374,6 +424,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D847BC21E9A530009D21C2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E8904822042487003CE671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E8904F22042487003CE671 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +641,28 @@
 			};
 			name = Release;
 		};
+		67E8905022042487003CE671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		67E8905122042487003CE671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -636,6 +716,15 @@
 			buildConfigurations = (
 				67D847BE21E9A530009D21C2 /* Debug */,
 				67D847BF21E9A530009D21C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E8905222042487003CE671 /* Build configuration list for PBXNativeTarget "TwoSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E8905022042487003CE671 /* Debug */,
+				67E8905122042487003CE671 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

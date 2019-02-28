@@ -10,9 +10,9 @@ class Solution {
         int[][] len = new int[matrix.length][matrix[0].length];
         int max = 0;
 
-        for(int i=0;i<matrix.length;i++){
-            for(int j=0;j<matrix[0].length;j++){
-                max = Math.max(max,find(matrix,visited,len,i,j));
+        for(int i = 0; i < matrix.length;i++){
+            for(int j = 0;j < matrix[0].length;j++){
+                max = Math.max(max, find(matrix,visited,len,i,j));
             }
         }
         return max;
@@ -23,7 +23,7 @@ class Solution {
         if(visited[x][y])
             return len[x][y];
         len[x][y] = 1;
-        for(int i=0;i<4;i++){
+        for(int i = 0; i < 4;i++) {
             int curX = x + row[i];
             int curY = y + col[i];
             if(curX >=0 && curX < matrix.length && 

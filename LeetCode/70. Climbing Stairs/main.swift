@@ -1,0 +1,80 @@
+//  https://leetcode.com/problems/climbing-stairs/
+//  main.swift
+//  70. Climbing Stairs
+//
+//  Created by saidicaprio on 2019/4/11.
+//  Copyright © 2019 saidicaprio. All rights reserved.
+//
+
+/*
+ * You are climbing a stair case. It takes n steps to reach to the top.
+ * Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+ * Note: Given n will be a positive integer.
+ */
+
+import Foundation
+
+//    f(n) = f(n-1) + f(n-2)
+
+class Solution {
+    var res:[Int] = [1, 1]
+    func climbStairs(_ n: Int) -> Int {
+        var sum1 = 1
+        var sum2 = 1
+        if n < 2 {
+            return 1
+        }
+        var sum = sum1 + sum2
+        for _ in 2...n {
+            sum = sum1 + sum2
+            sum1 = sum2
+            sum2 = sum
+        }
+        return sum
+    }
+}
+
+class Solution1 {
+    var res:[Int] = [1, 1]
+    func climbStairs(_ n: Int) -> Int {
+        if n < 2 {
+            return res[n]
+        }
+        for i in 2...n {
+            res.append(res[i-1] + res[i-2])
+        }
+        return res[n]
+    }
+}
+
+class Solution2 {
+    var res:[Int] = [1, 1, 2]
+    func climbStairs(_ n: Int) -> Int {
+        if res.count > n {
+            return res[n]
+        } else {
+            res.append(climbStairs(n-1) + climbStairs(n-2))
+            return res [n]
+        }
+    }
+}
+// over time
+class Solution3 {
+    var res:[Int] = [1, 1, 2]
+    func climbStairs(_ n: Int) -> Int {
+        if n == 1 {
+            return 1
+        } else if n == 2 {
+            return 2
+        } else {
+            return climbStairs(n-1) + climbStairs(n-2)
+        }
+    }
+}
+
+let s = Solution()
+print(s.climbStairs(80))
+print(s.climbStairs(1))
+print(s.climbStairs(2))
+//print(s.climbStairs(6))
+//print(s.climbStairs(7))

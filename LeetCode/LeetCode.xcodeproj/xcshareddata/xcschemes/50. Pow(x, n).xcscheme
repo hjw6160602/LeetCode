@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6734F6AE222D48B00085DD86"
-               BuildableName = "77. Combinations"
-               BlueprintName = "77. Combinations"
+               BlueprintIdentifier = "6727600B2233B2EC00953C66"
+               BuildableName = "50. Pow(x, n)"
+               BlueprintName = "50. Pow(x, n)"
                ReferencedContainer = "container:LeetCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6734F6AE222D48B00085DD86"
-            BuildableName = "77. Combinations"
-            BlueprintName = "77. Combinations"
+            BlueprintIdentifier = "6727600B2233B2EC00953C66"
+            BuildableName = "50. Pow(x, n)"
+            BlueprintName = "50. Pow(x, n)"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,13 +55,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6734F6AE222D48B00085DD86"
-            BuildableName = "77. Combinations"
-            BlueprintName = "77. Combinations"
+            BlueprintIdentifier = "6727600B2233B2EC00953C66"
+            BuildableName = "50. Pow(x, n)"
+            BlueprintName = "50. Pow(x, n)"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -74,9 +79,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6734F6AE222D48B00085DD86"
-            BuildableName = "77. Combinations"
-            BlueprintName = "77. Combinations"
+            BlueprintIdentifier = "6727600B2233B2EC00953C66"
+            BuildableName = "50. Pow(x, n)"
+            BlueprintName = "50. Pow(x, n)"
             ReferencedContainer = "container:LeetCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

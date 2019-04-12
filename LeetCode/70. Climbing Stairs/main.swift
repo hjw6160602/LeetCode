@@ -14,8 +14,30 @@
 
 import Foundation
 
-//    f(n) = f(n-1) + f(n-2)
 
+class SolutionSwift {
+    func climbStairs(_ n: Int) -> Int {
+        var steps = [Int](repeating: 0, count: n+1)
+        return _helper(n, &steps)
+    }
+    
+    private func _helper(_ n: Int, _ steps: inout [Int]) -> Int {
+        // termination case
+        if n < 0 {
+            return 0
+        }
+        if n == 0 {
+            return 1
+        }
+        if steps[n] != 0 {
+            return steps[n]
+        }
+        steps[n] = _helper(n - 1, &steps) + _helper(n - 2, &steps)
+        return steps[n]
+    }
+}
+
+//    f(n) = f(n-1) + f(n-2)
 class Solution {
     var res:[Int] = [1, 1]
     func climbStairs(_ n: Int) -> Int {

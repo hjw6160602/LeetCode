@@ -11,10 +11,23 @@ import Foundation
 // -100.0 < x < 100.0
 // n in range [−231, 231 − 1]
 
-
-
-
 class Solution {
+    func myPow(_ x: Double, _ n: Int) -> Double {
+        guard n != 0 else {
+            return 1
+        }
+        if n < 0 {
+            return 1 / myPow(x, -n)
+        }
+        if n % 2 == 1 {
+            return x * myPow(x, n - 1)
+        }
+        return myPow(x * x, n / 2)
+    }
+}
+
+
+class SolutionSwift {
     func myPow(_ x: Double, _ n: Int) -> Double {
         guard n != 0 else {
             return 1

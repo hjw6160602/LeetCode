@@ -34,8 +34,8 @@ class BinaryTree {
         }
         var rootIndex = 0
         var queue:[TreeNode] = []
-        head = TreeNode()
-        head!.val = Int(array[rootIndex])
+        let value = Int(array[rootIndex])!
+        head = TreeNode(value)
         queue.append(head!)
         while true {
             var nextLayerQueue:[TreeNode] = []
@@ -65,8 +65,8 @@ class BinaryTree {
                 node.right = nil
             }
         } else {
-            let tempNode = TreeNode()
-            tempNode.val = Int(item)
+            let value = Int(item)
+            let tempNode = TreeNode(value!)
             nextLayerQueue.append(tempNode)
             if isLeft {
                 node.left = tempNode

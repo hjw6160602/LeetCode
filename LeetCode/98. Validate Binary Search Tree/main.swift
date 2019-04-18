@@ -29,10 +29,10 @@ class Solution {
     }
 }
 
-let array: [String] = ["5", "1", "4", "null", "null", "3", "6", "1", "2"]
-//let node = TreeNode.generateBinaryTreeFromArray(array)
-//let solution = Solution()
+//let array: [String] = ["5", "1", "4", "null", "null", "3", "6", "1", "2"]
+
 let tree = BinaryTree()
+let array = tree.initializeInput("[5, 1, 4, null, null, 3, 6, 1, 2]")
 let head = tree.generateBinaryTreeFromArray(array)
 
 print(head)

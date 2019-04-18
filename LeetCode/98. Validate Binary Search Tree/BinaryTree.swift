@@ -12,6 +12,21 @@ class BinaryTree {
     
     var head: TreeNode?
     
+    func initializeInput(_ input: String) -> [String] {
+        var str = input
+        str.remove(at: str.startIndex)
+        str.remove(at: str.index(before: str.endIndex))
+        let parts = str.split(separator: ",")
+        var array:[String] = []
+        for part in parts {
+            var tempStr = String(part)
+            tempStr = tempStr.trimmingCharacters(in: .whitespaces)
+            array.append(tempStr)
+        }
+        print(array)
+        return array
+    }
+    
     func generateBinaryTreeFromArray(_ array: [String]) -> TreeNode? {
         let count = array.count
         guard count > 0 else {

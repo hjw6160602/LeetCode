@@ -22,6 +22,9 @@
 		67D847B121E9A148009D21C2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B021E9A148009D21C2 /* main.c */; };
 		67D847B421E9A162009D21C2 /* Fibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 67D847B321E9A162009D21C2 /* Fibonacci.c */; };
 		67D847BC21E9A530009D21C2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D847BB21E9A530009D21C2 /* main.swift */; };
+		67E2474822673345001F8E36 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E2474722673345001F8E36 /* BinaryTree.swift */; };
+		67EE8AE322671FDF00534697 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE8AE222671FDF00534697 /* main.swift */; };
+		67EE8AE82267201600534697 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EE8AE72267201600534697 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -133,6 +136,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		67EE8ADE22671FDF00534697 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +181,10 @@
 		67D847B321E9A162009D21C2 /* Fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
 		67D847B921E9A530009D21C2 /* ToLowerCase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ToLowerCase; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D847BB21E9A530009D21C2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67E2474722673345001F8E36 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		67EE8AE022671FDF00534697 /* 98. Validate Binary Search Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "98. Validate Binary Search Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EE8AE222671FDF00534697 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67EE8AE72267201600534697 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +266,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67D847B621E9A530009D21C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE8ADD22671FDF00534697 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,6 +384,7 @@
 				6734F6B0222D48B00085DD86 /* 77. Combinations */,
 				6727600D2233B2EC00953C66 /* 50. Pow(x, n) */,
 				67B61259225F4FBE007ED741 /* 70. Climbing Stairs */,
+				67EE8AE122671FDF00534697 /* 98. Validate Binary Search Tree */,
 				67D8479121E9A0B2009D21C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -380,6 +404,7 @@
 				6734F6AF222D48B00085DD86 /* 77. Combinations */,
 				6727600C2233B2EC00953C66 /* 50. Pow(x, n) */,
 				67B61258225F4FBE007ED741 /* 70. Climbing Stairs */,
+				67EE8AE022671FDF00534697 /* 98. Validate Binary Search Tree */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,6 +425,16 @@
 				67D847BB21E9A530009D21C2 /* main.swift */,
 			);
 			path = ToLowerCase;
+			sourceTree = "<group>";
+		};
+		67EE8AE122671FDF00534697 /* 98. Validate Binary Search Tree */ = {
+			isa = PBXGroup;
+			children = (
+				67EE8AE222671FDF00534697 /* main.swift */,
+				67EE8AE72267201600534697 /* TreeNode.swift */,
+				67E2474722673345001F8E36 /* BinaryTree.swift */,
+			);
+			path = "98. Validate Binary Search Tree";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -609,6 +644,23 @@
 			productReference = 67D847B921E9A530009D21C2 /* ToLowerCase */;
 			productType = "com.apple.product-type.tool";
 		};
+		67EE8ADF22671FDF00534697 /* 98. Validate Binary Search Tree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EE8AE622671FDF00534697 /* Build configuration list for PBXNativeTarget "98. Validate Binary Search Tree" */;
+			buildPhases = (
+				67EE8ADC22671FDF00534697 /* Sources */,
+				67EE8ADD22671FDF00534697 /* Frameworks */,
+				67EE8ADE22671FDF00534697 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "98. Validate Binary Search Tree";
+			productName = "98. Validate Binary Search Tree";
+			productReference = 67EE8AE022671FDF00534697 /* 98. Validate Binary Search Tree */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -657,6 +709,9 @@
 					67D847B821E9A530009D21C2 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					67EE8ADF22671FDF00534697 = {
+						CreatedOnToolsVersion = 10.2;
+					};
 				};
 			};
 			buildConfigurationList = 67D8478B21E9A0B2009D21C2 /* Build configuration list for PBXProject "LeetCode" */;
@@ -684,6 +739,7 @@
 				6734F6AE222D48B00085DD86 /* 77. Combinations */,
 				6727600B2233B2EC00953C66 /* 50. Pow(x, n) */,
 				67B61257225F4FBE007ED741 /* 70. Climbing Stairs */,
+				67EE8ADF22671FDF00534697 /* 98. Validate Binary Search Tree */,
 			);
 		};
 /* End PBXProject section */
@@ -785,6 +841,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D847BC21E9A530009D21C2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EE8ADC22671FDF00534697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE8AE322671FDF00534697 /* main.swift in Sources */,
+				67EE8AE82267201600534697 /* TreeNode.swift in Sources */,
+				67E2474822673345001F8E36 /* BinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1177,6 +1243,31 @@
 			};
 			name = Release;
 		};
+		67EE8AE422671FDF00534697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67EE8AE522671FDF00534697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1293,6 +1384,15 @@
 			buildConfigurations = (
 				67D847BE21E9A530009D21C2 /* Debug */,
 				67D847BF21E9A530009D21C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EE8AE622671FDF00534697 /* Build configuration list for PBXNativeTarget "98. Validate Binary Search Tree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EE8AE422671FDF00534697 /* Debug */,
+				67EE8AE522671FDF00534697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -18,7 +18,7 @@ class Solution {
         
         for i in 0 ..< nums.count {
             for j in 0 ..< i {
-                if nums[i] > nums[j] {
+                if nums[j] < nums[i] {
                     dp[i] = max(dp[i], dp[j] + 1)
                 }
             }

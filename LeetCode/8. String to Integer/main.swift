@@ -34,7 +34,7 @@ class Solution {
         var flag = 1
         var strCopy = str
         // 1.先去字符串首部的空格
-        let whitespace = NSCharacterSet.whitespacesAndNewlines
+        let whitespace = NSCharacterSet.whitespaces
         strCopy = strCopy.trimmingCharacters(in: whitespace)
         // 2. 判断第一个字符是不是正"+"负"-"符号，如果是则去掉正负号标记flag
         if strCopy.first == "-" {

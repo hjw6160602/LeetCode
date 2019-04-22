@@ -11,7 +11,6 @@ import Foundation
 class BinaryTree {
     
     var head: TreeNode?
-    private var array: [String] = []
     
     func initializeInput(_ input: String) -> [String] {
         var str = input
@@ -25,7 +24,6 @@ class BinaryTree {
             array.append(tempStr)
         }
         print(array)
-        self.array = array
         return array
     }
     

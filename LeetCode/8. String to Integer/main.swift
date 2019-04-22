@@ -72,8 +72,6 @@ class SolutionSwift {
         var res = 0
         var flag = 1
         var index = 0
-        let int_max = 2147483647
-        let int_min = -2147483648
         
         // trim
         let content = [Character](str)
@@ -102,11 +100,11 @@ class SolutionSwift {
             
             res = res * 10 + Int(String(content[index]))!
         
-            if res >= int_max {
+            if res >= Int32.max {
                 if flag == 1 {
-                    return int_max
-                } else if res > int_max && flag == -1 {
-                    return int_min
+                    return Int(Int32.max)
+                } else if res > Int32.max && flag == -1 {
+                    return Int(Int32.min)
                 }
             }
             index += 1

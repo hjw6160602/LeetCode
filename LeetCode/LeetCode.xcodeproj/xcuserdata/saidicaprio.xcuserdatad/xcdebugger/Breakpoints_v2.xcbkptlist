@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "206. Reverse Linked List/main.swift"
-            timestampString = "573035406.672523"
+            timestampString = "577624270.96299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "reverseList(_:)"
             landmarkType = "7">
          </BreakpointContent>

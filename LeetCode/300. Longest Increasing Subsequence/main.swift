@@ -13,11 +13,21 @@ class Solution {
         guard nums.count > 0 else {
             return 0
         }
+        var res = 1
+        var dp = Array.init(repeating: 1, count: nums.count)
         
-        return 0
+        for i in 0 ..< nums.count {
+            for j in 0 ..< i {
+                if nums[i] > nums[j] {
+                    dp[i] = max(dp[i], dp[j] + 1)
+                }
+            }
+            res = max(res, dp[i])
+        }
+        return res
     }
 }
 
-let nums = [10,9,2,5,3,7,101,18]
+let nums = [10,9,2,5,3,7,101,18]//[2,3,7,101]
 let s = Solution()
 print(s.lengthOfLIS(nums))

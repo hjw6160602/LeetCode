@@ -8,9 +8,17 @@
 
 import Foundation
 
+protocol Traversal {
+    func preorderTraversal(root node: TreeNode?)
+    func inorderTraversal(root node: TreeNode?)
+    func postorderTraversal(root node: TreeNode?)
+}
+
 class BinaryTree {
     
     var head: TreeNode?
+    var traversalResult: [TreeNode] = []
+    private var array:[String] = []
     
     func initializeInput(_ input: String) -> [String] {
         var str = input
@@ -23,9 +31,10 @@ class BinaryTree {
             tempStr = tempStr.trimmingCharacters(in: .whitespaces)
             array.append(tempStr)
         }
-        print(array)
+        self.array = array
+//        print(array)
         return array
-    }
+}
     
     func generateBinaryTreeFromArray(_ array: [String]) -> TreeNode? {
         let count = array.count
@@ -58,7 +67,7 @@ class BinaryTree {
         guard rootIndex < count else {
             return false
         }
-        let item = array[rootIndex]
+        let item = self.array[rootIndex]
         if item == "null" {
             if isLeft {
                 node.left = nil
@@ -77,4 +86,35 @@ class BinaryTree {
         }
         return true
     }
+    
+}
+
+extension BinaryTree: Traversal {
+    func preorderTraversal(root node: TreeNode?) {
+        guard node != nil else {
+            return
+        }
+        self.traversalResult.append(node!)
+        preorderTraversal(root: node!.left)
+        preorderTraversal(root: node!.right)
+    }
+    
+    func inorderTraversal(root node: TreeNode?) {
+        guard node != nil else {
+            return
+        }
+        inorderTraversal(root: node!.left)
+        self.traversalResult.append(node!)
+        inorderTraversal(root: node!.right)
+    }
+    
+    func postorderTraversal(root node: TreeNode?) {
+        guard node != nil else {
+            return
+        }
+        postorderTraversal(root: node!.left)
+        postorderTraversal(root: node!.right)
+        self.traversalResult.append(node!)
+    }
+    
 }

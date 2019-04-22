@@ -12,6 +12,9 @@ protocol Traversal {
     func preorderTraversal(root node: TreeNode?)
     func inorderTraversal(root node: TreeNode?)
     func postorderTraversal(root node: TreeNode?)
+    
+    func bfs(root: TreeNode?)
+    func dfs(root: TreeNode?)
 }
 
 class BinaryTree {
@@ -97,6 +100,11 @@ extension BinaryTree: Traversal {
         self.traversalResult.append(node!)
         preorderTraversal(root: node!.left)
         preorderTraversal(root: node!.right)
+//        if let node = node {
+//            self.traversalResult.append(node)
+//            preorderTraversal(root: node.left)
+//            preorderTraversal(root: node.right)
+//        }
     }
     
     func inorderTraversal(root node: TreeNode?) {
@@ -117,4 +125,45 @@ extension BinaryTree: Traversal {
         self.traversalResult.append(node!)
     }
     
+    func bfs(root: TreeNode?) {
+        var queue = [TreeNode]()
+        
+        if let root = root {
+            queue.append(root)
+        }
+        
+        while !queue.isEmpty {
+            let current = queue.removeFirst()
+            visit(current)
+            current.visited = true
+            for node in current.neighbors {
+                if !node.visited {
+                    queue.append(node)
+                }
+            }
+        }
+    }
+    
+    func dfs(root node: TreeNode?) {
+        guard let node = node else {
+            return
+        }
+        
+        visit(node)
+        node.visited = true
+        
+        for node in node.neighbors {
+            if !node.visited {
+                dfs(root: node)
+            }
+        }
+    }
+    
+    private func visit(_ node: TreeNode?) {
+        guard node != nil else {
+            return
+        }
+        
+        print(node!.val)
+    }
 }

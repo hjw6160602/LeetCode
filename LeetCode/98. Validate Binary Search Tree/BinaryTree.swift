@@ -11,7 +11,7 @@ import Foundation
 class BinaryTree {
     
     var head: TreeNode?
-    private var array: [String] = []
+    private var array:[String] = []
     
     func initializeInput(_ input: String) -> [String] {
         var str = input
@@ -24,8 +24,8 @@ class BinaryTree {
             tempStr = tempStr.trimmingCharacters(in: .whitespaces)
             array.append(tempStr)
         }
-        print(array)
         self.array = array
+        //        print(array)
         return array
     }
     
@@ -46,7 +46,7 @@ class BinaryTree {
                 guard createNode(rootIndex: &rootIndex, isLeft: true, node: node, nextLayerQueue: &nextLayerQueue, count: count) else {
                     return head
                 }
-
+                
                 guard createNode(rootIndex: &rootIndex, isLeft: false, node: node, nextLayerQueue: &nextLayerQueue, count: count) else {
                     return head
                 }
@@ -60,7 +60,7 @@ class BinaryTree {
         guard rootIndex < count else {
             return false
         }
-        let item = array[rootIndex]
+        let item = self.array[rootIndex]
         if item == "null" {
             if isLeft {
                 node.left = nil
@@ -79,4 +79,5 @@ class BinaryTree {
         }
         return true
     }
+    
 }

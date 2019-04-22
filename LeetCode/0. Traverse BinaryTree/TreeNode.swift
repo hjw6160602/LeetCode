@@ -24,6 +24,18 @@ public class TreeNode {
     public var val: Int
     public var left: TreeNode?
     public var right: TreeNode?
+    public var visited: Bool = false
+    
+    public var neighbors: [TreeNode] {
+        var queue = [TreeNode]()
+        if let left = self.left {
+            queue.append(left)
+        }
+        if let right = self.right {
+            queue.append(right)
+        }
+        return queue
+    }
     
     public init(_ val: Int) {
         self.val = val

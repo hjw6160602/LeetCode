@@ -127,11 +127,9 @@ extension BinaryTree: Traversal {
     
     func bfs(root: TreeNode?) {
         var queue = [TreeNode]()
-        
         if let root = root {
             queue.append(root)
         }
-        
         while !queue.isEmpty {
             let current = queue.removeFirst()
             visit(current)
@@ -148,10 +146,8 @@ extension BinaryTree: Traversal {
         guard let node = node else {
             return
         }
-        
         visit(node)
         node.visited = true
-        
         for node in node.neighbors {
             if !node.visited {
                 dfs(root: node)
@@ -163,7 +159,6 @@ extension BinaryTree: Traversal {
         guard node != nil else {
             return
         }
-        
         print(node!.val)
     }
 }

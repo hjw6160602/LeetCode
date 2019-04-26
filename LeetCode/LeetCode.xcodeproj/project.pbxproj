@@ -15,6 +15,7 @@
 		6764EB9A21EC860100544DA6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764EB9921EC860100544DA6 /* main.swift */; };
 		677903BF2227F64D00B7837C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677903BE2227F64D00B7837C /* main.swift */; };
 		677903CB222801DC00B7837C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677903CA222801DC00B7837C /* main.swift */; };
+		67939ABD2272C21600826214 /* TopKBigestNo..swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939ABC2272C21600826214 /* TopKBigestNo..swift */; };
 		67B6125B225F4FBE007ED741 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6125A225F4FBE007ED741 /* main.swift */; };
 		67BA43792227CF4900589074 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BA43782227CF4900589074 /* main.swift */; };
 		67C12935226DB2BA00403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C12934226DB2BA00403640 /* main.swift */; };
@@ -209,6 +210,7 @@
 		677903C32228008C00B7837C /* main.go */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.go; sourceTree = "<group>"; };
 		677903C8222801DC00B7837C /* 8. String to Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8. String to Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		677903CA222801DC00B7837C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67939ABC2272C21600826214 /* TopKBigestNo..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKBigestNo..swift; sourceTree = "<group>"; };
 		67B61258225F4FBE007ED741 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B6125A225F4FBE007ED741 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67BA43762227CF4900589074 /* 206. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "206. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -467,6 +469,7 @@
 			children = (
 				67CE2B2E227073AA0045A7B7 /* main.swift */,
 				67CE2B33227073FE0045A7B7 /* Heap.swift */,
+				67939ABC2272C21600826214 /* TopKBigestNo..swift */,
 			);
 			path = "347. Top K Frequent Elements";
 			sourceTree = "<group>";
@@ -1052,6 +1055,7 @@
 			files = (
 				67CE2B2F227073AA0045A7B7 /* main.swift in Sources */,
 				67CE2B34227073FE0045A7B7 /* Heap.swift in Sources */,
+				67939ABD2272C21600826214 /* TopKBigestNo..swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

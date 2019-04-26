@@ -10,10 +10,52 @@ import Foundation
 
 class Solution {
     func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
-//        let map = [Int: Int]() {
-//
-//        }
-        return []
+        var map = [Int: Int]()
+        for num in nums {
+            guard let times = map[num] else {
+                map[num] = 1
+                continue
+            }
+            map[num] = times + 1
+        }
+        
+        var res: [Int] = []
+        for item in map.keys {
+            // 与堆顶元素比较 只有大于堆顶元素再操作
+            if res.count < k {
+                var i = res.count
+                //这里注意一定要先加入到数组中来
+                res.append(item)
+                // 父节点下标
+                var parent = (i - 1) / 2
+                while parent >= 0 && map[item]! > map[item]!  {
+                    (res[i], res[parent]) = (res[parent], res[i])
+                    i = parent
+                    parent = (i - 1) / 2
+                }
+            } else {
+                guard map[item]! >= map[res[0]]! else {
+                    continue
+                }
+                res[0] = item
+                let n = res.count
+                var i = 0
+                while true {
+                    var k = i
+                    if i * 2 + 1 < n && map[res[i * 2 + 1]]! < map[res[i]]! {
+                        k = i * 2 + 1
+                    } else if i * 2 + 2 < n && (map[res[i * 2 + 2]]! < map[res[i]]!) {
+                        k = i * 2 + 2
+                    }
+                    guard i != k else {
+                        break
+                    }
+                    (res[i], res[k]) = (res[k], res[i])
+                    i = k
+                }
+            }
+        }
+        return res.reversed()
     }
 }
 
@@ -37,8 +79,9 @@ class SolutionSwift {
     }
 }
 
-let s = SolutionSwift()
-let res = s.topKFrequent([3,3,2,2,1,1], 2)
+let s = Solution()
+let res = s.topKFrequent([1,1,1,2,2,3],2)
+//let res = s.topKFrequent([1,1,1,2,2,3], 2)
 print(res)
 
 //let heap = Heap.init([7,5,6,4,2,1], capacity: 10)
@@ -49,18 +92,9 @@ print(res)
 //heap.removeMax()
 //print(heap.array)
 
-var array = Array.init(repeating: 0, count: 10000)
-for index in 0..<10000 {
-     let num: Int = Int(arc4random() % 100000) + 1
-    array[index] = num
-}
-let heap = Heap.init(10)
+//print(heap.array[10])
 
-for index in 0..<array.count {
-    if array.count > heap.array[0] {
-        
-    }
-    heap.insert(item)
-}
-print(heap.array[10])
-
+//let k = TopKBigestNo()
+//let nums = k.generateNums(10000)
+//let res = k.topKBigest([9988, 9995, 9938, 9997, 9993, 9995, 9994, 10000, 9993, 9993], 2)
+//print(res)

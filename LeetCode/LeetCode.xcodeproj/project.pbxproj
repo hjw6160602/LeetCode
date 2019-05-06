@@ -18,6 +18,7 @@
 		67939ABD2272C21600826214 /* TopKBigestNo..swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939ABC2272C21600826214 /* TopKBigestNo..swift */; };
 		67B6125B225F4FBE007ED741 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6125A225F4FBE007ED741 /* main.swift */; };
 		67BA43792227CF4900589074 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BA43782227CF4900589074 /* main.swift */; };
+		67BFA79622805F9300021605 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BFA79522805F9300021605 /* main.swift */; };
 		67C12935226DB2BA00403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C12934226DB2BA00403640 /* main.swift */; };
 		67C12940226DBB1D00403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1293F226DBB1D00403640 /* main.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
@@ -108,6 +109,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		67BA43742227CF4900589074 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		67BFA79122805F9300021605 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -215,6 +225,8 @@
 		67B6125A225F4FBE007ED741 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67BA43762227CF4900589074 /* 206. Reverse Linked List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "206. Reverse Linked List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67BA43782227CF4900589074 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1013. Partition Array Into 3 Parts With Equal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BFA79522805F9300021605 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C12932226DB2BA00403640 /* 344. Reverse String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "344. Reverse String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C12934226DB2BA00403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C1293D226DBB1D00403640 /* 300. Longest Increasing Subsequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "300. Longest Increasing Subsequence"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,6 +310,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67BA43732227CF4900589074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BFA79022805F9300021605 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,6 +459,14 @@
 			path = "206. Reverse Linked List";
 			sourceTree = "<group>";
 		};
+		67BFA79422805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {
+			isa = PBXGroup;
+			children = (
+				67BFA79522805F9300021605 /* main.swift */,
+			);
+			path = "1013. Partition Array Into 3 Parts With Equal";
+			sourceTree = "<group>";
+		};
 		67C12933226DB2BA00403640 /* 344. Reverse String */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +516,7 @@
 				67C1293E226DBB1D00403640 /* 300. Longest Increasing Subsequence */,
 				67C12933226DB2BA00403640 /* 344. Reverse String */,
 				67CE2B2D227073AA0045A7B7 /* 347. Top K Frequent Elements */,
+				67BFA79422805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 				67D847AA21E9A135009D21C2 /* Fibonacci */,
 				67D847BA21E9A530009D21C2 /* ToLowerCase */,
 				6764EB9821EC860100544DA6 /* UniqueEmailAddresses */,
@@ -518,6 +546,7 @@
 				67C1293D226DBB1D00403640 /* 300. Longest Increasing Subsequence */,
 				67C12948226DD3F800403640 /* Sort */,
 				67CE2B2C227073AA0045A7B7 /* 347. Top K Frequent Elements */,
+				67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -716,6 +745,23 @@
 			productReference = 67BA43762227CF4900589074 /* 206. Reverse Linked List */;
 			productType = "com.apple.product-type.tool";
 		};
+		67BFA79222805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BFA79922805F9300021605 /* Build configuration list for PBXNativeTarget "1013. Partition Array Into 3 Parts With Equal" */;
+			buildPhases = (
+				67BFA78F22805F9300021605 /* Sources */,
+				67BFA79022805F9300021605 /* Frameworks */,
+				67BFA79122805F9300021605 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1013. Partition Array Into 3 Parts With Equal";
+			productName = "1013. Partition Array Into 3 Parts With Equal";
+			productReference = 67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */;
+			productType = "com.apple.product-type.tool";
+		};
 		67C12931226DB2BA00403640 /* 344. Reverse String */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67C12936226DB2BA00403640 /* Build configuration list for PBXNativeTarget "344. Reverse String" */;
@@ -891,6 +937,9 @@
 					67BA43752227CF4900589074 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					67BFA79222805F9300021605 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					67C12931226DB2BA00403640 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -947,6 +996,7 @@
 				67D847A821E9A135009D21C2 /* Fibonacci */,
 				67635CEF21EC8DFD00235C81 /* RangeSumOfBST */,
 				6764EB9621EC860100544DA6 /* UniqueEmailAddresses */,
+				67BFA79222805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 			);
 		};
 /* End PBXProject section */
@@ -1022,6 +1072,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				67BA43792227CF4900589074 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BFA78F22805F9300021605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BFA79622805F9300021605 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1316,6 +1374,31 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		67BFA79722805F9300021605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67BFA79822805F9300021605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1699,6 +1782,15 @@
 			buildConfigurations = (
 				67BA437A2227CF4900589074 /* Debug */,
 				67BA437B2227CF4900589074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BFA79922805F9300021605 /* Build configuration list for PBXNativeTarget "1013. Partition Array Into 3 Parts With Equal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BFA79722805F9300021605 /* Debug */,
+				67BFA79822805F9300021605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

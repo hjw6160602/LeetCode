@@ -10,10 +10,12 @@ import Foundation
 
 func bubbleSort<T: Comparable>(_ array: inout [T]) {
     guard array.count > 1 else { return }
-    for _ in 0 ..< array.count {
-        for j in 1..<array.count {
-            if array[j] < array[j-1] {
-                (array[j-1], array[j]) = (array[j], array[j-1])
+    
+    let n = array.count
+    for i in 0 ..< n {
+        for j in 0 ..< n - 1 - i {
+            if array[j] > array[j+1] {
+                (array[j], array[j+1]) = (array[j+1], array[j])
             }
         }
     }

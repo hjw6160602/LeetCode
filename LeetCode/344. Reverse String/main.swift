@@ -16,11 +16,21 @@ class Solution {
         }
         let max = Int(s.count / 2)
         for index in 0..<max {
-            let temp = s[index]
-            s[index] = s[s.count - 1 - index]
-            s[s.count - 1 - index] = temp
+            (s[index], s[s.count - 1 - index]) =  (s[s.count - 1 - index], s[index])
         }
     }
+    
+//    func reverseString(_ s: inout [Character]) {
+//        guard s.count > 1 else {
+//            return
+//        }
+//        let max = Int(s.count / 2)
+//        for index in 0..<max {
+//            let temp = s[index]
+//            s[index] = s[s.count - 1 - index]
+//            s[s.count - 1 - index] = temp
+//        }
+//    }
 }
 
 class Solution1 {

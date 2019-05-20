@@ -37,6 +37,10 @@ class Solution {
         var curNode = head!
         var prvNode: ListNode? = nil
         while curNode.next != nil {
+//            let nxtNode = curNode.next!
+//            curNode.next = prvNode
+//            prvNode = curNode
+//            curNode = nxtNode
             (curNode.next, prvNode, curNode) = (prvNode, curNode, curNode.next!)
         }
         curNode.next = prvNode

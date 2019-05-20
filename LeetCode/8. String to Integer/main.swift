@@ -81,6 +81,7 @@ class SolutionSwift {
             }
             index += 1
         }
+        
         guard index < content.count else {
             return res
         }

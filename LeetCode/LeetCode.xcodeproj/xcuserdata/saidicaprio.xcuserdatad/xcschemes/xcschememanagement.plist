@@ -17,7 +17,7 @@
 		<key>1013. Partition Array Into 3 Parts With Equal.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>13</integer>
 		</dict>
 		<key>141. Linked List Cycle.xcscheme_^#shared#^_</key>
 		<dict>
@@ -34,15 +34,20 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>344. Reverse String.xcscheme_^#shared#^_</key>
+		<key>322. Coin Change.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
-		<key>347. Top K Frequent Elements.xcscheme_^#shared#^_</key>
+		<key>344. Reverse String.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
+		</dict>
+		<key>347. Top K Frequent Elements.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>50. Pow(x, n).xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,27 +82,27 @@
 		<key>Fibonacci.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>14</integer>
 		</dict>
 		<key>RangeSumOfBST.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Sort.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>15</integer>
 		</dict>
 		<key>ToLowerCase.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>16</integer>
 		</dict>
 		<key>UniqueEmailAddresses.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -127,6 +132,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>679509F02293F50300D1CCC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>67B61257225F4FBE007ED741</key>
 		<dict>
 			<key>primary</key>
@@ -148,6 +158,11 @@
 			<true/>
 		</dict>
 		<key>67C1293C226DBB1D00403640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67C12947226DD3F800403640</key>
 		<dict>
 			<key>primary</key>
 			<true/>

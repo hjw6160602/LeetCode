@@ -3,5 +3,6 @@
     <pages>
         <page name='88. Merge Sorted Array'/>
         <page name='206. Reverse Linked List'/>
+        <page name='75. Sort Colors '/>
     </pages>
 </playground>

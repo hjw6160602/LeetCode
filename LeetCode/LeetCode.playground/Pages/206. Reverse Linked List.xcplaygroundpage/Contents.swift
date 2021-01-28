@@ -3,7 +3,7 @@
 //  206. Reverse Linked List
 //
 //  Created by saidicaprio on 2019/2/28.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  Copyright © 2019 SaiDiCaprio. All rights reserved.
 //
 
 import Foundation

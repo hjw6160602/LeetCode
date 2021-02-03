@@ -6,5 +6,7 @@
         <page name='75.  颜色012排序'/>
         <page name='977.有序数组的平方'/>
         <page name='164.最大间距'/>
+        <page name='203.移除链表元素'/>
+        <page name='02.  两数相加'/>
     </pages>
 </playground>

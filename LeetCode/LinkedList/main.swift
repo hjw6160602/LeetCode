@@ -21,6 +21,6 @@ class Solution {
 
 var list = LinkedList.createList([1, 3, 8, 7, 9])
 LinkedList.display(list)
-LinkedList.reverse2(&list)
+LinkedList.reverse(&list)
 LinkedList.display(list)
 //LinkedList.display(list)

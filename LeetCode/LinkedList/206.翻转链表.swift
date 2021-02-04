@@ -1,24 +1,14 @@
-//  https://leetcode.com/problems/reverse-linked-list/
-//  main.swift
-//  206. Reverse Linked List
 //
-//  Created by saidicaprio on 2019/2/28.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  206.翻转链表.swift
+//  LinkedList
+//
+//  Created by SaiDiCaprio on 2021/2/4.
+//  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
 import Foundation
 
-//Definition for singly-linked list.
-public class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
-class Solution {
+extension Solution {
     func createList(_ head: ListNode?) {
         if let head = head {
             var iterator = head
@@ -60,10 +50,9 @@ class Solution {
     }
 }
 
-var head = ListNode(0)
-let solution = Solution()
-solution.createList(head)
-solution.display(head)
-let reversedHead = solution.reverseList(head)
-solution.display(reversedHead)
-
+//var head = ListNode(0)
+//let solution = Solution()
+//solution.createList(head)
+//solution.display(head)
+//let reversedHead = solution.reverseList(head)
+//solution.display(reversedHead)

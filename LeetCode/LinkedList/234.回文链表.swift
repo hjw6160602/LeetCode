@@ -38,17 +38,31 @@ extension Solution {
         return false
     }
     
-    private func findMiddleNode(node: ListNode) -> ListNode? {
-        
-        return nil
+    // 找到中间节点
+    private func findMiddleNode(head: ListNode) -> ListNode? {
+        let fast = head
+        let slow = head
+        while fast.next != nil && fast.next?.next != nil {
+            slow = slow.next
+            fast = fast.next?.next
+        }
+        return slow
     }
     
-    private func reverseList(node: ListNode?) -> ListNode? {
-        guard let node = node else {
-            return nil
+    /**
+     * 翻转链表
+     * - parameter head: 原链表的头结点
+     * 比如按原链表是 1->2->3->4->nil 翻转之后是 4->-3->2->1->nil
+     * - return: 翻转之后的链表的头结点 (返回4)
+     */
+    private func reverseList(head: inout ListNode?) -> ListNode? {
+        var rHead: ListNode? = nil
+        while head?.next != nil {
+            head = head?.next
+            rHead?.next = head
+            head = head?.next
         }
-        print(node)
-        return nil
+        return rHead
     }
 }
 

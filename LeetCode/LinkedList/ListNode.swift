@@ -46,6 +46,7 @@ struct LinkedList {
     
     static func display(_ head: ListNode?) {
         guard let head = head else {
+            print("nil")
             return
         }
         var node = head
@@ -54,9 +55,30 @@ struct LinkedList {
             node = node.next!
         }
         print("\(node.val)->", terminator: "")
-        print("NULL")
+        print("nil")
     }
     
+    static func reverse(_ head: inout ListNode?) {
+        var rHead: ListNode? = nil
+        while head != nil {
+//            let nextNode = head?.next
+//            head?.next = rHead
+//            rHead = head
+//            head = nextNode
+//            (2 0 1) = (0 1 2)
+            (head!.next, rHead, head) = (rHead, head, head?.next)
+        }
+        head = rHead
+    }
+
+    static func reverseList(_ head: ListNode?) -> ListNode? {
+        var rHead: ListNode? = nil
+        var current = head
+        while current != nil {
+            (current!.next, rHead, current) = (rHead, current, current?.next)
+        }
+        return rHead
+    }
 }
 
 

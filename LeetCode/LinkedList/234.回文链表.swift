@@ -23,9 +23,9 @@ extension Solution {
         }
         
         // 找到中间节点
-        let mid = findMiddleNode(node: head)
+        let mid = findMiddleNode(head: head)
         // 翻转右边部分
-        var rHead = reverseList(node: mid?.next)
+        var rHead = reverseList(mid?.next)
         var lHead: ListNode? = head
         
         while rHead != nil {
@@ -39,13 +39,13 @@ extension Solution {
     }
     
     // 找到中间节点
-    private func findMiddleNode(head: ListNode) -> ListNode? {
-        let fast = head
-        let slow = head
-        while fast.next != nil && fast.next?.next != nil {
-            slow = slow.next
-            fast = fast.next?.next
-        }
+    private func findMiddleNode(head: ListNode?) -> ListNode? {
+        var fast = head
+        var slow = head
+//        while fast.next != nil && fast.next?.next != nil {
+//            slow = slow.next ?? nil
+//            fast = fast.next?.next
+//        }
         return slow
     }
     

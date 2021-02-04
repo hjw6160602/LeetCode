@@ -20,34 +20,32 @@ extension Solution {
         }
     }
     
+//    func reverseList(_ head: ListNode?) -> ListNode? {
+//        guard head != nil else {
+//            return nil
+//        }
+//        var curNode = head!
+//        var prvNode: ListNode? = nil
+//        while curNode.next != nil {
+////            let nxtNode = curNode.next!
+////            curNode.next = prvNode
+////            prvNode = curNode
+////            curNode = nxtNode
+//            (curNode.next, prvNode, curNode) = (prvNode, curNode, curNode.next!)
+//        }
+//        curNode.next = prvNode
+//        return curNode
+//    }
+    
     func reverseList(_ head: ListNode?) -> ListNode? {
-        guard head != nil else {
-            return nil
+        var rHead: ListNode? = nil
+        var current = head
+        while current != nil {
+            (current!.next, rHead, current) = (rHead, current, current?.next)
         }
-        var curNode = head!
-        var prvNode: ListNode? = nil
-        while curNode.next != nil {
-//            let nxtNode = curNode.next!
-//            curNode.next = prvNode
-//            prvNode = curNode
-//            curNode = nxtNode
-            (curNode.next, prvNode, curNode) = (prvNode, curNode, curNode.next!)
-        }
-        curNode.next = prvNode
-        return curNode
+        return rHead
     }
     
-    func display(_ head: ListNode?) {
-        if let head = head {
-            var node = head
-            while node.next != nil {
-                print("\(node.val)->", terminator: "")
-                node = node.next!
-            }
-            print("\(node.val)->", terminator: "")
-            print("NULL")
-        }
-    }
 }
 
 //var head = ListNode(0)

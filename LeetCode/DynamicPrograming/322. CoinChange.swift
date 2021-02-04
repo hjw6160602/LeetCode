@@ -1,10 +1,11 @@
+//
+//  322. CoinChange.swift
+//  DynamicPrograming
+//
+//  Created by SaiDiCaprio on 2021/2/4.
+//  Copyright © 2021 saidicaprio. All rights reserved.
+//
 //  https://leetcode.com/problems/coin-change/
-//  main.swift
-//  322. Coin Change
-//
-//  Created by saidicaprio on 2019/5/21.
-//  Copyright © 2019 saidicaprio. All rights reserved.
-//
 
 /**
  * 给定不同面额的硬币 coins 和一个总金额 amount
@@ -13,7 +14,7 @@
  */
 import Foundation
 
-class Solution {
+extension Solution {
     func coinChange(_ coins: [Int], _ amount: Int) -> Int {
         guard amount != 0 else {
             return 0
@@ -63,4 +64,3 @@ print(s.coinChange([1,2,5], 11))
 //3:2
 //4:2
 //dp[i] = min(dp[i], dp[i - coin] + 1)
-

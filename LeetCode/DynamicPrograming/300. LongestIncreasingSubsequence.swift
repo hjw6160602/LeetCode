@@ -1,14 +1,14 @@
 //
-//  main.swift
-//  300. Longest Increasing Subsequence
+//  300. LongestIncreasingSubsequence.swift
+//  DynamicPrograming
 //
-//  Created by saidicaprio on 2019/4/22.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  Created by SaiDiCaprio on 2021/2/4.
+//  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
 import Foundation
 
-class Solution {
+extension Solution {
     func lengthOfLIS(_ nums: [Int]) -> Int {
         guard nums.count > 0 else {
             return 0

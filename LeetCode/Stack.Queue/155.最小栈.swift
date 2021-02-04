@@ -57,6 +57,6 @@ class MinStack {
 //输出：
 //[null,null,null,null,-3,null,0,-2]
 //
-//提示：
+//提示： 
 //
 //pop  top 和 getMin 操作总是在 非空栈 上调用

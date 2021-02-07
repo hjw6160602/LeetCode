@@ -26,8 +26,8 @@ private func testRemveElement() {
 
 private func testAddSum() {
 //    l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
-    let l1 = LinkedList.createList([0])
-    let l2 = LinkedList.createList([0])
+    let l1 = LinkedList.createList([9,9,9,9,9,9,9])
+    let l2 = LinkedList.createList([9,9,9,9])
     let sumList = LeetCode.addTwoNumbers(l1, l2)
     LinkedList.display(sumList)
 }

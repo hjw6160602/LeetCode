@@ -5,12 +5,23 @@
 //  Created by SaiDiCaprio on 2021/2/3.
 //  Copyright © 2021 saidicaprio. All rights reserved.
 //
+//  https://leetcode-cn.com/problems/remove-linked-list-elements/
 
+
+//删除链表中等于给定值 val 的所有节点。
 extension Solution {
     func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
-        guard head != nil else {
-            return nil
+        let dummy = ListNode(0)
+        dummy.next = head
+        var node = dummy
+        while node.next != nil {
+            let nxtNode = node.next!
+            if nxtNode.val == val {
+                node.next = nxtNode.next
+            } else {
+                node = node.next!
+            }
         }
-        return nil
+        return dummy.next
     }
 }

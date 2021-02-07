@@ -15,7 +15,7 @@ class Solution {
     private init() {}
 }
 
-testRemveElement()
+testAddSum()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])
@@ -24,9 +24,13 @@ private func testRemveElement() {
     LinkedList.display(head)
 }
 
-//let l1 = LinkedList.createList([1, 3, 8])
-//let l2 = LinkedList.createList([7, 9])
-//let sumList = LeetCode.addTwoNumbers(l1, l2)
+private func testAddSum() {
+//    l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
+    let l1 = LinkedList.createList([0])
+    let l2 = LinkedList.createList([0])
+    let sumList = LeetCode.addTwoNumbers(l1, l2)
+    LinkedList.display(sumList)
+}
 
 private func testReverseList() {
     var list = LinkedList.createList([1, 3, 8, 7, 9])

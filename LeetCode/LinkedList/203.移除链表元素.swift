@@ -11,7 +11,7 @@
 //删除链表中等于给定值 val 的所有节点。
 extension Solution {
     func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
-        let dummy = ListNode(0)
+        let dummy = ListNode()
         dummy.next = head
         var node = dummy
         while node.next != nil {

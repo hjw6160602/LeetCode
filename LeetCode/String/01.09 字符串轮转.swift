@@ -8,4 +8,10 @@
 //  https://leetcode-cn.com/problems/string-rotation-lcci/
 //
 
-import Foundation
+extension Solution {
+    func isFlipedString(_ s1: String, _ s2: String) -> Bool {
+        guard s1.count == s2.count else { return false }
+        if s1.count == 0 { return true }
+        return (s1 + s1).contains(s2)
+    }
+}

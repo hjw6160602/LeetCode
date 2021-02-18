@@ -16,7 +16,13 @@ class Solution {
     private init() {}
 }
 
-private func testMyAtoi() {
+testStringRotation()
+func testStringRotation() {
+    let x = LeetCode.isFlipedString("", "")
+    print(x)
+}
+
+func testMyAtoi() {
     print(LeetCode.myAtoi("   -42"))
     print(LeetCode.myAtoi("   2147483648 white space"))
     print(LeetCode.myAtoi("4193 with words"))
@@ -25,9 +31,11 @@ private func testMyAtoi() {
     print(LeetCode.myAtoi("-+1"))
 }
 
-testReversingString()
-private func testReversingString() {
+//testReversingString()
+func testReversingString() {
     var characters:[Character] = ["h", "e", "l", "l"]
     LeetCode.reverseString(&characters)
     print(characters)
 }
+
+

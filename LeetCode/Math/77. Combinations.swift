@@ -1,20 +1,16 @@
-//  https://leetcode.com/problems/combinations/
-//  main.swift
-//  77. Combinations
 //
-//  Created by saidicaprio on 2019/3/4.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  77. Combinations.swift
+//  Math
 //
-
-import Foundation
-
-
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
+//
 /* Given two integers n and k,
  * return all possible combinations of k numbers out of 1 ... n.
  */
 
 // solution = C(n,k)
-class Solution {
+extension Solution {
     
 //    func combine(_ n: Int, _ k: Int) -> [[Int]] {
 //        var set = Set<Int>(1...n)
@@ -42,7 +38,7 @@ class Solution {
 }
 
 
-class Solution2 {
+extension Solution {
     func combine(_ n: Int, _ k: Int) -> [[Int]] {
         var result = [[Int]]()
         var combination = [Int]()
@@ -76,5 +72,3 @@ print(s.combine(4, 2))
 //    let res = s.combine(4, index)
 //    print(res)
 //}
-
-

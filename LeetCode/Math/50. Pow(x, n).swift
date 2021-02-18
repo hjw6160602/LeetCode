@@ -1,10 +1,11 @@
+//
+//  50. Pow(x, n).swift
+//  Math
+//
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
+//
 //  https://leetcode.com/problems/powx-n/description/
-//  main.swift
-//  50. Pow(x, n)
-//
-//  Created by saidicaprio on 2019/3/9.
-//  Copyright © 2019 saidicaprio. All rights reserved.
-//
 
 import Foundation
 
@@ -110,7 +111,3 @@ print(s.myPow(2.00000, -2))
 print(s.myPow(0.44528, 0))
 print(s.myPow(1.00001, 123456))
 print(s.myPow(0.00001, 2147483647))
-
-
-
-

@@ -1,14 +1,14 @@
-//  https://leetcode.com/problems/two-sum/
-//  main.swift
-//  1. Two Sum
 //
-//  Created by saidicaprio on 2019/2/1.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  01. Two Sum.swift
+//  Math
+//
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
 import Foundation
 
-class Solution {
+extension Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         for i in 0 ..< nums.count - 1 {
             let a = nums[i]
@@ -23,10 +23,8 @@ class Solution {
         }
         return []
     }
-}
-
-class Solution2 {
-    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    
+    func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
         var dict: [Int:Int] = [:]
         for i in 0 ..< nums.count {
             if let j = dict[target - nums[i]] {
@@ -43,5 +41,3 @@ let nums = [-3,4,3,90]
 let target = 0
 let result = Solution2().twoSum(nums, target)
 print(result)
-
-

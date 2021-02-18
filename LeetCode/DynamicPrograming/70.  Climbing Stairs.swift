@@ -1,6 +1,8 @@
+//
+//  70. Climbing Stairs.swift
+//  DynamicPrograming
+//
 //  https://leetcode.com/problems/climbing-stairs/
-//  main.swift
-//  70. Climbing Stairs
 //
 //  Created by saidicaprio on 2019/4/11.
 //  Copyright © 2019 saidicaprio. All rights reserved.
@@ -12,11 +14,8 @@
  * Note: Given n will be a positive integer.
  */
 
-import Foundation
-
-
-class SolutionSwift {
-    func climbStairs(_ n: Int) -> Int {
+extension Solution {
+    func climbStairs1(_ n: Int) -> Int {
         var steps = [Int](repeating: 0, count: n+1)
         return _helper(n, &steps)
     }
@@ -38,9 +37,9 @@ class SolutionSwift {
 }
 
 //    f(n) = f(n-1) + f(n-2)
-class Solution {
+extension Solution {
     var res:[Int] = [1, 1]
-    func climbStairs(_ n: Int) -> Int {
+    func climbStairs2(_ n: Int) -> Int {
         var sum1 = 1
         var sum2 = 1
         if n < 2 {
@@ -56,9 +55,9 @@ class Solution {
     }
 }
 
-class Solution1 {
+extension Solution1 {
     var res:[Int] = [1, 1]
-    func climbStairs(_ n: Int) -> Int {
+    func climbStairs3(_ n: Int) -> Int {
         if n < 2 {
             return res[n]
         }
@@ -69,9 +68,9 @@ class Solution1 {
     }
 }
 
-class Solution2 {
+extension Solution {
     var res:[Int] = [1, 1, 2]
-    func climbStairs(_ n: Int) -> Int {
+    func climbStairs4(_ n: Int) -> Int {
         if res.count > n {
             return res[n]
         } else {
@@ -81,9 +80,9 @@ class Solution2 {
     }
 }
 // over time
-class Solution3 {
+extension Solution3 {
     var res:[Int] = [1, 1, 2]
-    func climbStairs(_ n: Int) -> Int {
+    func climbStairs5(_ n: Int) -> Int {
         if n == 1 {
             return 1
         } else if n == 2 {

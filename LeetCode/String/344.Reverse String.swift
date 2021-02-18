@@ -1,15 +1,12 @@
 //
-//  main.swift
-//  344. Reverse String
+//  344.Reverse String.swift
+//  String
 //
-//  Created by saidicaprio on 2019/4/22.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
-import Foundation
-
-
-class Solution {
+extension Solution {
     func reverseString(_ s: inout [Character]) {
         guard s.count > 1 else {
             return
@@ -33,8 +30,8 @@ class Solution {
 //    }
 }
 
-class Solution1 {
-    func reverseString(_ s: inout [Character]) {
+extension Solution {
+    func reverseString2(_ s: inout [Character]) {
 //        s.reverse()
         guard s.count > 0 else {
             return
@@ -47,8 +44,3 @@ class Solution1 {
     }
 }
 
-
-let s = Solution()
-var characters:[Character] = ["h", "e", "l", "l"]
-s.reverseString(&characters)
-print(characters)

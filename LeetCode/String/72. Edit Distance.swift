@@ -1,12 +1,10 @@
-//  https://leetcode.com/problems/edit-distance/
-//  main.swift
-//  72. Edit Distance
 //
-//  Created by saidicaprio on 2019/5/22.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  72. Edit Distance.swift
+//  String
 //
-
-import Foundation
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
+//
 
 // 给定两个单词 word1 和 word2，计算出将 word1 转换成 word2 所使用的最少操作数
 
@@ -28,13 +26,12 @@ import Foundation
  * exection -> execution (insert 'u')
  */
 
-class Solution {
+extension Solution {
     func minDistance(_ word1: String, _ word2: String) -> Int {
         
-        
+        return 0
     }
 }
 
-let s = Solution()
-print(s.minDistance("horse", "ros"))
-
+//let s = Solution()
+//print(s.minDistance("horse", "ros"))

@@ -1,12 +1,11 @@
 //
-//  main.swift
-//  8. String to Integer
+//  08. StringToInteger.swift
+//  String
 //
-//  Created by saidicaprio on 2019/2/28.
-//  Copyright © 2019 saidicaprio. All rights reserved.
+//  Created by 江雪 on 2021/2/18.
+//  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
-import Foundation
 
 //        let nums: [Character] = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 //        var item = 0
@@ -29,13 +28,19 @@ import Foundation
 // '+', '-' 一堆付好连写的时候的处理
 // 是否越界
 
-class Solution {
+extension Solution {
     func myAtoi(_ str: String) -> Int {
         var flag = 1
-        var strCopy = str
+        var index = 0
         // 1.先去字符串首部的空格
-        let whitespace = NSCharacterSet.whitespaces
-        strCopy = strCopy.trimmingCharacters(in: whitespace)
+        var strCopy = [Character](str)
+        while index < strCopy.count {
+            guard strCopy[index] == " " else {
+                break
+            }
+            index += 1
+        }
+        
         // 2. 判断第一个字符是不是正"+"负"-"符号，如果是则去掉正负号标记flag
         if strCopy.first == "-" {
             strCopy.remove(at: strCopy.startIndex)
@@ -50,25 +55,26 @@ class Solution {
             guard char >= "0" && char <= "9" else {
                 return flag * sum
             }
+            
             // 4. ASSIC码转为数字
             let value = Int(char.unicodeScalars.first!.value) - 48
+            
             // 5. 累加算出总和
             sum = sum * 10 + value
+            
             // 6. 越界判断
             if flag * sum > Int32.max {
                 return Int(Int32.max)
             }
+            
             if flag * sum < Int32.min {
                 return Int(Int32.min)
             }
         }
         return flag * sum
     }
-}
-
-
-class SolutionSwift {
-    func myAtoi(_ str: String) -> Int {
+    
+    func myAtoiSwift(_ str: String) -> Int {
         var res = 0
         var flag = 1
         var index = 0
@@ -117,14 +123,6 @@ class SolutionSwift {
         return char >= "0" && char <= "9"
     }
 }
-
-let s = SolutionSwift()
-print(s.myAtoi("   -42"))
-print(s.myAtoi("   2147483648 white space"))
-print(s.myAtoi("4193 with words"))
-print(s.myAtoi("words and 987"))
-print(s.myAtoi("3.14159"))
-print(s.myAtoi("-+1"))
 
 //Character扩展代码
 extension Character {

@@ -17,10 +17,6 @@ class Solution {
 }
 
 testStringRotation()
-func testStringRotation() {
-    let x = LeetCode.isFlipedString("", "")
-    print(x)
-}
 
 func testMyAtoi() {
     print(LeetCode.myAtoi("   -42"))
@@ -32,10 +28,5 @@ func testMyAtoi() {
 }
 
 //testReversingString()
-func testReversingString() {
-    var characters:[Character] = ["h", "e", "l", "l"]
-    LeetCode.reverseString(&characters)
-    print(characters)
-}
 
 

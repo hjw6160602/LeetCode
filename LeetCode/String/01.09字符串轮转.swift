@@ -15,3 +15,8 @@ extension Solution {
         return (s1 + s1).contains(s2)
     }
 }
+
+func testStringRotation() {
+    let x = LeetCode.isFlipedString("", "")
+    print(x)
+}

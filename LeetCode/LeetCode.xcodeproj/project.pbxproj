@@ -32,7 +32,6 @@
 		67B57E3A25CC26F000814C1A /* 98. 验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */; };
 		67B57E9925CC2DC300814C1A /* 239.滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57E9825CC2DC300814C1A /* 239.滑动窗口最大值.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
-		67BFA79622805F9300021605 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BFA79522805F9300021605 /* main.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67CE2B2F227073AA0045A7B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE2B2E227073AA0045A7B7 /* main.swift */; };
 		67CE2B34227073FE0045A7B7 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE2B33227073FE0045A7B7 /* Heap.swift */; };
@@ -51,6 +50,10 @@
 		80F2C2E125DE569A0051398B /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
 		80F2C31E25DE57890051398B /* 151.反转字符串里的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */; };
 		80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */; };
+		80F2C33625DE6B560051398B /* 47. 礼物的最大价值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */; };
+		80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C34125DE6B720051398B /* 64. 最小路径和.swift */; };
+		80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C34D25DE6B860051398B /* 62. 不同路径.swift */; };
+		80F2C35B25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,15 +85,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		67B57DCC25CC262A00814C1A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-		67BFA79122805F9300021605 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -180,8 +174,6 @@
 		67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. 验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		67B57E9825CC2DC300814C1A /* 239.滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239.滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
-		67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1013. Partition Array Into 3 Parts With Equal"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67BFA79522805F9300021605 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C12948226DD3F800403640 /* Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C1294A226DD3F800403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67CE2B2C227073AA0045A7B7 /* 347. Top K Frequent Elements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "347. Top K Frequent Elements"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -210,6 +202,10 @@
 		80F2C2E025DE569A0051398B /* 77. Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77. Combinations.swift"; sourceTree = "<group>"; };
 		80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151.反转字符串里的单词.swift"; sourceTree = "<group>"; };
 		80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. 无重复字符的最长子串.swift"; sourceTree = "<group>"; };
+		80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47. 礼物的最大价值.swift"; sourceTree = "<group>"; };
+		80F2C34125DE6B720051398B /* 64. 最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. 最小路径和.swift"; sourceTree = "<group>"; };
+		80F2C34D25DE6B860051398B /* 62. 不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. 不同路径.swift"; sourceTree = "<group>"; };
+		80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1013.将数组分成和相等的三个部分.swift"; path = "../../../../../1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,13 +231,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67B57DCB25CC262A00814C1A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67BFA79022805F9300021605 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,6 +329,9 @@
 				67B57D4D25CC253600814C1A /* 322.CoinChange.swift */,
 				67B57DA125CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift */,
 				80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */,
+				80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */,
+				80F2C34125DE6B720051398B /* 64. 最小路径和.swift */,
+				80F2C34D25DE6B860051398B /* 62. 不同路径.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -355,14 +347,6 @@
 				80F2C25C25DE52D90051398B /* 572.另一个树的子树.swift */,
 			);
 			path = BinaryTree;
-			sourceTree = "<group>";
-		};
-		67BFA79422805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {
-			isa = PBXGroup;
-			children = (
-				67BFA79522805F9300021605 /* main.swift */,
-			);
-			path = "1013. Partition Array Into 3 Parts With Equal";
 			sourceTree = "<group>";
 		};
 		67C12949226DD3F800403640 /* Sort */ = {
@@ -398,7 +382,6 @@
 				67B57D3225CC251C00814C1A /* DynamicPrograming */,
 				80F2C28825DE55E30051398B /* Math */,
 				67CE2B2D227073AA0045A7B7 /* 347. Top K Frequent Elements */,
-				67BFA79422805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 				80F2C20525DE4F9C0051398B /* Others */,
 				67D8479121E9A0B2009D21C2 /* Products */,
 			);
@@ -409,7 +392,6 @@
 			children = (
 				67C12948226DD3F800403640 /* Sort */,
 				67CE2B2C227073AA0045A7B7 /* 347. Top K Frequent Elements */,
-				67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 				676E87D425C98EF900E52125 /* LinkedList */,
 				67B57CE825CC205400814C1A /* Stack.Queue */,
 				67B57D3125CC251C00814C1A /* DynamicPrograming */,
@@ -435,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				80F2C03D25DE46400051398B /* main.swift */,
+				80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -546,23 +529,6 @@
 			productReference = 67B57DCE25CC262A00814C1A /* BinaryTree */;
 			productType = "com.apple.product-type.tool";
 		};
-		67BFA79222805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67BFA79922805F9300021605 /* Build configuration list for PBXNativeTarget "1013. Partition Array Into 3 Parts With Equal" */;
-			buildPhases = (
-				67BFA78F22805F9300021605 /* Sources */,
-				67BFA79022805F9300021605 /* Frameworks */,
-				67BFA79122805F9300021605 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "1013. Partition Array Into 3 Parts With Equal";
-			productName = "1013. Partition Array Into 3 Parts With Equal";
-			productReference = 67BFA79322805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */;
-			productType = "com.apple.product-type.tool";
-		};
 		67C12947226DD3F800403640 /* Sort */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67C1294C226DD3F800403640 /* Build configuration list for PBXNativeTarget "Sort" */;
@@ -670,9 +636,6 @@
 					67B57DCD25CC262A00814C1A = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					67BFA79222805F9300021605 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
 					67C12947226DD3F800403640 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -705,7 +668,6 @@
 			targets = (
 				67CE2B2B227073AA0045A7B7 /* 347. Top K Frequent Elements */,
 				67C12947226DD3F800403640 /* Sort */,
-				67BFA79222805F9300021605 /* 1013. Partition Array Into 3 Parts With Equal */,
 				676E87D325C98EF900E52125 /* LinkedList */,
 				67B57CE725CC205400814C1A /* Stack.Queue */,
 				67B57D3025CC251C00814C1A /* DynamicPrograming */,
@@ -753,6 +715,9 @@
 				67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */,
 				80F2C16425DE4E560051398B /* 70.  Climbing Stairs.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
+				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
+				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
+				80F2C33625DE6B560051398B /* 47. 礼物的最大价值.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,14 +731,6 @@
 				67B57DD125CC262A00814C1A /* main.swift in Sources */,
 				67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */,
 				67B57DFE25CC263900814C1A /* BinaryTree.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67BFA78F22805F9300021605 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				67BFA79622805F9300021605 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,6 +759,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F2C35B25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -945,31 +903,6 @@
 				DEVELOPMENT_TEAM = F4LU8YR75W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		67BFA79722805F9300021605 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		67BFA79822805F9300021605 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -1260,15 +1193,6 @@
 			buildConfigurations = (
 				67B57DD325CC262A00814C1A /* Debug */,
 				67B57DD425CC262A00814C1A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		67BFA79922805F9300021605 /* Build configuration list for PBXNativeTarget "1013. Partition Array Into 3 Parts With Equal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				67BFA79722805F9300021605 /* Debug */,
-				67BFA79822805F9300021605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

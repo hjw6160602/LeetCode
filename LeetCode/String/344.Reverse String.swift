@@ -28,9 +28,7 @@ extension Solution {
 //            s[s.count - 1 - index] = temp
 //        }
 //    }
-}
-
-extension Solution {
+    
     func reverseString2(_ s: inout [Character]) {
 //        s.reverse()
         guard s.count > 0 else {
@@ -44,3 +42,8 @@ extension Solution {
     }
 }
 
+func testReversingString() {
+    var characters:[Character] = ["h", "e", "l", "l"]
+    LeetCode.reverseString(&characters)
+    print(characters)
+}

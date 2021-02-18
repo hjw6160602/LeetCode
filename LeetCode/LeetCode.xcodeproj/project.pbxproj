@@ -49,6 +49,8 @@
 		80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C29B25DE56190051398B /* 01. Two Sum.swift */; };
 		80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */; };
 		80F2C2E125DE569A0051398B /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
+		80F2C31E25DE57890051398B /* 151.反转字符串里的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */; };
+		80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -206,6 +208,8 @@
 		80F2C29B25DE56190051398B /* 01. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. Two Sum.swift"; sourceTree = "<group>"; };
 		80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		80F2C2E025DE569A0051398B /* 77. Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "77. Combinations.swift"; sourceTree = "<group>"; };
+		80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151.反转字符串里的单词.swift"; sourceTree = "<group>"; };
+		80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03. 无重复字符的最长子串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +448,8 @@
 				80F2C0C825DE49D50051398B /* 08. StringToInteger.swift */,
 				80F2C12B25DE4D330051398B /* 344.Reverse String.swift */,
 				80F2C1D025DE4F380051398B /* 72. Edit Distance.swift */,
+				80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */,
+				80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -808,8 +814,10 @@
 				80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */,
 				80F2C07125DE49400051398B /* main.swift in Sources */,
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,
+				80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */,
 				80F2C1D125DE4F380051398B /* 72. Edit Distance.swift in Sources */,
 				80F2C09F25DE499B0051398B /* 01.09字符串轮转.swift in Sources */,
+				80F2C31E25DE57890051398B /* 151.反转字符串里的单词.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

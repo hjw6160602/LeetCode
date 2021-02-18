@@ -58,8 +58,9 @@ extension Solution {
 
 //coins = [1, 2, 5], amount = 11s
 
-let s = Solution()
-print(s.coinChange([1,2,5], 11))
+func testCoinChange() {
+    print(LeetCode.coinChange([1,2,5], 11))
+}
 //1:1
 //2:1
 //3:2

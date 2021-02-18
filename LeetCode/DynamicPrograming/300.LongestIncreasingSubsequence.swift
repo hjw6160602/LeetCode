@@ -28,6 +28,8 @@ extension Solution {
     }
 }
 
-let nums = [10,9,2,5,3,7,101,18]//[2,3,7,101]
-let s = Solution()
-print(s.lengthOfLIS(nums))
+func testLengthOfLIS() {
+    let nums = [10,9,2,5,3,7,101,18]//[2,3,7,101]
+    print(LeetCode.lengthOfLIS(nums))
+}
+

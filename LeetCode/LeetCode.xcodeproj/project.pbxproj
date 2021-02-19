@@ -53,6 +53,7 @@
 		80F2C35B25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */; };
 		80F2C37825DE701B0051398B /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE2B33227073FE0045A7B7 /* Heap.swift */; };
 		80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */; };
+		80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -194,6 +195,7 @@
 		80F2C34125DE6B720051398B /* 64. 最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. 最小路径和.swift"; sourceTree = "<group>"; };
 		80F2C34D25DE6B860051398B /* 62. 不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. 不同路径.swift"; sourceTree = "<group>"; };
 		80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "1013.将数组分成和相等的三个部分.swift"; path = "../../../../../1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
+		80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. 两数之和.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +391,7 @@
 				67CE2B33227073FE0045A7B7 /* Heap.swift */,
 				80F2C35A25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift */,
 				67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */,
+				80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -701,6 +704,7 @@
 			files = (
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
+				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				80F2C35B25DE6C5A0051398B /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 			);

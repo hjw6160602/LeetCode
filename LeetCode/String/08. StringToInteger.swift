@@ -30,8 +30,10 @@
 
 extension Solution {
     func myAtoi(_ str: String) -> Int {
+        var sum = 0
         var flag = 1
         var index = 0
+        
         // 1.先去字符串首部的空格
         var strCopy = [Character](str)
         while index < strCopy.count {
@@ -39,6 +41,10 @@ extension Solution {
                 break
             }
             index += 1
+        }
+        
+        guard index < strCopy.count else {
+            return sum
         }
         
         // 2. 判断第一个字符是不是正"+"负"-"符号，如果是则去掉正负号标记flag
@@ -49,7 +55,6 @@ extension Solution {
             strCopy.remove(at: strCopy.startIndex)
         }
         
-        var sum: Int = 0
         for char in strCopy {
             //3. 逐个字符串遍历，如果是合法字符再进入计算
             guard char >= "0" && char <= "9" else {
@@ -110,7 +115,7 @@ extension Solution {
             if res >= Int32.max {
                 if flag == 1 {
                     return Int(Int32.max)
-                } else if res > Int32.max && flag == -1 {
+                } else if flag == -1 {
                     return Int(Int32.min)
                 }
             }
@@ -133,4 +138,13 @@ extension Character {
         }
         return intFromCharacter
     }
+}
+
+func testMyAtoi() {
+    print(LeetCode.myAtoiSwift("   -42"))
+    print(LeetCode.myAtoiSwift("   2147483648 white space"))
+    print(LeetCode.myAtoiSwift("4193 with words"))
+    print(LeetCode.myAtoiSwift("words and 987"))
+    print(LeetCode.myAtoiSwift("3.14159"))
+    print(LeetCode.myAtoiSwift("-+1"))
 }

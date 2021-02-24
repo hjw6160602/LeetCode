@@ -37,7 +37,9 @@ extension Solution {
     }
 }
 
-let nums = [-3,4,3,90]
-let target = 0
-let result = Solution2().twoSum(nums, target)
-print(result)
+func testTwoSum() {
+    let nums = [-3,4,3,90]
+    let target = 0
+    let result = LeetCode.twoSum(nums, target)
+    print(result)
+}

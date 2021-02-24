@@ -12,7 +12,7 @@ import Foundation
 // -100.0 < x < 100.0
 // n in range [−231, 231 − 1]
 
-class Solution {
+extension Solution {
     func myPow(_ x: Double, _ n: Int) -> Double {
         guard n != 0 else {
             return 1
@@ -28,8 +28,8 @@ class Solution {
 }
 
 
-class SolutionSwift {
-    func myPow(_ x: Double, _ n: Int) -> Double {
+extension Solution {
+    func myPow1(_ x: Double, _ n: Int) -> Double {
         guard n != 0 else {
             return 1
         }
@@ -64,8 +64,8 @@ class SolutionSwift {
 }
 
 // 方法1：傻乘 pow参数为(0.00001, 2147483647)超时
-class Solution1 {
-    func myPow(_  x : Double, _ n: Int) -> Double {
+extension Solution {
+    func myPow2(_  x : Double, _ n: Int) -> Double {
         guard n != 0 else {
             return 1
         }
@@ -90,8 +90,8 @@ class Solution1 {
 }
 
 // 递归写法 幂级大于58233报错 EXC_BAD_ACCESS (code=2,...)
-class Solution2 {
-    func myPow(_ x: Double, _ n: Int) -> Double {
+extension Solution {
+    func myPow3(_ x: Double, _ n: Int) -> Double {
         var res: Double = 1
         if n > 0 {
             //            print("res: " + String(res))
@@ -104,10 +104,12 @@ class Solution2 {
     }
 }
 
-let s = Solution()
-print(s.myPow(2.00000, 10))
-print(s.myPow(2.10000, 3))
-print(s.myPow(2.00000, -2))
-print(s.myPow(0.44528, 0))
-print(s.myPow(1.00001, 123456))
-print(s.myPow(0.00001, 2147483647))
+func testMyPow() {
+    print(LeetCode.myPow(2.00000, 10))
+    print(LeetCode.myPow(2.10000, 3))
+    print(LeetCode.myPow(2.00000, -2))
+    print(LeetCode.myPow(0.44528, 0))
+    print(LeetCode.myPow(1.00001, 123456))
+    print(LeetCode.myPow(0.00001, 2147483647))
+}
+

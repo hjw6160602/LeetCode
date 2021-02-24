@@ -66,8 +66,8 @@ extension Solution {
     }
 }
 
-let s = Solution2()
-print(s.combine(4, 2))
+//let s = Solution2()
+//print(s.combine(4, 2))
 //for index in 1...4 {
 //    let res = s.combine(4, index)
 //    print(res)

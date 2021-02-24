@@ -16,4 +16,5 @@ class Solution {
     private init() {}
 }
 
-testThreeSum()
+//testThreeSum()
+testMinMeetingRooms()

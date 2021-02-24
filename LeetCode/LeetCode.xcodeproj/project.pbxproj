@@ -32,6 +32,9 @@
 		67B57E9925CC2DC300814C1A /* 239.滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57E9825CC2DC300814C1A /* 239.滑动窗口最大值.swift */; };
 		67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD0B25E5FD090059D7B5 /* 15. 三数之和.swift */; };
 		67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */; };
+		67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */; };
+		67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD5025E64DCB0059D7B5 /* 253.会议室II.swift */; };
+		67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD5A25E655570059D7B5 /* 11. 盛最多水的容器.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
@@ -170,6 +173,9 @@
 		67B57E9825CC2DC300814C1A /* 239.滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239.滑动窗口最大值.swift"; sourceTree = "<group>"; };
 		67B8CD0B25E5FD090059D7B5 /* 15. 三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 三数之和.swift"; sourceTree = "<group>"; };
 		67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. 圆圈中最后剩下的数字.swift"; sourceTree = "<group>"; };
+		67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.25 LRUCache.swift"; sourceTree = "<group>"; };
+		67B8CD5025E64DCB0059D7B5 /* 253.会议室II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "253.会议室II.swift"; sourceTree = "<group>"; };
+		67B8CD5A25E655570059D7B5 /* 11. 盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. 盛最多水的容器.swift"; sourceTree = "<group>"; };
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
 		67C12948226DD3F800403640 /* Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C1294A226DD3F800403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -299,6 +305,7 @@
 				67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */,
 				67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */,
 				67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */,
+				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -324,6 +331,7 @@
 				80F2C34125DE6B720051398B /* 64. 最小路径和.swift */,
 				80F2C34D25DE6B860051398B /* 62. 不同路径.swift */,
 				67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */,
+				67B8CD5A25E655570059D7B5 /* 11. 盛最多水的容器.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -364,7 +372,7 @@
 		67D8478721E9A0B2009D21C2 = {
 			isa = PBXGroup;
 			children = (
-				80F2C03C25DE46400051398B /* Array */,
+				80F2C03C25DE46400051398B /* Array.Heap */,
 				80F2C06F25DE49400051398B /* String */,
 				67C12949226DD3F800403640 /* Sort */,
 				676E87D525C98EF900E52125 /* LinkedList */,
@@ -402,7 +410,7 @@
 			path = Fibonacci;
 			sourceTree = "<group>";
 		};
-		80F2C03C25DE46400051398B /* Array */ = {
+		80F2C03C25DE46400051398B /* Array.Heap */ = {
 			isa = PBXGroup;
 			children = (
 				80F2C03D25DE46400051398B /* main.swift */,
@@ -411,8 +419,9 @@
 				CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */,
 				80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */,
 				67B8CD0B25E5FD090059D7B5 /* 15. 三数之和.swift */,
+				67B8CD5025E64DCB0059D7B5 /* 253.会议室II.swift */,
 			);
-			path = Array;
+			path = Array.Heap;
 			sourceTree = "<group>";
 		};
 		80F2C06F25DE49400051398B /* String */ = {
@@ -658,6 +667,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */,
+				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
 				67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */,
 				676E87D725C98EF900E52125 /* main.swift in Sources */,
@@ -690,6 +700,7 @@
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
+				67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */,
 				67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */,
 				80F2C33625DE6B560051398B /* 47. 礼物的最大价值.swift in Sources */,
 			);
@@ -729,6 +740,7 @@
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
+				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

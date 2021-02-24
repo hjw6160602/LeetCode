@@ -12,15 +12,16 @@ let LeetCode = Solution.shared
 
 class Solution {
     static let shared = Solution()
-    
     private init() {}
 }
+
+testlowesTCommonAncestor()
 
 private func _BSF_DFS() {
     let tree = BinaryTree()
     let array = tree.initializeInput("[5, 1, 4, 2, 11, 3, 6]")
     //let array = tree.initializeInput("[2,1,3]")
-    let root = tree.generateBinaryTreeFromArray(array)
+    let root = tree.initWithArray(array)
     //tree.preorderTraversal(root: root)
     //tree.inorderTraversal(root: root)
     //tree.postorderTraversal(root: root)
@@ -48,7 +49,7 @@ private func ValidateBinarySearchTree() {
     let tree = BinaryTree()
     //let array = tree.initializeInput("[5, 1, 4, null, null, 3, 6]")
     let array = tree.initializeInput("[2,1,3]")
-    let root = tree.generateBinaryTreeFromArray(array)
+    let root = tree.initWithArray(array)
     print(LeetCode.isValidBST(root))
 }
 

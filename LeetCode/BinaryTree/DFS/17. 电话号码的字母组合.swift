@@ -10,7 +10,7 @@ import Foundation
 
 extension Solution {
     func letterCombinations(_ digits: String) -> [String] {
-
+        return []
     }
 }
 

@@ -8,9 +8,7 @@
 //  https://leetcode-cn.com/problems/subtree-of-another-tree/
 
 extension Solution {
-    class Solution {
-        func isSubtree(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
-            
-        }
+    func isSubtree(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
+        return false
     }
 }

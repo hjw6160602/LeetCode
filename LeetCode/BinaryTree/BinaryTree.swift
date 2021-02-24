@@ -20,8 +20,10 @@ protocol Traversal {
 class BinaryTree {
     
     var head: TreeNode?
+    /// 遍历结果
     var traversalResult: [TreeNode] = []
-    private var array:[String] = []
+    
+    private var array: [String] = []
     
     func initializeInput(_ input: String) -> [String] {
         var str = input
@@ -35,11 +37,14 @@ class BinaryTree {
             array.append(tempStr)
         }
         self.array = array
-//        print(array)
+        //        print(array)
         return array
-}
+    }
     
-    func generateBinaryTreeFromArray(_ array: [String]) -> TreeNode? {
+    func initWithArray(_ array: [String]) -> TreeNode? {
+        if self.array.count == 0 {
+            self.array = array
+        }
         let count = array.count
         guard count > 0 else {
             return nil
@@ -65,7 +70,7 @@ class BinaryTree {
         }
     }
     
-    private func createNode(rootIndex: inout Int, isLeft: Bool, node: TreeNode, nextLayerQueue: inout [TreeNode], count: Int) -> Bool {
+    func createNode(rootIndex: inout Int, isLeft: Bool, node: TreeNode, nextLayerQueue: inout [TreeNode], count: Int) -> Bool {
         rootIndex += 1
         guard rootIndex < count else {
             return false

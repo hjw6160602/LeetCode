@@ -18,11 +18,11 @@ protocol Traversal {
 }
 
 class BinaryTree {
-    
+    /// 头结点
     var head: TreeNode?
     /// 遍历结果
     var traversalResult: [TreeNode] = []
-    
+    /// 初始化需要的数组
     private var array: [String] = []
     
     func initializeInput(_ input: String) -> [String] {

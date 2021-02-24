@@ -19,17 +19,17 @@
 */
 
 //Definition for a binary tree node.
-public class TreeNode {
+class TreeNode {
     /// 节点的值
-    public var val: Int
+    var val: Int
     /// 左子数头结点
-    public var left: TreeNode?
+    var left: TreeNode?
     /// 右子数头结点
-    public var right: TreeNode?
+    var right: TreeNode?
     /// 是否访问过该节点
-    public var visited: Bool = false
+    var visited: Bool = false
     
-    public var neighbors: [TreeNode] {
+    var neighbors: [TreeNode] {
         var queue = [TreeNode]()
         if let left = self.left {
             queue.append(left)
@@ -40,19 +40,19 @@ public class TreeNode {
         return queue
     }
     
-    public init() {
+    init() {
         self.val = 0
         self.left = nil
         self.right = nil
     }
     
-    public init(_ val: Int) {
+    init(_ val: Int) {
         self.val = val
         self.left = nil
         self.right = nil
     }
     
-    public init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
+    init(_ val: Int, _ left: TreeNode?, _ right: TreeNode?) {
         self.val = val
         self.left = left
         self.right = right

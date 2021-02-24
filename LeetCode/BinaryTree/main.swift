@@ -16,6 +16,7 @@ class Solution {
 }
 
 testlowesTCommonAncestor()
+testRecoverTree()
 
 private func _BSF_DFS() {
     let tree = BinaryTree()

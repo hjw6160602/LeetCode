@@ -36,7 +36,6 @@ class GenerateParenthesis {
             res.append(path)
             return
         }
-
         // 枚举这一层所有可能的选择
         // 选择一种可能之后，进入下一层搜索
 
@@ -76,6 +75,5 @@ func testGenerateParenthesis() {
 //输出：["()"]
 
 //提示：
-
 //1 <= n <= 8
 

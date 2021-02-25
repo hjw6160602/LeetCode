@@ -18,7 +18,8 @@ class Solution {
 //testlowesTCommonAncestor()
 //testRecoverTree()
 //testMaxDepth()
-testGenerateParenthesis()
+//testGenerateParenthesis()
+testPermute()
 
 private func _BSF_DFS() {
     let tree = BinaryTree()

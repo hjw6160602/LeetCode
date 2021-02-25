@@ -10,12 +10,12 @@ import Foundation
 
 extension Solution {
     
-//    func isAnagram(_ s: String, _ t: String) -> Bool {
-//        for char in s {
-//            let i = char - "a"
-//        }
-//
-//        return false
-//    }
+    func isAnagram(_ s: String, _ t: String) -> Bool {
+        for char in s {
+            let i = char - "a"
+        }
+
+        return false
+    }
     
 }

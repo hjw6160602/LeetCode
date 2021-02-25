@@ -28,10 +28,38 @@ extension Solution {
         }
         return res
     }
+    
+    func dailyTemperature2(_ T: [Int]) -> [Int] {
+        guard T.count > 0 else {
+            return []
+        }
+        /**
+         * 如果 T[i] < T[j] 那么res[i] = j - i, i--
+         * 如果 T[i] == T[j]
+         */
+        var res = Array(repeating: 0, count: T.count)
+        for i in (0...T.count-2).reversed() {
+            var j = i + 1
+            while true {
+                if T[i] < T[j] {
+                    res[i] = j - i
+                    break
+                } else if res[j] == 0 {
+                    res[i] = 0
+                    break
+                } else if T[i] == T[j] {
+                    res[i] = res[j] + j - i
+                    break
+                }
+                j = j + res[j]
+            }
+        }
+        return res
+    }
 }
 
 func testDailyTemperatures() {
-    let res = LeetCode.dailyTemperatures([73, 74, 75, 71, 69, 72, 76, 73])
+    let res = LeetCode.dailyTemperature2([73, 74, 75, 71, 69, 72, 76, 73])
     print(res)
 }
 

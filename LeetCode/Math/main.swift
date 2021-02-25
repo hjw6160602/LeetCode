@@ -16,3 +16,4 @@ class Solution {
     private init() {}
 }
 
+testTwoSum()

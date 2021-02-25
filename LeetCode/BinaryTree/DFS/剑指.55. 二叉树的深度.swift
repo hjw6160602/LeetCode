@@ -8,9 +8,7 @@
 
 import Foundation
 
-class TreeMaxDepth {
-    
-    var maxDepth = 0
+extension Solution {
     //  dp[root] = max(dp[root.left] + 1 ，dp[root.right] + 1)
     func maxDepth(_ root: TreeNode?) -> Int {
         let max = dfs(root)
@@ -35,11 +33,9 @@ class TreeMaxDepth {
 }
 
 func testMaxDepth() {
-    let solution = TreeMaxDepth()
-    
     let bt = BinaryTree()
     let head = bt.initWithArray(["3","9","20","null","null","15","7","null","1"])
-    let depth = solution.maxDepth(head)
+    let depth = LeetCode.maxDepth(head)
     print(depth)
 }
 

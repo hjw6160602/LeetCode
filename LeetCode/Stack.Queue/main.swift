@@ -14,8 +14,9 @@ class Solution {
     private init() {}
 }
 
-testSlideWindow()
+//testSlideWindow()
 //testMinStack()
+testDailyTemperatures()
 
 private func testMinStack() {
     let minStack = MinStack()

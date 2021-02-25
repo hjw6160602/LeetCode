@@ -21,7 +21,6 @@ class LRUCache {
     /// Cache的最大容量
     var capacity: Int
     /// 自己实现双向链表来存 最近访问
-    
     /// 虚拟头节点
     let first = CacheNode()
     /// 虚拟尾结点
@@ -43,11 +42,9 @@ class LRUCache {
         removeNode(node)
         addAfterFirst(node)
         return node.value
-        
     }
     
     func put(_ key: Int, _ value: Int) {
-        
         if let node = map[key] {
             // put的新节点存在 更新value
             node.value = value
@@ -102,7 +99,6 @@ class LRUCache {
             self.value = value
         }
     }
-    
 }
 
 // 设计和构建一个“最近最少使用”缓存

@@ -11,42 +11,25 @@ extension Solution {
         var result = [[Int]]()
         var combination = [Int]()
         
-        selectRecur(&result, &combination, 1, n, k)
+        selectRecur(&result, &combination, start: 1, n: n, left: k)
         
         return result
     }
     
-    private func selectRecur(_ result: inout [[Int]], _ combination: inout [Int], _ start: Int, _ n: Int, _ k: Int) {
-        // terminator
-        if k == 0 {
-            result.append(combination)
+    private func selectRecur(_ res: inout [[Int]], _ combination: inout [Int], start: Int, n: Int, left: Int) {
+        if left == 0 {
+            res.append(combination)
             return
         }
-        if start > n {
+        guard start <= n else {
             return
         }
-        
         for i in start...n {
             combination.append(i)
-            selectRecur(&result, &combination, i + 1, n, k - 1)
+            selectRecur(&res, &combination, start: i + 1, n: n, left: left - 1)
             combination.removeLast()
         }
     }
-    
-//    private func selectRecur(_ res: inout [[Int]], combnation: inout [Int], start: Int, n: Int, left: Int) {
-//        if left == 0 {
-//            res.append(combnation)
-//            return
-//        }
-//        guard start <= n else {
-//            return
-//        }
-//        for i in start..<n {
-//            combnation.append(i)
-//            selectRecur(&res, &combnation, i + 1, n, left - 1)
-//            combnation.removeLast()
-//        }
-//    }
 }
 
 //       n
@@ -58,13 +41,13 @@ extension Solution {
 // 1+C(n,1)+C(n,2)+……+C(n,n)=(1+1)^2=2^n.
 
 func testCombine() {
-    var sum = 0, N = 5
-    for i in 0...N {
-        let res = LeetCode.combine(N, i)
-        sum += res.count
-    }
-//    let res = LeetCode.combine(4, 0)
-    print(sum)
+//    var sum = 0, N = 5
+//    for i in 0...N {
+//        let res = LeetCode.combine(N, i)
+//        sum += res.count
+//    }
+    let res = LeetCode.combine(3, 3)
+    print(res)
 }
 
 //给定两个整数 n 和 k，返回 1 ... n 中所有可能的 k 个数的组合。

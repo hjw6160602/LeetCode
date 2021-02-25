@@ -13,7 +13,7 @@ import Foundation
 // n in range [−231, 231 − 1]
 
 extension Solution {
-    func myPow(_ x: Double, _ n: Int) -> Double {
+    func myPow0(_ x: Double, _ n: Int) -> Double {
         guard n != 0 else {
             return 1
         }
@@ -24,6 +24,16 @@ extension Solution {
             return x * myPow(x, n - 1)
         }
         return myPow(x * x, n / 2)
+    }
+    
+    // 100%
+    func myPow(_ x: Double, _ n: Int) -> Double {
+        if n == 0 { return 1 }
+        if n == -1 { return 1 / x }
+        var half = myPow(x, n >> 1)
+        half *= half
+        // 是否为奇数
+        return ((n & 1) == 1) ? (half * x) : half
     }
 }
 

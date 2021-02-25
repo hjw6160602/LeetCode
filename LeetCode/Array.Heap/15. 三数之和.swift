@@ -17,10 +17,10 @@ extension Solution {
         var res: [[Int]] = []
         //0. 先排序
         let sortedNums = nums.sorted()
-        print(sortedNums)
-        let lastIdx = nums.count - 2
+//        print(sortedNums)
+//        let lastIdx = nums.count - 2
         let lastRight = nums.count - 1
-        for index in 0..<lastIdx {
+        for index in 0..<nums.count - 2 {
             // 取出index的重复操作 如果 当前index指针的值和上一个元素的值相等
             if index > 0 && sortedNums[index] == sortedNums[index - 1] {
                 // 直接跳过
@@ -57,19 +57,6 @@ func testThreeSum() {
     let res = LeetCode.threeSum([-1,0,1,2,-1,-4])
     print(res)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // 给你一个包含 n 个整数的数组 nums
 // 判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组

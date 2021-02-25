@@ -16,4 +16,5 @@ class Solution {
     private init() {}
 }
 
-testTwoSum()
+testMyPow()
+//testTwoSum()

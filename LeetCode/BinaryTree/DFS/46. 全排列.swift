@@ -8,10 +8,47 @@
 
 import Foundation
 
-extension Solution {
+class Permute {
+    ///
+    var nums: [Int] = []
+    ///
+    var path: [Int] = []
+    ///
+    var res: [[Int]] = [[]]
+    
+    var isVisited = [Bool]()
+    
     func permute(_ nums: [Int]) -> [[Int]] {
-        return [[0]]
+        guard nums.count > 0 else {
+            return [[Int]]()
+        }
+        self.nums = nums
+        self.isVisited = [Bool](repeating: false, count: nums.count)
+        dfs(idx: 0)
+        return res
     }
+    
+    private func dfs(idx : Int) {
+        // 不能再往下搜索
+        if idx == nums.count {
+            res.append(path)
+            return
+        }
+        // 枚举这一层所有可以做出的选择
+        for (i, num) in nums.enumerated() where !isVisited[i] {
+
+            path.append(num)
+            isVisited[i] = true
+            dfs(idx: i + 1)
+            // 还原现场
+            isVisited[i] = false
+            path.removeLast()
+        }
+    }
+}
+
+func testPermute() {
+    
 }
 
 

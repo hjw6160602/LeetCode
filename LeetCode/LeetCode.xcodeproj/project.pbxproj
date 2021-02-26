@@ -229,6 +229,7 @@
 		CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "333.最大BST子树.swift"; sourceTree = "<group>"; };
 		CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. 全排列.swift"; sourceTree = "<group>"; };
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
+		CA1D75E725E9113000CD2432 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -476,6 +477,7 @@
 				67D847AA21E9A135009D21C2 /* Fibonacci */,
 				6764EB9821EC860100544DA6 /* UniqueEmailAddresses */,
 				67635CF121EC8DFD00235C81 /* RangeSumOfBST */,
+				CA1D75E725E9113000CD2432 /* DownloadManager.h */,
 			);
 			path = Others;
 			sourceTree = "<group>";

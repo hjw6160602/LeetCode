@@ -34,6 +34,26 @@ extension Solution {
         steps[n] = _helper(n - 1, &steps) + _helper(n - 2, &steps)
         return steps[n]
     }
+    
+    func climbStairs2(_ n: Int) -> Int {
+        if n < 0 {
+            return 0
+        }
+        if n == 0 || n == 1 {
+            return 1
+        }
+        
+        var prev = 0, post = 1, total = 0
+        
+        for i in 1...n {
+            total = prev + post
+            
+            prev = post
+            post = total
+        }
+        
+        return total
+    }
 }
 
 //    f(n) = f(n-1) + f(n-2)

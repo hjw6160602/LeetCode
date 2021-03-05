@@ -10,8 +10,20 @@ import Foundation
 
 extension Solution {
     
-    
     func convertToTitle(_ n: Int) -> String {
+        var res = ""
+        var n = n
+        while n != 0 {
+            let k = (n - 1) % 26
+            res.append(Character(UnicodeScalar(65 + k)!))
+            n = (n - k) / 26
+        }
+        return String(res.reversed())
+    }
+    
+    
+    /// 无敌解法
+    func convertToTitle2(_ n: Int) -> String {
         var title : [Character] = []
         var lastIndex = 0
         for idx in 1...n {
@@ -29,14 +41,16 @@ extension Solution {
                     title.append(newChar)
                     continue
                 }
-                // 需要添加新的元素
+                // 用来标记 是否 需要添加新的元素
                 var needAppendChar = true
                 for j in 0..<title.count {
+                    // 只有前面的字符全部都是Z才需要添加字符
                     guard title[j] == "Z" else {
                         needAppendChar = false
                         break
                     }
                 }
+                // 需要添加新的元素
                 if needAppendChar {
                     for k in 0..<title.count {
                         title[k] = "A"
@@ -45,11 +59,12 @@ extension Solution {
                     lastIndex += 1
 //                    print(title)
                     continue
-                } else {
-                    // 不需要添加新的元素
+                } else { // 不需要添加新的元素
                     var j = lastIndex
+                    // 那么将当前字符的ASSIC + 1
                     let c = Character(UnicodeScalar(title[j].asciiValue! + 1))
                     title[j] = c
+                    // 把前面的需要进位的数字全部替换掉
                     while title[j] > "Z" {
                         title[j] = "A"
                         j -= 1
@@ -61,19 +76,19 @@ extension Solution {
                     }
                 }
             } else {
+                // 不需要进位直接将最后一位替换掉
                 title[lastIndex] = newChar
             }
-            print(title)
+//            print(title)
         }
         return String(title)
     }
 }
 
 func testConvertToTitle() {
-    let x = LeetCode.convertToTitle(1000000001)
+    let x = LeetCode.convertToTitle(701)
     print(x)
 }
-
 
 //
 //extension Character {

@@ -16,7 +16,7 @@ extension Solution {
         while n != 0 {
             let k = (n - 1) % 26
             res.append(Character(UnicodeScalar(65 + k)!))
-            n = (n - k) / 26
+            n = (n - 1)  / 26
         }
         return String(res.reversed())
     }
@@ -86,7 +86,8 @@ extension Solution {
 }
 
 func testConvertToTitle() {
-    let x = LeetCode.convertToTitle(701)
+//    let x = LeetCode.convertToTitle(701)
+    let x = LeetCode.convertToTitle(65)
     print(x)
 }
 

@@ -18,4 +18,5 @@ class Solution {
 
 //testMaxValue()
 //textMaxArea()
-testLongestCommonSubsequence()
+//testLongestCommonSubsequence()
+testLengthOfLIS()

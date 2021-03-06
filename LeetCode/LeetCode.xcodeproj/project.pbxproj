@@ -24,7 +24,6 @@
 		67B57D0425CC208300814C1A /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D0325CC208300814C1A /* 155.最小栈.swift */; };
 		67B57D3425CC251C00814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D3325CC251C00814C1A /* main.swift */; };
 		67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D4D25CC253600814C1A /* 322.CoinChange.swift */; };
-		67B57DA225CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57DA125CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift */; };
 		67B57DD125CC262A00814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57DD025CC262A00814C1A /* main.swift */; };
 		67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B2D47226CC182008E7CAB /* TreeNode.swift */; };
 		67B57DFE25CC263900814C1A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B2D46226CC182008E7CAB /* BinaryTree.swift */; };
@@ -71,6 +70,7 @@
 		CA1D75CC25E7514400CD2432 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
+		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 /* End PBXBuildFile section */
@@ -178,7 +178,6 @@
 		67B57D3125CC251C00814C1A /* DynamicPrograming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicPrograming; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B57D3325CC251C00814C1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67B57D4D25CC253600814C1A /* 322.CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 322.CoinChange.swift; sourceTree = "<group>"; };
-		67B57DA125CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 300.LongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		67B57DCE25CC262A00814C1A /* BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B57DD025CC262A00814C1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. 验证二叉搜索树.swift"; sourceTree = "<group>"; };
@@ -233,6 +232,7 @@
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
 		CA1D75E725E9113000CD2432 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "168.Excel表列名称.swift"; sourceTree = "<group>"; };
+		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -351,7 +351,6 @@
 			children = (
 				67B57D3325CC251C00814C1A /* main.swift */,
 				67B57D4D25CC253600814C1A /* 322.CoinChange.swift */,
-				67B57DA125CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift */,
 				80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */,
 				80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */,
 				80F2C34125DE6B720051398B /* 64. 最小路径和.swift */,
@@ -359,6 +358,7 @@
 				67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */,
 				67B8CD5A25E655570059D7B5 /* 11. 盛最多水的容器.swift */,
 				CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */,
+				CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -733,12 +733,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B57DA225CC259A00814C1A /* 300.LongestIncreasingSubsequence.swift in Sources */,
 				67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */,
 				80F2C16425DE4E560051398B /* 70.  Climbing Stairs.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
+				CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */,
 				CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */,
 				67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */,
 				67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */,

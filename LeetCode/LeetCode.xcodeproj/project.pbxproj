@@ -71,6 +71,7 @@
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
+		CA23E69125F4FC590048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 /* End PBXBuildFile section */
@@ -200,9 +201,6 @@
 		67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
-		67D847B021E9A148009D21C2 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		67D847B221E9A162009D21C2 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
-		67D847B321E9A162009D21C2 /* Fibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Fibonacci.c; sourceTree = "<group>"; };
 		801B2D46226CC182008E7CAB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		801B2D47226CC182008E7CAB /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		80F2C03B25DE46400051398B /* Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Array; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +231,7 @@
 		CA1D75E725E9113000CD2432 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "168.Excel表列名称.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
+		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -437,16 +436,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67D847AA21E9A135009D21C2 /* Fibonacci */ = {
-			isa = PBXGroup;
-			children = (
-				67D847B221E9A162009D21C2 /* Fibonacci.h */,
-				67D847B321E9A162009D21C2 /* Fibonacci.c */,
-				67D847B021E9A148009D21C2 /* main.c */,
-			);
-			path = Fibonacci;
-			sourceTree = "<group>";
-		};
 		80F2C03C25DE46400051398B /* Array.Heap */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,7 +469,6 @@
 		80F2C20525DE4F9C0051398B /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				67D847AA21E9A135009D21C2 /* Fibonacci */,
 				6764EB9821EC860100544DA6 /* UniqueEmailAddresses */,
 				67635CF121EC8DFD00235C81 /* RangeSumOfBST */,
 				CA1D75E725E9113000CD2432 /* DownloadManager.h */,
@@ -495,6 +483,7 @@
 				80F2C29B25DE56190051398B /* 01. Two Sum.swift */,
 				80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */,
 				67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */,
+				CA23E69025F4FC590048115F /* 509.斐波那契数.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -816,6 +805,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
+				CA23E69125F4FC590048115F /* 509.斐波那契数.swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,
 				80F2C28A25DE55E30051398B /* main.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,

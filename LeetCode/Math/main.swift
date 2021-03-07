@@ -16,5 +16,6 @@ class Solution {
     private init() {}
 }
 
-testMyPow()
+//testMyPow()
 //testTwoSum()
+testFib()

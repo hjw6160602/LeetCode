@@ -45,7 +45,7 @@ extension Solution {
         
         var prev = 0, post = 1, total = 0
         
-        for i in 1...n {
+        for _ in 1...n {
             total = prev + post
             
             prev = post
@@ -75,43 +75,32 @@ extension Solution {
 //    }
 //}
 //
-//extension Solution1 {
-//    var res:[Int] = [1, 1]
-//    func climbStairs3(_ n: Int) -> Int {
-//        if n < 2 {
-//            return res[n]
-//        }
-//        for i in 2...n {
-//            res.append(res[i-1] + res[i-2])
-//        }
-//        return res[n]
-//    }
-//}
-//
-//extension Solution {
-//    var res:[Int] = [1, 1, 2]
-//    func climbStairs4(_ n: Int) -> Int {
-//        if res.count > n {
-//            return res[n]
-//        } else {
-//            res.append(climbStairs(n-1) + climbStairs(n-2))
-//            return res [n]
-//        }
-//    }
-//}
-//// over time
-//extension Solution3 {
-//    var res:[Int] = [1, 1, 2]
-//    func climbStairs5(_ n: Int) -> Int {
-//        if n == 1 {
-//            return 1
-//        } else if n == 2 {
-//            return 2
-//        } else {
-//            return climbStairs(n-1) + climbStairs(n-2)
-//        }
-//    }
-//}
+
+extension Solution {
+    func climbStairsLow(_ n: Int) -> Int {
+        if n == 1 {
+            return 1
+        } else if n == 2 {
+            return 2
+        }
+        var array = [Int](repeating: 0, count: n + 1)
+        array[1] = 1
+        array[2] = 2
+        return _climbArray(n - 1, &array) + _climbArray(n - 2, &array)
+    }
+    
+    private func _climbArray(_ n: Int, _ array: inout [Int])  -> Int {
+        if array[n] == 0 {
+            array[n] = _climbArray(n - 1, &array) + _climbArray(n - 2, &array)
+        }
+        return array[n]
+    }
+}
+
+ func testClimbStairs() {
+    let res = LeetCode.climbStairsLow(10)
+    print(res)
+}
 
 //let s = Solution()
 //print(s.climbStairs(80))

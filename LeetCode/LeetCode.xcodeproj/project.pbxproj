@@ -52,7 +52,6 @@
 		80F2C09F25DE499B0051398B /* 01.09字符串轮转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C09E25DE499B0051398B /* 01.09字符串轮转.swift */; };
 		80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C0C825DE49D50051398B /* 08. StringToInteger.swift */; };
 		80F2C12C25DE4D330051398B /* 344.Reverse String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C12B25DE4D330051398B /* 344.Reverse String.swift */; };
-		80F2C16425DE4E560051398B /* 70.  Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */; };
 		80F2C1D125DE4F380051398B /* 72. Edit Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C1D025DE4F380051398B /* 72. Edit Distance.swift */; };
 		80F2C27625DE530C0051398B /* 572.另一个树的子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C25C25DE52D90051398B /* 572.另一个树的子树.swift */; };
 		80F2C28A25DE55E30051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C28925DE55E30051398B /* main.swift */; };
@@ -71,7 +70,11 @@
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
-		CA23E69125F4FC590048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
+		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
+		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
+		CA23E6C025F507C00048115F /* 70.  Climbing Stairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */; };
+		CA23E6CB25F508760048115F /* 08.06.汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6CA25F508760048115F /* 08.06.汉诺塔问题.swift */; };
+		CA23E6D625F50A350048115F /* 08.12.八皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6D525F50A350048115F /* 08.12.八皇后.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 /* End PBXBuildFile section */
@@ -141,6 +144,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		80F2C28525DE55E20051398B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CA23E6A425F507A50048115F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -232,6 +244,10 @@
 		CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "168.Excel表列名称.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
+		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA23E6A825F507A50048115F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CA23E6CA25F508760048115F /* 08.06.汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08.06.汉诺塔问题.swift"; sourceTree = "<group>"; };
+		CA23E6D525F50A350048115F /* 08.12.八皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08.12.八皇后.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -287,6 +303,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		80F2C28425DE55E20051398B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E6A325F507A50048115F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +373,6 @@
 			children = (
 				67B57D3325CC251C00814C1A /* main.swift */,
 				67B57D4D25CC253600814C1A /* 322.CoinChange.swift */,
-				80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */,
 				80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */,
 				80F2C34125DE6B720051398B /* 64. 最小路径和.swift */,
 				80F2C34D25DE6B860051398B /* 62. 不同路径.swift */,
@@ -415,6 +437,7 @@
 				67B57CE925CC205400814C1A /* Stack.Queue */,
 				67B57DCF25CC262A00814C1A /* BinaryTree */,
 				67B57D3225CC251C00814C1A /* DynamicPrograming */,
+				CA23E6A725F507A50048115F /* Recursion */,
 				80F2C28825DE55E30051398B /* Math */,
 				80F2C20525DE4F9C0051398B /* Others */,
 				67D8479121E9A0B2009D21C2 /* Products */,
@@ -432,6 +455,7 @@
 				80F2C03B25DE46400051398B /* Array */,
 				80F2C06E25DE49400051398B /* String */,
 				80F2C28725DE55E20051398B /* Math */,
+				CA23E6A625F507A50048115F /* Recursion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -483,9 +507,20 @@
 				80F2C29B25DE56190051398B /* 01. Two Sum.swift */,
 				80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */,
 				67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */,
-				CA23E69025F4FC590048115F /* 509.斐波那契数.swift */,
 			);
 			path = Math;
+			sourceTree = "<group>";
+		};
+		CA23E6A725F507A50048115F /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				CA23E6A825F507A50048115F /* main.swift */,
+				80F2C16325DE4E560051398B /* 70.  Climbing Stairs.swift */,
+				CA23E69025F4FC590048115F /* 509.斐波那契数.swift */,
+				CA23E6CA25F508760048115F /* 08.06.汉诺塔问题.swift */,
+				CA23E6D525F50A350048115F /* 08.12.八皇后.swift */,
+			);
+			path = Recursion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -627,6 +662,23 @@
 			productReference = 80F2C28725DE55E20051398B /* Math */;
 			productType = "com.apple.product-type.tool";
 		};
+		CA23E6A525F507A50048115F /* Recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA23E6AA25F507A50048115F /* Build configuration list for PBXNativeTarget "Recursion" */;
+			buildPhases = (
+				CA23E6A225F507A50048115F /* Sources */,
+				CA23E6A325F507A50048115F /* Frameworks */,
+				CA23E6A425F507A50048115F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recursion;
+			productName = Recursion;
+			productReference = CA23E6A625F507A50048115F /* Recursion */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -661,6 +713,9 @@
 					80F2C28625DE55E20051398B = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					CA23E6A525F507A50048115F = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 67D8478B21E9A0B2009D21C2 /* Build configuration list for PBXProject "LeetCode" */;
@@ -684,6 +739,7 @@
 				80F2C03A25DE46400051398B /* Array */,
 				80F2C06D25DE49400051398B /* String */,
 				80F2C28625DE55E20051398B /* Math */,
+				CA23E6A525F507A50048115F /* Recursion */,
 			);
 		};
 /* End PBXProject section */
@@ -723,7 +779,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */,
-				80F2C16425DE4E560051398B /* 70.  Climbing Stairs.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
@@ -805,10 +860,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
-				CA23E69125F4FC590048115F /* 509.斐波那契数.swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,
 				80F2C28A25DE55E30051398B /* main.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23E6A225F507A50048115F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA23E6D625F50A350048115F /* 08.12.八皇后.swift in Sources */,
+				CA23E6C025F507C00048115F /* 70.  Climbing Stairs.swift in Sources */,
+				CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */,
+				CA23E6A925F507A50048115F /* main.swift in Sources */,
+				CA23E6CB25F508760048115F /* 08.06.汉诺塔问题.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1155,6 +1221,35 @@
 			};
 			name = Release;
 		};
+		CA23E6AB25F507A50048115F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA23E6AC25F507A50048115F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1235,6 +1330,15 @@
 			buildConfigurations = (
 				80F2C28C25DE55E30051398B /* Debug */,
 				80F2C28D25DE55E30051398B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA23E6AA25F507A50048115F /* Build configuration list for PBXNativeTarget "Recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA23E6AB25F507A50048115F /* Debug */,
+				CA23E6AC25F507A50048115F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

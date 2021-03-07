@@ -10,17 +10,21 @@ import Foundation
 
 // 递归解法
 extension Solution {
-    
-//    func fib(_ n: Int) -> Int {
-//        guard n > 2 else { return 1 }
-//        var sum = 1
-//        for i in 3...n {
-//            sum +=
-//        }
-//    }
+    func fib(_ n: Int) -> Int {
+        guard n > 0 else { return 0 }
+        guard n > 2 else { return 1 }
+        var first = 1
+        var second = 1
+        for _ in 3...n {
+            second = first + second
+            first = second - first
+        }
+        return second
+    }
     
     // 滚动数组 (%2 = &1)
     func fibRollingArray(_ n: Int) -> Int {
+        guard n > 0 else { return 0 }
         guard n > 2 else { return 1 }
         var array = [Int](repeating: 0, count: 2)
         array[0] = 1
@@ -33,12 +37,14 @@ extension Solution {
     
     // 最low的递归
     func fibLow(_ n: Int) -> Int {
+        guard n > 0 else { return 0 }
         guard n > 2 else { return 1 }
         return fibLow(n - 1) + fibLow(n - 2)
     }
     
     // 重复调用的时候抹掉递归调用
     func fibArray(_ n: Int) -> Int {
+        guard n > 0 else { return 0 }
         guard n > 2 else { return 1 }
         var array = [Int](repeating: 0, count: n + 1)
         array[1] = 1
@@ -55,6 +61,6 @@ extension Solution {
 }
 
 func testFib() {
-    let res = LeetCode.fibRollingArray(10)
+    let res = LeetCode.fib(10)
     print(res)
 }

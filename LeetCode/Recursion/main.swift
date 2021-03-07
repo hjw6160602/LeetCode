@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  DynamicPrograming
+//  Recursion
 //
-//  Created by SaiDiCaprio on 2021/2/4.
+//  Created by 贺嘉炜 on 2021/3/7.
 //  Copyright © 2021 saidicaprio. All rights reserved.
 //
 
@@ -12,12 +12,9 @@ let LeetCode = Solution.shared
 
 class Solution {
     static let shared = Solution()
-    
     private init() {}
 }
 
-//testMaxValue()
-//textMaxArea()
-//testLongestCommonSubsequence()
-//testLengthOfLIS()
-
+testHanota()
+//testFib()
+//testClimbStairs()

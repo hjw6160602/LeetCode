@@ -20,5 +20,5 @@ class Solution {
 //textMaxArea()
 //testLongestCommonSubsequence()
 //testLengthOfLIS()
-//testMaxSubArray()
-testCoinChange()
+testMaxSubArray()
+//testCoinChange()

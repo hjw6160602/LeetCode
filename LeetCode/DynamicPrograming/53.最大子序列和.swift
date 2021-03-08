@@ -12,8 +12,28 @@ extension Solution {
     //
     func maxSubArray(_ nums: [Int]) -> Int {
         guard nums.count > 0 else { return 0 }
-        return 0
+        var dp = [Int](repeating: 0, count: nums.count)
+        dp[0] = nums[0]
+        var res = nums[0]
+        for i in 1..<nums.count {
+            dp[i] = max(dp[i - 1] + nums[i], nums[i])
+            res = max(res, dp[i])
+        }
+        return res
     }
+    
+    func maxSubArraySwift(nums: [Int]) -> Int {
+        var max_current = nums[0]
+        var max_global = nums[0]
+        
+        for i in 1..<nums.count {
+            max_current = max(max_current + nums[i], nums[i])
+            max_global = max(max_current, max_global)
+        }
+        
+        return max_global
+    }
+    
     // 暴力求解
     func maxSubArrayForce(_ nums: [Int]) -> Int {
         guard nums.count > 0 else { return 0 }

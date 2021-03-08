@@ -16,7 +16,8 @@ class Solution {
 }
 
 //testAddSum()
-testReverseList()
+//testReverseList()
+testMergeTwoLists()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

@@ -43,6 +43,7 @@
 		67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */; };
 		67B8CDED25E7962A0059D7B5 /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
+		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
 		67C3E83C25E538780074DA25 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
@@ -209,6 +210,7 @@
 		67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. 括号生成.swift"; sourceTree = "<group>"; };
 		67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47. 全排列II.swift"; sourceTree = "<group>"; };
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
+		67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		67C12948226DD3F800403640 /* Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C1294A226DD3F800403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */,
 				67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */,
 				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
+				67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -760,6 +763,7 @@
 				67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */,
 				676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */,
 				67B57C8525CB9D5000814C1A /* 206.翻转链表.swift in Sources */,
+				67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */,
 				676E880625C98F2200E52125 /* ListNode.swift in Sources */,
 				67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */,
 				67ACEB1E25CAD8D0009C53EE /* 160.交叉链表.swift in Sources */,

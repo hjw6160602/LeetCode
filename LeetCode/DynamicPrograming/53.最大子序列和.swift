@@ -9,14 +9,12 @@
 import Foundation
 
 extension Solution {
-    
+    //
     func maxSubArray(_ nums: [Int]) -> Int {
         guard nums.count > 0 else { return 0 }
         return 0
     }
-    
-    
-    
+    // 暴力求解
     func maxSubArrayForce(_ nums: [Int]) -> Int {
         guard nums.count > 0 else { return 0 }
         var res = Int.min

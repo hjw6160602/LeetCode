@@ -18,6 +18,7 @@
 		67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB3425CAD922009C53EE /* 203.移除链表元素.swift */; };
 		67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */; };
 		67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */; };
+		67B1744F25F8966500F27D40 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1744E25F8966500F27D40 /* 20.有效的括号.swift */; };
 		67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */; };
 		67B57C8525CB9D5000814C1A /* 206.翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */; };
 		67B57CEB25CC205400814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57CEA25CC205400814C1A /* main.swift */; };
@@ -185,6 +186,7 @@
 		67ACEB3425CAD922009C53EE /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
 		67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138.复制带随机指针的链表.swift"; sourceTree = "<group>"; };
+		67B1744E25F8966500F27D40 /* 20.有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
 		67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
 		67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.翻转链表.swift"; sourceTree = "<group>"; };
 		67B57CE825CC205400814C1A /* Stack.Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack.Queue; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -369,6 +371,7 @@
 				67B57D0325CC208300814C1A /* 155.最小栈.swift */,
 				67B57E9825CC2DC300814C1A /* 239.滑动窗口最大值.swift */,
 				CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */,
+				67B1744E25F8966500F27D40 /* 20.有效的括号.swift */,
 			);
 			path = Stack.Queue;
 			sourceTree = "<group>";
@@ -778,6 +781,7 @@
 				67B57D0425CC208300814C1A /* 155.最小栈.swift in Sources */,
 				CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */,
 				67B57CEB25CC205400814C1A /* main.swift in Sources */,
+				67B1744F25F8966500F27D40 /* 20.有效的括号.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

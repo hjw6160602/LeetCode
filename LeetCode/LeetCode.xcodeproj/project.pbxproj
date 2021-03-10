@@ -19,6 +19,7 @@
 		67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */; };
 		67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */; };
 		67B1744F25F8966500F27D40 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1744E25F8966500F27D40 /* 20.有效的括号.swift */; };
+		67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */; };
 		67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */; };
 		67B57C8525CB9D5000814C1A /* 206.翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */; };
 		67B57CEB25CC205400814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57CEA25CC205400814C1A /* main.swift */; };
@@ -187,6 +188,7 @@
 		67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
 		67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138.复制带随机指针的链表.swift"; sourceTree = "<group>"; };
 		67B1744E25F8966500F27D40 /* 20.有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
+		67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. 整数反转.swift"; sourceTree = "<group>"; };
 		67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
 		67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.翻转链表.swift"; sourceTree = "<group>"; };
 		67B57CE825CC205400814C1A /* Stack.Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack.Queue; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -516,6 +518,7 @@
 				80F2C29B25DE56190051398B /* 01. Two Sum.swift */,
 				80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */,
 				67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */,
+				67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -874,6 +877,7 @@
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,
 				80F2C28A25DE55E30051398B /* main.swift in Sources */,
+				67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

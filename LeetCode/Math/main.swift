@@ -18,4 +18,5 @@ class Solution {
 
 //testMyPow()
 //testTwoSum()
+testIntReverse()
 

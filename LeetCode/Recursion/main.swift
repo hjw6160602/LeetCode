@@ -15,6 +15,6 @@ class Solution {
     private init() {}
 }
 
-testHanota()
+//testHanota()
 //testFib()
-//testClimbStairs()
+testClimbStairs()

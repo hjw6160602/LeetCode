@@ -18,5 +18,6 @@ class Solution {
 
 //testMyPow()
 //testTwoSum()
-testIntReverse()
+//testIntReverse()
+testIsPalindrome()
 

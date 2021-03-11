@@ -7,6 +7,11 @@
 //
 
 class ListNode {
+//    static func == (lhs: ListNode, rhs: ListNode) -> Bool {
+//        return lhs.val == rhs.val &&
+//            lhs.next == rhs.next
+//    }
+    
     ///
     var val: Int
     ///

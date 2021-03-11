@@ -50,6 +50,7 @@
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
 		67C3E83C25E538780074DA25 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
+		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		80F2C03E25DE46400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C03D25DE46400051398B /* main.swift */; };
 		80F2C07125DE49400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C07025DE49400051398B /* main.swift */; };
 		80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C05525DE466B0051398B /* 242.有效的字母异位词.swift */; };
@@ -222,6 +223,7 @@
 		67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
+		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		801B2D46226CC182008E7CAB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		801B2D47226CC182008E7CAB /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		80F2C03B25DE46400051398B /* Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Array; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -410,6 +412,7 @@
 				67B8CD6425E680710059D7B5 /* 236.最近公共祖先.swift */,
 				67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */,
 				CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */,
+				67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -819,6 +822,7 @@
 				67B8CDED25E7962A0059D7B5 /* 77. Combinations.swift in Sources */,
 				67B8CD6525E680710059D7B5 /* 236.最近公共祖先.swift in Sources */,
 				67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */,
+				67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */,
 				67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */,
 				67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */,
 				67B57E3A25CC26F000814C1A /* 98. 验证二叉搜索树.swift in Sources */,

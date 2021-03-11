@@ -95,6 +95,13 @@ class BinaryTree {
         return true
     }
     
+    func displayTraversalResult() -> [Int]{
+        var vals = [Int]()
+        for node in self.traversalResult {
+            vals.append(node.val)
+        }
+        return vals
+    }
 }
 
 extension BinaryTree: Traversal {

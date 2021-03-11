@@ -19,10 +19,12 @@ class Solution {
 //testRecoverTree()
 //testMaxDepth()
 //testGenerateParenthesis()
+testIsSymmetric()
 
 // MARK: - 排列组合
 //testPermute()
-testCombine()
+//testCombine()
+
 
 private func _BSF_DFS() {
     let tree = BinaryTree()

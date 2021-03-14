@@ -11,9 +11,28 @@ import Foundation
 
 extension Solution {
     /// 给定一个二叉树，检查它是否是镜像对称的
+    //         1
+    //       /   \
+    //     2       2
+    //    / \     / \
+    //   3   4   4   3
+    //  / \ / \ / \ / \
+    //  6 5 5 6 6 5 5 6
     func isSymmetric(_ root: TreeNode?) -> Bool {
+        guard let root = root else { return true }
+        return isSymmetricHelper(root.left, root.right)
+    }
+    
+    private func isSymmetricHelper(_ left: TreeNode?, _ right: TreeNode?) -> Bool {
+        if left == nil && right == nil {
+            return true
+        }
         
-        return true
+        if let left = left, let right = right, left.val == right.val {
+            return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left)
+        } else {
+            return false
+        }
     }
 }
 

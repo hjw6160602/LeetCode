@@ -25,7 +25,7 @@
 		67B57CEB25CC205400814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57CEA25CC205400814C1A /* main.swift */; };
 		67B57D0425CC208300814C1A /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D0325CC208300814C1A /* 155.最小栈.swift */; };
 		67B57D3425CC251C00814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D3325CC251C00814C1A /* main.swift */; };
-		67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D4D25CC253600814C1A /* 322.CoinChange.swift */; };
+		67B57D4E25CC253600814C1A /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57D4D25CC253600814C1A /* 322.零钱兑换.swift */; };
 		67B57DD125CC262A00814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57DD025CC262A00814C1A /* main.swift */; };
 		67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B2D47226CC182008E7CAB /* TreeNode.swift */; };
 		67B57DFE25CC263900814C1A /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B2D46226CC182008E7CAB /* BinaryTree.swift */; };
@@ -200,7 +200,7 @@
 		67B57D0325CC208300814C1A /* 155.最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155.最小栈.swift"; sourceTree = "<group>"; };
 		67B57D3125CC251C00814C1A /* DynamicPrograming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicPrograming; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B57D3325CC251C00814C1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		67B57D4D25CC253600814C1A /* 322.CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 322.CoinChange.swift; sourceTree = "<group>"; };
+		67B57D4D25CC253600814C1A /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 		67B57DCE25CC262A00814C1A /* BinaryTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B57DD025CC262A00814C1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. 验证二叉搜索树.swift"; sourceTree = "<group>"; };
@@ -390,7 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				67B57D3325CC251C00814C1A /* main.swift */,
-				67B57D4D25CC253600814C1A /* 322.CoinChange.swift */,
+				67B57D4D25CC253600814C1A /* 322.零钱兑换.swift */,
 				80F2C33525DE6B560051398B /* 47. 礼物的最大价值.swift */,
 				80F2C34125DE6B720051398B /* 64. 最小路径和.swift */,
 				80F2C34D25DE6B860051398B /* 62. 不同路径.swift */,
@@ -804,7 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67B57D4E25CC253600814C1A /* 322.CoinChange.swift in Sources */,
+				67B57D4E25CC253600814C1A /* 322.零钱兑换.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,

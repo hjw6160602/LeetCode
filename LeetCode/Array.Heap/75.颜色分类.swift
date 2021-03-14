@@ -24,7 +24,7 @@ extension Solution {
                 (nums[white], nums[red]) = (nums[red], nums[white])
                 red += 1
                 white += 1
-            } else {
+            } else { // 白色的时候直接跳过
                 white += 1
             }
         }

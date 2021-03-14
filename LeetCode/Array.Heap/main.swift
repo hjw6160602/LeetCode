@@ -18,4 +18,6 @@ class Solution {
 
 //testThreeSum()
 //testMinMeetingRooms()
-testConvertToTitle()
+//testConvertToTitle()
+//testMerge()
+testSortColors()

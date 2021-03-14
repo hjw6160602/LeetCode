@@ -39,15 +39,13 @@ extension Solution {
     
     func twoSumPractice1(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()
-                // key num, value: index
-        var res: [Int]
         for (index, value) in nums.enumerated() {
             if let lastIndex = dict[target - value] {
-                return [lastIndex, i]
+                return [lastIndex, index]
             }
             dict[value] = index
         }
-        return res
+        return []
     }
     
 }

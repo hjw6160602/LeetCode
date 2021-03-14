@@ -81,6 +81,8 @@
 		CA23E6CB25F508760048115F /* 08.06.汉诺塔问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6CA25F508760048115F /* 08.06.汉诺塔问题.swift */; };
 		CA23E6D625F50A350048115F /* 08.12.八皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6D525F50A350048115F /* 08.12.八皇后.swift */; };
 		CA23E6E125F527F50048115F /* 53.最大子序列和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6E025F527F50048115F /* 53.最大子序列和.swift */; };
+		CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */; };
+		CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E70025FE48700048115F /* 75.颜色分类.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 /* End PBXBuildFile section */
@@ -260,6 +262,8 @@
 		CA23E6CA25F508760048115F /* 08.06.汉诺塔问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08.06.汉诺塔问题.swift"; sourceTree = "<group>"; };
 		CA23E6D525F50A350048115F /* 08.12.八皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "08.12.八皇后.swift"; sourceTree = "<group>"; };
 		CA23E6E025F527F50048115F /* 53.最大子序列和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.最大子序列和.swift"; sourceTree = "<group>"; };
+		CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
+		CA23E70025FE48700048115F /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -487,6 +491,8 @@
 				67B8CD0B25E5FD090059D7B5 /* 15. 三数之和.swift */,
 				67B8CD5025E64DCB0059D7B5 /* 253.会议室II.swift */,
 				CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */,
+				CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */,
+				CA23E70025FE48700048115F /* 75.颜色分类.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -858,6 +864,8 @@
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
+				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
+				CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

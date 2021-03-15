@@ -15,19 +15,19 @@ class Heap {
     private var max: Int
     // 堆中已经存储的数据个数
     private var count: Int
-    
+
     init(_ capacity: Int) {
         array = Array.init(repeating: 0, count: capacity)
         max = capacity
         count = 0
     }
-    
+
     init(_ array: [Int], capacity: Int) {
         self.array = array
         max = capacity
         count = array.count
     }
-    
+
     func insert(_ item: Int) {
         guard count < max else {// 堆满了
             return
@@ -43,7 +43,7 @@ class Heap {
             parent = (i - 1) / 2
         }
     }
-    
+
     func removeMax() {
         guard count > 0 else {
             return
@@ -66,7 +66,7 @@ class Heap {
             i = k
         }
     }
-    
+
 }
 
 

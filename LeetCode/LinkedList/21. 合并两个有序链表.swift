@@ -9,7 +9,6 @@
 import Foundation
 
 extension Solution {
-    
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let dummy = ListNode()
         var node = dummy
@@ -52,15 +51,41 @@ extension Solution {
         
         return dummy.next
     }
+    
+    /// 21.03.15
+    func mergeTwoListsPractice1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        guard l1 != nil else { return l2 }
+        guard l2 != nil else { return l1 }
+        
+        var l1 = l1, l2 = l2
+        
+        var curr = ListNode()
+        let dummy = curr
+        
+        while l1 != nil && l2 != nil {
+            if l1!.val <= l2!.val {
+                curr.next = l1
+                l1 = l1?.next
+            } else {
+                curr.next = l2
+                l2 = l2?.next
+            }
+            curr = curr.next!
+        }
+        // 少了这一步 如果其中一个链表为空直接来到这里
+        curr.next = l1 ?? l2
+        return dummy.next
+    }
 }
 
 func testMergeTwoLists() {
+                                //  1,1,2,3,4,4
     let l1 = LinkedList.createList([1, 2, 4])
     LinkedList.display(l1)
     let l2 = LinkedList.createList([1, 3, 4])
     LinkedList.display(l2)
     
-    let head = LeetCode.mergeTwoLists(l1, l2)
+    let head = LeetCode.mergeTwoListsPractice1(l1, l2)
     LinkedList.display(head)
 }
 

@@ -17,8 +17,8 @@ class Solution {
 
 //testAddSum()
 //testReverseList()
-//testMergeTwoLists()
-testGetIntersectionNode()
+testMergeTwoLists()
+//testGetIntersectionNode()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

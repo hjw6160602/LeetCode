@@ -19,7 +19,8 @@ class Solution {
 //testRecoverTree()
 //testMaxDepth()
 //testGenerateParenthesis()
-testIsSymmetric()
+//testIsSymmetric()
+testhasPathSum()
 
 // MARK: - 排列组合
 //testPermute()

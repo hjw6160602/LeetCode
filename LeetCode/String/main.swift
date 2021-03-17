@@ -21,5 +21,6 @@ class Solution {
 //testReversingString()
 //testMyAtoi()
 //testReverseURL()
-testShortestToChar()
+//testShortestToChar()
+testAddStrings()
 

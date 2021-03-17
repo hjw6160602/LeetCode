@@ -50,6 +50,7 @@
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
 		67C3E83C25E538780074DA25 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
+		67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F53426005F79009CEB1C /* 419.字符串相加.swift */; };
 		67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
@@ -226,6 +227,7 @@
 		67C1294A226DD3F800403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17. 电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		67C8F53426005F79009CEB1C /* 419.字符串相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "419.字符串相加.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.数据流中的第 K 大元素.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
@@ -514,6 +516,7 @@
 				80F2C31D25DE57890051398B /* 151.反转字符串里的单词.swift */,
 				80F2C32925DE5BC40051398B /* 03. 无重复字符的最长子串.swift */,
 				675D212625FF5893002D2C73 /* 821.字符串最短距离.swift */,
+				67C8F53426005F79009CEB1C /* 419.字符串相加.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -882,6 +885,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2C12C25DE4D330051398B /* 344.Reverse String.swift in Sources */,
+				67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */,
 				80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */,
 				80F2C07125DE49400051398B /* main.swift in Sources */,
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,

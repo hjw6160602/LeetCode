@@ -45,6 +45,27 @@ extension Solution {
             (chars[begin + index], chars[end - index]) = (chars[end - index], chars[begin + index])
         }
     }
+
+    /// MARK: - 面试代码
+//    标题：URL反转
+//    描述信息
+//    给定形如 `www.toutiao.com` 的 URL，将其转换成 `com.toutiao.www` 的形式，要求必须原地操作
+    func reverseURL(_ url: inout String) {
+        let chars = [Charactor](url)
+        let mid = chars.count >> 1
+        var begin = 0, end = 0
+        reverseString(_ string: inout String, 0, end: chars.count)
+        url = String(chars)
+    }
+
+    private func _reverseString(_ string: inout String, begin: Int, end: Int) {
+        for index in begin...mid {
+            if char == "."
+            end = index
+            (chars[index], chars[chars.count - index]) = (chars[chars.count - index], chars[index])
+            begin = end + 1
+        }
+    }
 }
 
 func testReverseURL() {

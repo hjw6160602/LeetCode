@@ -22,5 +22,6 @@ class Solution {
 //testMyAtoi()
 //testReverseURL()
 //testShortestToChar()
-testAddStrings()
+//testAddStrings()
+testLongestCommonPrefix()
 

@@ -20,8 +20,8 @@ class Solution {
 //testMaxDepth()
 //testGenerateParenthesis()
 //testIsSymmetric()
-testhasPathSum()
-
+//testhasPathSum()
+test104MaxDepth()
 // MARK: - 排列组合
 //testPermute()
 //testCombine()

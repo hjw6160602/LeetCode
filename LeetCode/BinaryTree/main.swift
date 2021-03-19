@@ -21,7 +21,10 @@ class Solution {
 //testGenerateParenthesis()
 //testIsSymmetric()
 //testhasPathSum()
-test104MaxDepth()
+//test104MaxDepth()
+testDiameterOfBinaryTree()
+
+
 // MARK: - 排列组合
 //testPermute()
 //testCombine()

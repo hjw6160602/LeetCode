@@ -7,18 +7,21 @@
 //  https://leetcode-cn.com/problems/valid-parentheses
 
 import Foundation
+
 extension Solution {
-    
     func isValid(_ s: String) -> Bool {
         var stack = [Character]()
+        // 构造一个映射匹配的map
         let map: [Character: Character] = [")": "(", "]": "[", "}": "{"]
         for char in s {
             if char == "(" || char == "[" || char == "{" {
                 stack.append(char)
             } else {
                 if stack.last == map[char] {
+                    // 如果 栈顶的元素和 char 匹配 就pop栈顶
                     _ = stack.popLast()
                 } else {
+                    // 不匹配则入栈
                     stack.append(char)
                 }
             }
@@ -29,36 +32,33 @@ extension Solution {
     
     // 空间复杂度O(1)
     func isValidSwift(_ s: String) -> Bool {
-            var stack = [Character]()
-            
-            for char in s {
-                if char == "(" || char == "[" || char == "{" {
-                    stack.append(char)
-                } else if char == ")" {
-                    guard stack.count != 0 && stack.removeLast() == "(" else {
-                        return false
-                    }
-                } else if char == "]" {
-                    guard stack.count != 0 && stack.removeLast() == "[" else {
-                        return false
-                    }
-                } else if char == "}" {
-                    guard stack.count != 0 && stack.removeLast() == "{" else {
-                        return false
-                    }
+        var stack = [Character]()
+        
+        for char in s {
+            if char == "(" || char == "[" || char == "{" {
+                stack.append(char)
+            } else if char == ")" {
+                guard stack.count != 0 && stack.removeLast() == "(" else {
+                    return false
+                }
+            } else if char == "]" {
+                guard stack.count != 0 && stack.removeLast() == "[" else {
+                    return false
+                }
+            } else if char == "}" {
+                guard stack.count != 0 && stack.removeLast() == "{" else {
+                    return false
                 }
             }
-            
-            return stack.isEmpty
         }
-    
+        return stack.isEmpty
+    }
 }
 
 func testIsValidBracket() {
     let isValid = LeetCode.isValid("{[]}")
     print(isValid)
 }
-
 
 
 //给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。

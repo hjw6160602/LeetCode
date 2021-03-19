@@ -28,14 +28,12 @@ extension Solution {
         let depth = max(lDepth, rDepth)
         return depth
     }
-    
-    
 }
 
 func testDiameterOfBinaryTree() {
     let tree = BinaryTree()
-//    let array = tree.initializeInput("[1,2,2,2,null,2]")
-    let array = tree.initializeInput("[1,2,3,4,5]")
+    let array = tree.initializeInput("[4,-7,-3,null,null,-9,-3,9,-7,-4,null,6,null,-6,-6,null,null,0,6,5,null,9,null,null,-1,-4,null,null,null,-2]")
+//    let array = tree.initializeInput("[1,2,3,4,5]")
     let root = tree.initWithArray(array)
     let length = LeetCode.diameterOfBinaryTree(root)
     print(length)

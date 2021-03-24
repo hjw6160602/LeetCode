@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 错误的解法 最大深度 不一定是 左子树和右子树最大深度之和，有可能在子树当中
 extension Solution {
     // 给定一棵二叉树，你需要计算它的直径长度
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
@@ -30,12 +31,55 @@ extension Solution {
     }
 }
 
+class DiameterOfBinaryTree {
+    var diameter = 0
+    
+    // 二叉树的直径 = max(左子树直径,右子树直径,过根节点的情况)
+    // 过根节点时的直径 = 左子树深度 + 右子树深度
+    // 一个节点的深度 = max(左子树深度, 右子树深度) + 1
+    
+    func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
+        let _ = deepth(root)
+        return diameter
+    }
+    
+    // 求深度的同时可以记录当前直径最大值
+    func deepth(_ root:TreeNode?) -> Int {
+        guard let node = root else { return 0 }
+        
+        let leftDeepth = deepth(node.left)
+        let rightDeepth = deepth(node.right)
+        
+        diameter = max(diameter, leftDeepth + rightDeepth)
+        return max(leftDeepth, rightDeepth) + 1
+    }
+}
+
+
+//         4
+//       /   \
+//      -7    -3
+//          /   \
+//         -9   -3
+//        / \   /
+//       9  -7 -4
+//      /   / \
+//     6   -6 -6
+//    / \  /   /
+//   0  6  5  9
+//   \  /    /
+//   -1 -4  -2
+
+
 func testDiameterOfBinaryTree() {
     let tree = BinaryTree()
     let array = tree.initializeInput("[4,-7,-3,null,null,-9,-3,9,-7,-4,null,6,null,-6,-6,null,null,0,6,5,null,9,null,null,-1,-4,null,null,null,-2]")
 //    let array = tree.initializeInput("[1,2,3,4,5]")
     let root = tree.initWithArray(array)
-    let length = LeetCode.diameterOfBinaryTree(root)
+    
+    let d = DiameterOfBinaryTree()
+    let length = d.diameterOfBinaryTree(root)
+//    let length = LeetCode.diameterOfBinaryTree(root)
     print(length)
 }
 

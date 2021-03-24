@@ -57,6 +57,7 @@
 		67C8F624260450D5009CEB1C /* 26.删除数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F623260450D5009CEB1C /* 26.删除数组中的重复项.swift */; };
 		67C8F62F26047870009CEB1C /* 534.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */; };
 		67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */; };
+		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		80F2C03E25DE46400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C03D25DE46400051398B /* main.swift */; };
@@ -240,6 +241,7 @@
 		67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "534.二叉树的直径.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.数据流中的第 K 大元素.swift"; sourceTree = "<group>"; };
+		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		801B2D46226CC182008E7CAB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -436,6 +438,7 @@
 				67C8F5D62601ED25009CEB1C /* 112.路径总和.swift */,
 				67C8F61826044F3B009CEB1C /* 104.二叉树的最大深度.swift */,
 				67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */,
+				67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -862,6 +865,7 @@
 				67C8F5D72601ED25009CEB1C /* 112.路径总和.swift in Sources */,
 				67B8CD9E25E773590059D7B5 /* 39. 组合总和.swift in Sources */,
 				80F2C27625DE530C0051398B /* 572.另一个树的子树.swift in Sources */,
+				67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */,
 				67B57DD125CC262A00814C1A /* main.swift in Sources */,
 				67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */,
 				67B8CD9425E772B60059D7B5 /* 113.路径总和.swift in Sources */,

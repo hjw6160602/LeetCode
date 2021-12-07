@@ -16,10 +16,11 @@ class Solution {
     private init() {}
 }
 
+testTwoSum()
 //testThreeSum()
 //testMinMeetingRooms()
 //testConvertToTitle()
 //testMerge()
 //testSortColors()
 //testKthLargest()
-testRemoveDuplicates()
+//testRemoveDuplicates()

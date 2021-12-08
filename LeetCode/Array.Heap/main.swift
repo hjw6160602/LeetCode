@@ -16,7 +16,7 @@ class Solution {
     private init() {}
 }
 
-testTwoSum()
+//testTwoSum()
 //testThreeSum()
 //testMinMeetingRooms()
 //testConvertToTitle()
@@ -24,3 +24,4 @@ testTwoSum()
 //testSortColors()
 //testKthLargest()
 //testRemoveDuplicates()
+testMoveZeroes()

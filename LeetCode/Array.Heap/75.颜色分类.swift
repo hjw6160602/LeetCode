@@ -29,12 +29,35 @@ extension Solution {
             }
         }
     }
+    
+//    执行用时：4 ms 在所有 Swift 提交中击败了 81.73% 的用户
+//    内存消耗：13.6 MB 在所有 Swift 提交中击败了 50.96% 的用户
+//    通过测试用例：87 / 87
+    func sortColorsPractice(_ nums: inout [Int]) {
+        
+        var red = 0
+        var blue = nums.count - 1
+        var white = 0
+        
+        while white <= blue {
+            if nums[white] == 0 {
+                (nums[red], nums[white]) = (nums[white], nums[red])
+                red += 1
+                white += 1
+            } else if nums[white] == 2 {
+                (nums[blue], nums[white]) = (nums[white], nums[blue])
+                blue -= 1
+            } else { // 白色的时候直接跳过
+                white += 1
+            }
+        }
+    }
 }
 
 func testSortColors() {
-//    var colors = [2,0,2,1,1,0]
-    var colors = [1]
-    LeetCode.sortColors(&colors)
+    var colors = [2,0,2,1,1,0]
+//    var colors = [1]
+    LeetCode.sortColorsPractice(&colors)
     print(colors)
 }
 

@@ -29,6 +29,47 @@ extension Solution {
             }
         }
     }
+    
+    
+//    执行用时： 4 ms 在所有 Swift 提交中击败了 99.71% 的用户
+//    内存消耗：  13.6 MB 在所有 Swift 提交中击败了 55.88% 的用户
+//    通过测试用例：59 / 59
+    func mergePractice1(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        var first = m - 1
+        var second = n - 1
+        
+        for i in (0..<nums1.count).reversed() {
+            if second < 0 { return }
+            if first >= 0 && nums1[first] > nums2[second] {
+                nums1[i] = nums1[first]
+                first -= 1
+            } else {
+                nums1[i] = nums2[second]
+                second -= 1
+            }
+        }
+    }
+    
+//    执行用时：8 ms 在所有 Swift 提交中击败了 73.82% 的用户
+//    内存消耗：13.6 MB 在所有 Swift 提交中击败了 67.65% 的用户
+//    通过测试用例：59 / 59
+    func mergePractice2(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        var first = m - 1
+        var second = n - 1
+        var cur = nums1.count - 1
+        
+        while second >= 0 {
+            if first >= 0 && nums1[first] > nums2[second] {
+                nums1[cur] = nums1[first]
+                first -= 1
+            } else {
+                nums1[cur] = nums2[second]
+                second -= 1
+            }
+            cur -= 1
+        }
+    }
+    
 }
 
 func testMerge() {
@@ -40,7 +81,7 @@ func testMerge() {
 //    let m = 1
 //    let nums2 = [1]
 //    let n = 1
-    LeetCode.merge(&nums1, m, nums2, n)
+    LeetCode.mergePractice1(&nums1, m, nums2, n)
     print(nums1)
 }
 

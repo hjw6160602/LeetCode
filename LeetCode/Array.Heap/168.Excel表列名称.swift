@@ -83,11 +83,26 @@ extension Solution {
         }
         return String(title)
     }
+    
+    
+    func convertToTitle3(_ n: Int) -> String {
+        var chars: [Character] = []
+        
+        var x = n
+        
+        while x != 0 {
+            let k = (x - 1) % 26
+            chars.append(Character(UnicodeScalar(65 + k)!))
+            x = (x - 1) / 26
+        }
+        
+        return String(chars.reversed())
+    }
 }
 
 func testConvertToTitle() {
-//    let x = LeetCode.convertToTitle(701)
-    let x = LeetCode.convertToTitle(65)
+//    let x = LeetCode.convertToTitle3(701)
+    let x = LeetCode.convertToTitle3(65)
     print(x)
 }
 

@@ -60,6 +60,8 @@
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
+		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
+		67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA8227633451003C357F /* 977.独立数组的平方.swift */; };
 		67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDD8DF276059A00004D5E4 /* 283.零移动.swift */; };
 		80F2C03E25DE46400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C03D25DE46400051398B /* main.swift */; };
 		80F2C07125DE49400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C07025DE49400051398B /* main.swift */; };
@@ -245,6 +247,8 @@
 		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
+		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
+		67FAFA8227633451003C357F /* 977.独立数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977.独立数组的平方.swift"; sourceTree = "<group>"; };
 		67FDD8DF276059A00004D5E4 /* 283.零移动.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283.零移动.swift"; sourceTree = "<group>"; };
 		801B2D46226CC182008E7CAB /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		801B2D47226CC182008E7CAB /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -520,6 +524,8 @@
 				67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */,
 				67C8F623260450D5009CEB1C /* 26.删除数组中的重复项.swift */,
 				67FDD8DF276059A00004D5E4 /* 283.零移动.swift */,
+				67FAFA80276237FD003C357F /* 16.16.部分排序.swift */,
+				67FAFA8227633451003C357F /* 977.独立数组的平方.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -895,6 +901,7 @@
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
+				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
@@ -902,6 +909,7 @@
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */,
 				CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */,
+				67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 				67C8F624260450D5009CEB1C /* 26.删除数组中的重复项.swift in Sources */,
 			);

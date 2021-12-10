@@ -46,7 +46,8 @@ extension Solution {
                 white += 1
             } else if nums[white] == 2 {
                 (nums[blue], nums[white]) = (nums[white], nums[blue])
-                blue -= 1
+                blue -= 1 // 交换完之后左边red不用着急去+1 需要再次判断
+                
             } else { // 白色的时候直接跳过
                 white += 1
             }

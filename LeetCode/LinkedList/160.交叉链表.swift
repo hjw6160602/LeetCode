@@ -51,7 +51,7 @@ extension Solution {
                 if isl1Part2 { return nil }
                 list1?.next = headB
                 isl1Part2 = true
-                
+                // 在两条链表不相交的时候 为了避免死循环 把链表断开
                 let lastNode = list1
                 list1 = list1?.next
                 lastNode?.next = nil
@@ -64,7 +64,7 @@ extension Solution {
                 if isl2Part2 { return nil }
                 list2?.next = headA
                 isl2Part2 = true
-                
+                // 在两条链表不相交的时候 为了避免死循环 把链表断开
                 let lastNode = list2
                 list2 = list2?.next
                 lastNode?.next = nil

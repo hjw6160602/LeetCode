@@ -10,6 +10,9 @@ import Foundation
 
 extension Solution {
     
+//    执行用时：8 ms 在所有 Swift 提交中击败了 94.44% 的用户
+//    内存消耗：13.5 MB 在所有 Swift 提交中击败了 70.37% 的用户
+//    通过测试用例：168 / 168
     func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
         guard head != nil else { return nil }
         
@@ -19,8 +22,9 @@ extension Solution {
         var current = head
         
         while current != nil {
-            let next = current!.next
-            current!.next = nil
+//            let next = current!.next
+            // 第一次提交的时候没有写这一句 why需要？
+//            current!.next = nil
             if current!.val < x {
                 tailL.next = current
                 tailL = current!
@@ -28,10 +32,12 @@ extension Solution {
                 tailR.next = current
                 tailR = current!
             }
-            current = next
+            current = current!.next
         }
+        // 这句代码不能少：
+        // 因为可能出现这样的情况 原链表
+        tailR.next = nil
         tailL.next = depart.next
-        
         return dummy.next
         
     }

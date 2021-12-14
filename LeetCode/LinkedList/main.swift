@@ -20,7 +20,8 @@ class Solution {
 //testMergeTwoLists()
 //testGetIntersectionNode()
 //testRemoveElements()
-testPartition()
+//testPartition() // 分隔链表
+testIsPalindrome() // 回文链表
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

@@ -64,8 +64,30 @@ extension Solution {
         }
         return rHead
     }
+    
+    
+    /// 是否是回文链表
+    func isPalindromeP1(_ head: ListNode?) -> Bool {
+        // 空链表算回文列表
+        guard let head = head else { return true }
+        // 单独节点算回文链表
+        guard let nxtNode = head.next else { return true }
+
+        // 只有两个节点判断这俩的值是否相等
+        guard nxtNode.next != nil else {
+            return head.val == nxtNode.val
+        }
+        
+        return false
+    }
 }
 
+func testIsPalindrome() {
+    let list = LinkedList.createList( [2, 2] )
+    LinkedList.display(list)
+    let x = Solution.shared.isPalindromeP1(list)
+    print(x)
+}
 
 //请判断一个链表是否为回文链表。
 //

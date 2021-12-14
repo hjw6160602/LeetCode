@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Math
 
 let LeetCode = Solution.shared
 
@@ -17,7 +16,7 @@ class Solution {
     private init() {}
 }
 
-testTwoSum()
+//testTwoSum()
 
 //testStringRotation()
 
@@ -28,4 +27,4 @@ testTwoSum()
 //testAddStrings()
 //testLongestCommonPrefix()
 
-//testReverseURL()
+testReverseURL()

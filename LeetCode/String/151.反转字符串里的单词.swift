@@ -50,15 +50,15 @@ extension Solution {
 //    标题：URL反转
 //    描述信息
 //    给定形如 `www.toutiao.com` 的 URL，将其转换成 `com.toutiao.www` 的形式，要求必须原地操作
-//    func reverseURL(_ url: inout String) {
+//    func reverseURLTouTiao(_ url: inout String) {
 //        let chars = [Character](url)
 //        let mid = chars.count >> 1
 //        var begin = 0, end = 0
-//        reverseString(_ string: inout String, 0, end: chars.count)
+//        _reverseStringTouTiao(&url, begin: 0, end: chars.count)
 //        url = String(chars)
 //    }
 //
-//    private func _reverseString(_ string: inout String, begin: Int, end: Int) {
+//    private func _reverseStringTouTiao(_ string: inout String, begin: Int, end: Int) {
 //        for index in begin...mid {
 //            if char == "."
 //            end = index
@@ -67,23 +67,13 @@ extension Solution {
 //        }
 //    }
     
-    func compareAudioAndVideoMessageId(_ value1: String, _ value2: String) -> Bool {
-        let value1Res = value1.split(separator: "-")
-        let value2Res = value2.split(separator: "-")
-        
-        if (value1Res.first == value2Res.first) && (value1Res.last == value2Res.last) {
-            return true
-        }
-        return false
-    }
 }
 
 func testReverseURL() {
 //    "moc.oaituot.www"
 //    "com.toutiao.www"
-    let res = LeetCode.compareAudioAndVideoMessageId("144115231261183769-1623911733-1883828775", "144115231261183769-1623911726-1883828775")
-//    let x = LeetCode.reverseURL("the sky is blue")
-    print(res)
+    let x = LeetCode.reverseURL("the     sky is blue")
+    print(x)
 }
 
 //151. 翻转字符串里的单词

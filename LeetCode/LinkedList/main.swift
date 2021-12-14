@@ -15,10 +15,10 @@ class Solution {
     private init() {}
 }
 
-testAddSum()
+//testAddSum()
 //testReverseList()
 //testMergeTwoLists()
-//testGetIntersectionNode()
+testGetIntersectionNode()
 //testRemoveElements()
 
 

@@ -11,9 +11,8 @@ import Foundation
 extension Solution {
     // 找到两个单链表相交的起始节点
     func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
-        guard headA != nil && headB != nil else {
-            return nil
-        }
+        guard headA != nil && headB != nil else { return nil }
+        
         var nodeA = headA
         var nodeB = headB
         // 这里很好 !== 用来判断地址不相等 并且避免死循环 因为最后 是 nil = nil
@@ -25,10 +24,7 @@ extension Solution {
     }
     
     func getIntersectionNodeSwift(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
-
-        if headA == nil || headB == nil {
-            return nil
-        }
+        if headA == nil || headB == nil { return nil }
 
         var pA = headA
         var pB = headB
@@ -39,7 +35,98 @@ extension Solution {
         }
         return pA
     }
+   
+//    执行用时：260 ms 在所有 Swift 提交中击败了 58.01% 的用户
+//    内存消耗：16.2 MB 在所有 Swift 提交中击败了 92.27% 的用户
+//    通过测试用例： 39 / 39
+
+    func getIntersectionNodeP1(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        if headA == nil || headB == nil { return nil }
+        
+        var list1 = headA, list2 = headB
+        
+        var isl1Part2 = false, isl2Part2 = false
+        while list1 !== list2 {
+            if list1?.next == nil {
+                if isl1Part2 { return nil }
+                list1?.next = headB
+                isl1Part2 = true
+                
+                let lastNode = list1
+                list1 = list1?.next
+                lastNode?.next = nil
+            }  else {
+                list1 = list1?.next
+            }
+            
+            
+            if list2?.next == nil {
+                if isl2Part2 { return nil }
+                list2?.next = headA
+                isl2Part2 = true
+                
+                let lastNode = list2
+                list2 = list2?.next
+                lastNode?.next = nil
+            } else {
+                list2 = list2?.next
+            }
+        }
+        return list1
+    }
+    
+    func getIntersectionNodeP2(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        if headA == nil || headB == nil { return nil }
+
+        var pA = headA
+        var pB = headB
+
+        while pA !== pB {
+            if pA == nil {
+                pA = headB
+            } else {
+                pA = pA?.next
+            }
+            
+            if pB == nil {
+                pB = headA
+            } else {
+                pB = pB?.next
+            }
+        }
+        return pA
+    }
+    
+    func getIntersectionNodeP3(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
+        if headA == nil || headB == nil { return nil }
+        
+        var list1 = headA, list2 = headB
+        
+        var isl1Part2 = false, isl2Part2 = false
+        while list1 !== list2 {
+            if list1?.next == nil {
+                if isl1Part2 { return nil }
+                list1 = headB
+                isl1Part2 = true
+            }  else {
+                list1 = list1?.next
+            }
+            
+            if list2?.next == nil {
+                if isl2Part2 { return nil }
+                list2 = headA
+                isl2Part2 = true
+            } else {
+                list2 = list2?.next
+            }
+        }
+        return list1
+    }
+    
 }
+
+//[4,1,8,4,5] [5, 0,1,8,4,5]
+//[5,0,1,8,4, 5] [4,1,8,4,5]
 
 func testGetIntersectionNode() {
     //[4,1,8,4,5, 5,0,1,8,4,5]
@@ -48,7 +135,7 @@ func testGetIntersectionNode() {
     LinkedList.display(list1)
     let list2 = LinkedList.createList([5,0,1,8,4,5])
     LinkedList.display(list2)
-    let head = LeetCode.getIntersectionNode(list1, list2)
+    let head = LeetCode.getIntersectionNodeP3(list1, list2)
     print(head?.val)
 }
 

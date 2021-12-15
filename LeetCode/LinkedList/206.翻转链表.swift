@@ -18,7 +18,7 @@ extension Solution {
         return rHead
     }
     
-    func reverseListPrictice1(_ head: ListNode?) -> ListNode? {
+    func reverseListP1(_ head: ListNode?) -> ListNode? {
         var rHead: ListNode? = nil
         var curNode = head
         while curNode != nil {
@@ -30,7 +30,7 @@ extension Solution {
         return rHead
     }
     
-    func reverseListPrictice2(_ head: ListNode?) -> ListNode? {
+    func reverseListP2(_ head: ListNode?) -> ListNode? {
         var rHead: ListNode? = nil
         var current = head
         while current != nil {
@@ -38,12 +38,30 @@ extension Solution {
         }
         return rHead
     }
+    
+//    执行用时：12 ms 在所有 Swift 提交中击败了 89.29% 的用户
+//    内存消耗：14.5 MB 在所有 Swift 提交中击败了 23.66% 的用户
+//    通过测试用例：28 / 28
+    func reverseListP3(_ head: ListNode?) -> ListNode? {
+        guard head?.next != nil else { return head }
+        // 来到这里证明至少有 两个节点
+        var current = head
+        var revesedH: ListNode?
+        while current != nil {
+//            next = current!.next
+//            current!.next = revesedH
+//            revesedH = current
+//            current = next
+            (current!.next, revesedH, current ) = (revesedH, current, current!.next)
+        }
+        return revesedH
+    }
 }
 
 func testReverseList() {
     let list = LinkedList.createList([1, 3, 8, 7, 9])
     LinkedList.display(list)
-    let head = LeetCode.reverseListPrictice2(list)
+    let head = LeetCode.reverseListP3(list)
     LinkedList.display(head)
     //LinkedList.display(list)
 }

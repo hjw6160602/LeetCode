@@ -15,13 +15,20 @@ class Solution {
     private init() {}
 }
 
+// 两数之和
 //testAddSum()
-//testReverseList()
+// 翻转链表
+testReverseList()
+// 合并两个有序链表
 //testMergeTwoLists()
+//
 //testGetIntersectionNode()
+//
 //testRemoveElements()
-//testPartition() // 分隔链表
-testIsPalindrome() // 回文链表
+// 分隔链表
+//testPartition()
+// 回文链表
+//testIsPalindrome()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

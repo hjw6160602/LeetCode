@@ -74,12 +74,38 @@ extension Solution {
         guard let nxtNode = head.next else { return true }
 
         // 只有两个节点判断这俩的值是否相等
-        guard nxtNode.next != nil else {
-            return head.val == nxtNode.val
+        guard nxtNode.next != nil else {  return head.val == nxtNode.val }
+        
+        // 能来到这里说明最少有3个节点
+        let mid = findMiddleNode(head: head)!
+        var secondHead = reverseList(head: &mid.next)
+        var node: ListNode? = head
+        while secondHead != nil {
+            guard node?.val == secondHead?.val else {
+                return false
+            }
+            node = node?.next
+            secondHead = secondHead?.next
         }
         
-        return false
+        return true
     }
+    
+    private func reverseList(_ head: ListNode) -> ListNode? {
+        guard head.next != nil else { return head }
+        // 来到这里证明至少有 两个节点
+        var current = head
+        var prev: ListNode?
+        var next: ListNode?
+        while current.next != nil {
+            next = current.next!
+            prev = current
+            current.next = prev
+            current = next!
+        }
+        return current
+    }
+    
 }
 
 func testIsPalindrome() {
@@ -97,6 +123,10 @@ func testIsPalindrome() {
 //输出: false
 //示例 2:
 //
+
+// 1->2->2->1 -> 1->2->2->1
+// 1->2->2->1 -> 1->2->2->1
+
 //输入: 1->2->2->1
 //输出: true
 //进阶：

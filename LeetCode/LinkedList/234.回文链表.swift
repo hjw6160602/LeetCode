@@ -66,7 +66,9 @@ extension Solution {
     }
     
     
-    /// 是否是回文链表
+//    执行用时：820 ms 在所有 Swift 提交中击败了 85.62% 的用户
+//    内存消耗：26 MB 在所有 Swift 提交中击败了 74.66% 的用户
+//    通过测试用例： 85 / 85
     func isPalindromeP1(_ head: ListNode?) -> Bool {
         // 空链表算回文列表
         guard let head = head else { return true }
@@ -77,8 +79,8 @@ extension Solution {
         guard nxtNode.next != nil else {  return head.val == nxtNode.val }
         
         // 能来到这里说明最少有3个节点
-        let mid = findMiddleNode(head: head)!
-        var secondHead = reverseList(head: &mid.next)
+        let mid = findMiddle(head)
+        var secondHead = reverseList2(mid.next)
         var node: ListNode? = head
         while secondHead != nil {
             guard node?.val == secondHead?.val else {
@@ -91,25 +93,37 @@ extension Solution {
         return true
     }
     
-    private func reverseList(_ head: ListNode) -> ListNode? {
-        guard head.next != nil else { return head }
+    private func findMiddle(_ head: ListNode?) -> ListNode {
+        var node = head
+        var index = 0
+        while node != nil {
+            node = node?.next
+            index += 1
+        }
+        var j = 0
+        node = head
+        while j < ((index - 1) >> 1) {
+            node = node?.next
+            j += 1
+        }
+        return node!
+    }
+    
+    private func reverseList2(_ head: ListNode?) -> ListNode? {
+        guard head?.next != nil else { return head }
         // 来到这里证明至少有 两个节点
         var current = head
-        var prev: ListNode?
-        var next: ListNode?
-        while current.next != nil {
-            next = current.next!
-            prev = current
-            current.next = prev
-            current = next!
+        var revesedH: ListNode?
+        while current != nil {
+            (current!.next, revesedH, current ) = (revesedH, current, current!.next)
         }
-        return current
+        return revesedH
     }
     
 }
 
 func testIsPalindrome() {
-    let list = LinkedList.createList( [2, 2] )
+    let list = LinkedList.createList( [1,2,2,1] )
     LinkedList.display(list)
     let x = Solution.shared.isPalindromeP1(list)
     print(x)

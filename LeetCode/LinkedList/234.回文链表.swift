@@ -40,8 +40,8 @@ extension Solution {
     
     // 找到中间节点
     private func findMiddleNode(head: ListNode?) -> ListNode? {
-        var fast = head
-        var slow = head
+        let fast = head
+        let slow = head
 //        while fast.next != nil && fast.next?.next != nil {
 //            slow = slow.next ?? nil
 //            fast = fast.next?.next
@@ -56,7 +56,7 @@ extension Solution {
      * - return: 翻转之后的链表的头结点 (返回4)
      */
     private func reverseList(head: inout ListNode?) -> ListNode? {
-        var rHead: ListNode? = nil
+        let rHead: ListNode? = nil
         while head?.next != nil {
             head = head?.next
             rHead?.next = head
@@ -93,7 +93,16 @@ extension Solution {
         return true
     }
     
-    private func findMiddle(_ head: ListNode?) -> ListNode {
+    private func findMiddle(_ head: ListNode) -> ListNode {
+        var fast = head, slow = head
+        while fast.next != nil && fast.next!.next != nil {
+            slow = slow.next!
+            fast = fast.next!.next!
+        }
+        return slow
+    }
+    
+    private func findMiddleOld(_ head: ListNode?) -> ListNode {
         var node = head
         var index = 0
         while node != nil {
@@ -123,7 +132,7 @@ extension Solution {
 }
 
 func testIsPalindrome() {
-    let list = LinkedList.createList( [1,2,2,1] )
+    let list = LinkedList.createList( [1,2,1] )
     LinkedList.display(list)
     let x = Solution.shared.isPalindromeP1(list)
     print(x)

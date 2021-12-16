@@ -53,6 +53,15 @@ extension Solution {
         }
         return stack.isEmpty
     }
+    
+    
+    
+    func isValidP1(_ s: String) -> Bool {
+        var stack = [Character]()
+        
+        return stack.isEmpty
+    }
+    
 }
 
 func testIsValidBracket() {

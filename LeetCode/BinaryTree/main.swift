@@ -22,8 +22,8 @@ class Solution {
 //testIsSymmetric()
 //testhasPathSum()
 //test104MaxDepth()
-testDiameterOfBinaryTree()
-
+//testDiameterOfBinaryTree()
+testConstructMaximumBinaryTree()
 
 // MARK: - 排列组合
 //testPermute()

@@ -40,11 +40,3 @@ private func testMinStack() {
     print(minimum)
 }
 
-/// 239 滑动窗口最大值
-private func testSlideWindow() {
-    let nums = [1,3,-1,-3,5,3,6,7]
-    let k = 3
-    let result = LeetCode.maxSlidingWindow(nums, k)
-    print(result)
-}
-

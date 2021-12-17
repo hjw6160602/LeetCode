@@ -12,7 +12,7 @@ import Foundation
 extension Solution {
     
     // 较笨的解法 超出时间限制 时间复杂度：O(n * k)
-    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
+    func maxSlidingWindowBL(_ nums: [Int], _ k: Int) -> [Int] {
         if k == 1 {
             return nums
         }
@@ -25,6 +25,42 @@ extension Solution {
             maxNums.append(max!)
         }
         return maxNums
+    }
+    
+    // 优化了一部分 60/61 但是依然超出时间限制
+    func maxSlidingWindowBL2(_ nums: [Int], _ k: Int) -> [Int] {
+        guard nums.count > 0 && k > 0 else { return [] }
+        guard k > 1 else { return nums}
+        // 能来到这里证明至少有2个元素
+        // 优化暴力算法中的比较次数
+        var maxIndex = 0
+        var res = [Int]()
+        
+        // 一上来先找出来一波结果 然后再去循环
+        for i in 1..<k {
+            if nums[i] > nums[maxIndex] {
+                maxIndex = i
+            }
+        }
+        
+        for (i, num) in nums.enumerated() {
+            let prev = i - k + 1
+            
+            if maxIndex < prev {
+                maxIndex = prev
+                for j in prev...i {
+                    if nums[j] > nums[maxIndex] {
+                        maxIndex = j
+                    }
+                }
+            } else if num > nums[maxIndex] {
+                maxIndex = i
+            }
+            if prev >= 0 {
+                res.append(nums[maxIndex])
+            }
+        }
+        return res
     }
     
     // 双端队列解法 时间复杂度：O(n)
@@ -74,6 +110,7 @@ extension Solution {
         guard k > 1 else { return nums}
         
         // 能来到这里证明至少有2个元素
+        // 双端队列 存储 原数组中的索引 索引对应的值单调递减
         var queueDoubleEnd = [Int]()
         var res = [Int]()
         var prev = 0
@@ -101,11 +138,14 @@ extension Solution {
         }
         return res
     }
+    
 }
 
 func testMaxSlidingWindow() {
-    let res = Solution.shared.maxSlidingWindowP2([1,3,-1,-3,5,3,6,7], 3)
+    let res = Solution.shared.maxSlidingWindowBL2([1,3,-1,-3,5,3,6,7], 3)
+//    let res = Solution.shared.maxSlidingWindowBL2([4,-2], 2)
     print(res)
+    
 }
 
 //[1  3  -1] -3  5  3  6  7          -1 1 3

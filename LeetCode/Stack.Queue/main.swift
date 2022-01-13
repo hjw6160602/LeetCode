@@ -18,7 +18,8 @@ class Solution {
 //testMinStack()
 //testDailyTemperatures()
 //testIsValidBracket()
-testMaxSlidingWindow()
+//testMaxSlidingWindow()
+testDailyTemperatures()
 
 private func testMinStack() {
     let minStack = MinStack()

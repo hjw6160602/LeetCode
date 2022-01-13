@@ -9,39 +9,10 @@
 import Foundation
 
 extension Solution {
-    func dailyTemperature2(_ T: [Int]) -> [Int] {
-        guard T.count > 0 else {
-            return []
-        }
-        /**
-         * 如果 T[i] < T[j] 那么res[i] = j - i, i--
-         * 如果 T[i] == T[j]
-         */
-        var res = Array(repeating: 0, count: T.count)
-        for i in (0...T.count-2).reversed() {
-            var j = i + 1
-            while true {
-                if T[i] < T[j] {
-                    res[i] = j - i
-                    break
-                } else if res[j] == 0 {
-                    res[i] = 0
-                    break
-                } else if T[i] == T[j] {
-                    res[i] = res[j] + j - i
-                    break
-                }
-                j = j + res[j]
-            }
-        }
-        return res
-    }
-    
-//  MARK: - 单调栈解法
-
-//    执行用时：972 ms 击败了66.04%
-//    内存消耗：22.6 MB 击败了80.19%
-//    通过测试用例：47 / 47
+    //  MARK: - 单调栈解法
+    //  执行用时：972 ms 击败了66.04%
+    //  内存消耗：22.6 MB 击败了80.19%
+    //  通过测试用例：47 / 47
     func dailyTemperaturesStack1(_ T: [Int]) -> [Int] {
         var res = Array(repeating: 0, count: T.count)
         var stack = [Int]()
@@ -106,12 +77,63 @@ extension Solution {
         }
         return res
     }
-    /// 双指针写法 倒退
     
+    //  MARK: - 双指针倒推
+    func dailyTemperature2(_ T: [Int]) -> [Int] {
+        guard T.count > 0 else {
+            return []
+        }
+        /**
+         * 如果 T[i] < T[j] 那么res[i] = j - i, i--
+         * 如果 T[i] == T[j]
+         */
+        var res = Array(repeating: 0, count: T.count)
+        for i in (0...T.count-2).reversed() {
+            var j = i + 1
+            while true {
+                if T[i] < T[j] {
+                    res[i] = j - i
+                    break
+                } else if res[j] == 0 {
+                    res[i] = 0
+                    break
+                } else if T[i] == T[j] {
+                    res[i] = res[j] + j - i
+                    break
+                }
+                j = j + res[j]
+            }
+        }
+        return res
+    }
+    
+    
+
+    // 执行用时： 1116 ms 击败了 29.25%
+    // 内存消耗： 22.7 MB 击败了 42.45%
+    func dailyTemperaturesP1(_ T: [Int]) -> [Int] {
+        var res = Array(repeating: 0, count: T.count)
+        guard T.count > 1 else { return res }
+        for i in (0..<T.count-1).reversed() {
+            var j = i + 1
+            while j < T.count {
+                if T[i] < T[j] {
+                    res[i] = j - i
+                    break
+                } else if res[j] == 0 {
+                    res[i] = 0
+                    break
+                }  else {
+                    j = j + res[j]
+                }
+            }
+        }
+        return res
+    }
 }
 
 func testDailyTemperatures() {
-    let res = LeetCode.dailyTemperaturesStack2([73, 74, 75, 71, 69, 72, 76, 73])
+    let res = LeetCode.dailyTemperaturesP1([73, 74, 75, 71, 69, 72, 76, 78])
     print(res)
 }
 

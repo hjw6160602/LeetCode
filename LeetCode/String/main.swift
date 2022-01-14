@@ -27,4 +27,5 @@ class Solution {
 //testAddStrings()
 //testLongestCommonPrefix()
 
-testReverseURL()
+//testReverseURL()
+testIsAnagram()

@@ -10,6 +10,10 @@ import Foundation
 
 extension Solution {
     // 利用两个字典去做统计
+    
+//    执行用时：8 ms  击败了 97.40% 的用户
+//    内存消耗15.4 MB 击败了 16.45% 的用户
+//    通过测试用例：36 / 36
     func isAnagram(_ s: String, _ t: String) -> Bool {
         let sCharsFreq = Dictionary(s.map { ($0, 1) }, uniquingKeysWith: +)
         let tCharsFreq = Dictionary(t.map { ($0, 1) }, uniquingKeysWith: +)
@@ -17,6 +21,9 @@ extension Solution {
         return sCharsFreq == tCharsFreq
     }
     
+//    执行用时：8 ms  击败了97.40%
+//    内存消耗：13.9 MB 击败了58.44%
+//    通过测试用例：36 / 36
     func isAnagramP1(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else { return false }
 

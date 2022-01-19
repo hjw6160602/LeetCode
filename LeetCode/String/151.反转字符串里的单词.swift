@@ -45,6 +45,60 @@ extension Solution {
             (chars[begin + index], chars[end - index]) = (chars[end - index], chars[begin + index])
         }
     }
+    
+//    执行用时：24 ms 击败了 65.33%
+//    内存消耗：13.7 MB 击败了 89.33%
+//    通过测试用例：58 / 58
+    func reverseWordsP1(_ s: String) -> String {
+        guard s.count > 0 else { return s }
+        
+        var filtered = [Character]()
+        // 这里在尾巴后面新增一个空格来避免后面for循环技术之后再写一次reverse
+        removeNeedlessSpace(s + " ", chars: &filtered)
+        
+        // 2.整体先翻转一遍字符串
+        let end = filtered.count - 2
+        reverseCharacter(chars: &filtered, begin: 0, end: end)
+
+        // 3.针对碰到空格的位置再翻转一遍
+        var begin = 0
+        for index in 1..<filtered.count {
+            guard filtered[index] == " " else {
+                continue
+            }
+            // 来到这里证明遇到了空格
+            reverseCharacter(chars: &filtered, begin: begin, end: index - 1)
+            begin = index + 1
+        }
+        
+        return String(filtered[0...end])
+    }
+    
+    private func removeNeedlessSpace(_ s: String, chars filtered: inout [Character]) {
+        // 这里初始值设置为true 确保删除头部字符串
+        var hasSpace = true
+        // 1.取出字符串中的多余空格
+        for char in s {
+            guard char == " " else {
+                hasSpace = false
+                filtered.append(char)
+                continue
+            }
+            // 来到这里证明是空格字符
+            // 重复空格直接continue
+            guard !hasSpace else { continue }
+            // 非重复空格添加上去
+            hasSpace = true
+            filtered.append(" ")
+        }
+    }
+    
+    private func reverseCharacter(chars: inout [Character], begin: Int, end: Int) {
+        let mid = (end - begin + 1) >> 1
+        for i in 0..<mid {
+            (chars[begin + i], chars[end - i]) =  (chars[end - i], chars[begin + i])
+        }
+    }
 
     /// MARK: - 面试代码
 //    标题：URL反转
@@ -69,10 +123,12 @@ extension Solution {
     
 }
 
-func testReverseURL() {
+func testReverseWords() {
 //    "moc.oaituot.www"
 //    "com.toutiao.www"
-    let x = LeetCode.reverseURL("the     sky is blue")
+//    let x = LeetCode.reverseWordsP1("the     sky is blue")
+//    let x = LeetCode.reverseWordsP1("  hello world! ")
+    let x = LeetCode.reverseWordsP1("Alice does not even like bob")
     print(x)
 }
 

@@ -46,6 +46,7 @@ extension Solution {
         }
     }
     
+//    MARK: - 不调用系统方法 手动翻转
 //    执行用时：24 ms 击败了 65.33%
 //    内存消耗：13.7 MB 击败了 89.33%
 //    通过测试用例：58 / 58
@@ -53,7 +54,8 @@ extension Solution {
         guard s.count > 0 else { return s }
         
         var filtered = [Character]()
-        // 这里在尾巴后面新增一个空格来避免后面for循环技术之后再写一次reverse
+        // 这里在尾巴后面新增一个空格
+        // 来避免后面for循环结束之后是否再次reverse的判断
         removeNeedlessSpace(s + " ", chars: &filtered)
         
         // 2.整体先翻转一遍字符串
@@ -100,26 +102,26 @@ extension Solution {
         }
     }
 
-    /// MARK: - 面试代码
+//    MARK: - 头条代码
 //    标题：URL反转
 //    描述信息
 //    给定形如 `www.toutiao.com` 的 URL，将其转换成 `com.toutiao.www` 的形式，要求必须原地操作
-//    func reverseURLTouTiao(_ url: inout String) {
-//        let chars = [Character](url)
-//        let mid = chars.count >> 1
-//        var begin = 0, end = 0
-//        _reverseStringTouTiao(&url, begin: 0, end: chars.count)
-//        url = String(chars)
-//    }
-//
-//    private func _reverseStringTouTiao(_ string: inout String, begin: Int, end: Int) {
-//        for index in begin...mid {
-//            if char == "."
-//            end = index
-//            (chars[index], chars[chars.count - index]) = (chars[chars.count - index], chars[index])
-//            begin = end + 1
-//        }
-//    }
+    func reverseURLTouTiao(_ url: String) -> String {
+        guard url.count > 0 else { return url }
+        
+        var chars = [Character](url)
+        reverseCharacter(chars: &chars, begin: 0, end: chars.count - 1)
+        var begin = 0
+        for index in 1..<chars.count {
+            guard chars[index] == "." else { continue }
+            // 来到这里证明遇到了空格
+            reverseCharacter(chars: &chars, begin: begin, end: index - 1)
+            begin = index + 1
+        }
+        // 最后一部分还需要手动再翻转一次
+        reverseCharacter(chars: &chars, begin: begin, end: chars.count - 1)
+        return String(chars)
+    }
     
 }
 
@@ -128,7 +130,10 @@ func testReverseWords() {
 //    "com.toutiao.www"
 //    let x = LeetCode.reverseWordsP1("the     sky is blue")
 //    let x = LeetCode.reverseWordsP1("  hello world! ")
-    let x = LeetCode.reverseWordsP1("Alice does not even like bob")
+//    let x = LeetCode.reverseWordsP1("Alice does not even like bob")
+//    print(x)
+    
+    let x = LeetCode.reverseURLTouTiao("www.toutiao.com")
     print(x)
 }
 

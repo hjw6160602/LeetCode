@@ -10,34 +10,148 @@
 import Foundation
 
 extension Solution {
-    func lengthOfLongestSubstring(_ s: String) -> Int {
+    
+    // MARK: - 类似DP
+//    执行用时：16 ms 击败了 72.69%
+//    内存消耗：14 MB 击败了 41.50%
+    func lengthOfLongestSubstringOptimize(_ s: String) -> Int {
+        guard s.count > 1 else { return s.count }
         
-        return 0
+        // 上一次出现相同字符的索引index [key: value] [String: Int]
+        var preIndexMap = [Character: Int]()
+        
+        var li = 0, maxLen = 1
+        for (index, char) in s.enumerated() {
+            guard index > 0 else {
+                preIndexMap[char] = 0
+                continue
+            }
+            // 确定当前字符上一次出现的Index
+            var pi = -1
+            if let duplicate = preIndexMap[char] {
+                pi = duplicate
+            }
+            // 更新 字符索引的map为当前index
+            preIndexMap[char] = index
+    
+            if pi >= li {
+                li = pi + 1
+            }
+            print(s[li...index])
+            maxLen = max(maxLen, index - li + 1)
+        }
+        
+        return maxLen
     }
     
+    // 执行用时：16 ms 击败了 72.69%
+    // 内存消耗：14.5 MB 击败了 5.10%
+    // 通过测试用例：987 / 987
+    func lengthOfLongestSubstringLow(_ s: String) -> Int {
+        guard s.count > 1 else { return s.count }
+        
+        // 上一次出现相同字符的索引index [key: value] [String: Int]
+        var preIndexMap = [Character: Int]()
+        
+        typealias Tuple = (start: Int, end: Int)
+        
+        // 用来存储 每一个以当前字符结尾的最长不重复子串
+        var maxLenList = Array(repeating: Tuple(0, 1), count: s.count)
+        
+        // 以index -1 结尾的 最长不重复子串的索引
+        var maxLen = 1
+        for (index, char) in s.enumerated() {
+            guard index > 0 else {
+                preIndexMap[char] = 0
+                continue
+            }
+            
+            // 确定当前字符上一次出现的Index
+            var pi = -1
+            if let duplicate = preIndexMap[char] {
+                pi = duplicate
+            }
+            // 更新 字符索引的map为当前index
+            preIndexMap[char] = index
+            
+            let li = maxLenList[index - 1].start
+            if pi < li { // li 在pi的右边：
+                // pi [li  i-1] i
+                // D         A  D
+                maxLenList[index] = Tuple(li, index)
+            } else { // li 在Pi的左边 或相等
+                // [li pi i-1] i
+                //  D       A  D
+                maxLenList[index] = Tuple(pi + 1, index)
+            }
+
+//            print(s[maxLenList[index].start...index])
+            maxLen = max(maxLen, index - maxLenList[index].start + 1)
+        }
+        
+        return maxLen
+    }
+    // li 在Pi的左边：
+    // [li pi i-1] i
+    //     D   A  D
+
 }
 
+func testLengthOfLongestSubstring() {
+    let string = "pwwkew"
+    let x = Solution.shared.lengthOfLongestSubstringOptimize(string)
+    print(x)
+}
+
+extension String {
+    
+    func display(range : ClosedRange<Int>) {
+        let start = index(startIndex, offsetBy:  range.lowerBound)
+        let end = index(startIndex, offsetBy: range.upperBound)
+        
+        print(self[start...end])
+    }
+
+//    subscript (i: Int) -> Character {
+//        return self[self.index(self.startIndex, offsetBy: i)]
+//    }
+//
+//    subscript (i: Int) -> String {
+//        return String(self[i] as Character)
+//    }
+//
+//    subscript (r: Range<Int>) -> String {
+//        let start = index(startIndex, offsetBy: r.lowerBound)
+//        let end = index(startIndex, offsetBy: r.upperBound)
+//        return String(self[start..<end])
+//    }
+//
+    subscript (r: ClosedRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: r.lowerBound)
+        let end = index(startIndex, offsetBy: r.upperBound)
+        return String(self[start...end])
+    }
+}
 
 //给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
 
 //示例 1:
-
 //输入: s = "abcabcbb"
 //输出: 3
 //解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
-//示例 2:
 
+//示例 2:
 //输入: s = "bbbbb"
 //输出: 1
 //解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
-//示例 3:
 
+//示例 3:
 //输入: s = "pwwkew"
 //输出: 3
 //解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
 //     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
-//示例 4:
 
+//示例 4:
 //输入: s = ""
 //输出: 0
 

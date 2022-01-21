@@ -80,6 +80,14 @@ extension Solution {
         return dp[rows][cols]
     }
     
+    //         r  o  s
+    //     [0, 1, 2, 3]
+    //   h [1, 1, 2, 3]
+    //   o [2, 2, 1, 2]
+    //   r [3, 2, 2, 3]
+    //   s [4, 3, 3, 2]
+    //   e [5, 4, 4, 3]
+    
     func minDistanceSwift(_ word1: String, _ word2: String) -> Int {
         let aChars = [Character](word1)
         let bChars = [Character](word2)
@@ -112,13 +120,7 @@ func testMinDistance() {
     print(x)
 }
 
-//         r  o  s
-//     [0, 1, 2, 3]
-//   h [1, 1, 2, 3]
-//   o [2, 2, 1, 2]
-//   r [3, 2, 2, 3]
-//   s [4, 3, 3, 2]
-//   e [5, 4, 4, 3]
+
 
 // 给定两个单词 word1 和 word2，计算出将 word1 转换成 word2 所使用的最少操作数
 
@@ -129,7 +131,8 @@ func testMinDistance() {
  * horse -> rorse (replace 'h' with 'r')
  * rorse -> rose (remove 'r')
  * rose -> ros (remove 'e')
- 
+ *
+ *
  * Input: word1 = "intention", word2 = "execution"
  * Output: 5
  * Explanation:

@@ -19,7 +19,6 @@ class Solution {
 //testTwoSum()
 
 //testStringRotation()
-
 //testReversingString()
 //testMyAtoi()
 //testReverseURL()
@@ -30,4 +29,6 @@ class Solution {
 //testReverseWords()
 //testIsAnagram()
 //testLengthOfLongestSubstring()
-testMinDistance()
+//testMinDistance()
+
+testLongestPalindrome()

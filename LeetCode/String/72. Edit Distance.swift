@@ -79,10 +79,36 @@ extension Solution {
         }
         return dp[rows][cols]
     }
+    
+    func minDistanceSwift(_ word1: String, _ word2: String) -> Int {
+        let aChars = [Character](word1)
+        let bChars = [Character](word2)
+        let aLen = aChars.count
+        let bLen = bChars.count
+        
+        var dp = Array(repeating: Array(repeating: 0, count: aLen + 1),
+                       count: bLen + 1)
+        
+        for i in 0...aLen {
+            for j in 0...bLen {
+                if i == 0 {// 赋值列内容
+                    dp[i][j] = j
+                } else if j == 0 {
+                    dp[i][j] = i
+                } else if aChars[i - 1] == bChars[j - 1] {
+                    dp[i][j] = dp[i - 1][j - 1]
+                } else {
+                    dp[i][j] = min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]) + 1
+                }
+            }
+        }
+        
+        return dp[aLen][bLen]
+    }
 }
 
 func testMinDistance() {
-    let x = Solution.shared.minDistance("intention", "execution")
+    let x = Solution.shared.minDistanceSwift("intention", "execution")
     print(x)
 }
 

@@ -87,10 +87,33 @@ extension Solution {
         
         return maxProfit
     }
+    
+//    1052 ms 5.57%
+//    17.4 MB 9.97%
+    func maxProfitDP2(_ prices: [Int]) -> Int {
+        guard prices.count > 1 else { return 0 }
+        
+        var sequence = Array(repeating: 0, count: prices.count)
+        
+        for i in 1..<prices.count {
+            sequence[i] =  prices[i] - prices[i-1]
+        }
+        
+        // 动态规划 53. 转化为最大子序列和
+        var maxSum = 0
+        // dp[i]代表 以i结尾的 子序列的最大和
+        var dp = Array(repeating: 0, count: prices.count)
+        for i in 1..<sequence.count {
+            dp[i] = max(sequence[i], dp[i-1] + sequence[i])
+            maxSum = max(maxSum, dp[i])
+        }
+        
+        return maxSum
+    }
 }
 
 func testMaxProfit() {
-    let x = LeetCode.maxProfitP1([7, 1, 5, 3, 6, 4])
+    let x = LeetCode.maxProfitDP2([7,6,4,3,1])
     print(x)
 }
 

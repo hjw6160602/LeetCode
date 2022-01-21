@@ -67,10 +67,30 @@ extension Solution {
         }
         return res > 0 ? res : 0
     }
+     
+//    904 ms  35.19%
+//    17.3 MB 15.54%
+//    通过测试用例：211 / 211
+    func maxProfitP1(_ prices: [Int]) -> Int {
+        guard prices.count > 1 else { return 0 }
+        
+        var maxProfit = 0, lastMin = prices[0]
+        
+        for (_, price) in prices.enumerated() {
+            defer { lastMin = min( lastMin, price) }
+            guard price > lastMin else {
+                continue
+            }
+            
+            maxProfit = max(maxProfit, price - lastMin)
+        }
+        
+        return maxProfit
+    }
 }
 
 func testMaxProfit() {
-    let x = LeetCode.maxProfit([7,1,5,3,6,4])
+    let x = LeetCode.maxProfitP1([7, 1, 5, 3, 6, 4])
     print(x)
 }
 

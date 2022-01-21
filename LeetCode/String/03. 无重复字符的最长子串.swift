@@ -140,8 +140,8 @@ extension Solution {
         return maxLen
     }
     
-//    执行用时：4 ms 99.51%
-//    内存消耗：14 MB 42.84%
+//    执行用时：4 ms 99.51% 、90.12%
+//    内存消耗：14 MB 42.84% 、66.38%
     func lengthOfLongestSubstringO3(_ s: String) -> Int {
         // 上一次出现相同字符的索引index
         var start = 0, maxLen = 0, preIndexMap = Array(repeating: -1, count: 128)

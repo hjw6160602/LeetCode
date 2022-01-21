@@ -16,10 +16,10 @@ class Solution {
     private init() {}
 }
 
-testMaxValue()
+//testMaxValue()
 //textMaxArea()
 //testLongestCommonSubsequence()
 //testLengthOfLIS()
 //testMaxSubArray()
 //testCoinChange()
-//testMaxProfit()
+testMaxProfit()

@@ -29,4 +29,5 @@ class Solution {
 
 //testReverseWords()
 //testIsAnagram()
-testLengthOfLongestSubstring()
+//testLengthOfLongestSubstring()
+testMinDistance()

@@ -26,6 +26,15 @@ extension Solution {
         
         return (left != nil) ? left : right
     }
+    
+    func lowestCommonAncestorP1(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        if root == nil ||
+            root?.val == p?.val ||
+            root?.val == q?.val {
+            return root
+        }
+        return nil
+    }
 }
 
 func testlowesTCommonAncestor() {

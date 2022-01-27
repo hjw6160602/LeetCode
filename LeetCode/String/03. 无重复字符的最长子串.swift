@@ -165,36 +165,6 @@ func testLengthOfLongestSubstring() {
     print(x)
 }
 
-extension String {
-    
-    func display(range : ClosedRange<Int>) {
-        let start = index(startIndex, offsetBy:  range.lowerBound)
-        let end = index(startIndex, offsetBy: range.upperBound)
-        
-        print(self[start...end])
-    }
-
-//    subscript (i: Int) -> Character {
-//        return self[self.index(self.startIndex, offsetBy: i)]
-//    }
-//
-//    subscript (i: Int) -> String {
-//        return String(self[i] as Character)
-//    }
-//
-//    subscript (r: Range<Int>) -> String {
-//        let start = index(startIndex, offsetBy: r.lowerBound)
-//        let end = index(startIndex, offsetBy: r.upperBound)
-//        return String(self[start..<end])
-//    }
-//
-    subscript (r: ClosedRange<Int>) -> String {
-        let start = index(startIndex, offsetBy: r.lowerBound)
-        let end = index(startIndex, offsetBy: r.upperBound)
-        return String(self[start...end])
-    }
-}
-
 //给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
 
 //示例 1:

@@ -32,3 +32,41 @@ class Solution {
 //testMinDistance()
 
 testLongestPalindrome()
+
+extension String {
+    
+    func display(range : ClosedRange<Int>) {
+        let start = index(startIndex, offsetBy:  range.lowerBound)
+        let end = index(startIndex, offsetBy: range.upperBound)
+        
+        print(self[start...end])
+    }
+
+//    subscript (i: Int) -> Character {
+//        return self[self.index(self.startIndex, offsetBy: i)]
+//    }
+//
+//    subscript (i: Int) -> String {
+//        return String(self[i] as Character)
+//    }
+//
+//    subscript (r: Range<Int>) -> String {
+//        let start = index(startIndex, offsetBy: r.lowerBound)
+//        let end = index(startIndex, offsetBy: r.upperBound)
+//        return String(self[start..<end])
+//    }
+//
+    subscript (r: ClosedRange<Int>) -> String {
+        let start = index(startIndex, offsetBy: r.lowerBound)
+        let end = index(startIndex, offsetBy: r.upperBound)
+        return String(self[start...end])
+    }
+}
+
+//extension String {
+//    subscript (r: ClosedRange<Int>) -> String {
+//        let start = index(startIndex, offsetBy: r.lowerBound)
+//        let end = index(startIndex, offsetBy: r.upperBound)
+//        return String(self[start...end])
+//    }
+//}

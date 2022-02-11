@@ -4,11 +4,18 @@
 //
 //  Created by SaiDiCaprio on 2021/2/24.
 //  Copyright © 2021 saidicaprio. All rights reserved.
-//
+//  https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 import Foundation
 
 extension Solution {
+    
+    /**
+     * 如果p、q 同事存在于这颗二叉树中，就成共返回它们的最近公共祖先
+     * 如果p、q 都不存在与这颗二叉树中，就返回nil
+     * 如果只有p存在于这棵二叉树中就返回p
+     * 如果只有q存在于这棵二叉树中就返回q
+     */
     // 去以root为根节点的二叉树中查找p、去的公共祖先
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         if root == nil || root?.val == p?.val || root?.val == q?.val {
@@ -27,20 +34,30 @@ extension Solution {
         return (left != nil) ? left : right
     }
     
+//    52 ms 99.47%
+//    16.1 MB 21.92%
+//    31 / 31
     func lowestCommonAncestorP1(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         if root == nil ||
             root?.val == p?.val ||
             root?.val == q?.val {
             return root
         }
-        return nil
+        
+        let left = lowestCommonAncestorP1(root?.left, p, q)
+        let right = lowestCommonAncestorP1(root?.right, p, q)
+        
+        if left != nil && right != nil {
+            return root
+        }
+        return left != nil ? left : right
     }
 }
 
 func testlowesTCommonAncestor() {
     let tree = BinaryTree()
     let root = tree.initWithArray(["3", "5", "1", "6", "2", "0", "8", "null", "null", "7", "4"])
-    let node = LeetCode.lowestCommonAncestor(root, root?.left, root?.right)
+    let node = LeetCode.lowestCommonAncestorP1(root, root?.left, root?.right)
     print(node?.val ?? "nil")
 }
 

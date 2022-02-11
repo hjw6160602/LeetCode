@@ -15,7 +15,7 @@ class Solution {
     private init() {}
 }
 
-//testlowesTCommonAncestor()
+testlowesTCommonAncestor()
 //testRecoverTree()
 //testMaxDepth()
 //testGenerateParenthesis()
@@ -24,7 +24,6 @@ class Solution {
 //test104MaxDepth()
 //testDiameterOfBinaryTree()
 testConstructMaximumBinaryTree()
-
 // MARK: - 排列组合
 //testPermute()
 //testCombine()

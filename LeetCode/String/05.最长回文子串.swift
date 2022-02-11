@@ -117,8 +117,12 @@ extension Solution {
     // MARK: DP 方式求解
     func longestPalindromeMLC(_ s: String) -> String {
         let cs = preprocess(chars: [Character](s))
+        var m = Array.init(repeating: 0, count: cs.count)
+        for
+        print(String(cs))
+        print(m)
         
-        return String(cs)
+        return ""
     }
     
     private func preprocess(chars: [Character]) -> [Character] {
@@ -146,7 +150,7 @@ extension Solution {
 
 func testLongestPalindrome() {
     
-    let x = Solution.shared.longestPalindromeDP("babad")
+    let x = Solution.shared.longestPalindromeMLC("babad")
     print(x)
 }
 

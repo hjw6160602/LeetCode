@@ -15,15 +15,15 @@ class Solution {
     private init() {}
 }
 
-testlowesTCommonAncestor()
-//testRecoverTree()
+//testlowesTCommonAncestor()
+testRecoverTree()
 //testMaxDepth()
 //testGenerateParenthesis()
 //testIsSymmetric()
 //testhasPathSum()
 //test104MaxDepth()
 //testDiameterOfBinaryTree()
-testConstructMaximumBinaryTree()
+//testConstructMaximumBinaryTree()
 // MARK: - 排列组合
 //testPermute()
 //testCombine()

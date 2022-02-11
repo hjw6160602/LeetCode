@@ -16,7 +16,8 @@ class RecoverBinarySearchTree {
     /// 第2个错误节点
     var second: TreeNode?
     
-    
+    // 这道题的关键点是 BST用中序遍历 是一个有序数组
+    // 然后利用有序数组去交换节点的val
     func recoverTree(_ root: TreeNode?) {
         // 发现了逆序对
         _findWrongNodes(root)
@@ -41,6 +42,32 @@ class RecoverBinarySearchTree {
         prev = root
         _findWrongNodes(root?.right)
     }
+    
+    func recoverTreeP1(_ root: TreeNode?) {
+        // 发现了逆序对
+        _findWrongNodesP1(root)
+        // 交换两个逆序对的值
+        (first!.val, second!.val) = (second!.val, first!.val)
+    }
+    
+    private func _findWrongNodesP1(_ root: TreeNode?) {
+        guard let root = root else {
+            return
+        }
+        _findWrongNodesP1(root.left)
+        
+        if prev != nil && prev!.val > root.val {
+            second = root
+            // 找到了第二个位置 并且第一个位置不为空
+            if first != nil {
+                return
+            }
+            first = prev
+        }
+        
+        prev = root
+        _findWrongNodesP1(root.right)
+    }
 }
 
 func testRecoverTree() {
@@ -48,7 +75,7 @@ func testRecoverTree() {
     let bt = BinaryTree()
     let root = bt.initWithArray(["3","1","4","null","null","2"])
     
-    re.recoverTree(root)
+    re.recoverTreeP1(root)
     bt.inorderTraversal(root: bt.head)
     let res = bt.traversalResult.map{$0.val}
     print(res)

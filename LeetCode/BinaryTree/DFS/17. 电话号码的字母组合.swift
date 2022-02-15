@@ -8,11 +8,13 @@
 
 import Foundation
 
+//0 ms 100.00%
+//14 MB 25.47%
 class LetterCombination {
 
     var digits: String = ""
     
-    let numberToStr = ["abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
+    let numberToStr = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
     
     var combinations: [String] = []
     
@@ -53,13 +55,71 @@ class LetterCombination {
         
         let currentDigitChar = digits[digits.index(digits.startIndex, offsetBy: index)]
         
-        guard let currentDigit = Int(String(currentDigitChar)), currentDigit >= 0, currentDigit < numberToStr.count else {
+        guard let currentDigit = Int(String(currentDigitChar)),
+              currentDigit >= 0,
+                currentDigit < numberToStr.count else {
             fatalError("Invalid digits")
         }
         
         return numberToStr[currentDigit]
     }
     
+}
+
+class LetterCombinationP1 {
+
+    let numberToStr = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
+
+    var combination = ""
+    // 返回结果 字符串数组
+    var res = [String]()
+
+    var digits = ""
+
+    func letterCombinations(_ digits: String) -> [String] {
+        guard digits.count > 0 else {
+            return [String]()
+        }
+        self.digits = digits
+        _dfs(idx: 0)
+        return res
+    }
+
+    private func _dfs(idx: Int) {
+        // 先枚举这一层可以做的选择
+        guard idx < digits.count else {
+            // 已经进入到最后一层了 不能再深入
+            res.append(combination)
+            return
+        }
+        // 取到当前这层的键盘对应的字母
+        let cur = digits[idx]
+        guard let curNum = Int(cur) else {
+            fatalError("Invalid index")
+        }
+        
+        let chars = numberToStr[curNum]
+
+        for char in chars {
+            combination.append(char)
+            _dfs(idx: idx + 1)
+            combination.removeLast()
+        }
+    }
+
+}
+
+extension String {
+    subscript (i: Int) -> String {
+        return String(self[index(startIndex, offsetBy: i)])
+    }
+}
+
+
+func testLetterCombinations() {
+    let lc = LetterCombinationP1()
+    let r = lc.letterCombinations("23")
+    print(r)
 }
 
 //给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。答案可以按 任意顺序 返回。

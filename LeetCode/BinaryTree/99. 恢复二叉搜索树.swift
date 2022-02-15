@@ -43,6 +43,9 @@ class RecoverBinarySearchTree {
         _findWrongNodes(root?.right)
     }
     
+//    40 ms 95.83%：
+//    14.1 MB 14.58%
+//    1919 / 1919 Space: O(n)  T: O(h)
     func recoverTreeP1(_ root: TreeNode?) {
         // 发现了逆序对
         _findWrongNodesP1(root)
@@ -67,6 +70,14 @@ class RecoverBinarySearchTree {
         
         prev = root
         _findWrongNodesP1(root.right)
+    }
+    
+    // 利用Morris遍历 实现空间复杂度为O(1)
+    func recoverTreeP2(_ root: TreeNode?) {
+        // 发现了逆序对
+        _findWrongNodesP1(root)
+        // 交换两个逆序对的值
+        (first!.val, second!.val) = (second!.val, first!.val)
     }
 }
 

@@ -16,7 +16,7 @@ class Solution {
 }
 
 //testlowesTCommonAncestor()
-testRecoverTree()
+//testRecoverTree()
 //testMaxDepth()
 //testGenerateParenthesis()
 //testIsSymmetric()
@@ -24,9 +24,11 @@ testRecoverTree()
 //test104MaxDepth()
 //testDiameterOfBinaryTree()
 //testConstructMaximumBinaryTree()
+
 // MARK: - 排列组合
 //testPermute()
 //testCombine()
+testLetterCombinations()
 
 
 private func _BSF_DFS() {

@@ -66,6 +66,8 @@ class LetterCombination {
     
 }
 
+// 4 ms 68.94%
+// 13.8 MB 70.81%
 class LetterCombinationP1 {
 
     let numberToStr = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
@@ -106,7 +108,55 @@ class LetterCombinationP1 {
             combination.removeLast()
         }
     }
+}
 
+//    4 ms 68.94%
+//    14.1 MB 16.77%
+
+class LetterCombinationP2 {
+
+    func letterCombinations(_ digits: String) -> [String] {
+        guard digits.count > 0 else {
+            return [String]()
+        }
+        var combinations = [String](), combination = ""
+        _dfs(idx: 0,
+             combination: &combination,
+             res: &combinations,
+             digits: digits,
+             num2Str: ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"])
+        return combinations
+    }
+
+    private func _dfs(idx: Int,
+                      combination: inout String,
+                      res: inout [String],
+                      digits: String,
+                      num2Str: [String]) {
+        // 先枚举这一层可以做的选择
+        guard idx < digits.count else {
+            // 已经进入到最后一层了 不能再深入
+            res.append(combination)
+            return
+        }
+        // 取到当前这层的键盘对应的字母
+        let cur = digits[idx]
+        guard let curNum = Int(cur) else {
+            fatalError("Invalid index")
+        }
+        
+        let chars = num2Str[curNum]
+
+        for char in chars {
+            combination.append(char)
+            _dfs(idx: idx + 1,
+                 combination: &combination,
+                 res: &res,
+                 digits: digits,
+                 num2Str: num2Str)
+            combination.removeLast()
+        }
+    }
 }
 
 extension String {
@@ -117,7 +167,7 @@ extension String {
 
 
 func testLetterCombinations() {
-    let lc = LetterCombinationP1()
+    let lc = LetterCombinationP2()
     let r = lc.letterCombinations("23")
     print(r)
 }

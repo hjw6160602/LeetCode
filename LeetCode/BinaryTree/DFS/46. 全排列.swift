@@ -74,8 +74,54 @@ class PermuteSwap {
     }
 }
 
+//8 ms 99.57%
+//14.2 MB 5.60%
+
+class PermuteP1 {
+    ///
+    var res = [[Int]]()
+    ///
+    var premute = [Int]()
+    ///
+    var nums = [Int]()
+    ///
+    var visted = [Bool]()
+    
+    func permute(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 0 else { return [[Int]]() }
+        
+        self.nums = nums
+        self.visted = Array(repeating: false, count: nums.count)
+        
+        _dfs(idx: 0)
+        
+        return res
+    }
+    
+    private func _dfs(idx : Int) {
+        guard idx < nums.count else {
+            res.append(premute)
+            return
+        }
+        
+        for (index, num) in nums.enumerated() {
+            guard !visted[index] else {
+                continue
+            }
+            // 添加当前的数字 并标记为已访问
+            premute.append(num)
+            visted[index] = true
+            // 进入下一层递归
+            _dfs(idx: idx + 1)
+            // 移除尾部的数字 返回上层递归 并标记为未访问
+            premute.removeLast()
+            visted[index] = false
+        }
+    }
+}
+
 func testPermute() {
-    let solution = PermuteSwap()
+    let solution = PermuteP1()
     let res = solution.permute([1,2,3])
     print(res)
 }

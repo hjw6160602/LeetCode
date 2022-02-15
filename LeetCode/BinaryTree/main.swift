@@ -26,9 +26,9 @@ class Solution {
 //testConstructMaximumBinaryTree()
 
 // MARK: - 排列组合
-//testPermute()
+testPermute()
 //testCombine()
-testLetterCombinations()
+//testLetterCombinations()
 
 
 private func _BSF_DFS() {

@@ -18,7 +18,7 @@ class Solution {
 //testlowesTCommonAncestor()
 //testRecoverTree()
 //testMaxDepth()
-//testGenerateParenthesis()
+testGenerateParenthesis()
 //testIsSymmetric()
 //testhasPathSum()
 //test104MaxDepth()
@@ -26,7 +26,7 @@ class Solution {
 //testConstructMaximumBinaryTree()
 
 // MARK: - 排列组合
-testPermute()
+//testPermute()
 //testCombine()
 //testLetterCombinations()
 

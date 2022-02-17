@@ -120,8 +120,87 @@ class PermuteP1 {
     }
 }
 
+class PermuteP2 {
+    ///
+    var res = [[Int]]()
+    ///
+    var premute = [Int]()
+    ///
+    var nums = [Int]()
+    ///
+    var visted = [Bool]()
+    
+    func permute(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 0 else {
+            return [[Int]]()
+        }
+        
+        self.nums = nums
+        self.visted = Array(repeating: false, count: nums.count)
+        _dfs(idx: 0)
+        return res
+        
+    }
+    
+    private func _dfs(idx : Int) {
+        guard idx < nums.count else {
+            res.append(premute)
+            return
+        }
+        var index = 0
+        for num in nums {
+            guard !visted[index] else {
+                index += 1
+                continue
+            }
+            
+            visted[index] = true
+            premute.append(num)
+            _dfs(idx: idx + 1)
+            
+            premute.removeLast()
+            visted[index] = false
+            index += 1
+        }
+    }
+}
+
+class PermuteP3 {
+    ///
+    var res = [[Int]]()
+    ///
+    var premute = [Int]()
+    ///
+    var nums = [Int]()
+    
+    func permute(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 0 else {
+            return [[Int]]()
+        }
+        self.nums = nums
+        _dfs(idx: 0)
+        return res
+    }
+    
+    private func _dfs(idx : Int) {
+        guard idx < nums.count else {
+            res.append(premute)
+            return
+        }
+        var index = 0
+        for num in nums {
+            premute.append(num)
+            _dfs(idx: idx + 1)
+            
+            premute.removeLast()
+            index += 1
+        }
+    }
+}
+
+
 func testPermute() {
-    let solution = PermuteP1()
+    let solution = PermuteP2()
     let res = solution.permute([1,2,3])
     print(res)
 }

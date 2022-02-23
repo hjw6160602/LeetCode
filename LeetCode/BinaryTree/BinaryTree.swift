@@ -41,6 +41,11 @@ class BinaryTree {
         return array
     }
     
+    func initWithInput(_ input: String) -> TreeNode? {
+        let array = self.initializeInput(input)
+        return self.initWithArray(array)
+    }
+    
     func initWithArray(_ array: [String]) -> TreeNode? {
         if self.array.count == 0 {
             self.array = array

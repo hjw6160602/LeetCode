@@ -18,12 +18,14 @@ class Solution {
 //testlowesTCommonAncestor()
 //testRecoverTree()
 //testMaxDepth()
-testGenerateParenthesis()
+//testGenerateParenthesis()
 //testIsSymmetric()
 //testhasPathSum()
 //test104MaxDepth()
 //testDiameterOfBinaryTree()
 //testConstructMaximumBinaryTree()
+
+testPathSum()
 
 // MARK: - 排列组合
 //testPermute()

@@ -12,7 +12,7 @@ import Foundation
 extension Solution {
     func lastRemaining(_ n: Int, _ m: Int) -> Int {
         var res = 0
-        for index in 2..<n {
+        for _ in 2..<n {
             res = (res + m) % m
         }
         return res
@@ -20,7 +20,8 @@ extension Solution {
 }
 
 func testLastRemaining() {
-    LeetCode.lastRemaining(5, 3)
+    let x = LeetCode.lastRemaining(5, 3)
+    print(x)
 }
 
 // 0, 1, ···, n-1 这n个数字排成一个圆圈

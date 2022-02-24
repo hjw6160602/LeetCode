@@ -47,6 +47,30 @@ extension Solution {
         }
         return res
     }
+    
+    func reverse(_ x: Int) -> Int {
+        guard x <= Int32.max && x >= Int32.min else {
+            return 0
+        }
+        var x = x
+        var flag = 1
+        if x < 0 {
+            flag = -1
+            x = x * -1
+        }
+        
+        var res = 0
+        while x > 0 {
+            let mod = x % 10
+            res = res * 10 + mod
+            x = x / 10
+        }
+        
+        if res > Int32.max {
+            return 0
+        }
+        return flag * res
+    }
 }
 
 func testIntReverse() {

@@ -22,6 +22,8 @@
 		67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */; };
 		67B1744F25F8966500F27D40 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1744E25F8966500F27D40 /* 20.有效的括号.swift */; };
 		67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */; };
+		67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */; };
+		67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B568A227C7BD4E003B6487 /* 42.接雨水.swift */; };
 		67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */; };
 		67B57C8525CB9D5000814C1A /* 206.翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */; };
 		67B57CEB25CC205400814C1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57CEA25CC205400814C1A /* main.swift */; };
@@ -208,6 +210,8 @@
 		67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138.复制带随机指针的链表.swift"; sourceTree = "<group>"; };
 		67B1744E25F8966500F27D40 /* 20.有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
 		67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. 整数反转.swift"; sourceTree = "<group>"; };
+		67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "54.螺旋矩阵.swift"; sourceTree = "<group>"; };
+		67B568A227C7BD4E003B6487 /* 42.接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42.接雨水.swift"; sourceTree = "<group>"; };
 		67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
 		67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.翻转链表.swift"; sourceTree = "<group>"; };
 		67B57CE825CC205400814C1A /* Stack.Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack.Queue; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -528,6 +532,8 @@
 				67FDD8DF276059A00004D5E4 /* 283.零移动.swift */,
 				67FAFA80276237FD003C357F /* 16.16.部分排序.swift */,
 				67FAFA8227633451003C357F /* 977.独立数组的平方.swift */,
+				67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */,
+				67B568A227C7BD4E003B6487 /* 42.接雨水.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -902,11 +908,13 @@
 			files = (
 				CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */,
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
+				67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
 				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
+				67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,

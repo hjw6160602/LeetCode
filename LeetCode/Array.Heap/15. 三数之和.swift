@@ -51,6 +51,37 @@ extension Solution {
         }
         return res
     }
+    
+    func threeSumP1(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 2 else { return [] }
+        
+        var res: [[Int]] = []
+        //0. 先排序
+        let sortedNums = nums.sorted()
+        
+        for i in 0..<nums.count-2 {
+            // 排除连续相等的重复的情况
+            if i > 0 && sortedNums[i] == sortedNums[i - 1] {
+                continue
+            }
+            var l = i + 1, r = nums.count - 1
+            let remain = -sortedNums[i]
+            while r > l {
+                let sum = sortedNums[l] + sortedNums[r]
+                if sum < remain {
+                    l += 1
+                } else if sum > remain {
+                    r -= 1
+                } else {
+                    let part = [sortedNums[i], sortedNums[l], sortedNums[r]]
+                    res.append(part)
+                    l += 1
+                    r -= 1
+                }
+            }
+        }
+        return []
+    }
 }
 
 func testThreeSum() {

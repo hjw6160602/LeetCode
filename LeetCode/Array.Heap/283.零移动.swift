@@ -51,13 +51,25 @@ extension Solution {
             nonZeroIdx += 1
         }
     }
+    
+    func moveZeroesP1(_ nums: inout [Int]) {
+        var cur = 0
+        for i in 0..<nums.count {
+            guard nums[i] != 0 else { continue }
+            if cur != i {
+                nums[cur] = nums[i]
+                nums[i] = 0
+            }
+            cur += 1
+        }
+    }
 }
 
 func testMoveZeroes() {
-//    var nums = [2,1]
+    var nums = [2,1]
 //    var nums = [1,0,0,3,12]
-    var nums = [45192,0,-659,-52359,-99225,-75991,0,-15155,27382,59818,0,-30645,-17025,81209,887,64648]
-    Solution.shared.moveZeroes(&nums)
+//    var nums = [45192,0,-659,-52359,-99225,-75991,0,-15155,27382,59818,0,-30645,-17025,81209,887,64648]
+    Solution.shared.moveZeroesP1(&nums)
     print(nums)
 }
 

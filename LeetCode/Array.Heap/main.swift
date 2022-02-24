@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import LinkedList
+//import LinkedList
 
 let LeetCode = Solution.shared
 
@@ -25,5 +25,5 @@ class Solution {
 //testSortColors()
 //testKthLargest()
 //testRemoveDuplicates()
-//testMoveZeroes()
+testMoveZeroes()
 //testSortedSquares()

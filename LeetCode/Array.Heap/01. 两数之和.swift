@@ -89,10 +89,24 @@ extension Solution {
         return []
     }
     
+//    36 ms 98.74%
+//    14.2 MB 14.06%
+    func twoSumP4(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int: Int]()
+        for i in 0..<nums.count {
+            let left = target - nums[i]
+            if let j = dict[nums[i]] {
+                return [j, i]
+            }
+            dict[left] = i
+        }
+        return [0, 0];
+    }
 }
 
 func testTwoSum() {
-    let res = LeetCode.twoSumPractice3([3,3], 6)
+    let res = LeetCode.twoSumP4([3,2,4], 6)
+//    let res = Solution.shared.twoSumP4([2,7,11,15], 9)
     print(res)
 }
 

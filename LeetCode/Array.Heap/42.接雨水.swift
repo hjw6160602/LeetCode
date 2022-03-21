@@ -7,22 +7,45 @@
 //  https://leetcode-cn.com/problems/trapping-rain-water
 
 import Foundation
-import BinaryTree
-
 
 extension Solution {
+//    56 ms 39.81%
+//    14.4 MB 9.72%
+//    321 / 321
+
     func trap(_ height: [Int]) -> Int {
         guard height.count > 2 else {
             return 0
         }
-        return 0
         
-
+        var water = 0
+        
+        var leftMax = Array(repeating: 0, count: height.count)
+        var rightMax = leftMax
+        
+        leftMax[0] = height[0]
+        for i in 1..<height.count {
+            leftMax[i] = max(leftMax[i-1], height[i])
+        }
+        
+        rightMax[height.count-1] = height.last!
+        for j in (0..<height.count-1).reversed() {
+            rightMax[j] = max(rightMax[j+1], height[j])
+        }
+        print(leftMax)
+        print(rightMax)
+        for k in 1..<height.count-1 {
+            let lowerMax = min(leftMax[k], rightMax[k])
+            
+            water += (lowerMax - height[k])
+        }
+        
+        return water
     }
 }
 
 func testTrap() {
-    let x = Solution.shared.trap([0,1,0,2,1,0,1,3,2,1,2,1])
+    let x = Solution.shared.trap([4,2,0,3,2,5])
     print(x)
     
 }

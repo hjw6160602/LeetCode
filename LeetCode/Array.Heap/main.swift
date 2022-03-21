@@ -27,4 +27,5 @@ class Solution {
 //testRemoveDuplicates()
 //testMoveZeroes()
 //testSortedSquares()
-testSpiralOrder()
+//testSpiralOrder()
+testTrap()

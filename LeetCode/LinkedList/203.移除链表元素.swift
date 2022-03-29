@@ -78,14 +78,35 @@ extension Solution {
         return dummy.next
     }
     
+//    44 ms 87.24%
+//    15.8 MB 7.14%
+//    66 / 66
+
+    func removeElementsP3(_ head: ListNode?, _ val: Int) -> ListNode? {
+        guard head != nil else { return nil }
+        let dummy = ListNode()
+        dummy.next = head
+        var node = dummy
+        
+        while node.next != nil {
+            if node.next!.val == val {
+                node.next = node.next?.next
+                continue
+            }
+            guard let nxtNode = node.next else { break }
+            node = nxtNode
+        }
+        return dummy.next
+    }
+    
     
 }
 
 func testRemoveElements() {
-//    let list1 = LinkedList.createList([1])
+//    let list1 = LinkedList.createList([7,7,7,7])
     let list1 = LinkedList.createList([1,2,6,3,4,5,6])
     LinkedList.display(list1)
-    let list2 = Solution.shared.removeElementsP2(list1, 6)
+    let list2 = Solution.shared.removeElementsP3(list1, 6)
     LinkedList.display(list2)
 }
 
@@ -93,8 +114,6 @@ func testRemoveElements() {
 //
 //
 //示例 1：
-//
-//
 //输入：head = [1,2,6,3,4,5,6], val = 6
 //输出：[1,2,3,4,5]
 //示例 2：

@@ -24,11 +24,11 @@ class Solution {
 //
 //testGetIntersectionNode()
 //
-//testRemoveElements()
+testRemoveElements()
 // 分隔链表
 //testPartition()
 // 回文链表
-testIsPalindrome()
+//testIsPalindrome()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

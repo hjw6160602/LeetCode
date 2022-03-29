@@ -32,8 +32,6 @@ extension Solution {
         for j in (0..<height.count-1).reversed() {
             rightMax[j] = max(rightMax[j+1], height[j])
         }
-        print(leftMax)
-        print(rightMax)
         for k in 1..<height.count-1 {
             let lowerMax = min(leftMax[k], rightMax[k])
             

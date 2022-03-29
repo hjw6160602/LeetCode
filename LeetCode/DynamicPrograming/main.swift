@@ -22,4 +22,5 @@ class Solution {
 //testLengthOfLIS()
 //testMaxSubArray()
 //testCoinChange()
-testMaxProfit()
+//testMaxProfit()
+testRob()

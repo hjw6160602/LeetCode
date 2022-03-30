@@ -28,4 +28,5 @@ class Solution {
 //testMoveZeroes()
 //testSortedSquares()
 //testSpiralOrder()
-testTrap()
+//testTrap()
+testTwoSum2()

@@ -16,8 +16,9 @@ class Solution {
     private init() {}
 }
 
-testMyPow()
+//testMyPow()
 //testTwoSum()
 //testIntReverse()
 //testIsPalindrome()
+testMySqrt()
 

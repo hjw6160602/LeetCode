@@ -102,6 +102,7 @@
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 		CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */; };
 		CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */; };
+		CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -300,6 +301,7 @@
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. 打家劫舍.swift"; sourceTree = "<group>"; };
 		CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II.swift"; sourceTree = "<group>"; };
+		CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.x的平方根.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,6 +531,7 @@
 				80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */,
 				67B8CD0B25E5FD090059D7B5 /* 15. 三数之和.swift */,
 				67B8CD5025E64DCB0059D7B5 /* 253.会议室II.swift */,
+				CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */,
 				CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */,
 				CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */,
 				CA23E70025FE48700048115F /* 75.颜色分类.swift */,
@@ -539,7 +542,6 @@
 				67FAFA8227633451003C357F /* 977.独立数组的平方.swift */,
 				67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */,
 				67B568A227C7BD4E003B6487 /* 42.接雨水.swift */,
-				CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -582,6 +584,7 @@
 				67B8CD1525E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift */,
 				67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */,
 				67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */,
+				CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -963,6 +966,7 @@
 				67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */,
 				67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,
+				CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

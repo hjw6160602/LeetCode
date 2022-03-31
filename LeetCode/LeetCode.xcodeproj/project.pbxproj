@@ -103,6 +103,7 @@
 		CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */; };
 		CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */; };
 		CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */; };
+		CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -302,6 +303,7 @@
 		CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. 打家劫舍.swift"; sourceTree = "<group>"; };
 		CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II.swift"; sourceTree = "<group>"; };
 		CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.x的平方根.swift"; sourceTree = "<group>"; };
+		CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38.外观数列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -542,6 +544,7 @@
 				67FAFA8227633451003C357F /* 977.独立数组的平方.swift */,
 				67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */,
 				67B568A227C7BD4E003B6487 /* 42.接雨水.swift */,
+				CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -934,6 +937,7 @@
 				67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,
 				67C8F624260450D5009CEB1C /* 26.删除数组中的重复项.swift in Sources */,
+				CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

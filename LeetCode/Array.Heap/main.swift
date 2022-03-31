@@ -29,4 +29,5 @@ class Solution {
 //testSortedSquares()
 //testSpiralOrder()
 //testTrap()
-testTwoSum2()
+//testTwoSum2()
+testCountAndSay()

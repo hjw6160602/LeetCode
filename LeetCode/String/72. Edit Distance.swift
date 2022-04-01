@@ -81,13 +81,13 @@ extension Solution {
     }
     
     
-    func minDistanceP2(_ word1: String, _ word2: String) -> Int {
-        guard word1.count > 0 else { return word2.count }
-        guard word2.count > 0 else { return word1.count }
-        
-       
-        return dp[rows][cols]
-    }
+//    func minDistanceP2(_ word1: String, _ word2: String) -> Int {
+//        guard word1.count > 0 else { return word2.count }
+//        guard word2.count > 0 else { return word1.count }
+//
+//
+//        return dp[rows][cols]
+//    }
     
     //         r  o  s
     //     [0, 1, 2, 3]

@@ -30,8 +30,8 @@ class Solution {
 //testIsAnagram()
 //testLengthOfLongestSubstring()
 //testMinDistance()
-
-testLongestPalindrome()
+//testLongestPalindrome()
+testIndexOf()
 
 extension String {
     
@@ -42,13 +42,13 @@ extension String {
         print(self[start...end])
     }
 
-//    subscript (i: Int) -> Character {
-//        return self[self.index(self.startIndex, offsetBy: i)]
-//    }
-//
-//    subscript (i: Int) -> String {
-//        return String(self[i] as Character)
-//    }
+    subscript (i: Int) -> Character {
+        return self[self.index(self.startIndex, offsetBy: i)]
+    }
+    
+    subscript (i: Int) -> String {
+        return String(self[i] as Character)
+    }
 //
 //    subscript (r: Range<Int>) -> String {
 //        let start = index(startIndex, offsetBy: r.lowerBound)

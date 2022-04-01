@@ -115,15 +115,14 @@ extension Solution {
     }
     
     // MARK: DP 方式求解
-    func longestPalindromeMLC(_ s: String) -> String {
-        let cs = preprocess(chars: [Character](s))
-        var m = Array.init(repeating: 0, count: cs.count)
-        for
-        print(String(cs))
-        print(m)
-        
-        return ""
-    }
+//    func longestPalindromeMLC(_ s: String) -> String {
+//        let cs = preprocess(chars: [Character](s))
+//        var m = Array.init(repeating: 0, count: cs.count)
+//
+//        print(m)
+//
+//        return ""
+//    }
     
     private func preprocess(chars: [Character]) -> [Character] {
         var res = [Character](repeating: "#", count: chars.count * 2 + 3)
@@ -150,8 +149,8 @@ extension Solution {
 
 func testLongestPalindrome() {
     
-    let x = Solution.shared.longestPalindromeMLC("babad")
-    print(x)
+//    let x = Solution.shared.longestPalindromeMLC("babad")
+//    print(x)
 }
 
 //给你一个字符串 s，找到 s 中最长的回文子串。

@@ -99,6 +99,7 @@
 		CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */; };
 		CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E70025FE48700048115F /* 75.颜色分类.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
+		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 		CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */; };
 		CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */; };
@@ -299,6 +300,7 @@
 		CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		CA23E70025FE48700048115F /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
+		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. 打家劫舍.swift"; sourceTree = "<group>"; };
 		CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II.swift"; sourceTree = "<group>"; };
@@ -564,6 +566,7 @@
 				67C8F53426005F79009CEB1C /* 419.字符串相加.swift */,
 				67C8F5E92602FC89009CEB1C /* 14.最长公共前缀.swift */,
 				671508F2279AA4C500BC7BC8 /* 05.最长回文子串.swift */,
+				CAA621D027F756AE0010E814 /* 28.实现strStr.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -954,6 +957,7 @@
 				80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */,
 				80F2C1D125DE4F380051398B /* 72. Edit Distance.swift in Sources */,
 				67C8F5EA2602FC89009CEB1C /* 14.最长公共前缀.swift in Sources */,
+				CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */,
 				671508F3279AA4C500BC7BC8 /* 05.最长回文子串.swift in Sources */,
 				80F2C09F25DE499B0051398B /* 01.09字符串轮转.swift in Sources */,
 				80F2C31E25DE57890051398B /* 151.反转字符串里的单词.swift in Sources */,

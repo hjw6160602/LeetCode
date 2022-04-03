@@ -31,7 +31,8 @@ class Solution {
 //testLengthOfLongestSubstring()
 //testMinDistance()
 //testLongestPalindrome()
-testIndexOf()
+//testIndexOf()
+testRomanToInt()
 
 extension String {
     

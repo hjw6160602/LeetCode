@@ -105,6 +105,8 @@
 		CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */; };
 		CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */; };
 		CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */; };
+		CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */; };
+		CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -306,6 +308,8 @@
 		CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II.swift"; sourceTree = "<group>"; };
 		CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.x的平方根.swift"; sourceTree = "<group>"; };
 		CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38.外观数列.swift"; sourceTree = "<group>"; };
+		CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入的位置.swift"; sourceTree = "<group>"; };
+		CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.罗马数字转整数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +551,7 @@
 				67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */,
 				67B568A227C7BD4E003B6487 /* 42.接雨水.swift */,
 				CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */,
+				CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -567,6 +572,7 @@
 				67C8F5E92602FC89009CEB1C /* 14.最长公共前缀.swift */,
 				671508F2279AA4C500BC7BC8 /* 05.最长回文子串.swift */,
 				CAA621D027F756AE0010E814 /* 28.实现strStr.swift */,
+				CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -931,6 +937,7 @@
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */,
+				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
@@ -955,6 +962,7 @@
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,
 				675D212725FF5893002D2C73 /* 821.字符串最短距离.swift in Sources */,
 				80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */,
+				CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */,
 				80F2C1D125DE4F380051398B /* 72. Edit Distance.swift in Sources */,
 				67C8F5EA2602FC89009CEB1C /* 14.最长公共前缀.swift in Sources */,
 				CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */,

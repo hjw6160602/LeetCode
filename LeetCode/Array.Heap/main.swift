@@ -30,4 +30,5 @@ class Solution {
 //testSpiralOrder()
 //testTrap()
 //testTwoSum2()
-testCountAndSay()
+//testCountAndSay()
+testSearchInsert()

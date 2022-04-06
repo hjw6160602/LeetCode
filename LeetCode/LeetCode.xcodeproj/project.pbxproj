@@ -107,6 +107,7 @@
 		CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */; };
 		CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */; };
 		CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */; };
+		CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -310,6 +311,7 @@
 		CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38.外观数列.swift"; sourceTree = "<group>"; };
 		CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入的位置.swift"; sourceTree = "<group>"; };
 		CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.罗马数字转整数.swift"; sourceTree = "<group>"; };
+		CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -552,6 +554,7 @@
 				67B568A227C7BD4E003B6487 /* 42.接雨水.swift */,
 				CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */,
 				CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */,
+				CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -937,6 +940,7 @@
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */,
+				CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */,
 				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,

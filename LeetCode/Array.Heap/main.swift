@@ -31,4 +31,5 @@ class Solution {
 //testTrap()
 //testTwoSum2()
 //testCountAndSay()
-testSearchInsert()
+//testSearchInsert()
+testSingleNum()

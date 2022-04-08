@@ -24,11 +24,13 @@ class Solution {
 //
 //testGetIntersectionNode()
 //
-testRemoveElements()
+//testRemoveElements()
 // 分隔链表
 //testPartition()
 // 回文链表
 //testIsPalindrome()
+// 删除排序链表中的重复元素
+testDeleteDuplicates()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

@@ -108,6 +108,7 @@
 		CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */; };
 		CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */; };
 		CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */; };
+		CAF523DC27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -312,6 +313,7 @@
 		CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入的位置.swift"; sourceTree = "<group>"; };
 		CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.罗马数字转整数.swift"; sourceTree = "<group>"; };
 		CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
+		CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83.删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -416,6 +418,7 @@
 				67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */,
 				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 				67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */,
+				CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */,
 				676E87D725C98EF900E52125 /* main.swift in Sources */,
 				67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */,
+				CAF523DC27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift in Sources */,
 				676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */,
 				67B57C8525CB9D5000814C1A /* 206.翻转链表.swift in Sources */,
 				67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */,

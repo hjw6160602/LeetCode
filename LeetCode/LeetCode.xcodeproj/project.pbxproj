@@ -113,6 +113,7 @@
 		CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */; };
 		CAF523E92805541700A62886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523E82805541700A62886 /* main.swift */; };
 		CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
+		CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523EF2805B96100A62886 /* 704. 二分查找.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -332,6 +333,7 @@
 		CAF523E62805541700A62886 /* BreadthFirstSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BreadthFirstSearch; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF523E82805541700A62886 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. 腐烂的橘子.swift"; sourceTree = "<group>"; };
+		CAF523EF2805B96100A62886 /* 704. 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. 二分查找.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -653,6 +655,7 @@
 			children = (
 				CAF523E82805541700A62886 /* main.swift */,
 				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
+				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
 			);
 			path = BreadthFirstSearch;
 			sourceTree = "<group>";
@@ -1072,6 +1075,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF523E92805541700A62886 /* main.swift in Sources */,
+				CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */,
 				CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,9 @@ extension Solution {
         let m = grid.count, n = grid[0].count
         
         typealias Axis = (row: Int, col: Int)
+        // 广度优先搜索需要入队
         var queue = [Axis]()
+        
         var freshCount = 0
         for i in 0..<m {
             for j in 0..<n {
@@ -34,7 +36,9 @@ extension Solution {
         var grid = grid, depth = 0
         
         while freshCount > 0 && !queue.isEmpty {
+            // 广度优先搜索的深度 层数
             depth += 1
+            // 每一层的个数
             let count = queue.count
             for _ in 0..<count {
                 // 这里是移除队列头部的元素 而不是

@@ -17,5 +17,5 @@ class Solution {
 }
 
 
-testOrangesRotting()
-
+//testOrangesRotting()
+testBinarySearch()

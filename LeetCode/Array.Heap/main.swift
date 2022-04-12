@@ -32,4 +32,5 @@ class Solution {
 //testTwoSum2()
 //testCountAndSay()
 //testSearchInsert()
-testSingleNum()
+//testSingleNum()
+testFindDisappearNumbers()

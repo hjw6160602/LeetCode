@@ -111,6 +111,8 @@
 		CAF523DC27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */; };
 		CAF523DE28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */; };
 		CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */; };
+		CAF523E92805541700A62886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523E82805541700A62886 /* main.swift */; };
+		CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -187,6 +189,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		CA23E6A425F507A50048115F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		CAF523E42805541700A62886 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -318,6 +329,9 @@
 		CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83.删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
 		CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "557. 反转字符串中的单词 III.swift"; sourceTree = "<group>"; };
 		CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "448.找到数组中消失的数字.swift"; sourceTree = "<group>"; };
+		CAF523E62805541700A62886 /* BreadthFirstSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BreadthFirstSearch; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF523E82805541700A62886 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. 腐烂的橘子.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +392,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CA23E6A325F507A50048115F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF523E32805541700A62886 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,6 +535,7 @@
 				676E87D525C98EF900E52125 /* LinkedList */,
 				67B57CE925CC205400814C1A /* Stack.Queue */,
 				67B57DCF25CC262A00814C1A /* BinaryTree */,
+				CAF523E72805541700A62886 /* BreadthFirstSearch */,
 				67B57D3225CC251C00814C1A /* DynamicPrograming */,
 				CA23E6A725F507A50048115F /* Recursion */,
 				80F2C28825DE55E30051398B /* Math */,
@@ -534,6 +556,7 @@
 				80F2C06E25DE49400051398B /* String */,
 				80F2C28725DE55E20051398B /* Math */,
 				CA23E6A625F507A50048115F /* Recursion */,
+				CAF523E62805541700A62886 /* BreadthFirstSearch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -623,6 +646,15 @@
 				CA23E6D525F50A350048115F /* 08.12.八皇后.swift */,
 			);
 			path = Recursion;
+			sourceTree = "<group>";
+		};
+		CAF523E72805541700A62886 /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				CAF523E82805541700A62886 /* main.swift */,
+				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
+			);
+			path = BreadthFirstSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -781,13 +813,30 @@
 			productReference = CA23E6A625F507A50048115F /* Recursion */;
 			productType = "com.apple.product-type.tool";
 		};
+		CAF523E52805541700A62886 /* BreadthFirstSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF523EA2805541800A62886 /* Build configuration list for PBXNativeTarget "BreadthFirstSearch" */;
+			buildPhases = (
+				CAF523E22805541700A62886 /* Sources */,
+				CAF523E32805541700A62886 /* Frameworks */,
+				CAF523E42805541700A62886 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreadthFirstSearch;
+			productName = BreadthFirstSearch;
+			productReference = CAF523E62805541700A62886 /* BreadthFirstSearch */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		67D8478821E9A0B2009D21C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = saidicaprio;
 				TargetAttributes = {
@@ -818,6 +867,9 @@
 					CA23E6A525F507A50048115F = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					CAF523E52805541700A62886 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 				};
 			};
 			buildConfigurationList = 67D8478B21E9A0B2009D21C2 /* Build configuration list for PBXProject "LeetCode" */;
@@ -833,13 +885,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				80F2C03A25DE46400051398B /* Array */,
+				80F2C06D25DE49400051398B /* String */,
 				67C12947226DD3F800403640 /* Sort */,
 				676E87D325C98EF900E52125 /* LinkedList */,
 				67B57CE725CC205400814C1A /* Stack.Queue */,
-				67B57D3025CC251C00814C1A /* DynamicPrograming */,
 				67B57DCD25CC262A00814C1A /* BinaryTree */,
-				80F2C03A25DE46400051398B /* Array */,
-				80F2C06D25DE49400051398B /* String */,
+				CAF523E52805541700A62886 /* BreadthFirstSearch */,
+				67B57D3025CC251C00814C1A /* DynamicPrograming */,
 				80F2C28625DE55E20051398B /* Math */,
 				CA23E6A525F507A50048115F /* Recursion */,
 			);
@@ -1014,6 +1067,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAF523E22805541700A62886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF523E92805541700A62886 /* main.swift in Sources */,
+				CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -1136,9 +1198,9 @@
 		67C1294D226DD3F800403640 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1150,9 +1212,9 @@
 		67C1294E226DD3F800403640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7R3MSEN8NJ;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -1388,6 +1450,37 @@
 			};
 			name = Release;
 		};
+		CAF523EB2805541800A62886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CAF523EC2805541800A62886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4LU8YR75W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1477,6 +1570,15 @@
 			buildConfigurations = (
 				CA23E6AB25F507A50048115F /* Debug */,
 				CA23E6AC25F507A50048115F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF523EA2805541800A62886 /* Build configuration list for PBXNativeTarget "BreadthFirstSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF523EB2805541800A62886 /* Debug */,
+				CAF523EC2805541800A62886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

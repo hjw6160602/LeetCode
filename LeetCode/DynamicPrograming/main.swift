@@ -23,4 +23,5 @@ class Solution {
 //testMaxSubArray()
 //testCoinChange()
 //testMaxProfit()
-testRob()
+//testRob()
+testCanWinNim()

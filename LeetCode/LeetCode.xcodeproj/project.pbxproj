@@ -115,6 +115,7 @@
 		CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
 		CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523EF2805B96100A62886 /* 704. 二分查找.swift */; };
 		CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F12806D10200A62886 /* 455. 分发饼干.swift */; };
+		CAF523F428071F2100A62886 /* 292. Nim 游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -336,6 +337,7 @@
 		CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. 腐烂的橘子.swift"; sourceTree = "<group>"; };
 		CAF523EF2805B96100A62886 /* 704. 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. 二分查找.swift"; sourceTree = "<group>"; };
 		CAF523F12806D10200A62886 /* 455. 分发饼干.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455. 分发饼干.swift"; sourceTree = "<group>"; };
+		CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "292. Nim 游戏.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +480,7 @@
 				CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */,
 				CA23E6E025F527F50048115F /* 53.最大子序列和.swift */,
 				CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */,
+				CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -944,6 +947,7 @@
 			files = (
 				67B57D4E25CC253600814C1A /* 322.零钱兑换.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
+				CAF523F428071F2100A62886 /* 292. Nim 游戏.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
 				CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */,

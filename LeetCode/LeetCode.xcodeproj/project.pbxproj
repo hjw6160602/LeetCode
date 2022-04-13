@@ -114,6 +114,7 @@
 		CAF523E92805541700A62886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523E82805541700A62886 /* main.swift */; };
 		CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
 		CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523EF2805B96100A62886 /* 704. 二分查找.swift */; };
+		CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F12806D10200A62886 /* 455. 分发饼干.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -334,6 +335,7 @@
 		CAF523E82805541700A62886 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. 腐烂的橘子.swift"; sourceTree = "<group>"; };
 		CAF523EF2805B96100A62886 /* 704. 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. 二分查找.swift"; sourceTree = "<group>"; };
+		CAF523F12806D10200A62886 /* 455. 分发饼干.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455. 分发饼干.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -588,6 +590,7 @@
 				CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */,
 				CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */,
 				CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */,
+				CAF523F12806D10200A62886 /* 455. 分发饼干.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1001,6 +1004,7 @@
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
 				67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
+				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
 				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,

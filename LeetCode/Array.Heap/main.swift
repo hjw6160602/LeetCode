@@ -33,4 +33,5 @@ class Solution {
 //testCountAndSay()
 //testSearchInsert()
 //testSingleNum()
-testFindDisappearNumbers()
+//testFindDisappearNumbers()
+testFindContentChildren()

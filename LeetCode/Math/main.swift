@@ -20,5 +20,6 @@ class Solution {
 //testTwoSum()
 //testIntReverse()
 //testIsPalindrome()
-testMySqrt()
+//testMySqrt()
+testCanWinNim()
 

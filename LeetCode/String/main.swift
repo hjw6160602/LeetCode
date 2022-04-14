@@ -32,7 +32,8 @@ class Solution {
 //testMinDistance()
 //testLongestPalindrome()
 //testIndexOf()
-testRomanToInt()
+//testRomanToInt()
+testIsSubsequence()
 
 extension String {
     

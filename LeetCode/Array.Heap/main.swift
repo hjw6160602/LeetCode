@@ -34,4 +34,5 @@ class Solution {
 //testSearchInsert()
 //testSingleNum()
 //testFindDisappearNumbers()
-testFindContentChildren()
+//testFindContentChildren()
+testIntersection()

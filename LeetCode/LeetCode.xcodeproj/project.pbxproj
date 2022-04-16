@@ -118,6 +118,7 @@
 		CAF523F5280723FB00A62886 /* 292. Nim 游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */; };
 		CAF5242E2808681500A62886 /* 392.判断子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5242D2808681500A62886 /* 392.判断子序列.swift */; };
 		CAF524302809D1F200A62886 /* 67.二进制求和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */; };
+		CAF5244C280B1FEE00A62886 /* 349. 两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -342,6 +343,7 @@
 		CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "292. Nim 游戏.swift"; sourceTree = "<group>"; };
 		CAF5242D2808681500A62886 /* 392.判断子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392.判断子序列.swift"; sourceTree = "<group>"; };
 		CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "67.二进制求和.swift"; sourceTree = "<group>"; };
+		CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. 两个数组的交集.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -597,6 +599,7 @@
 				CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */,
 				CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */,
 				CAF523F12806D10200A62886 /* 455. 分发饼干.swift */,
+				CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1012,6 +1015,7 @@
 				CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */,
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
 				67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */,
+				CAF5244C280B1FEE00A62886 /* 349. 两个数组的交集.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,

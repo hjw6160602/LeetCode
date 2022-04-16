@@ -33,7 +33,8 @@ class Solution {
 //testLongestPalindrome()
 //testIndexOf()
 //testRomanToInt()
-testIsSubsequence()
+//testIsSubsequence()
+testAddBinary()
 
 extension String {
     

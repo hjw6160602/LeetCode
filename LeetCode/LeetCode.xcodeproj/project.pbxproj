@@ -117,6 +117,7 @@
 		CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F12806D10200A62886 /* 455. 分发饼干.swift */; };
 		CAF523F5280723FB00A62886 /* 292. Nim 游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */; };
 		CAF5242E2808681500A62886 /* 392.判断子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5242D2808681500A62886 /* 392.判断子序列.swift */; };
+		CAF524302809D1F200A62886 /* 67.二进制求和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -340,6 +341,7 @@
 		CAF523F12806D10200A62886 /* 455. 分发饼干.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455. 分发饼干.swift"; sourceTree = "<group>"; };
 		CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "292. Nim 游戏.swift"; sourceTree = "<group>"; };
 		CAF5242D2808681500A62886 /* 392.判断子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392.判断子序列.swift"; sourceTree = "<group>"; };
+		CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "67.二进制求和.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -618,6 +620,7 @@
 				CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */,
 				CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */,
 				CAF5242D2808681500A62886 /* 392.判断子序列.swift */,
+				CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1041,6 +1044,7 @@
 				80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */,
 				80F2C07125DE49400051398B /* main.swift in Sources */,
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,
+				CAF524302809D1F200A62886 /* 67.二进制求和.swift in Sources */,
 				675D212725FF5893002D2C73 /* 821.字符串最短距离.swift in Sources */,
 				80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */,
 				CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */,

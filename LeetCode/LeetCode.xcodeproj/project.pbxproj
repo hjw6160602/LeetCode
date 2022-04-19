@@ -85,6 +85,7 @@
 		80F2C37825DE701B0051398B /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE2B33227073FE0045A7B7 /* Heap.swift */; };
 		80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */; };
 		80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */; };
+		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
 		CA1D75CC25E7514400CD2432 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
@@ -308,6 +309,7 @@
 		80F2C34125DE6B720051398B /* 64. 最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. 最小路径和.swift"; sourceTree = "<group>"; };
 		80F2C34D25DE6B860051398B /* 62. 不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. 不同路径.swift"; sourceTree = "<group>"; };
 		80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. 两数之和.swift"; sourceTree = "<group>"; };
+		CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. 丢失的数字.swift"; sourceTree = "<group>"; };
 		CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "333.最大BST子树.swift"; sourceTree = "<group>"; };
 		CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. 全排列.swift"; sourceTree = "<group>"; };
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
@@ -600,6 +602,7 @@
 				CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */,
 				CAF523F12806D10200A62886 /* 455. 分发饼干.swift */,
 				CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */,
+				CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1018,6 +1021,7 @@
 				CAF5244C280B1FEE00A62886 /* 349. 两个数组的交集.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
+				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
 				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,

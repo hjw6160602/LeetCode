@@ -86,6 +86,7 @@
 		80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */; };
 		80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */; };
 		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
+		CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E87280F00F30092D94F /* 189. 轮转数组.swift */; };
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
 		CA1D75CC25E7514400CD2432 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
@@ -101,11 +102,13 @@
 		CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E70025FE48700048115F /* 75.颜色分类.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
+		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
 		CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */; };
 		CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */; };
 		CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */; };
 		CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */; };
 		CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */; };
+		CAC4ADA02811A9E700F0FF9B /* 66. 加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */; };
 		CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */; };
 		CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */; };
 		CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */; };
@@ -310,6 +313,7 @@
 		80F2C34D25DE6B860051398B /* 62. 不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. 不同路径.swift"; sourceTree = "<group>"; };
 		80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. 两数之和.swift"; sourceTree = "<group>"; };
 		CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. 丢失的数字.swift"; sourceTree = "<group>"; };
+		CA189E87280F00F30092D94F /* 189. 轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 轮转数组.swift"; sourceTree = "<group>"; };
 		CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "333.最大BST子树.swift"; sourceTree = "<group>"; };
 		CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. 全排列.swift"; sourceTree = "<group>"; };
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
@@ -326,11 +330,13 @@
 		CA23E70025FE48700048115F /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
+		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
 		CAADBC3B25F3487F0080BFBA /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. 打家劫舍.swift"; sourceTree = "<group>"; };
 		CAB339AC27F4A568002A7776 /* 167.两数之和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II.swift"; sourceTree = "<group>"; };
 		CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.x的平方根.swift"; sourceTree = "<group>"; };
 		CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38.外观数列.swift"; sourceTree = "<group>"; };
+		CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66. 加一.swift"; sourceTree = "<group>"; };
 		CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入的位置.swift"; sourceTree = "<group>"; };
 		CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.罗马数字转整数.swift"; sourceTree = "<group>"; };
 		CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
@@ -603,6 +609,9 @@
 				CAF523F12806D10200A62886 /* 455. 分发饼干.swift */,
 				CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */,
 				CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */,
+				CA189E87280F00F30092D94F /* 189. 轮转数组.swift */,
+				CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */,
+				CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1023,6 +1032,7 @@
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
+				CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */,
 				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				80F2C38225DE70200051398B /* 347.TopKBigestNo.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
@@ -1031,9 +1041,11 @@
 				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */,
+				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */,
+				CAC4ADA02811A9E700F0FF9B /* 66. 加一.swift in Sources */,
 				CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */,
 				CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */,
 				67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */,

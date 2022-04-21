@@ -36,4 +36,7 @@ class Solution {
 //testFindDisappearNumbers()
 //testFindContentChildren()
 //testIntersection()
-test268MissingNumber()
+//test268MissingNumber()
+//test189Rotate()
+//test169MajorityElement()
+test66PlusOne()

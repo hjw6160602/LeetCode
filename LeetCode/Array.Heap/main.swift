@@ -39,4 +39,7 @@ class Solution {
 //test268MissingNumber()
 //test189Rotate()
 //test169MajorityElement()
-test66PlusOne()
+//test66PlusOne()
+//test27RemoveElement()
+//test492ConstructRectangle()
+test867Transpose()

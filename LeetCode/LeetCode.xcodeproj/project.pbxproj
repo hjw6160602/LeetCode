@@ -109,6 +109,9 @@
 		CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */; };
 		CAB339BE27F5FF85002A7776 /* 38.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */; };
 		CAC4ADA02811A9E700F0FF9B /* 66. 加一.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */; };
+		CAC4ADA22811AE8B00F0FF9B /* 27. 移除元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4ADA12811AE8B00F0FF9B /* 27. 移除元素.swift */; };
+		CAC4ADA42812FEA400F0FF9B /* 492. 构造矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */; };
+		CAC4ADA62815A94400F0FF9B /* 867. 转置矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4ADA52815A94400F0FF9B /* 867. 转置矩阵.swift */; };
 		CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */; };
 		CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */; };
 		CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */; };
@@ -337,6 +340,9 @@
 		CAB339AE27F4B2D5002A7776 /* 69.x的平方根.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69.x的平方根.swift"; sourceTree = "<group>"; };
 		CAB339BD27F5FF85002A7776 /* 38.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "38.外观数列.swift"; sourceTree = "<group>"; };
 		CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66. 加一.swift"; sourceTree = "<group>"; };
+		CAC4ADA12811AE8B00F0FF9B /* 27. 移除元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27. 移除元素.swift"; sourceTree = "<group>"; };
+		CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "492. 构造矩形.swift"; sourceTree = "<group>"; };
+		CAC4ADA52815A94400F0FF9B /* 867. 转置矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "867. 转置矩阵.swift"; sourceTree = "<group>"; };
 		CAF523D427F8553100A62886 /* 35.搜索插入的位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入的位置.swift"; sourceTree = "<group>"; };
 		CAF523D627F9F39400A62886 /* 13.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13.罗马数字转整数.swift"; sourceTree = "<group>"; };
 		CAF523D827FDF3AF00A62886 /* 136.只出现一次的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136.只出现一次的数字.swift"; sourceTree = "<group>"; };
@@ -612,6 +618,9 @@
 				CA189E87280F00F30092D94F /* 189. 轮转数组.swift */,
 				CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */,
 				CAC4AD9F2811A9E700F0FF9B /* 66. 加一.swift */,
+				CAC4ADA12811AE8B00F0FF9B /* 27. 移除元素.swift */,
+				CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */,
+				CAC4ADA52815A94400F0FF9B /* 867. 转置矩阵.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1028,7 +1037,9 @@
 				80F2C37825DE701B0051398B /* Heap.swift in Sources */,
 				67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */,
 				CAF5244C280B1FEE00A62886 /* 349. 两个数组的交集.swift in Sources */,
+				CAC4ADA22811AE8B00F0FF9B /* 27. 移除元素.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
+				CAC4ADA42812FEA400F0FF9B /* 492. 构造矩形.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,
 				67D5251625FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift in Sources */,
@@ -1047,6 +1058,7 @@
 				67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */,
 				CAC4ADA02811A9E700F0FF9B /* 66. 加一.swift in Sources */,
 				CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */,
+				CAC4ADA62815A94400F0FF9B /* 867. 转置矩阵.swift in Sources */,
 				CAB339AD27F4A568002A7776 /* 167.两数之和II.swift in Sources */,
 				67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */,
 				80F2C03E25DE46400051398B /* main.swift in Sources */,

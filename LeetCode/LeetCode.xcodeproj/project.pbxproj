@@ -100,6 +100,8 @@
 		CA23E6E125F527F50048115F /* 53.最大子序列和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6E025F527F50048115F /* 53.最大子序列和.swift */; };
 		CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */; };
 		CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E70025FE48700048115F /* 75.颜色分类.swift */; };
+		CA2551B62816E36500E48048 /* 686.重复叠加字符串匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */; };
+		CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -331,6 +333,8 @@
 		CA23E6E025F527F50048115F /* 53.最大子序列和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53.最大子序列和.swift"; sourceTree = "<group>"; };
 		CA23E6F525FDE1400048115F /* 88.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		CA23E70025FE48700048115F /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
+		CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "686.重复叠加字符串匹配.swift"; sourceTree = "<group>"; };
+		CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1030.距离顺序排列矩阵单元格.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -533,6 +537,7 @@
 				679509E72293DEFA00D1CCC8 /* MergeSort.swift */,
 				679509E92293E7BA00D1CCC8 /* QuickSort.swift */,
 				679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */,
+				CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -645,6 +650,7 @@
 				CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */,
 				CAF5242D2808681500A62886 /* 392.判断子序列.swift */,
 				CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */,
+				CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1022,6 +1028,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,
 				67C1294B226DD3F800403640 /* main.swift in Sources */,
@@ -1088,6 +1095,7 @@
 				CAF5242E2808681500A62886 /* 392.判断子序列.swift in Sources */,
 				80F2C09F25DE499B0051398B /* 01.09字符串轮转.swift in Sources */,
 				80F2C31E25DE57890051398B /* 151.反转字符串里的单词.swift in Sources */,
+				CA2551B62816E36500E48048 /* 686.重复叠加字符串匹配.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

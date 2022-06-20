@@ -8,9 +8,19 @@
 
 import Foundation
 
-var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26 ]
-mergeSort(&list)
-print(list)
+let LeetCode = Solution.shared
+
+class Solution {
+    static let shared = Solution()
+    
+    private init() {}
+}
+
+testAllCellsDistOrder()
+
+//var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26 ]
+//mergeSort(&list)
+//print(list)
 
 
 

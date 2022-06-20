@@ -34,7 +34,8 @@ class Solution {
 //testIndexOf()
 //testRomanToInt()
 //testIsSubsequence()
-testAddBinary()
+//testAddBinary()
+test686repeatedStringMatch()
 
 extension String {
     

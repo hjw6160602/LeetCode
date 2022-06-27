@@ -27,7 +27,7 @@ extension Solution {
         return hasPathSum(root.right, targetSum - root.val)
     }
     
-    func hasPathSumSwift(_ root: TreeNode?, _ sum: Int) -> Bool {
+    func hasPathSumSoap(_ root: TreeNode?, _ sum: Int) -> Bool {
         guard let root = root else { return false }
         
         if sum == root.val && root.left == nil && root.right == nil {

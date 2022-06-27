@@ -23,13 +23,11 @@ extension Solution {
         let dr = [1, 1, -1, -1]
         let dc = [1, -1, -1, 1]
         
-        var row = rCenter;
-        var col = cCenter;
+        var row = rCenter, col = cCenter
         
         var index = 1
-        // 从上顶点开始
         while (index < rows * cols) {
-            // 进行下一个距离更大的外圈
+            // 从上顶点开始 进行下一个距离更大的外圈
             row -= 1
             // 同一个i，即为相同的前进方向（分别先后到达上、右、下、左、上顶点）
             for j in 0..<4 { // 四个方向

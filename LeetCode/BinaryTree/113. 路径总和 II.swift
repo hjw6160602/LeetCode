@@ -46,6 +46,35 @@ extension Solution {
             path.removeLast()
         }
     }
+    
+    //    20 ms 97.65%
+    //    18.9 MB  5.88%
+    //    115 / 115
+    func pathSumSoap(_ root: TreeNode?, _ targetSum: Int) -> [[Int]] {
+        var paths = [[Int]](), path = [Int]()
+        
+        dfs(root, targetSum, &paths, &path)
+        
+        return paths
+    }
+    
+    fileprivate func dfs(_ root: TreeNode?, _ sum: Int, _ paths: inout [[Int]], _ path: inout [Int]) {
+        guard let root = root else { return }
+        
+        path.append(root.val)
+        
+        if root.val == sum &&
+            root.left == nil &&
+            root.right == nil {
+            paths.append(path)
+            return
+        }
+        
+        var pathLeft = path, pathRight = path
+        
+        dfs(root.left, sum - root.val, &paths, &pathLeft)
+        dfs(root.right, sum - root.val, &paths, &pathRight)
+    }
 }
 
 func testPathSum() {

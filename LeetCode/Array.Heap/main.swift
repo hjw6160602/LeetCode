@@ -42,4 +42,5 @@ class Solution {
 //test66PlusOne()
 //test27RemoveElement()
 //test492ConstructRectangle()
-test867Transpose()
+//test867Transpose()
+test1010NumPairsDivisibleBy60()

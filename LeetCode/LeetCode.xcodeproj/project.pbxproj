@@ -87,6 +87,7 @@
 		80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */; };
 		CA08BB672868B4C7005FD7A2 /* 437. 路径总和 III.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */; };
 		CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */; };
+		CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */; };
 		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
 		CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E87280F00F30092D94F /* 189. 轮转数组.swift */; };
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
@@ -321,6 +322,7 @@
 		80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01. 两数之和.swift"; sourceTree = "<group>"; };
 		CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "437. 路径总和 III.swift"; sourceTree = "<group>"; };
 		CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "628. 三个数的最大乘积.swift"; sourceTree = "<group>"; };
+		CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1010. 总持续时间可被 60 整除的歌曲.swift"; sourceTree = "<group>"; };
 		CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. 丢失的数字.swift"; sourceTree = "<group>"; };
 		CA189E87280F00F30092D94F /* 189. 轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 轮转数组.swift"; sourceTree = "<group>"; };
 		CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "333.最大BST子树.swift"; sourceTree = "<group>"; };
@@ -632,6 +634,7 @@
 				CAC4ADA12811AE8B00F0FF9B /* 27. 移除元素.swift */,
 				CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */,
 				CAC4ADA52815A94400F0FF9B /* 867. 转置矩阵.swift */,
+				CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1068,6 +1071,7 @@
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
 				CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */,
 				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,
+				CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */,

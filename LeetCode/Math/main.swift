@@ -21,5 +21,5 @@ class Solution {
 //testIntReverse()
 //testIsPalindrome()
 //testMySqrt()
-testCanWinNim()
-
+//testCanWinNim()
+test1025DivisorGame()

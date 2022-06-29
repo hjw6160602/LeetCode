@@ -19,7 +19,7 @@ extension Solution {
 }
 
 func testMaximumProduct() {
-    let nums = [4,8,0,-2,-4] [-4,-2,0,4,8]
+    let nums = [4,8,0,-2,-4]
     let x = LeetCode.maximumProduct(nums)
     print(x)
 }

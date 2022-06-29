@@ -106,6 +106,7 @@
 		CA2551B62816E36500E48048 /* 686.重复叠加字符串匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */; };
 		CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */; };
 		CA5C261C286CA82B00836003 /* 1025. 除数博弈.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C261B286CA82B00836003 /* 1025. 除数博弈.swift */; };
+		CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -343,6 +344,7 @@
 		CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "686.重复叠加字符串匹配.swift"; sourceTree = "<group>"; };
 		CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1030.距离顺序排列矩阵单元格.swift"; sourceTree = "<group>"; };
 		CA5C261B286CA82B00836003 /* 1025. 除数博弈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1025. 除数博弈.swift"; sourceTree = "<group>"; };
+		CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "922. 按奇偶排序数组 II.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -549,6 +551,7 @@
 				679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */,
 				CA55A6872860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift */,
 				CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */,
+				CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1042,6 +1045,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */,
+				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,

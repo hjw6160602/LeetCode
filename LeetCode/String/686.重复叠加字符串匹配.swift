@@ -101,9 +101,9 @@ func test686repeatedStringMatch() {
 //    let a = "abc", b = "wxyz"
 //    let a = "abcd", b = "cdabcdab"
 //    let a = "aaac", b = "aac"
-    let a = "baa", b = "abaab" // 3
-    let x = LeetCode.repeatedStringMatch(a, b)
-    print(x)
+//    let a = "baa", b = "abaab" // 3
+//    let x = LeetCode.repeatedStringMatch(a, b)
+//    print(x)
 }
 
 //686. 重复叠加字符串匹配

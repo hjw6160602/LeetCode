@@ -10,25 +10,21 @@ import Foundation
 
 extension Solution {
     
-//    116 ms
-//    80.95%
-//    15.5 MB
-//    38.10%
+//    116 ms 80.95%
+//    15.5 MB 38.10%
 //    61 / 61
     func sortArrayByParityII(_ nums: [Int]) -> [Int] {
-        var res = Array.init(repeating: 0, count: nums.count)
+        var res = Array(repeating: 0, count: nums.count)
         var i = 0, j = 1
-        
+        // 偶数
         for num in nums {
-            // 偶数
             if num % 2 == 0 {
                 res[i] = num
                 i += 2
             }
         }
-        
+        // 奇数
         for num in nums {
-            // 奇数
             if num % 2 == 1 {
                 res[j] = num
                 j += 2
@@ -36,11 +32,33 @@ extension Solution {
         }
         return res
     }
+
+//    时间：O(N)，其中 NN 是数组 nums 的长度。
+//    空间：O(1)
+//    116 ms 80.95%
+//    15.5 MB 38.10%
+    func sortArrayByParityIIP1(_ nums: [Int]) -> [Int] {
+        var res = nums, j = 1
+        
+        for i in stride(from: 0, to: nums.count, by: 2) {
+            // 奇偶匹配 直接continue
+            guard res[i] & 1 == 1 else { continue }
+            // 来到这里证明 奇偶不匹配
+            while res[j] & 1 == 1 {
+                // 如果j下标的数是奇数 那么 j 跳到下一个奇数 index
+                j += 2
+            }
+            // 这里代表 i 下标是奇数 而 j 下标是偶数 那么互换数值
+            (res[i], res[j]) = (res[j], res[i])
+            
+        }
+        return res
+    }
 }
 
 func test922SortArrayByParityII() {
     let nums = [4,2,5,7]
-    let x = LeetCode.sortArrayByParityII(nums)
+    let x = LeetCode.sortArrayByParityIIP1(nums)
     print(x)
 }
 

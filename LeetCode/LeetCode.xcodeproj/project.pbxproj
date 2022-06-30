@@ -108,6 +108,7 @@
 		CA5C261C286CA82B00836003 /* 1025. 除数博弈.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C261B286CA82B00836003 /* 1025. 除数博弈.swift */; };
 		CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */; };
 		CA5C2621286DE60C00836003 /* 409. 最长回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C2620286DE60C00836003 /* 409. 最长回文串.swift */; };
+		CA5C2623286DEF3700836003 /* 605. 种花问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C2622286DEF3700836003 /* 605. 种花问题.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -347,6 +348,7 @@
 		CA5C261B286CA82B00836003 /* 1025. 除数博弈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1025. 除数博弈.swift"; sourceTree = "<group>"; };
 		CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "922. 按奇偶排序数组 II.swift"; sourceTree = "<group>"; };
 		CA5C2620286DE60C00836003 /* 409. 最长回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "409. 最长回文串.swift"; sourceTree = "<group>"; };
+		CA5C2622286DEF3700836003 /* 605. 种花问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. 种花问题.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 				CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */,
 				CAC4ADA52815A94400F0FF9B /* 867. 转置矩阵.swift */,
 				CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */,
+				CA5C2622286DEF3700836003 /* 605. 种花问题.swift */,
 			);
 			path = Array.Heap;
 			sourceTree = "<group>";
@@ -1079,6 +1082,7 @@
 				CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */,
 				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
+				CA5C2623286DEF3700836003 /* 605. 种花问题.swift in Sources */,
 				CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */,
 				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,
 				CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */,

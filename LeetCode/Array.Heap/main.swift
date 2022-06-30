@@ -43,4 +43,5 @@ class Solution {
 //test27RemoveElement()
 //test492ConstructRectangle()
 //test867Transpose()
-test1010NumPairsDivisibleBy60()
+//test1010NumPairsDivisibleBy60()
+test606CanPlaceFlowers()

@@ -28,6 +28,7 @@ extension Solution {
         
         for i in 4...n {
             for j in 1..<i {
+                // 从过去的已知结果里找一个 能除尽的 并且能必输的解
                 if i % j == 0 && dp[i-j] == false {
                     dp[i] = true
                     break

@@ -22,4 +22,6 @@ class Solution {
 //testIsPalindrome()
 //testMySqrt()
 //testCanWinNim()
-test1025DivisorGame()
+//test1025DivisorGame()
+
+test507CheckPerfectNumber()

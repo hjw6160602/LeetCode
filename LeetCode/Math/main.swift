@@ -23,5 +23,5 @@ class Solution {
 //testMySqrt()
 //testCanWinNim()
 //test1025DivisorGame()
-
-test507CheckPerfectNumber()
+//test507CheckPerfectNumber()
+test371GetSum()

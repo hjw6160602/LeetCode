@@ -25,4 +25,5 @@ class Solution {
 //test1025DivisorGame()
 //test507CheckPerfectNumber()
 //test371GetSum()
-test461HammingDistance()
+//test461HammingDistance()
+test119GetRow()

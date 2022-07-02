@@ -26,4 +26,5 @@ class Solution {
 //test507CheckPerfectNumber()
 //test371GetSum()
 //test461HammingDistance()
-test119GetRow()
+//test119GetRow()
+test326IsPowerOfThree()

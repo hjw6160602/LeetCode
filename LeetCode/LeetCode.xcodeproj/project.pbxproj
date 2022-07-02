@@ -118,6 +118,7 @@
 		CA5C262D287031B100836003 /* 561. 数组拆分 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */; };
 		CA5C262F28704CB800836003 /* 709. 转换成小写字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */; };
 		CA5C26312870548A00836003 /* 119. 杨辉三角 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C26302870548A00836003 /* 119. 杨辉三角 II.swift */; };
+		CA5C263328709F3B00836003 /* 326. 3 的幂 .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C263228709F3B00836003 /* 326. 3 的幂 .swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -367,6 +368,7 @@
 		CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "561. 数组拆分 I.swift"; sourceTree = "<group>"; };
 		CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "709. 转换成小写字母.swift"; sourceTree = "<group>"; };
 		CA5C26302870548A00836003 /* 119. 杨辉三角 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "119. 杨辉三角 II.swift"; sourceTree = "<group>"; };
+		CA5C263228709F3B00836003 /* 326. 3 的幂 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. 3 的幂 .swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -724,6 +726,7 @@
 				CA5C2624286F445800836003 /* 371. 两整数之和.swift */,
 				CA5C262A287027A100836003 /* 461. 汉明距离.swift */,
 				CA5C26302870548A00836003 /* 119. 杨辉三角 II.swift */,
+				CA5C263228709F3B00836003 /* 326. 3 的幂 .swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -1165,6 +1168,7 @@
 				CA5C26312870548A00836003 /* 119. 杨辉三角 II.swift in Sources */,
 				CA5C2625286F445800836003 /* 371. 两整数之和.swift in Sources */,
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
+				CA5C263328709F3B00836003 /* 326. 3 的幂 .swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,
 				CAF523F5280723FB00A62886 /* 292. Nim 游戏.swift in Sources */,
 				67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */,

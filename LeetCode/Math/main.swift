@@ -24,4 +24,5 @@ class Solution {
 //testCanWinNim()
 //test1025DivisorGame()
 //test507CheckPerfectNumber()
-test371GetSum()
+//test371GetSum()
+test461HammingDistance()

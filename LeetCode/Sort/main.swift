@@ -17,8 +17,9 @@ class Solution {
 }
 
 //testMaximumProduct()
-test922SortArrayByParityII()
+//test922SortArrayByParityII()
 //testAllCellsDistOrder()
+test561ArrayPairSum()
 
 //var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26 ]
 //mergeSort(&list)

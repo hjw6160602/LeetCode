@@ -22,7 +22,7 @@ extension Solution {
             }
             f = f >> 1
         }
-        Int.byteCount(x ^ y)
+        return f
     }
     
 //    0 ms  100.00%

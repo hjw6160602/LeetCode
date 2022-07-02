@@ -36,7 +36,8 @@ class Solution {
 //testIsSubsequence()
 //testAddBinary()
 //test686repeatedStringMatch()
-test409LongestPalindrome()
+//test409LongestPalindrome()
+test709ToLowerCase()
 
 extension String {
     

@@ -116,6 +116,7 @@
 		CA5C262928701A8800836003 /* 575. 分糖果.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262828701A8800836003 /* 575. 分糖果.swift */; };
 		CA5C262B287027A100836003 /* 461. 汉明距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262A287027A100836003 /* 461. 汉明距离.swift */; };
 		CA5C262D287031B100836003 /* 561. 数组拆分 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */; };
+		CA5C262F28704CB800836003 /* 709. 转换成小写字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -363,6 +364,7 @@
 		CA5C262828701A8800836003 /* 575. 分糖果.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "575. 分糖果.swift"; sourceTree = "<group>"; };
 		CA5C262A287027A100836003 /* 461. 汉明距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "461. 汉明距离.swift"; sourceTree = "<group>"; };
 		CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "561. 数组拆分 I.swift"; sourceTree = "<group>"; };
+		CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "709. 转换成小写字母.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -689,6 +691,7 @@
 				CAF5242F2809D1F200A62886 /* 67.二进制求和.swift */,
 				CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */,
 				CA5C2620286DE60C00836003 /* 409. 最长回文串.swift */,
+				CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1130,6 +1133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2C12C25DE4D330051398B /* 344.Reverse String.swift in Sources */,
+				CA5C262F28704CB800836003 /* 709. 转换成小写字母.swift in Sources */,
 				67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */,
 				80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */,
 				80F2C07125DE49400051398B /* main.swift in Sources */,

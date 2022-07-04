@@ -25,7 +25,8 @@ class Solution {
 //testDiameterOfBinaryTree()
 //testConstructMaximumBinaryTree()
 
-testPathSum()
+//testPathSum()
+test733FloodFill()
 
 // MARK: - 排列组合
 //testPermute()

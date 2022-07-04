@@ -16,9 +16,9 @@ class Solution {
 }
 
 //test733FloodFill()
-
+test278FirstBadVersion()
 
 // MARK: - 排列组合
-test46Permute()
+//test46Permute()
 //testCombine()
 //testLetterCombinations()

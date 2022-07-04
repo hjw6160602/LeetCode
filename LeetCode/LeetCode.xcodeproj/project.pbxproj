@@ -68,6 +68,7 @@
 		67E0BDE12872CB4F0066A653 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
 		67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
 		67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
+		67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
@@ -322,6 +323,7 @@
 		67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. 图像渲染.swift"; sourceTree = "<group>"; };
 		67E0BDD62872CACB0066A653 /* Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Search; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E0BDD82872CACB0066A653 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "278. 第一个错误的版本.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
@@ -663,6 +665,7 @@
 				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
 				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
 				67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */,
+				67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -1145,6 +1148,7 @@
 				67E0BDDE2872CAF90066A653 /* 704. 二分查找.swift in Sources */,
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
+				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,
 				67E0BDDD2872CAF90066A653 /* 994. 腐烂的橘子.swift in Sources */,
 				67E0BDE02872CB3B0066A653 /* 22. 括号生成.swift in Sources */,
 				67E0BDDF2872CB290066A653 /* 733. 图像渲染.swift in Sources */,

@@ -199,7 +199,7 @@ class PermuteP3 {
 }
 
 
-func testPermute() {
+func test46Permute() {
     let solution = PermuteP2()
     let res = solution.permute([1,2,3])
     print(res)

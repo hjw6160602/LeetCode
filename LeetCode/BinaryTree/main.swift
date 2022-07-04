@@ -26,12 +26,6 @@ class Solution {
 //testConstructMaximumBinaryTree()
 
 //testPathSum()
-test733FloodFill()
-
-// MARK: - 排列组合
-//testPermute()
-//testCombine()
-//testLetterCombinations()
 
 
 private func _BSF_DFS() {

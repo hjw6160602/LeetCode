@@ -45,14 +45,11 @@
 		67B8CD9425E772B60059D7B5 /* 113. 路径总和 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9325E772B60059D7B5 /* 113. 路径总和 II.swift */; };
 		67B8CD9E25E773590059D7B5 /* 39. 组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9D25E773590059D7B5 /* 39. 组合总和.swift */; };
 		67B8CDA825E774800059D7B5 /* 剑指.55. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDA725E774800059D7B5 /* 剑指.55. 二叉树的深度.swift */; };
-		67B8CDC225E786000059D7B5 /* 22. 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */; };
 		67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */; };
-		67B8CDED25E7962A0059D7B5 /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
-		67C3E83C25E538780074DA25 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
 		67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F53426005F79009CEB1C /* 419.字符串相加.swift */; };
 		67C8F5D72601ED25009CEB1C /* 112.路径总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F5D62601ED25009CEB1C /* 112.路径总和.swift */; };
 		67C8F5EA2602FC89009CEB1C /* 14.最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F5E92602FC89009CEB1C /* 14.最长公共前缀.swift */; };
@@ -63,7 +60,14 @@
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
-		67E0BDD1286EF12E0066A653 /* 733. 图像渲染.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */; };
+		67E0BDD92872CACB0066A653 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDD82872CACB0066A653 /* main.swift */; };
+		67E0BDDD2872CAF90066A653 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
+		67E0BDDE2872CAF90066A653 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523EF2805B96100A62886 /* 704. 二分查找.swift */; };
+		67E0BDDF2872CB290066A653 /* 733. 图像渲染.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */; };
+		67E0BDE02872CB3B0066A653 /* 22. 括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */; };
+		67E0BDE12872CB4F0066A653 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
+		67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */; };
+		67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C2E025DE569A0051398B /* 77. Combinations.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
@@ -94,7 +98,6 @@
 		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
 		CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E87280F00F30092D94F /* 189. 轮转数组.swift */; };
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
-		CA1D75CC25E7514400CD2432 /* 46. 全排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
@@ -140,9 +143,6 @@
 		CAF523DC27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */; };
 		CAF523DE28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */; };
 		CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */; };
-		CAF523E92805541700A62886 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523E82805541700A62886 /* main.swift */; };
-		CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */; };
-		CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523EF2805B96100A62886 /* 704. 二分查找.swift */; };
 		CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F12806D10200A62886 /* 455. 分发饼干.swift */; };
 		CAF523F5280723FB00A62886 /* 292. Nim 游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF523F328071F2100A62886 /* 292. Nim 游戏.swift */; };
 		CAF5242E2808681500A62886 /* 392.判断子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5242D2808681500A62886 /* 392.判断子序列.swift */; };
@@ -188,6 +188,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		67C12946226DD3F800403640 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		67E0BDD42872CACB0066A653 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -311,6 +320,8 @@
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
 		67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. 下一个更大元素 I.swift"; sourceTree = "<group>"; };
 		67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. 图像渲染.swift"; sourceTree = "<group>"; };
+		67E0BDD62872CACB0066A653 /* Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Search; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E0BDD82872CACB0066A653 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
@@ -394,7 +405,6 @@
 		CAF523DD28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "557. 反转字符串中的单词 III.swift"; sourceTree = "<group>"; };
 		CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "448.找到数组中消失的数字.swift"; sourceTree = "<group>"; };
 		CAF523E62805541700A62886 /* BreadthFirstSearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BreadthFirstSearch; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAF523E82805541700A62886 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. 腐烂的橘子.swift"; sourceTree = "<group>"; };
 		CAF523EF2805B96100A62886 /* 704. 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. 二分查找.swift"; sourceTree = "<group>"; };
 		CAF523F12806D10200A62886 /* 455. 分发饼干.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "455. 分发饼干.swift"; sourceTree = "<group>"; };
@@ -434,6 +444,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67C12945226DD3F800403640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E0BDD32872CACB0066A653 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -593,13 +610,8 @@
 			isa = PBXGroup;
 			children = (
 				67B8CDA725E774800059D7B5 /* 剑指.55. 二叉树的深度.swift */,
-				67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */,
-				CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */,
 				67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */,
-				80F2C2E025DE569A0051398B /* 77. Combinations.swift */,
 				67B8CD9D25E773590059D7B5 /* 39. 组合总和.swift */,
-				67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */,
-				67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -613,7 +625,7 @@
 				676E87D525C98EF900E52125 /* LinkedList */,
 				67B57CE925CC205400814C1A /* Stack.Queue */,
 				67B57DCF25CC262A00814C1A /* BinaryTree */,
-				CAF523E72805541700A62886 /* BreadthFirstSearch */,
+				67E0BDD72872CACB0066A653 /* Search */,
 				67B57D3225CC251C00814C1A /* DynamicPrograming */,
 				CA23E6A725F507A50048115F /* Recursion */,
 				80F2C28825DE55E30051398B /* Math */,
@@ -635,8 +647,24 @@
 				80F2C28725DE55E20051398B /* Math */,
 				CA23E6A625F507A50048115F /* Recursion */,
 				CAF523E62805541700A62886 /* BreadthFirstSearch */,
+				67E0BDD62872CACB0066A653 /* Search */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		67E0BDD72872CACB0066A653 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				67E0BDD82872CACB0066A653 /* main.swift */,
+				67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */,
+				CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */,
+				80F2C2E025DE569A0051398B /* 77. Combinations.swift */,
+				67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */,
+				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
+				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
+				67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		80F2C03C25DE46400051398B /* Array.Heap */ = {
@@ -752,16 +780,6 @@
 			path = Recursion;
 			sourceTree = "<group>";
 		};
-		CAF523E72805541700A62886 /* BreadthFirstSearch */ = {
-			isa = PBXGroup;
-			children = (
-				CAF523E82805541700A62886 /* main.swift */,
-				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
-				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
-			);
-			path = BreadthFirstSearch;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -848,6 +866,23 @@
 			name = Sort;
 			productName = Sort;
 			productReference = 67C12948226DD3F800403640 /* Sort */;
+			productType = "com.apple.product-type.tool";
+		};
+		67E0BDD52872CACB0066A653 /* Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E0BDDC2872CACB0066A653 /* Build configuration list for PBXNativeTarget "Search" */;
+			buildPhases = (
+				67E0BDD22872CACB0066A653 /* Sources */,
+				67E0BDD32872CACB0066A653 /* Frameworks */,
+				67E0BDD42872CACB0066A653 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Search;
+			productName = Search;
+			productReference = 67E0BDD62872CACB0066A653 /* Search */;
 			productType = "com.apple.product-type.tool";
 		};
 		80F2C03A25DE46400051398B /* Array */ = {
@@ -960,6 +995,9 @@
 					67C12947226DD3F800403640 = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					67E0BDD52872CACB0066A653 = {
+						CreatedOnToolsVersion = 13.3;
+					};
 					80F2C03A25DE46400051398B = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -1000,6 +1038,7 @@
 				67B57D3025CC251C00814C1A /* DynamicPrograming */,
 				80F2C28625DE55E20051398B /* Math */,
 				CA23E6A525F507A50048115F /* Recursion */,
+				67E0BDD52872CACB0066A653 /* Search */,
 			);
 		};
 /* End PBXProject section */
@@ -1061,20 +1100,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA1D75CC25E7514400CD2432 /* 46. 全排列.swift in Sources */,
 				67B8CDA825E774800059D7B5 /* 剑指.55. 二叉树的深度.swift in Sources */,
 				CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */,
-				67B8CDC225E786000059D7B5 /* 22. 括号生成.swift in Sources */,
-				67B8CDED25E7962A0059D7B5 /* 77. Combinations.swift in Sources */,
 				67B8CD6525E680710059D7B5 /* 236.最近公共祖先.swift in Sources */,
 				67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */,
-				67E0BDD1286EF12E0066A653 /* 733. 图像渲染.swift in Sources */,
 				67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */,
 				67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */,
 				67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */,
 				67C8F62F26047870009CEB1C /* 534.二叉树的直径.swift in Sources */,
 				67B57E3A25CC26F000814C1A /* 98. 验证二叉搜索树.swift in Sources */,
-				67C3E83C25E538780074DA25 /* 17. 电话号码的字母组合.swift in Sources */,
 				67C8F61926044F3B009CEB1C /* 104.二叉树的最大深度.swift in Sources */,
 				67C8F5D72601ED25009CEB1C /* 112.路径总和.swift in Sources */,
 				67B8CD9E25E773590059D7B5 /* 39. 组合总和.swift in Sources */,
@@ -1100,6 +1134,21 @@
 				67C1294B226DD3F800403640 /* main.swift in Sources */,
 				679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */,
 				CA5C262D287031B100836003 /* 561. 数组拆分 I.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E0BDD22872CACB0066A653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E0BDD92872CACB0066A653 /* main.swift in Sources */,
+				67E0BDDE2872CAF90066A653 /* 704. 二分查找.swift in Sources */,
+				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
+				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
+				67E0BDDD2872CAF90066A653 /* 994. 腐烂的橘子.swift in Sources */,
+				67E0BDE02872CB3B0066A653 /* 22. 括号生成.swift in Sources */,
+				67E0BDDF2872CB290066A653 /* 733. 图像渲染.swift in Sources */,
+				67E0BDE12872CB4F0066A653 /* 46. 全排列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,9 +1259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF523E92805541700A62886 /* main.swift in Sources */,
-				CAF523F02805B96100A62886 /* 704. 二分查找.swift in Sources */,
-				CAF523EE2805547800A62886 /* 994. 腐烂的橘子.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1484,6 +1530,31 @@
 			};
 			name = Release;
 		};
+		67E0BDDA2872CACB0066A653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67E0BDDB2872CACB0066A653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		80F2C03F25DE46400051398B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1694,6 +1765,15 @@
 			buildConfigurations = (
 				67D8479521E9A0B2009D21C2 /* Debug */,
 				67D8479621E9A0B2009D21C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E0BDDC2872CACB0066A653 /* Build configuration list for PBXNativeTarget "Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E0BDDA2872CACB0066A653 /* Debug */,
+				67E0BDDB2872CACB0066A653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

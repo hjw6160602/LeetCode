@@ -1,13 +1,12 @@
 //
 //  main.swift
-//  BreadthFirstSearch
+//  Search
 //
-//  Created by 贺嘉炜 on 2022/4/12.
+//  Created by SaiDiCaprio on 2022/7/4.
 //  Copyright © 2022 saidicaprio. All rights reserved.
 //
 
 import Foundation
-
 let LeetCode = Solution.shared
 
 class Solution {
@@ -16,6 +15,10 @@ class Solution {
     private init() {}
 }
 
+//test733FloodFill()
 
-//testOrangesRotting()
-testBinarySearch()
+
+// MARK: - 排列组合
+test46Permute()
+//testCombine()
+//testLetterCombinations()

@@ -37,7 +37,8 @@ class Solution {
 //testAddBinary()
 //test686repeatedStringMatch()
 //test409LongestPalindrome()
-test709ToLowerCase()
+//test709ToLowerCase()
+test387FirstUniqChar()
 
 extension String {
     

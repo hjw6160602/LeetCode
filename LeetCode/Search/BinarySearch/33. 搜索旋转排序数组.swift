@@ -11,28 +11,47 @@ import Foundation
 
 extension Solution {
     
-    func search(_ nums: [Int], _ target: Int) -> Int {
-        var retVal = -1
-        var mid = nums.count / 2
-        var left= 0, right = nums.count
+    func searchIndexFromRotateArray(_ nums: [Int], _ target: Int) -> Int {
+        
+        var left = 0, right = nums.count - 1
         
         while left < right {
-            var mid = (left + right) / 2
-            if nums[left] {
-                
-            } else if {
-                
+            let mid = (left + right) / 2
+            
+            if target == nums[mid] {
+                return mid
+            }
+            
+            
+            // 右侧有序
+            if nums[mid] < nums[right] {
+                if target > nums[mid] && target < nums[right] {
+                    // 在右侧序列中
+                    left = mid + 1
+                } else {
+                    // 不在右侧序列中
+                    right = mid
+                }
             } else {
-                
+                // 右侧无序 代表左侧有序
+                if target < nums[mid] && target > nums[left] {
+                    // 在左侧序列中
+                    right = mid
+                } else {
+                    // 不在左侧序列中
+                    left = mid + 1
+                }
             }
         }
         
-        return retVal
+        return -1
     }
 }
 
-func testSearch() {
-    let x = LeetCode.search([4,5,6,7,0,1,2], 0)
+func test33Search() {
+//    let nums = [4,5,6,7,0,1,2], target = 0
+    let nums = [1], target = 0
+    let x = LeetCode.searchIndexFromRotateArray(nums, target)
     print(x)
 }
 

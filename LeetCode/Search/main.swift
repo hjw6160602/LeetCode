@@ -16,7 +16,8 @@ class Solution {
 }
 
 //test733FloodFill()
-test278FirstBadVersion()
+//test278FirstBadVersion()
+test33Search()
 
 // MARK: - 排列组合
 //test46Permute()

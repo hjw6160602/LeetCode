@@ -49,6 +49,7 @@
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67BF3E90287837FD0033A69C /* 33. 搜索旋转排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */; };
+		67BF3E92287C3FCD0033A69C /* 23. 合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */; };
 		67C1294B226DD3F800403640 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C1294A226DD3F800403640 /* main.swift */; };
 		67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */; };
 		67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F53426005F79009CEB1C /* 419.字符串相加.swift */; };
@@ -309,6 +310,7 @@
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
 		67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33. 搜索旋转排序数组.swift"; sourceTree = "<group>"; };
+		67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23. 合并K个升序链表.swift"; sourceTree = "<group>"; };
 		67C12948226DD3F800403640 /* Sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C1294A226DD3F800403640 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		67C3B04E25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
@@ -539,6 +541,7 @@
 				67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */,
 				67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */,
 				67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */,
+				67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1081,6 +1084,7 @@
 				676E880625C98F2200E52125 /* ListNode.swift in Sources */,
 				67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */,
 				67ACEB1E25CAD8D0009C53EE /* 160.交叉链表.swift in Sources */,
+				67BF3E92287C3FCD0033A69C /* 23. 合并K个升序链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

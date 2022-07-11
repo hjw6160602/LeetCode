@@ -30,7 +30,8 @@ class Solution {
 // 回文链表
 //testIsPalindrome()
 // 删除排序链表中的重复元素
-testDeleteDuplicates()
+//testDeleteDuplicates()
+test23MergeKLists()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

@@ -8,6 +8,80 @@
 
 import Foundation
 
+/// 自定义 堆 优先级队列
+class PriorityQueue {
+    /// 标记大顶堆 还是 小顶堆, 默认是小顶堆
+    var isMaxFlag = false
+    
+    var heap: [Int]
+    ///  有效元素个数，也是堆最后一个元素的角标
+    var count = 0
+    
+    init(_ flag: Bool = false) {
+        self.isMaxFlag = flag
+        // 堆元素从 角标 1 开始
+        heap = [0]
+    }
+    
+    func add(_ val:Int) {
+        insert(val)
+    }
+    
+    func poll()->Int {
+        let num = heap[1]
+        heap.swapAt(1, count)
+        heap.remove(at: count)
+        count -= 1
+        heapify()
+        return num
+    }
+    
+    func peak() -> Int {
+        return heap[1]
+    }
+    
+    /// 插入元素
+    private func insert(_ key: Int) {
+        count += 1
+        heap.append(key)
+        var j = count
+        while j / 2 > 0 && comparator(heap[j], heap[j / 2]) {
+            heap.swapAt(j, j / 2)
+            j = j / 2
+        }
+    }
+    
+    /// 比较器
+    func comparator(_ num1:Int,_ num2:Int) -> Bool {
+        if isMaxFlag {
+            return num2 < num1
+        } else {
+            return num1 < num2
+        }
+    }
+    
+    private func heapify()  {
+        var index = 1
+        while true {
+            var postionIndex = index
+            if index * 2 <= count && !comparator(heap[index], heap[index * 2]) {
+                postionIndex = index * 2
+            }
+            
+            if index * 2 + 1 <= count && !comparator(heap[postionIndex], heap[index * 2 + 1]) {
+                postionIndex = index * 2 + 1
+            }
+            
+            if postionIndex == index {
+                // 说明不需要进行操作
+                break
+            }
+            heap.swapAt(index, postionIndex)
+            index = postionIndex
+        }
+    }
+}
+
 class Heap {
     // 数组，从下标 1 开始存储数据
     var array: [Int]

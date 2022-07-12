@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let LeetCode = Solution.shared
+
+class Solution {
+    static let shared = Solution()
+    
+    private init() {}
+}
+
 

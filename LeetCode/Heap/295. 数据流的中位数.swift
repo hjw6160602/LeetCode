@@ -7,19 +7,52 @@
 //  https://leetcode.cn/problems/find-median-from-data-stream
 
 import Foundation
+
+
+//1328 ms 41.67%
+//21 MB 25.00%
+//21 / 21
 class MedianFinder {
 
-    init() {
-
-    }
+    var minHeap = PriorityQueue()
+    var maxHeap = PriorityQueue(true)
+    
+    init() {}
     
     func addNum(_ num: Int) {
-
+        // 如果当前两个堆的元素个数相等
+        if minHeap.count == maxHeap.count {
+            // 为了保证maxHeap多一个元素 所以先进minHeap
+            minHeap.add(num)
+            maxHeap.add(minHeap.poll())
+        } else {
+        // 如果目前 count 是 奇数，很明显，大顶堆的个数 = 小顶堆的个数+1
+        // 所以我们需要让大顶堆匀一个给小顶堆，因此，我们先将元素插入到大顶堆，然后从大顶堆 取出堆顶，插入到小顶堆即可
+            maxHeap.add(num)
+            minHeap.add(maxHeap.poll())
+        }
     }
     
     func findMedian() -> Double {
-
+        var res = 0.0
+        if minHeap.count == maxHeap.count {
+            res = Double(minHeap.peek() + maxHeap.peek()) / 2
+        } else {
+            res = Double(maxHeap.peek())
+        }
+//        print(res)
+        return res
     }
+}
+
+func test295MedianFinder() {
+    let x = MedianFinder()
+    
+    x.addNum(1)
+    x.addNum(2)
+    _ = x.findMedian()
+    x.addNum(3)
+    _ = x.findMedian()
 }
 
 /**
@@ -43,11 +76,7 @@ class MedianFinder {
 //double findMedian() - 返回目前所有元素的中位数。
 
 //示例：
-//addNum(1)
-//addNum(2)
-//findMedian() -> 1.5
-//addNum(3)
-//findMedian() -> 2
+
 
 //进阶:
 //如果数据流中所有整数都在 0 到 100 范围内，你将如何优化你的算法？

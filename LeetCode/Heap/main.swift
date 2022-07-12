@@ -16,4 +16,6 @@ class Solution {
     private init() {}
 }
 
+test295MedianFinder()
+
 

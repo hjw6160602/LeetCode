@@ -17,8 +17,8 @@ class PriorityQueue {
     ///  有效元素个数，也是堆最后一个元素的角标
     var count = 0
     
-    init(_ flag: Bool = false) {
-        self.isMaxFlag = flag
+    init(_ max: Bool = false) {
+        self.isMaxFlag = max
         // 堆元素从 角标 1 开始
         heap = [0]
     }
@@ -36,7 +36,7 @@ class PriorityQueue {
         return num
     }
     
-    func peak() -> Int {
+    func peek() -> Int {
         return heap[1]
     }
     
@@ -82,6 +82,7 @@ class PriorityQueue {
     }
 }
 
+/// 早起小顶堆
 class Heap {
     // 数组，从下标 1 开始存储数据
     var array: [Int]

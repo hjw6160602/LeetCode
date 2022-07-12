@@ -13,8 +13,9 @@ import Foundation
 //21 MB 25.00%
 //21 / 21
 class MedianFinder {
-
+    /** 小顶堆 */
     var minHeap = PriorityQueue()
+    /** 大顶堆 在这里保证大顶堆长度比小顶堆长度大1 其实反过来也是一样的 */
     var maxHeap = PriorityQueue(true)
     
     init() {}
@@ -26,7 +27,7 @@ class MedianFinder {
             minHeap.add(num)
             maxHeap.add(minHeap.poll())
         } else {
-        // 如果目前 count 是 奇数，很明显，大顶堆的个数 = 小顶堆的个数+1
+        // 如果目前 count 是 奇数，很明显，大顶堆的个数 = 小顶堆的个数 + 1
         // 所以我们需要让大顶堆匀一个给小顶堆，因此，我们先将元素插入到大顶堆，然后从大顶堆 取出堆顶，插入到小顶堆即可
             maxHeap.add(num)
             minHeap.add(maxHeap.poll())

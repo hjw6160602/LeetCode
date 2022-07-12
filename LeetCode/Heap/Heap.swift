@@ -23,11 +23,11 @@ class PriorityQueue {
         heap = [0]
     }
     
-    func add(_ val:Int) {
+    func add(_ val: Int) {
         insert(val)
     }
     
-    func poll()->Int {
+    func poll() -> Int {
         let num = heap[1]
         heap.swapAt(1, count)
         heap.remove(at: count)
@@ -41,9 +41,9 @@ class PriorityQueue {
     }
     
     /// 插入元素
-    private func insert(_ key: Int) {
+    private func insert(_ element: Int) {
         count += 1
-        heap.append(key)
+        heap.append(element)
         var j = count
         while j / 2 > 0 && comparator(heap[j], heap[j / 2]) {
             heap.swapAt(j, j / 2)
@@ -52,15 +52,15 @@ class PriorityQueue {
     }
     
     /// 比较器
-    func comparator(_ num1:Int,_ num2:Int) -> Bool {
+    private func comparator(_ num1: Int, _ num2: Int) -> Bool {
         if isMaxFlag {
-            return num2 < num1
+            return num1 > num2
         } else {
             return num1 < num2
         }
     }
     
-    private func heapify()  {
+    private func heapify() {
         var index = 1
         while true {
             var postionIndex = index

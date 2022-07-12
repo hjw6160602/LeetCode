@@ -59,6 +59,53 @@ extension Solution {
         
         return dummy.next
     }
+
+//    88 ms 51.24%
+//    15.8 MB 15.29%
+//    133 / 133
+    // 二分合并不同链表
+    func mergeKListsP1(_ lists: [ListNode?]) -> ListNode? {
+        guard lists.count > 0 else {
+            return nil
+        }
+        
+        
+        var left = 0, right = lists.count - 1
+        var lists = lists
+        
+        while right > 0 {
+            left = 0
+            while left < right {
+                lists[left] = _mergeTwoListsP1(l1: lists[left], l2: lists[right])
+                right -= 1
+                left += 1
+            }
+        }
+        
+        return lists[0]
+    }
+    
+    // 从小到大合并两个有序链表
+    private func _mergeTwoListsP1(l1: ListNode?, l2: ListNode?) -> ListNode? {
+        let dummy = ListNode(0)
+        var node = dummy
+        
+        var l1 = l1, l2 = l2
+        
+        while l1 != nil && l2 != nil {
+            if l1!.val > l2!.val {
+                node.next = l2
+                l2 = l2!.next
+            } else {
+                node.next = l1
+                l1 = l1!.next
+            }
+            node = node.next!
+        }
+        node.next = l1 ?? l2
+        
+        return dummy.next
+    }
 }
 
 func test23MergeKLists() {
@@ -67,7 +114,7 @@ func test23MergeKLists() {
     let list3 = LinkedList.createList([2,6])
     let lists = [list1, list2, list3]
 
-    let merged = LeetCode.mergeKLists(lists)
+    let merged = LeetCode.mergeKListsP1(lists)
     LinkedList.display(merged)
 }
 

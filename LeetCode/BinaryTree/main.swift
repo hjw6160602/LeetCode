@@ -29,8 +29,8 @@ class Solution {
 //test107LevelOrderBottom()
 
 //MARK: - 二叉搜索树
-test783MinDiffInBST()
-
+//test783MinDiffInBST()
+test783rangeSumBST()
 
 private func _BSF_DFS() {
     let tree = BinaryTree()

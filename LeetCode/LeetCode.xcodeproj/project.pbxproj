@@ -132,6 +132,7 @@
 		CA5C26372871E4AE00836003 /* 191. 位1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C26362871E4AE00836003 /* 191. 位1的个数.swift */; };
 		CA5C26392871E86F00836003 /* 204. 计数质数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5C26382871E86F00836003 /* 204. 计数质数.swift */; };
 		CA8C23C2287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C23C1287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift */; };
+		CA8C23C5287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C23C4287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift */; };
 		CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */; };
 		CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA621D027F756AE0010E814 /* 28.实现strStr.swift */; };
 		CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */; };
@@ -402,6 +403,7 @@
 		CA5C26362871E4AE00836003 /* 191. 位1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191. 位1的个数.swift"; sourceTree = "<group>"; };
 		CA5C26382871E86F00836003 /* 204. 计数质数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. 计数质数.swift"; sourceTree = "<group>"; };
 		CA8C23C1287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "783.二叉搜索树节点最小距离.swift"; sourceTree = "<group>"; };
+		CA8C23C4287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "938. 二叉搜索树的范围和.swift"; sourceTree = "<group>"; };
 		CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1013.将数组分成和相等的三个部分.swift"; sourceTree = "<group>"; };
 		CAA621D027F756AE0010E814 /* 28.实现strStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28.实现strStr.swift"; sourceTree = "<group>"; };
 		CAA7FB342810604200A2A3BE /* 169. 多数元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. 多数元素.swift"; sourceTree = "<group>"; };
@@ -587,25 +589,21 @@
 		67B57DCF25CC262A00814C1A /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
+				CA8C23C3287F14FC005D40A0 /* BST */,
 				67C3E83A25E538620074DA25 /* DFS */,
 				67B57DD025CC262A00814C1A /* main.swift */,
 				801B2D46226CC182008E7CAB /* BinaryTree.swift */,
 				801B2D47226CC182008E7CAB /* TreeNode.swift */,
-				67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */,
 				67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */,
 				80F2C25C25DE52D90051398B /* 572.另一个树的子树.swift */,
 				67B8CD6425E680710059D7B5 /* 236.最近公共祖先.swift */,
-				67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */,
-				CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */,
 				67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */,
 				67C8F5D62601ED25009CEB1C /* 112.路径总和.swift */,
 				67B8CD9325E772B60059D7B5 /* 113. 路径总和 II.swift */,
 				CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */,
 				67C8F61826044F3B009CEB1C /* 104.二叉树的最大深度.swift */,
 				67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */,
-				67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */,
 				CAE8C4E32875E3B8007B51D7 /* 107. 二叉树的层序遍历 II.swift */,
-				CA8C23C1287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -818,6 +816,19 @@
 				CA23E6D525F50A350048115F /* 08.12.八皇后.swift */,
 			);
 			path = Recursion;
+			sourceTree = "<group>";
+		};
+		CA8C23C3287F14FC005D40A0 /* BST */ = {
+			isa = PBXGroup;
+			children = (
+				67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */,
+				67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */,
+				67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */,
+				CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */,
+				CA8C23C1287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift */,
+				CA8C23C4287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift */,
+			);
+			path = BST;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1145,6 +1156,7 @@
 				CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */,
 				67B8CD6525E680710059D7B5 /* 236.最近公共祖先.swift in Sources */,
 				CAE8C4E42875E3B8007B51D7 /* 107. 二叉树的层序遍历 II.swift in Sources */,
+				CA8C23C5287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift in Sources */,
 				67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */,
 				CA8C23C2287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift in Sources */,
 				67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */,

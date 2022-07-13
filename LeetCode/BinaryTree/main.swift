@@ -26,7 +26,11 @@ class Solution {
 //testConstructMaximumBinaryTree()
 
 //testPathSum()
-test107LevelOrderBottom()
+//test107LevelOrderBottom()
+
+//MARK: - 二叉搜索树
+test783MinDiffInBST()
+
 
 private func _BSF_DFS() {
     let tree = BinaryTree()

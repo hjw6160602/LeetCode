@@ -10,16 +10,8 @@ import Foundation
 
 extension Solution {
     
-//    执行用时：
-//    412 ms
-//    , 在所有 Swift 提交中击败了
-//    67.57%
-//    的用户
-//    内存消耗：
-//    15.5 MB
-//    , 在所有 Swift 提交中击败了
-//    97.30%
-//    的用户
+//    412 ms 67.57%
+//    15.5 MB 97.30%
     func rangeSumBST(_ root: TreeNode?, _ low: Int, _ high: Int) -> Int {
         var sum = 0
         _dsf(root, low, high, sum: &sum)

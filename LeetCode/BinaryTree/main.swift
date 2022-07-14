@@ -27,8 +27,8 @@ class Solution {
 
 //testPathSum()
 //test107LevelOrderBottom()
-test94InorderTraversal()
-
+//test94InorderTraversal()
+test100IsSameTree()
 
 //MARK: - 二叉搜索树
 //test783MinDiffInBST()

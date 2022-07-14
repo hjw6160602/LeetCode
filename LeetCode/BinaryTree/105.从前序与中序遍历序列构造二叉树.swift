@@ -52,7 +52,7 @@ extension Solution {
 func test105BuildTree() {
     let preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
     let x = LeetCode.buildTree(preorder, inorder)
-    print(x)
+    print(x!.val)
 }
 
 //示例 1:

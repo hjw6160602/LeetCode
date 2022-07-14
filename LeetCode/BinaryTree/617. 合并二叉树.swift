@@ -39,7 +39,7 @@ func test617MergeTrees() {
     let t1 = BinaryTree().initWithInput(root1)
     let t2 = BinaryTree().initWithInput(root2)
     let x = LeetCode.mergeTrees(t1, t2)
-    print(x)
+    print(x!.val)
 }
 
 

@@ -26,9 +26,16 @@ class Solution {
 //testConstructMaximumBinaryTree()
 
 //testPathSum()
-//test107LevelOrderBottom()
+
 //test94InorderTraversal()
-test100IsSameTree()
+
+// MARK: - DFS
+//test100IsSameTree()
+
+// MARK: - BFS
+test102levelOrder()
+//test107LevelOrderBottom()
+
 
 //MARK: - 二叉搜索树
 //test783MinDiffInBST()

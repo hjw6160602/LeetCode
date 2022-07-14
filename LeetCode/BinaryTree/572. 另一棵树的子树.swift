@@ -21,6 +21,7 @@ extension Solution {
         guard let s = s else {
             return false
         }
+        // 优先check 如果发现是子树 那么久return了 如果不是才会去 遍历左子树和右子树
         return _check(s, t) || _dfs(s.left, t) || _dfs(s.right, t)
     }
     
@@ -36,9 +37,11 @@ extension Solution {
     
     private func _check(_ s: TreeNode?, _ t: TreeNode?) -> Bool {
         if s == nil && t == nil {
+            // 如果都为空 那么证明当前节点 相同
             return true
         }
         if s == nil || t == nil || s?.val != t?.val {
+            // 如果有一个 不为空 或者 连个节点的值不相等 那么 不同
             return false
         }
         return _check(s?.left, t?.left) && _check(s?.right, t?.right)

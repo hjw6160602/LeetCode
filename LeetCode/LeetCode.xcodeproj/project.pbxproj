@@ -63,6 +63,7 @@
 		67C8F624260450D5009CEB1C /* 26.删除数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F623260450D5009CEB1C /* 26.删除数组中的重复项.swift */; };
 		67C8F62F26047870009CEB1C /* 534.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */; };
 		67D43F14287D5A1700682BAB /* 295. 数据流的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F13287D5A1700682BAB /* 295. 数据流的中位数.swift */; };
+		67D43F1B287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */; };
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
@@ -329,6 +330,7 @@
 		67C8F62E26047870009CEB1C /* 534.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "534.二叉树的直径.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		67D43F13287D5A1700682BAB /* 295. 数据流的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "295. 数据流的中位数.swift"; sourceTree = "<group>"; };
+		67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4. 寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
 		67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.数据流中的第 K 大元素.swift"; sourceTree = "<group>"; };
 		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
@@ -613,6 +615,7 @@
 			children = (
 				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
 				67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */,
+				67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */,
 			);
 			path = BinarySearch;
 			sourceTree = "<group>";
@@ -1210,6 +1213,7 @@
 			files = (
 				67E0BDD92872CACB0066A653 /* main.swift in Sources */,
 				67E0BDDE2872CAF90066A653 /* 704. 二分查找.swift in Sources */,
+				67D43F1B287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift in Sources */,
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
 				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,

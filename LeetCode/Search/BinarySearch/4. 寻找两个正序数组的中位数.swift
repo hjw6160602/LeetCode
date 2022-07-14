@@ -61,22 +61,24 @@ extension Solution {
 // *              1. count of left = count of right
 // *              2. max of left <= min of right
     func findMedianSortedArraysP1(_ nums1: [Int], _ nums2: [Int]) -> Double {
-        let m = nums1.count
-        let n = nums2.count
+        let m = nums1.count, n = nums2.count
         
         if m > n {
             // 确保 nums1的长度比较小 nums2的长度比较大
             return findMedianSortedArrays(nums2, nums1)
         }
-        
+
         let halfLength: Int = (m + n + 1) >> 1
         // 这里的b 代表nums1的左边界 e代表nums1的 右边界
         var b = 0, e = m
+        // 这里的核心思路在于找到 合并数组后的 maxOfLeft minOfRight
         var maxOfLeft = 0, minOfRight = 0
         
         while b <= e {
             let mid1 = (b + e) >> 1
-            // 由于 nums1比较短，所以 总长度的一半减去 nums1的mid 一定会落在nums2 的范围内
+            // 由于 nums1比较短 所以 为了保证划分后两边数组长度相等或者相差为1
+            // 需要将 mid2 划分在 halfLength - mid1
+            // 确保 (0..mid1) + (0..mid2) = (mid1+1..m) + (mid2+1..n)
             let mid2 = halfLength - mid1
             
             if mid1 > 0 && mid2 < n && nums1[mid1 - 1] > nums2[mid2] {
@@ -88,10 +90,10 @@ extension Solution {
             } else { // 来到这里证明 mid1越界 || mid2越界 || nums1 和 nums2 所在索引的数字相等
                 // 这里要找到maxOfLeft
                 if mid1 == 0 {
-                    // nums1 遍历完了 maxOfLeft 存在于 nums2中
+                    // nums1 遍历完了 maxOfLeft 就是 nums2中的 mid2 - 1 所在值
                     maxOfLeft = nums2[mid2 - 1]
                 } else if mid2 == 0 {
-                    // nums2 遍历完了 maxOfLeft 存在于 nums1中
+                    // nums2 遍历完了 maxOfLeft 就是 nums1中  mid1 - 1 所在值
                     maxOfLeft = nums1[mid1 - 1]
                 } else {
                     // 都没有遍历完 那么取 nums1 和 nums2 所在索引的 较大值

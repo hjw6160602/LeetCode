@@ -31,9 +31,10 @@ class Solution {
 
 // MARK: - DFS
 //test100IsSameTree()
+test617MergeTrees()
 
 // MARK: - BFS
-test102levelOrder()
+//test102levelOrder()
 //test107LevelOrderBottom()
 
 

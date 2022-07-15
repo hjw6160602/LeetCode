@@ -82,10 +82,43 @@ extension Solution {
         }
         return []
     }
+    
+    func threeSumP2(_ nums: [Int]) -> [[Int]] {
+        guard nums.count > 2 else { return [] }
+        
+        var res: [[Int]] = []
+        //0. 先排序
+        let nums = nums.sorted()
+        
+        var last = Int.max
+        for a in 0..<nums.count-2 {
+            var b = a + 1, c = nums.count - 1
+            if nums[a] == last {
+                continue
+            }
+            while b < c {
+                if nums[a] + nums[b] + nums[c] > 0 {
+                    c -= 1
+                    continue
+                }
+                if nums[a] + nums[b] + nums[c] < 0 {
+                    b += 1
+                    continue
+                }
+                res.append([nums[a], nums[b], nums[c]])
+                c -= 1
+                b += 1
+            }
+            last = nums[a]
+        }
+        return res
+        
+    }
 }
 
-func testThreeSum() {
-    let res = LeetCode.threeSum([-1,0,1,2,-1,-4])
+func test15ThreeSum() {
+//    [-4,-1,-1,0,1,2]
+    let res = LeetCode.threeSumP2([-2,0,0,2,2])
     print(res)
 }
 

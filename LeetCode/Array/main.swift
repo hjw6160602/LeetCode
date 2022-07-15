@@ -18,7 +18,7 @@ class Solution {
 }
 
 //testTwoSum()
-//testThreeSum()
+test15ThreeSum()
 //testMinMeetingRooms()
 //testConvertToTitle()
 //testMerge()
@@ -45,4 +45,4 @@ class Solution {
 //test867Transpose()
 //test1010NumPairsDivisibleBy60()
 //test606CanPlaceFlowers()
-test575DistributeCandies()
+//test575DistributeCandies()

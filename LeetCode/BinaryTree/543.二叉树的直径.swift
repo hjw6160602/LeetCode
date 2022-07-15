@@ -1,10 +1,10 @@
 //
-//  534.二叉树的直径.swift
+//  543.二叉树的直径.swift
 //  BinaryTree
 //
-//  Created by SaiDiCaprio on 2021/3/19.
-//  Copyright © 2021 saidicaprio. All rights reserved.
-//  https://leetcode-cn.com/problems/diameter-of-binary-tree
+//  Created by SaiDiCaprio on 2022/7/15.
+//  Copyright © 2022 saidicaprio. All rights reserved.
+//  https://leetcode.cn/problems/diameter-of-binary-tree
 
 import Foundation
 
@@ -31,6 +31,31 @@ extension Solution {
     }
 }
 
+class DiameterOfBinaryTreeP1 {
+//    24 ms 79.74%
+//    14.2 MB 79.74%
+//    104 / 104
+    var ans = 1
+    
+    func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
+        _ = _depth(root)
+        return ans - 1
+    }
+    
+    private func _depth(_ root: TreeNode?) -> Int {
+        guard let root = root else { return 0 }
+        
+        let l = _depth(root.left)
+        let r = _depth(root.right)
+        
+        ans = max(ans, l + r + 1)
+        
+        return max(l, r) + 1
+    }
+}
+
+//24 ms 79.74%
+//14.6 MB 5.88%
 class DiameterOfBinaryTree {
     var diameter = 0
     
@@ -56,6 +81,12 @@ class DiameterOfBinaryTree {
 }
 
 
+func test543DiameterOfBinaryTree() {
+    let t = BinaryTree().initWithInput("[1,2,3,4,5]")
+    let x = DiameterOfBinaryTree().diameterOfBinaryTree(t)
+    print(x)
+}
+
 //         4
 //       /   \
 //      -7    -3
@@ -70,30 +101,14 @@ class DiameterOfBinaryTree {
 //   \  /    /
 //   -1 -4  -2
 
+//给定一棵二叉树，你需要计算它的直径长度。一棵二叉树的直径长度是任意两个结点路径长度中的最大值。这条路径可能穿过也可能不穿过根结点。
 
-func testDiameterOfBinaryTree() {
-    let tree = BinaryTree()
-    let array = tree.initializeInput("[4,-7,-3,null,null,-9,-3,9,-7,-4,null,6,null,-6,-6,null,null,0,6,5,null,9,null,null,-1,-4,null,null,null,-2]")
-//    let array = tree.initializeInput("[1,2,3,4,5]")
-    let root = tree.initWithArray(array)
-    
-    let d = DiameterOfBinaryTree()
-    let length = d.diameterOfBinaryTree(root)
-//    let length = LeetCode.diameterOfBinaryTree(root)
-    print(length)
-}
-
-
-// 一棵二叉树的直径长度是任意两个结点路径长度中的最大值
-// 这条路径可能穿过也可能不穿过根结点
-
-// 示例 :
-// 给定二叉树
-//     1
-//    / \
-//   2   3
-//  / \
-// 4   5
-// 返回 3, 它的长度是路径 [4,2,1,3] 或者 [5,2,1,3]。
-// 注意：两结点之间的路径长度是以它们之间边的数目表示
- 
+//示例 :
+//给定二叉树
+//
+//          1
+//         / \
+//        2   3
+//       / \
+//      4   5
+//返回 3, 它的长度是路径 [4,2,1,3] 或者 [5,2,1,3]。

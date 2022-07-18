@@ -111,6 +111,7 @@
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
+		CA2242FE2885A33900332C01 /* 146.LRU缓存.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -390,6 +391,7 @@
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
 		CA1D75E725E9113000CD2432 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
 		CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "168.Excel表列名称.swift"; sourceTree = "<group>"; };
+		CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146.LRU缓存.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -559,7 +561,6 @@
 				67ACEB1D25CAD8D0009C53EE /* 160.交叉链表.swift */,
 				67ACEB0625CAD8B3009C53EE /* 86. 分隔链表.swift */,
 				67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */,
-				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 				67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */,
 				CAF523DB27FEDDE000A62886 /* 83.删除排序链表中的重复元素.swift */,
 				67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */,
@@ -567,6 +568,8 @@
 				67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */,
 				67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */,
 				67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */,
+				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
+				CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1124,6 +1127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */,
+				CA2242FE2885A33900332C01 /* 146.LRU缓存.swift in Sources */,
 				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
 				67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,

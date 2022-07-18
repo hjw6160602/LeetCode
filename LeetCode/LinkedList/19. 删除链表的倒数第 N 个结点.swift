@@ -4,7 +4,7 @@
 //
 //  Created by SaiDiCaprio on 2022/7/18.
 //  Copyright © 2022 saidicaprio. All rights reserved.
-//
+//  https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
 
 import Foundation
 

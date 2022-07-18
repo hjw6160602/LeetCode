@@ -17,6 +17,8 @@ import Foundation
 
 class LRUCache {
     
+    //    1156 ms 79.46%
+    //    30.7 MB 72.43%
     var map: [Int: CacheNode] = [:]
     /// Cache的最大容量
     var capacity: Int

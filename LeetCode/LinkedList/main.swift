@@ -31,7 +31,8 @@ class Solution {
 //testIsPalindrome()
 // 删除排序链表中的重复元素
 //testDeleteDuplicates()
-test23MergeKLists()
+//test23MergeKLists()
+test19removeNthFromEnd()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

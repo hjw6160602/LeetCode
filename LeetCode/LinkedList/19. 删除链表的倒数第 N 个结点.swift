@@ -10,30 +10,34 @@ import Foundation
 
 
 extension Solution {
+
+//    0 ms 100.00%
+//    13.5 MB 94.64%
+    
     func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
+        guard let head = head else { return nil }
         let dummy = ListNode()
         dummy.next = head
         
-        var node = head, n = n
-        var nthNode: ListNode?
-        var cur = 1
-        while node?.next != nil {
-            node = node?.next
-            if cur == n {
-                nthNode = head
+        var node: ListNode? = dummy, prevNthNode = dummy
+        var cur = 0
+        while node != nil {
+            if cur > n {
+                prevNthNode = prevNthNode.next!
             }
+            node = node!.next
             cur += 1
         }
-        
-        nthNode?.next = nthNode?.next?.next
+        // 删除倒数第N个节点
+        prevNthNode.next = prevNthNode.next?.next
         
         return dummy.next
     }
 }
 
 func test19removeNthFromEnd() {
-    let list = LinkedList.createList([1,2,3,4,5])
-    let x = LeetCode.removeElements(list, 2)
+    let list = LinkedList.createList([1,2])
+    let x = LeetCode.removeNthFromEnd(list, 1)
     LinkedList.display(x)
 }
 

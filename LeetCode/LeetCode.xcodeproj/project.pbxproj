@@ -48,6 +48,7 @@
 		67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
+		67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */; };
 		67BF3E90287837FD0033A69C /* 33. 搜索旋转排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */; };
 		67BF3E92287C3FCD0033A69C /* 23. 合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */; };
 		67BF3E9A287D593E0033A69C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E99287D593E0033A69C /* main.swift */; };
@@ -320,6 +321,7 @@
 		67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47. 全排列II.swift"; sourceTree = "<group>"; };
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
 		67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
+		67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. 删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
 		67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33. 搜索旋转排序数组.swift"; sourceTree = "<group>"; };
 		67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23. 合并K个升序链表.swift"; sourceTree = "<group>"; };
 		67BF3E97287D593E0033A69C /* Heap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -564,6 +566,7 @@
 				67B57C8425CB9D5000814C1A /* 206.翻转链表.swift */,
 				67ACEB4B25CADA5C009C53EE /* 234.回文链表.swift */,
 				67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */,
+				67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1123,6 +1126,7 @@
 				67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */,
 				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
+				67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
 				67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */,
 				676E87D725C98EF900E52125 /* main.swift in Sources */,
 				67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */,

@@ -18,7 +18,8 @@ class Solution {
 }
 
 //testTwoSum()
-test15ThreeSum()
+//test15ThreeSum()
+test11MasArea()
 //testMinMeetingRooms()
 //testConvertToTitle()
 //testMerge()

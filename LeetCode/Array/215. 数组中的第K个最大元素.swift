@@ -17,21 +17,56 @@ extension Solution {
         return sorted[nums.count - k]
     }
     
+//    424 ms 5.26%
+//    18 MB 5.27%
     func findKthLargestP1(_ nums: [Int], _ k: Int) -> Int {
         
-        
-        let sorted = nums.sorted()
-        return sorted[nums.count - k]
+        var nums = nums, isFind = false
+        quickSort(&nums, 0, nums.count - 1, isFind: &isFind, k: nums.count - k)
+        return nums[nums.count - k]
     }
     
-    private func _quickSort() {
+    private func quickSort(_ nums: inout [Int], _ low: Int, _ high: Int, isFind: inout Bool, k: Int) {
+        guard !isFind, low < high else {
+            return
+        }
+        // 指定基准值
+        let pivot = nums[low]
+        // 确定左右指针位置
+        var l = low, r = high
         
+        while l < r {
+            while l < r && nums[r] >= pivot {
+                r -= 1
+            }
+            while l < r && nums[l] <= pivot {
+                l += 1
+            }
+            if l < r {
+                nums.swapAt(l, r)
+            }
+        }
+        
+        // 当左右指针相遇 交换基准值位置
+        nums.swapAt(l, low)
+        
+        guard l != k else {
+            isFind = true
+            return
+        }
+        
+        if low < l {
+            quickSort(&nums, low, l-1, isFind: &isFind, k: k)
+        }
+        if r < high {
+            quickSort(&nums, r + 1, high, isFind: &isFind, k: k)
+        }
     }
     
 }
 
 func test215FindKthLargest() {
-    let x = LeetCode.findKthLargest([3,2,3,1,2,4,5,5,6], 4)
+    let x = LeetCode.findKthLargestP1([4,6], 2)
     print(x)
 }
 

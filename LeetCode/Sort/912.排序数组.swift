@@ -20,7 +20,9 @@ extension Solution {
     
     private func quickSortN(_ nums: inout [Int], _ low: Int, _ high: Int) {
         guard low < high else { return }
+        // 指定基准值
         let pivot = nums[low]
+        // 确定左右指针位置
         var l = low, r = high
         
         while l < r {

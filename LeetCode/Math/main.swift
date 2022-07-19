@@ -29,4 +29,5 @@ class Solution {
 //test119GetRow()
 //test326IsPowerOfThree()
 //test191HammingWeight()
-test204CountPrimes()
+//test204CountPrimes()
+test338CountBits()

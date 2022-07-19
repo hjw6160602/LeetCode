@@ -33,7 +33,8 @@ class Solution {
 //test100IsSameTree()
 //test617MergeTrees()
 //test538ConvertBST()
-test543DiameterOfBinaryTree()
+//test543DiameterOfBinaryTree()
+test226InvertTree()
 
 // MARK: - BFS
 //test102levelOrder()

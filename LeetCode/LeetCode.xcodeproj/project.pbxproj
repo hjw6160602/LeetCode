@@ -116,6 +116,8 @@
 		CA2242FE2885A33900332C01 /* 146.LRU缓存.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */; };
 		CA2243002885B13D00332C01 /* 11. 盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2242FF2885B13D00332C01 /* 11. 盛最多水的容器.swift */; };
 		CA2243032886FF4E00332C01 /* 55. 跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243022886FF4E00332C01 /* 55. 跳跃游戏.swift */; };
+		CA2243052887031800332C01 /* 226. 翻转二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243042887031800332C01 /* 226. 翻转二叉树.swift */; };
+		CA224307288707CD00332C01 /* 338. 比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224306288707CD00332C01 /* 338. 比特位计数.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -400,6 +402,8 @@
 		CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146.LRU缓存.swift"; sourceTree = "<group>"; };
 		CA2242FF2885B13D00332C01 /* 11. 盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. 盛最多水的容器.swift"; sourceTree = "<group>"; };
 		CA2243022886FF4E00332C01 /* 55. 跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55. 跳跃游戏.swift"; sourceTree = "<group>"; };
+		CA2243042887031800332C01 /* 226. 翻转二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226. 翻转二叉树.swift"; sourceTree = "<group>"; };
+		CA224306288707CD00332C01 /* 338. 比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338. 比特位计数.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -637,6 +641,7 @@
 				CA4F6F92287F1B7400B4759E /* 572. 另一棵树的子树.swift */,
 				CA4F6F9428806EB000B4759E /* 617. 合并二叉树.swift */,
 				67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */,
+				CA2243042887031800332C01 /* 226. 翻转二叉树.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -840,6 +845,7 @@
 				CA5C263228709F3B00836003 /* 326. 3 的幂 .swift */,
 				CA5C26362871E4AE00836003 /* 191. 位1的个数.swift */,
 				CA5C26382871E86F00836003 /* 204. 计数质数.swift */,
+				CA224306288707CD00332C01 /* 338. 比特位计数.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -1229,6 +1235,7 @@
 				67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */,
 				67B8CD9425E772B60059D7B5 /* 113. 路径总和 II.swift in Sources */,
 				67B57DFE25CC263900814C1A /* BinaryTree.swift in Sources */,
+				CA2243052887031800332C01 /* 226. 翻转二叉树.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,6 +1369,7 @@
 				80F2C28A25DE55E30051398B /* main.swift in Sources */,
 				CA5C261C286CA82B00836003 /* 1025. 除数博弈.swift in Sources */,
 				CA5C26372871E4AE00836003 /* 191. 位1的个数.swift in Sources */,
+				CA224307288707CD00332C01 /* 338. 比特位计数.swift in Sources */,
 				67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */,
 				67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,

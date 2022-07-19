@@ -17,7 +17,6 @@ class Solution {
     private init() {}
 }
 
-test215FindKthLargest()
 //testTwoSum()
 //test15ThreeSum()
 //test11MasArea()

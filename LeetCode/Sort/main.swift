@@ -19,9 +19,11 @@ class Solution {
 //testMaximumProduct()
 //test922SortArrayByParityII()
 //testAllCellsDistOrder()
-test561ArrayPairSum()
+//test561ArrayPairSum()
+test912SortArray()
 
-//var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26 ]
+//var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
+//quickSortN(&list, 0, list.count - 1)
 //mergeSort(&list)
 //print(list)
 

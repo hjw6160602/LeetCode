@@ -49,6 +49,8 @@
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */; };
+		67BDD5872886949F00884306 /* 215. 数组中的第K个最大元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD5862886949F00884306 /* 215. 数组中的第K个最大元素.swift */; };
+		67BDD58928869F1400884306 /* 912.排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD58828869F1400884306 /* 912.排序数组.swift */; };
 		67BF3E90287837FD0033A69C /* 33. 搜索旋转排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */; };
 		67BF3E92287C3FCD0033A69C /* 23. 合并K个升序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */; };
 		67BF3E9A287D593E0033A69C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF3E99287D593E0033A69C /* main.swift */; };
@@ -324,6 +326,8 @@
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
 		67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. 删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
+		67BDD5862886949F00884306 /* 215. 数组中的第K个最大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "215. 数组中的第K个最大元素.swift"; sourceTree = "<group>"; };
+		67BDD58828869F1400884306 /* 912.排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "912.排序数组.swift"; sourceTree = "<group>"; };
 		67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33. 搜索旋转排序数组.swift"; sourceTree = "<group>"; };
 		67BF3E91287C3FCD0033A69C /* 23. 合并K个升序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "23. 合并K个升序链表.swift"; sourceTree = "<group>"; };
 		67BF3E97287D593E0033A69C /* Heap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heap; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -668,6 +672,7 @@
 				CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */,
 				CA5C261D286CAC4600836003 /* 922. 按奇偶排序数组 II.swift */,
 				CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */,
+				67BDD58828869F1400884306 /* 912.排序数组.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -770,6 +775,7 @@
 				67FAFA8227633451003C357F /* 977.独立数组的平方.swift */,
 				CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */,
 				67FAFA80276237FD003C357F /* 16.16.部分排序.swift */,
+				67BDD5862886949F00884306 /* 215. 数组中的第K个最大元素.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1237,6 +1243,7 @@
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,
 				67C1294B226DD3F800403640 /* main.swift in Sources */,
+				67BDD58928869F1400884306 /* 912.排序数组.swift in Sources */,
 				679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */,
 				CA5C262D287031B100836003 /* 561. 数组拆分 I.swift in Sources */,
 			);
@@ -1288,6 +1295,7 @@
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				CA5C262928701A8800836003 /* 575. 分糖果.swift in Sources */,
 				67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */,
+				67BDD5872886949F00884306 /* 215. 数组中的第K个最大元素.swift in Sources */,
 				CAC4ADA02811A9E700F0FF9B /* 66. 加一.swift in Sources */,
 				CA23E6F625FDE1400048115F /* 88.合并两个有序数组.swift in Sources */,
 				CAC4ADA62815A94400F0FF9B /* 867. 转置矩阵.swift in Sources */,

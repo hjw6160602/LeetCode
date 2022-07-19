@@ -20,6 +20,7 @@ class Solution {
 //testTwoSum()
 //test15ThreeSum()
 //test11MasArea()
+test55CanJump()
 //testMinMeetingRooms()
 //testConvertToTitle()
 //testMerge()

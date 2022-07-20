@@ -18,9 +18,10 @@ class Solution {
 //test733FloodFill()
 //test278FirstBadVersion()
 //test33Search()
-test4findMedianSortedArrays()
+//test4findMedianSortedArrays()
 
 // MARK: - 排列组合
 //test46Permute()
 //testCombine()
 //testLetterCombinations()
+test47PermuteUnique()

@@ -44,7 +44,6 @@
 		67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */; };
 		67B8CD9425E772B60059D7B5 /* 113. 路径总和 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9325E772B60059D7B5 /* 113. 路径总和 II.swift */; };
 		67B8CDA825E774800059D7B5 /* 剑指.55. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDA725E774800059D7B5 /* 剑指.55. 二叉树的深度.swift */; };
-		67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */; };
@@ -84,13 +83,14 @@
 		67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */; };
 		67E0BDE72872D6870066A653 /* 387.字符串中的第一个唯一字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDE62872D6870066A653 /* 387.字符串中的第一个唯一字符.swift */; };
 		67E393BF2887ADB900B4F252 /* 56. 合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E393BE2887ADB900B4F252 /* 56. 合并区间.swift */; };
-		67E393CD28880A9200B4F252 /* 39. 组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9D25E773590059D7B5 /* 39. 组合总和.swift */; };
-		67E393CE28880A9600B4F252 /* 31.下一个排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E393C92888065300B4F252 /* 31.下一个排列.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
 		67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA8227633451003C357F /* 977.独立数组的平方.swift */; };
 		67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDD8DF276059A00004D5E4 /* 283.零移动.swift */; };
+		80A0D37328884F0A0049567C /* 47. 全排列II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */; };
+		80A0D37428884F110049567C /* 39. 组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9D25E773590059D7B5 /* 39. 组合总和.swift */; };
+		80A0D37628884F200049567C /* 31.下一个排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E393C92888065300B4F252 /* 31.下一个排列.swift */; };
 		80F2C03E25DE46400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C03D25DE46400051398B /* main.swift */; };
 		80F2C07125DE49400051398B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C07025DE49400051398B /* main.swift */; };
 		80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F2C05525DE466B0051398B /* 242.有效的字母异位词.swift */; };
@@ -737,12 +737,11 @@
 		67E0BDD72872CACB0066A653 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				67BF3E8E287837CA0033A69C /* BinarySearch */,
 				67E0BDD82872CACB0066A653 /* main.swift */,
+				67E393CB28880A6E00B4F252 /* 排列组合 */,
+				67BF3E8E287837CA0033A69C /* BinarySearch */,
 				67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */,
 				67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */,
-				CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */,
-				80F2C2E025DE569A0051398B /* 77. Combinations.swift */,
 				67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */,
 				67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */,
 				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
@@ -753,9 +752,11 @@
 		67E393CB28880A6E00B4F252 /* 排列组合 */ = {
 			isa = PBXGroup;
 			children = (
+				CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */,
 				67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */,
 				67B8CD9D25E773590059D7B5 /* 39. 组合总和.swift */,
 				67E393C92888065300B4F252 /* 31.下一个排列.swift */,
+				80F2C2E025DE569A0051398B /* 77. Combinations.swift */,
 			);
 			path = "排列组合";
 			sourceTree = "<group>";
@@ -772,7 +773,6 @@
 		80F2C03C25DE46400051398B /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				67E393CB28880A6E00B4F252 /* 排列组合 */,
 				CA2243012886FDFC00332C01 /* 贪心 */,
 				80F2C03D25DE46400051398B /* main.swift */,
 				80F2C3CA25DF8D640051398B /* 01. 两数之和.swift */,
@@ -1240,7 +1240,6 @@
 				67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */,
 				CA8C23C2287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift in Sources */,
 				67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */,
-				67B8CDDC25E795FC0059D7B5 /* 47. 全排列II.swift in Sources */,
 				67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */,
 				67D43F1F2880088500682BAB /* 100. 相同的树.swift in Sources */,
 				67B57E3A25CC26F000814C1A /* 98. 验证二叉搜索树.swift in Sources */,
@@ -1296,10 +1295,13 @@
 			files = (
 				67E0BDD92872CACB0066A653 /* main.swift in Sources */,
 				67E0BDDE2872CAF90066A653 /* 704. 二分查找.swift in Sources */,
+				80A0D37328884F0A0049567C /* 47. 全排列II.swift in Sources */,
+				80A0D37628884F200049567C /* 31.下一个排列.swift in Sources */,
 				67D43F1B287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift in Sources */,
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
 				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,
+				80A0D37428884F110049567C /* 39. 组合总和.swift in Sources */,
 				67E0BDDD2872CAF90066A653 /* 994. 腐烂的橘子.swift in Sources */,
 				67E0BDE02872CB3B0066A653 /* 22. 括号生成.swift in Sources */,
 				67BF3E90287837FD0033A69C /* 33. 搜索旋转排序数组.swift in Sources */,
@@ -1322,12 +1324,10 @@
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,
 				CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */,
-				67E393CE28880A9600B4F252 /* 31.下一个排列.swift in Sources */,
 				67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */,
 				CA2243002885B13D00332C01 /* 11. 盛最多水的容器.swift in Sources */,
 				80F2C3CB25DF8D640051398B /* 01. 两数之和.swift in Sources */,
 				67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */,
-				67E393CD28880A9200B4F252 /* 39. 组合总和.swift in Sources */,
 				CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */,
 				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
@@ -1712,7 +1712,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1725,7 +1725,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;

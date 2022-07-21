@@ -19,9 +19,10 @@ class Solution {
 //test278FirstBadVersion()
 //test33Search()
 //test4findMedianSortedArrays()
+test200NumIslands()
 
 // MARK: - 排列组合
 //test46Permute()
 //testCombine()
 //testLetterCombinations()
-test47PermuteUnique()
+//test47PermuteUnique()

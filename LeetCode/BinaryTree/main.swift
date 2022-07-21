@@ -34,7 +34,8 @@ class Solution {
 //test617MergeTrees()
 //test538ConvertBST()
 //test543DiameterOfBinaryTree()
-test226InvertTree()
+//test226InvertTree()
+test124MaxPathSum()
 
 // MARK: - BFS
 //test102levelOrder()

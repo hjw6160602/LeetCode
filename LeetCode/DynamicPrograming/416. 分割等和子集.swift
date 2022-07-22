@@ -9,6 +9,10 @@
 import Foundation
 
 extension Solution {
+
+//    292 ms 5.71%
+//    15.3 MB 30.00%
+    
     func canPartition(_ nums: [Int]) -> Bool {
         let sum = nums.reduce( 0,+ )
         guard sum & 1 == 0 else {
@@ -26,15 +30,8 @@ extension Solution {
         }
         // 从nums[1]开始遍历
         for i in 1..<nums.count {
-            // 上一行的值直接copy
-            for k in 0..<i {
-                dp[i][k] = dp[i-1][k]
-            }
-            guard i <= target else {
-                break
-            }
             // 从后一个数开始
-            for j in i...target {
+            for j in 1...target {
                 if nums[i] == j {
                     dp[i][j] = true
                     continue
@@ -47,15 +44,16 @@ extension Solution {
             }
         }
         let x = nums.count - 1
-        for d in dp {
-            print(d)
-        }
+//        for d in dp {
+//            print(d)
+//        }
         return dp[x][target]
     }
 }
 
 func test416CanPartition() {
-    let nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,90]
+    let nums = [1,2,3,5]
+//    let nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,90]
     let x = LeetCode.canPartition(nums)
     print(x)
 }

@@ -24,4 +24,5 @@ class Solution {
 //testCoinChange()
 //testMaxProfit()
 //testRob()
-test746minCostClimbingStairs()
+//test746minCostClimbingStairs()
+test416CanPartition()

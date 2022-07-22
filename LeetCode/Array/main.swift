@@ -17,10 +17,11 @@ class Solution {
     private init() {}
 }
 
+test560SubarraySum()
 //testTwoSum()
 //test15ThreeSum()
 //test11MasArea()
-test55CanJump()
+//test55CanJump()
 //testMinMeetingRooms()
 //testConvertToTitle()
 //testMerge()

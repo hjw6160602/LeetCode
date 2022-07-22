@@ -85,6 +85,7 @@
 		67E393BF2887ADB900B4F252 /* 56. 合并区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E393BE2887ADB900B4F252 /* 56. 合并区间.swift */; };
 		67E39423288979AE00B4F252 /* 200. 岛屿数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */; };
 		67E3942528898CCC00B4F252 /* 124. 二叉树中的最大路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3942428898CCB00B4F252 /* 124. 二叉树中的最大路径和.swift */; };
+		67E39427288A48F100B4F252 /* 560. 和为 K 的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
@@ -369,6 +370,7 @@
 		67E393C92888065300B4F252 /* 31.下一个排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31.下一个排列.swift"; sourceTree = "<group>"; };
 		67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200. 岛屿数量.swift"; sourceTree = "<group>"; };
 		67E3942428898CCB00B4F252 /* 124. 二叉树中的最大路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "124. 二叉树中的最大路径和.swift"; sourceTree = "<group>"; };
+		67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. 和为 K 的子数组.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
@@ -812,6 +814,7 @@
 				CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */,
 				CA95816F25E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift */,
 				67FAFA80276237FD003C357F /* 16.16.部分排序.swift */,
+				67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1343,6 +1346,7 @@
 				CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */,
 				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,
 				CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */,
+				67E39427288A48F100B4F252 /* 560. 和为 K 的子数组.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				CA5C262928701A8800836003 /* 575. 分糖果.swift in Sources */,

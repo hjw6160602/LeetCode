@@ -32,7 +32,8 @@ class Solution {
 // 删除排序链表中的重复元素
 //testDeleteDuplicates()
 //test23MergeKLists()
-test19removeNthFromEnd()
+//test19removeNthFromEnd()
+testOffer24ReverseList()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

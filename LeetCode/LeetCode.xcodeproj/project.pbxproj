@@ -126,6 +126,7 @@
 		CA224309288AEEEE00332C01 /* 416. 分割等和子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */; };
 		CA22430E288C375400332C01 /* 217. 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22430D288C375400332C01 /* 217. 存在重复元素.swift */; };
 		CA224310288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */; };
+		CA224312288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -420,6 +421,7 @@
 		CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "416. 分割等和子集.swift"; sourceTree = "<group>"; };
 		CA22430D288C375400332C01 /* 217. 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. 存在重复元素.swift"; sourceTree = "<group>"; };
 		CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 03. 数组中重复的数字.swift"; sourceTree = "<group>"; };
+		CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -598,6 +600,7 @@
 				67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */,
 				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 				CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */,
+				CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1205,6 +1208,7 @@
 				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
 				67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
+				CA224312288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift in Sources */,
 				67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */,
 				676E87D725C98EF900E52125 /* main.swift in Sources */,
 				67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */,

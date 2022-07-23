@@ -125,6 +125,7 @@
 		CA224307288707CD00332C01 /* 338. 比特位计数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224306288707CD00332C01 /* 338. 比特位计数.swift */; };
 		CA224309288AEEEE00332C01 /* 416. 分割等和子集.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */; };
 		CA22430E288C375400332C01 /* 217. 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22430D288C375400332C01 /* 217. 存在重复元素.swift */; };
+		CA224310288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -418,6 +419,7 @@
 		CA224306288707CD00332C01 /* 338. 比特位计数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338. 比特位计数.swift"; sourceTree = "<group>"; };
 		CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "416. 分割等和子集.swift"; sourceTree = "<group>"; };
 		CA22430D288C375400332C01 /* 217. 存在重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. 存在重复元素.swift"; sourceTree = "<group>"; };
+		CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 03. 数组中重复的数字.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -899,6 +901,7 @@
 			isa = PBXGroup;
 			children = (
 				CA22430D288C375400332C01 /* 217. 存在重复元素.swift */,
+				CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */,
 			);
 			path = Set;
 			sourceTree = "<group>";
@@ -1363,6 +1366,7 @@
 				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,
 				CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */,
 				67E39427288A48F100B4F252 /* 560. 和为 K 的子数组.swift in Sources */,
+				CA224310288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift in Sources */,
 				67B8CD5125E64DCB0059D7B5 /* 253.会议室II.swift in Sources */,
 				CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */,
 				CA5C262928701A8800836003 /* 575. 分糖果.swift in Sources */,

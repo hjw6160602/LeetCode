@@ -17,7 +17,8 @@ class Solution {
     private init() {}
 }
 
-test560SubarraySum()
+test217ContainsDuplicate()
+//test560SubarraySum()
 //testTwoSum()
 //test15ThreeSum()
 //test11MasArea()

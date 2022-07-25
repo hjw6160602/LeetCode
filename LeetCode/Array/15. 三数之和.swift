@@ -52,6 +52,9 @@ extension Solution {
         return res
     }
     
+//    116 ms 41.07%
+//    17.5 MB 89.53%
+    
     func threeSumP1(_ nums: [Int]) -> [[Int]] {
         guard nums.count > 2 else { return [] }
         
@@ -59,7 +62,7 @@ extension Solution {
         //0. 先排序
         let sortedNums = nums.sorted()
         
-        for i in 0..<nums.count-2 {
+        for i in 0..<nums.count - 2 {
             // 排除连续相等的重复的情况
             if i > 0 && sortedNums[i] == sortedNums[i - 1] {
                 continue
@@ -67,57 +70,60 @@ extension Solution {
             var l = i + 1, r = nums.count - 1
             let remain = -sortedNums[i]
             while r > l {
-                let sum = sortedNums[l] + sortedNums[r]
-                if sum < remain {
+                if sortedNums[l] + sortedNums[r] < remain {
                     l += 1
-                } else if sum > remain {
+                } else if sortedNums[l] + sortedNums[r] > remain {
                     r -= 1
                 } else {
-                    let part = [sortedNums[i], sortedNums[l], sortedNums[r]]
-                    res.append(part)
+                    res.append([sortedNums[i], sortedNums[l], sortedNums[r]])
                     l += 1
                     r -= 1
+                    // 去除重复操作
+                    while l < r && sortedNums[l] == sortedNums[l - 1] {
+                        l += 1
+                    }
+                    while l < r && sortedNums[r] == sortedNums[r + 1] {
+                        r -= 1
+                    }
                 }
             }
         }
-        return []
+        return res
     }
     
+//    108 ms 59.75%
+//    17.6 MB  61.60%
     func threeSumP2(_ nums: [Int]) -> [[Int]] {
         guard nums.count > 2 else { return [] }
         
         var res: [[Int]] = []
         //0. 先排序
         let nums = nums.sorted()
-        print(nums)
         // 利用双指针向中间去靠拢
         var last = Int.max
-        for a in 0..<nums.count-2 {
+        for a in 0..<nums.count - 2 {
             var b = a + 1, c = nums.count - 1
             if nums[a] == last {
                 continue
             }
             while b < c {
-                // 去除重复操作
-                while b < c && nums[b] == nums[b + 1] {
+                if nums[a] + nums[b] + nums[c] ==  0 {
+                    res.append([nums[a], nums[b], nums[c]])
+                    // 如果找到了一个组合 那么 两个指针都向中间靠拢
+                    c -= 1
+                    b += 1
+                    // 去除重复操作
+                    while b < c && nums[b] == nums[b - 1] {
+                        b += 1
+                    }
+                    while b < c && nums[c] == nums[c + 1] {
+                        c -= 1
+                    }
+                } else if nums[a] + nums[b] + nums[c] > 0 {
+                    c -= 1
+                } else {
                     b += 1
                 }
-                while b < c && nums[c] == nums[c - 1] {
-                    c -= 1
-                }
-                
-                if nums[a] + nums[b] + nums[c] > 0 {
-                    c -= 1
-                    continue
-                }
-                if nums[a] + nums[b] + nums[c] < 0 {
-                    b += 1
-                    continue
-                }
-                res.append([nums[a], nums[b], nums[c]])
-                // 如果找到了一个组合 那么 两个指针都向中间靠拢
-                c -= 1
-                b += 1
             }
             // 这里记录上一个遍历过的值
             last = nums[a]
@@ -127,7 +133,6 @@ extension Solution {
     
 //    108 ms 59.75%
 //    17.3 MB 98.97%
-    
     func threeSumSoap(_ nums: [Int]) -> [[Int]] {
         var res = [[Int]]()
         
@@ -169,19 +174,28 @@ extension Solution {
 }
 
 func test15ThreeSum() {
-    testCase174()
-//    let nums = [-4,-1,-1,0,1,2]
-    
-//    let nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0]
-////    nums = [-2,0,0,2,2]
-//    let res = LeetCode.threeSumP2(nums)
-//    print(res)
+    testCase1()
+//    testCase174()
+}
+
+func testCase0() {
+    let nums: [Int] = [0]
+    let res = LeetCode.threeSumP1(nums)
+    print(res)
+}
+
+func testCase1() {
+    let nums = [-4,-1,-1,0,1,2]
+    //    nums = [-2,0,0,2,2]
+    let res = LeetCode.threeSumP1(nums)
+    print(res)
+    print([[-1,-1,2],[-1,0,1]])
 }
 
 func testCase174() {
     let nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0]
 //    [-5, -5, -4, -4, -4, -2, -2, -2, 0, 0, 0, 1, 1, 3, 4, 4]
-    let res = LeetCode.threeSumSoap(nums)
+    let res = LeetCode.threeSumP1(nums)
     print(res)
     print([[-5,1,4],[-4,0,4],[-4,1,3],[-2,-2,4],[-2,1,1],[0,0,0]])
     

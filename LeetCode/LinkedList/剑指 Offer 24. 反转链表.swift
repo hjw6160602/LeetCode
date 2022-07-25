@@ -25,6 +25,9 @@ extension Solution {
         return node
     }
     
+
+//    12 ms 82.35%
+//    14.1 MB 100.00%
     func reverseListO2(_ head: ListNode?) -> ListNode? {
         guard let head = head else { return nil }
 

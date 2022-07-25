@@ -89,7 +89,8 @@ extension Solution {
         var res: [[Int]] = []
         //0. 先排序
         let nums = nums.sorted()
-        
+        print(nums)
+        // 利用双指针向中间去靠拢
         var last = Int.max
         for a in 0..<nums.count-2 {
             var b = a + 1, c = nums.count - 1
@@ -97,6 +98,14 @@ extension Solution {
                 continue
             }
             while b < c {
+                // 去除重复操作
+                while b < c && nums[b] == nums[b + 1] {
+                    b += 1
+                }
+                while b < c && nums[c] == nums[c - 1] {
+                    c -= 1
+                }
+                
                 if nums[a] + nums[b] + nums[c] > 0 {
                     c -= 1
                     continue
@@ -106,20 +115,76 @@ extension Solution {
                     continue
                 }
                 res.append([nums[a], nums[b], nums[c]])
+                // 如果找到了一个组合 那么 两个指针都向中间靠拢
                 c -= 1
                 b += 1
             }
+            // 这里记录上一个遍历过的值
             last = nums[a]
         }
         return res
+    }
+    
+//    108 ms 59.75%
+//    17.3 MB 98.97%
+    
+    func threeSumSoap(_ nums: [Int]) -> [[Int]] {
+        var res = [[Int]]()
         
+        guard nums.count >= 3 else {
+            return res
+        }
+        
+        let nums = nums.sorted()
+        
+        for i in 0..<nums.count - 2 {
+            if i > 0 && nums[i] == nums[i - 1] {
+                continue
+            }
+            
+            let firstNum = nums[i], remainingSum = -firstNum
+            var m = i + 1, n = nums.count - 1
+            
+            while m < n {
+                if nums[m] + nums[n] == remainingSum {
+                    res.append([firstNum, nums[m], nums[n]])
+                    
+                    repeat {
+                        m += 1
+                    } while nums[m] == nums[m - 1] && m < n
+                    
+                    repeat {
+                        n -= 1
+                    } while nums[n] == nums[n + 1] && m < n
+                } else if nums[m] + nums[n] < remainingSum {
+                    m += 1
+                } else {
+                    n -= 1
+                }
+            }
+        }
+        
+        return res
     }
 }
 
 func test15ThreeSum() {
-//    [-4,-1,-1,0,1,2]
-    let res = LeetCode.threeSumP2([-2,0,0,2,2])
+    testCase174()
+//    let nums = [-4,-1,-1,0,1,2]
+    
+//    let nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0]
+////    nums = [-2,0,0,2,2]
+//    let res = LeetCode.threeSumP2(nums)
+//    print(res)
+}
+
+func testCase174() {
+    let nums = [-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0]
+//    [-5, -5, -4, -4, -4, -2, -2, -2, 0, 0, 0, 1, 1, 3, 4, 4]
+    let res = LeetCode.threeSumSoap(nums)
     print(res)
+    print([[-5,1,4],[-4,0,4],[-4,1,3],[-2,-2,4],[-2,1,1],[0,0,0]])
+    
 }
 
 // 给你一个包含 n 个整数的数组 nums

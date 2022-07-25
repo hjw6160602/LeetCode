@@ -17,7 +17,8 @@ class Solution {
     private init() {}
 }
 
-test217FindRepeatNumber()
+test15ThreeSum()
+//test217FindRepeatNumber()
 //test217ContainsDuplicate()
 //test560SubarraySum()
 //testTwoSum()

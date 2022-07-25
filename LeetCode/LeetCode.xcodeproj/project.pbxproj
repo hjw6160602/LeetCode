@@ -44,6 +44,7 @@
 		67B8CD7725E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */; };
 		67B8CD9425E772B60059D7B5 /* 113. 路径总和 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CD9325E772B60059D7B5 /* 113. 路径总和 II.swift */; };
 		67B8CDA825E774800059D7B5 /* 剑指.55. 二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B8CDA725E774800059D7B5 /* 剑指.55. 二叉树的深度.swift */; };
+		67B98BAA288EC7F000B56E2D /* 152.乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B98BA9288EC7EF00B56E2D /* 152.乘积最大子数组.swift */; };
 		67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */; };
 		67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */; };
 		67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */; };
@@ -335,6 +336,7 @@
 		67B8CDA725E774800059D7B5 /* 剑指.55. 二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指.55. 二叉树的深度.swift"; sourceTree = "<group>"; };
 		67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. 括号生成.swift"; sourceTree = "<group>"; };
 		67B8CDDB25E795FC0059D7B5 /* 47. 全排列II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "47. 全排列II.swift"; sourceTree = "<group>"; };
+		67B98BA9288EC7EF00B56E2D /* 152.乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.乘积最大子数组.swift"; sourceTree = "<group>"; };
 		67BAB8A325CD4B0B00F2F273 /* 654.最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "654.最大二叉树.swift"; sourceTree = "<group>"; };
 		67BC54E225F61FAC006F2471 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		67BDD5802885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. 删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
@@ -634,6 +636,7 @@
 				CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */,
 				CA5C2626286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift */,
 				CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */,
+				67B98BA9288EC7EF00B56E2D /* 152.乘积最大子数组.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -1248,6 +1251,7 @@
 				CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */,
 				CA5C2627286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift in Sources */,
 				CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */,
+				67B98BAA288EC7F000B56E2D /* 152.乘积最大子数组.swift in Sources */,
 				CA23E6E125F527F50048115F /* 53.最大子序列和.swift in Sources */,
 				CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */,
 				67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */,

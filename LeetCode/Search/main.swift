@@ -19,7 +19,8 @@ class Solution {
 //test278FirstBadVersion()
 //test33Search()
 //test4findMedianSortedArrays()
-test200NumIslands()
+//test200NumIslands()
+test34SearchRange()
 
 // MARK: - 排列组合
 //test46Permute()

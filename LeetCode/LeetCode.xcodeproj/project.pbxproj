@@ -130,6 +130,7 @@
 		CA224310288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */; };
 		CA224312288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */; };
 		CA224314288D15CD00332C01 /* 163. 缺失的区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */; };
+		CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -428,6 +429,7 @@
 		CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 03. 数组中重复的数字.swift"; sourceTree = "<group>"; };
 		CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 		CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "163. 缺失的区间.swift"; sourceTree = "<group>"; };
+		CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34. 在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -659,16 +661,6 @@
 			path = BinaryTree;
 			sourceTree = "<group>";
 		};
-		67BF3E8E287837CA0033A69C /* BinarySearch */ = {
-			isa = PBXGroup;
-			children = (
-				67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */,
-				67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */,
-				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
-			);
-			path = BinarySearch;
-			sourceTree = "<group>";
-		};
 		67BF3E98287D593E0033A69C /* Heap */ = {
 			isa = PBXGroup;
 			children = (
@@ -762,8 +754,8 @@
 			isa = PBXGroup;
 			children = (
 				67E0BDD82872CACB0066A653 /* main.swift */,
+				CA224317288EEC9200332C01 /* 二分查找 */,
 				67E393CB28880A6E00B4F252 /* 排列组合 */,
-				67BF3E8E287837CA0033A69C /* BinarySearch */,
 				67C3E83B25E538780074DA25 /* 17. 电话号码的字母组合.swift */,
 				67B8CDC125E786000059D7B5 /* 22. 括号生成.swift */,
 				67E0BDE42872CD670066A653 /* 278. 第一个错误的版本.swift */,
@@ -916,6 +908,17 @@
 				CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */,
 			);
 			path = Set;
+			sourceTree = "<group>";
+		};
+		CA224317288EEC9200332C01 /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */,
+				67BF3E8F287837FD0033A69C /* 33. 搜索旋转排序数组.swift */,
+				CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */,
+				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
+			);
+			path = "二分查找";
 			sourceTree = "<group>";
 		};
 		CA23E6A725F507A50048115F /* Recursion */ = {
@@ -1343,6 +1346,7 @@
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
 				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,
+				CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				67E39423288979AE00B4F252 /* 200. 岛屿数量.swift in Sources */,
 				80A0D37428884F110049567C /* 39. 组合总和.swift in Sources */,
 				67E0BDDD2872CAF90066A653 /* 994. 腐烂的橘子.swift in Sources */,

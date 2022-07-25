@@ -46,6 +46,7 @@ test124MaxPathSum()
 //test783MinDiffInBST()
 //test572rangeSumBST()
 
+
 private func _BSF_DFS() {
     let tree = BinaryTree()
     let array = tree.initializeInput("[5, 1, 4, 2, 11, 3, 6]")

@@ -16,6 +16,7 @@ class Solution {
     private init() {}
 }
 
+test118Generate()
 //testMyPow()
 //testTwoSum()
 //testIntReverse()
@@ -30,4 +31,4 @@ class Solution {
 //test326IsPowerOfThree()
 //test191HammingWeight()
 //test204CountPrimes()
-test338CountBits()
+//test338CountBits()

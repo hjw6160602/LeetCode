@@ -8,6 +8,14 @@
 
 import Foundation
 
+/**
+ * 核心思路：动态规划
+ * 看到最字很容易想到动态规划，去找最优子结构
+ * 看到在状态定义过程中，可以定义一个以当前下标i结尾的最大乘积作为dp[i]
+ * 但是 这道题目由于存在负数 可能会影响到最终的乘积的大小 所以 dp[i]代表的不仅仅是最大值，最小值也需要保存
+ * 所以：dp[i] = [max(i), min(i)]
+ * 状态转移：dp[i] = (max && min) (min(i-1) * num, max(i-1) * num, num)
+ */
 extension Solution {
     
 //    24 ms 91.43%
@@ -15,7 +23,7 @@ extension Solution {
     func maxProductDP1(_ nums: [Int]) -> Int {
         guard nums.count > 1 else { return nums[0] }
         
-        var dp = Array.init(repeating: [1, 1], count: nums.count + 1)
+        var dp = Array(repeating: [1, 1], count: nums.count + 1)
 
         var res = 0
         
@@ -52,7 +60,6 @@ extension Solution {
     
 //    28 ms 50.00%
 //    14 MB 95.71%
-
     func maxProductSoap(nums: [Int]) -> Int {
         var min_soFar = nums[0]
         var max_soFar = nums[0]
@@ -67,7 +74,6 @@ extension Solution {
             
             max_global = max(max_global, max_soFar)
         }
-        
         return max_global
     }
     

@@ -31,7 +31,7 @@ extension Solution {
         while m > 0 && nums[m - 1] == target {
             m -= 1
         }
-        while n > 0 && nums[n + 1] == target {
+        while n >= 0 && n < nums.count && (nums[n] == target) {
             n += 1
         }
         
@@ -42,7 +42,8 @@ extension Solution {
 
 func test34SearchRange() {
 //    let nums = [5,7,7,8,8,10], target = 6
-    let nums = [1], target = 1
+    let nums = [2,2], target = 2
+//    let nums = [1], target = 1
     let x = LeetCode.searchRange(nums, target)
     print(x)
 }

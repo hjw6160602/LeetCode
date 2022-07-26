@@ -131,6 +131,7 @@
 		CA224312288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */; };
 		CA224314288D15CD00332C01 /* 163. 缺失的区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */; };
 		CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */; };
+		CA2243192890381F00332C01 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -430,6 +431,7 @@
 		CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 		CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "163. 缺失的区间.swift"; sourceTree = "<group>"; };
 		CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34. 在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
+		CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -814,7 +816,6 @@
 				CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */,
 				67FDD8DF276059A00004D5E4 /* 283.零移动.swift */,
 				CAC4ADA32812FEA400F0FF9B /* 492. 构造矩形.swift */,
-				CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */,
 				CAF523DF2805508200A62886 /* 448.找到数组中消失的数字.swift */,
 				CAF523F12806D10200A62886 /* 455. 分发饼干.swift */,
 				CA5C262828701A8800836003 /* 575. 分糖果.swift */,
@@ -905,6 +906,8 @@
 			isa = PBXGroup;
 			children = (
 				CA22430D288C375400332C01 /* 217. 存在重复元素.swift */,
+				CAF5244B280B1FEE00A62886 /* 349. 两个数组的交集.swift */,
+				CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */,
 				CA22430F288C3D1600332C01 /* 剑指 Offer 03. 数组中重复的数字.swift */,
 			);
 			path = Set;
@@ -1379,6 +1382,7 @@
 				CAF523DA27FDF47800A62886 /* 136.只出现一次的数字.swift in Sources */,
 				CAF523D527F8553100A62886 /* 35.搜索插入的位置.swift in Sources */,
 				CA95817025E0E76600F859B6 /* 1013.将数组分成和相等的三个部分.swift in Sources */,
+				CA2243192890381F00332C01 /* 350. 两个数组的交集 II.swift in Sources */,
 				CA5C2623286DEF3700836003 /* 605. 种花问题.swift in Sources */,
 				CAF523E12805508900A62886 /* 448.找到数组中消失的数字.swift in Sources */,
 				CAA7FB352810604300A2A3BE /* 169. 多数元素.swift in Sources */,

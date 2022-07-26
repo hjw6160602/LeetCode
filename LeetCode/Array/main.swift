@@ -18,8 +18,8 @@ class Solution {
 }
 
 
-test15ThreeSum()
-
+//test15ThreeSum()
+test350Intersect()
 //test163FindMissingRanges()
 
 //test217FindRepeatNumber()

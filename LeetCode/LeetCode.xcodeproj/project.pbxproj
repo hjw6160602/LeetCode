@@ -73,6 +73,7 @@
 		67D43F232880137600682BAB /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F222880137600682BAB /* 105.从前序与中序遍历序列构造二叉树.swift */; };
 		67D43F25288149E400682BAB /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F24288149E400682BAB /* 543.二叉树的直径.swift */; };
 		67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */; };
+		67D66FE0289170360072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
@@ -373,6 +374,7 @@
 		67D43F24288149E400682BAB /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
 		67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.数据流中的第 K 大元素.swift"; sourceTree = "<group>"; };
 		67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96. 不同的二叉搜索树.swift"; sourceTree = "<group>"; };
+		67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. 完全平方数.swift"; sourceTree = "<group>"; };
 		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
 		67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. 下一个更大元素 I.swift"; sourceTree = "<group>"; };
@@ -896,6 +898,7 @@
 				CA5C26362871E4AE00836003 /* 191. 位1的个数.swift */,
 				CA5C26382871E86F00836003 /* 204. 计数质数.swift */,
 				CA224306288707CD00332C01 /* 338. 比特位计数.swift */,
+				67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -1448,6 +1451,7 @@
 				CA5C26312870548A00836003 /* 119. 杨辉三角 II.swift in Sources */,
 				67B98BAC288FD74C00B56E2D /* 118.杨辉三角.swift in Sources */,
 				CA5C2625286F445800836003 /* 371. 两整数之和.swift in Sources */,
+				67D66FE0289170360072A0D9 /* 279. 完全平方数.swift in Sources */,
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
 				CA5C263328709F3B00836003 /* 326. 3 的幂 .swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,

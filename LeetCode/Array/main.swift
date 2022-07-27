@@ -19,7 +19,8 @@ class Solution {
 
 
 //test15ThreeSum()
-test350Intersect()
+//test350Intersect()
+test1480RunningSum()
 //test163FindMissingRanges()
 
 //test217FindRepeatNumber()

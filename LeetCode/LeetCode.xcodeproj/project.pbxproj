@@ -136,6 +136,7 @@
 		CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		CA2243192890381F00332C01 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */; };
 		CA22431B28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */; };
+		CA22431D28918E6B00332C01 /* 1480. 一维数组的动态和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -440,6 +441,7 @@
 		CA224315288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "34. 在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 		CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 42. 连续子数组的最大和.swift"; sourceTree = "<group>"; };
+		CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1480. 一维数组的动态和.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -839,6 +841,7 @@
 				67FAFA80276237FD003C357F /* 16.16.部分排序.swift */,
 				67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */,
 				CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */,
+				CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1385,6 +1388,7 @@
 				CA2243032886FF4E00332C01 /* 55. 跳跃游戏.swift in Sources */,
 				CAF5244C280B1FEE00A62886 /* 349. 两个数组的交集.swift in Sources */,
 				CAC4ADA22811AE8B00F0FF9B /* 27. 移除元素.swift in Sources */,
+				CA22431D28918E6B00332C01 /* 1480. 一维数组的动态和.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				CAC4ADA42812FEA400F0FF9B /* 492. 构造矩形.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,

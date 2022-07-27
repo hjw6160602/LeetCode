@@ -28,4 +28,5 @@ class Solution {
 //test416CanPartition()
 //test96NumTrees()
 //test152MaxProduct()
-test279NumSquares()
+//test279NumSquares()
+test42MaxSubArray()

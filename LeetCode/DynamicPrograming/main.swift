@@ -26,4 +26,5 @@ class Solution {
 //testRob()
 //test746minCostClimbingStairs()
 //test416CanPartition()
-test152MaxProduct()
+test96NumTrees()
+//test152MaxProduct()

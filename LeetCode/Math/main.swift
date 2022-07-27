@@ -16,6 +16,7 @@ class Solution {
     private init() {}
 }
 
+test0101IsUnique()
 //test118Generate()
 //testMyPow()
 //testTwoSum()

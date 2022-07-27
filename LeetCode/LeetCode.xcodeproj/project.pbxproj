@@ -137,6 +137,7 @@
 		CA2243192890381F00332C01 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */; };
 		CA22431B28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */; };
 		CA22431D28918E6B00332C01 /* 1480. 一维数组的动态和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */; };
+		CA224320289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -442,6 +443,7 @@
 		CA2243182890381F00332C01 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
 		CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 42. 连续子数组的最大和.swift"; sourceTree = "<group>"; };
 		CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1480. 一维数组的动态和.swift"; sourceTree = "<group>"; };
+		CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 01.01. 判定字符是否唯一.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -887,6 +889,7 @@
 		80F2C28825DE55E30051398B /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				CA22431E289190DC00332C01 /* 位运算 */,
 				80F2C28925DE55E30051398B /* main.swift */,
 				80F2C29B25DE56190051398B /* 01. Two Sum.swift */,
 				80F2C2C425DE56520051398B /* 50. Pow(x, n).swift */,
@@ -937,6 +940,14 @@
 				CAF523EF2805B96100A62886 /* 704. 二分查找.swift */,
 			);
 			path = "二分查找";
+			sourceTree = "<group>";
+		};
+		CA22431E289190DC00332C01 /* 位运算 */ = {
+			isa = PBXGroup;
+			children = (
+				CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */,
+			);
+			path = "位运算";
 			sourceTree = "<group>";
 		};
 		CA23E6A725F507A50048115F /* Recursion */ = {
@@ -1473,6 +1484,7 @@
 				67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */,
 				67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */,
 				67B8CD1625E62BC90059D7B5 /* 62. 圆圈中最后剩下的数字.swift in Sources */,
+				CA224320289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift in Sources */,
 				CA5C262B287027A100836003 /* 461. 汉明距离.swift in Sources */,
 				CAB339AF27F4B2D5002A7776 /* 69.x的平方根.swift in Sources */,
 			);

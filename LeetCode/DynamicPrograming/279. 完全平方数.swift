@@ -10,6 +10,9 @@ import Foundation
 
 extension Solution {
 //  2,4,9,16,25,36,47,64,81,100,121,144,169,196,225
+
+//    320 ms 11.43%
+//    13.3 MB 75.71%
     func numSquares(_ n: Int) -> Int {
         guard n > 3 else { return n }
 
@@ -30,19 +33,12 @@ extension Solution {
             }
             dp[i] = minTime
         }
-        print(dp)
+        
         return dp[n]
     }
     
-    执行用时：
-    32 ms
-    , 在所有 Swift 提交中击败了
-    41.43%
-    的用户
-    内存消耗：
-    13.4 MB
-    64.29%
-
+//    32 ms 41.43%
+//    13.4 MB 64.29%
     func numSquaresP1(_ n: Int) -> Int {
         var leastNums = Array(repeating: Int.max, count: n + 1)
         leastNums[0] = 0
@@ -66,8 +62,7 @@ extension Solution {
 
 func test279NumSquares() {
     let x = LeetCode.numSquares(99)
-    let y = LeetCode.numSquaresP1(99)
-//    print(res)
+    print(x)
 }
 
 //给你一个整数 n ，返回 和为 n 的完全平方数的最少数量 。

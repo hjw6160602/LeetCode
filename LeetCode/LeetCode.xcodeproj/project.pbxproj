@@ -73,7 +73,7 @@
 		67D43F232880137600682BAB /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F222880137600682BAB /* 105.从前序与中序遍历序列构造二叉树.swift */; };
 		67D43F25288149E400682BAB /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F24288149E400682BAB /* 543.二叉树的直径.swift */; };
 		67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */; };
-		67D66FE0289170360072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
+		67D66FE1289177C60072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
@@ -648,10 +648,11 @@
 				CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */,
 				CA23E6E025F527F50048115F /* 53.最大子序列和.swift */,
 				CAB3399F27F33FA1002A7776 /* 198. 打家劫舍.swift */,
-				CA5C2626286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift */,
 				CA224308288AEEEE00332C01 /* 416. 分割等和子集.swift */,
 				67B98BA9288EC7EF00B56E2D /* 152.乘积最大子数组.swift */,
 				67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */,
+				67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */,
+				CA5C2626286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -898,7 +899,6 @@
 				CA5C26362871E4AE00836003 /* 191. 位1的个数.swift */,
 				CA5C26382871E86F00836003 /* 204. 计数质数.swift */,
 				CA224306288707CD00332C01 /* 338. 比特位计数.swift */,
-				67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -1275,6 +1275,7 @@
 				CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */,
 				67B98BAA288EC7F000B56E2D /* 152.乘积最大子数组.swift in Sources */,
 				CA23E6E125F527F50048115F /* 53.最大子序列和.swift in Sources */,
+				67D66FE1289177C60072A0D9 /* 279. 完全平方数.swift in Sources */,
 				CAADBC3C25F3487F0080BFBA /* 1143.最长公共子序列.swift in Sources */,
 				67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */,
 				67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */,
@@ -1451,7 +1452,6 @@
 				CA5C26312870548A00836003 /* 119. 杨辉三角 II.swift in Sources */,
 				67B98BAC288FD74C00B56E2D /* 118.杨辉三角.swift in Sources */,
 				CA5C2625286F445800836003 /* 371. 两整数之和.swift in Sources */,
-				67D66FE0289170360072A0D9 /* 279. 完全平方数.swift in Sources */,
 				80F2C29C25DE56190051398B /* 01. Two Sum.swift in Sources */,
 				CA5C263328709F3B00836003 /* 326. 3 的幂 .swift in Sources */,
 				80F2C2C525DE56520051398B /* 50. Pow(x, n).swift in Sources */,

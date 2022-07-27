@@ -17,7 +17,6 @@ class Solution {
 }
 
 //test118Generate()
-test279NumSquares()
 //testMyPow()
 //testTwoSum()
 //testIntReverse()

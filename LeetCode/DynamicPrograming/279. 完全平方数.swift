@@ -27,9 +27,7 @@ extension Solution {
             for j in (1...meta).reversed() {
                 // 上一个数就是完全平方数直接返回
                 guard minTime != 1 else { break }
-                let square = j * j
-                let left = i - square
-                minTime = min(minTime, dp[left] + 1)
+                minTime = min(minTime, dp[i - j * j] + 1)
             }
             dp[i] = minTime
         }

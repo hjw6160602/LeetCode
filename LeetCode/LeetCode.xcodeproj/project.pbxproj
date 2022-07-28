@@ -74,6 +74,7 @@
 		67D43F25288149E400682BAB /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F24288149E400682BAB /* 543.二叉树的直径.swift */; };
 		67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */; };
 		67D66FE1289177C60072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
+		67D66FE328922BC70072A0D9 /* 128. 最长连续序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */; };
 		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
@@ -378,6 +379,7 @@
 		67D5251525FF085600F7AF38 /* 703.数据流中的第 K 大元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703.数据流中的第 K 大元素.swift"; sourceTree = "<group>"; };
 		67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96. 不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 		67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. 完全平方数.swift"; sourceTree = "<group>"; };
+		67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. 最长连续序列.swift"; sourceTree = "<group>"; };
 		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
 		67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. 下一个更大元素 I.swift"; sourceTree = "<group>"; };
@@ -660,6 +662,7 @@
 				67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */,
 				CA5C2626286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift */,
 				CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */,
+				67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -1298,6 +1301,7 @@
 				67B8CD5B25E655570059D7B5 /* 11. 盛最多水的容器.swift in Sources */,
 				67C3B04F25E39B9A00D46919 /* 121.买卖股票的最佳时机.swift in Sources */,
 				80F2C33625DE6B560051398B /* 47. 礼物的最大价值.swift in Sources */,
+				67D66FE328922BC70072A0D9 /* 128. 最长连续序列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

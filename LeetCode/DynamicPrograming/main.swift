@@ -16,6 +16,7 @@ class Solution {
     private init() {}
 }
 
+test128LongestConsecutive()
 //testMaxValue()
 //textMaxArea()
 //testLongestCommonSubsequence()
@@ -29,4 +30,4 @@ class Solution {
 //test96NumTrees()
 //test152MaxProduct()
 //test279NumSquares()
-test42MaxSubArray()
+//test42MaxSubArray()

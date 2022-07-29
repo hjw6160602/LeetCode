@@ -139,6 +139,8 @@
 		CA22431B28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */; };
 		CA22431D28918E6B00332C01 /* 1480. 一维数组的动态和.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */; };
 		CA224320289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */; };
+		CA22432228941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
+		CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243232894243D00332C01 /* 253. 会议室 II.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -446,6 +448,8 @@
 		CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 42. 连续子数组的最大和.swift"; sourceTree = "<group>"; };
 		CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1480. 一维数组的动态和.swift"; sourceTree = "<group>"; };
 		CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 01.01. 判定字符是否唯一.swift"; sourceTree = "<group>"; };
+		CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
+		CA2243232894243D00332C01 /* 253. 会议室 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "253. 会议室 II.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -625,6 +629,7 @@
 				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 				CA2242FD2885A33900332C01 /* 146.LRU缓存.swift */,
 				CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */,
+				CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -707,6 +712,7 @@
 				CA5C262C287031B100836003 /* 561. 数组拆分 I.swift */,
 				67BDD58828869F1400884306 /* 912.排序数组.swift */,
 				67E393BE2887ADB900B4F252 /* 56. 合并区间.swift */,
+				CA2243232894243D00332C01 /* 253. 会议室 II.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1262,6 +1268,7 @@
 				67BC54E325F61FAC006F2471 /* 21. 合并两个有序链表.swift in Sources */,
 				676E880625C98F2200E52125 /* ListNode.swift in Sources */,
 				67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */,
+				CA22432228941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
 				67ACEB1E25CAD8D0009C53EE /* 160.交叉链表.swift in Sources */,
 				67BF3E92287C3FCD0033A69C /* 23. 合并K个升序链表.swift in Sources */,
 			);
@@ -1361,6 +1368,7 @@
 				CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */,
 				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
+				CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,
 				67C1294B226DD3F800403640 /* main.swift in Sources */,

@@ -21,7 +21,8 @@ class Solution {
 //testAllCellsDistOrder()
 //test561ArrayPairSum()
 //test912SortArray()
-test56Merge()
+//test56Merge()
+test253MinMeetingRooms()
 
 //var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
 //quickSortN(&list, 0, list.count - 1)

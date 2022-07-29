@@ -33,7 +33,8 @@ class Solution {
 //testDeleteDuplicates()
 //test23MergeKLists()
 //test19removeNthFromEnd()
-testOffer24ReverseList()
+//testOffer24ReverseList()
+test22GetKthFromEnd()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

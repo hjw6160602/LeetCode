@@ -75,7 +75,6 @@
 		67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */; };
 		67D66FE1289177C60072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
 		67D66FE328922BC70072A0D9 /* 128. 最长连续序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */; };
-		67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
 		67E0BDD92872CACB0066A653 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDD82872CACB0066A653 /* main.swift */; };
@@ -142,6 +141,7 @@
 		CA22432228941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
 		CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243232894243D00332C01 /* 253. 会议室 II.swift */; };
 		CA22432628957D8900332C01 /* 125. 验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22432528957D8900332C01 /* 125. 验证回文串.swift */; };
+		CA2243282895839B00332C01 /* 108. 将有序数组转换为二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243272895839B00332C01 /* 108. 将有序数组转换为二叉搜索树.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -383,7 +383,6 @@
 		67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96. 不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 		67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. 完全平方数.swift"; sourceTree = "<group>"; };
 		67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. 最长连续序列.swift"; sourceTree = "<group>"; };
-		67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108.将有序数组转为BST.swift"; sourceTree = "<group>"; };
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
 		67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. 下一个更大元素 I.swift"; sourceTree = "<group>"; };
 		67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. 图像渲染.swift"; sourceTree = "<group>"; };
@@ -452,6 +451,7 @@
 		CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
 		CA2243232894243D00332C01 /* 253. 会议室 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "253. 会议室 II.swift"; sourceTree = "<group>"; };
 		CA22432528957D8900332C01 /* 125. 验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. 验证回文串.swift"; sourceTree = "<group>"; };
+		CA2243272895839B00332C01 /* 108. 将有序数组转换为二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108. 将有序数组转换为二叉搜索树.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -979,7 +979,7 @@
 			children = (
 				67B57E3925CC26F000814C1A /* 98. 验证二叉搜索树.swift */,
 				67B8CD7625E68CB70059D7B5 /* 99. 恢复二叉搜索树.swift */,
-				67D677B9260AEACF00BFAE8B /* 108.将有序数组转为BST.swift */,
+				CA2243272895839B00332C01 /* 108. 将有序数组转换为二叉搜索树.swift */,
 				CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */,
 				CA8C23C1287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift */,
 				CA8C23C4287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift */,
@@ -1331,6 +1331,7 @@
 				CA8C23C2287F0B4C005D40A0 /* 783.二叉搜索树节点最小距离.swift in Sources */,
 				67E3942528898CCC00B4F252 /* 124. 二叉树中的最大路径和.swift in Sources */,
 				67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */,
+				CA2243282895839B00332C01 /* 108. 将有序数组转换为二叉搜索树.swift in Sources */,
 				67BAB8A425CD4B0B00F2F273 /* 654.最大二叉树.swift in Sources */,
 				67D43F1F2880088500682BAB /* 100. 相同的树.swift in Sources */,
 				67B57E3A25CC26F000814C1A /* 98. 验证二叉搜索树.swift in Sources */,
@@ -1339,7 +1340,6 @@
 				67D43F232880137600682BAB /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */,
 				67D43F1D288003E100682BAB /* 94. 二叉树的中序遍历.swift in Sources */,
 				CA08BB672868B4C7005FD7A2 /* 437. 路径总和 III.swift in Sources */,
-				67D677BA260AEACF00BFAE8B /* 108.将有序数组转为BST.swift in Sources */,
 				67B57DD125CC262A00814C1A /* main.swift in Sources */,
 				67D43F2128800B8F00682BAB /* 102.二叉树的层序遍历.swift in Sources */,
 				CA4F6F93287F1B7400B4759E /* 572. 另一棵树的子树.swift in Sources */,

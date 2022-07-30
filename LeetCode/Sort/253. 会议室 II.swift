@@ -16,25 +16,33 @@ extension Solution {
 //    * Primary idea: Sort start and end separately, then count conflicts
 //    * Time Complexity: O(nlogn), Space Complexity: O(n)
     
+//    分别 排序处理开始时间和结束时间。这乍一听可能不太合理，毕竟开始和结束时间都是会议的一部分，
+//    如果将两个属性分离并分别处理，会议自身的身份就消失了。但是，这样做其实是可取的，因为：
+//    当遇到“会议结束”事件时，意味着一些较早开始的会议已经结束。
+//    不用关心到底是哪个会议结束。所需要的只是 一些 会议结束, 从而提供一个空房间
     func minMeetingRooms(_ intervals: [[Int]]) -> Int {
-
+//     1. 分别对开始时间和结束时间进行排序。
+//        这将打乱开始时间和结束时间的原始对应关系。它们将被分别处理
         let startingTimes = intervals.map { $0[0] }.sorted()
         let endingTimes = intervals.map { $0[1] }.sorted()
-        print(startingTimes, endingTimes)
         
         let intervalsCount = intervals.count
-        
+//     2. 考虑两个指针：start_ptr 和 end_ptr ，
+//        分别代表 开始指针 和 结束指针 开始指针遍历每个会议 结束指针帮助我们跟踪会议是否结束。
         var i = 0, j = 0, meetingRoomsNum = 0
         
         while i < intervalsCount && j < intervalsCount {
-            if startingTimes[i] < endingTimes[j] {
-                meetingRoomsNum += 1
-            } else {
+//     3. 当考虑 start_ptr 指向的特定会议时，检查该开始时间是否大于 end_ptr 指向的会议
+            if startingTimes[i] >= endingTimes[j] {
+//          若是 说明 start_ptr 开始时，已经有会议结束。于是我们可以重用房间 自增 end_ptr 。
                 j += 1
+            } else {
+//          否则，我们就需要开新房间
+                meetingRoomsNum += 1
             }
+//          重复这一过程，直到 start_ptr 处理完所有会议
             i += 1
         }
-        
         return meetingRoomsNum
     }
     
@@ -67,7 +75,7 @@ extension Solution {
         }
         
         var maxNum = 0, cur = 0
-        print(busTime)
+//        print(busTime)
         for time in busTime {
             cur += time[1]
             maxNum = max(maxNum, cur)

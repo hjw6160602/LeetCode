@@ -141,6 +141,7 @@
 		CA224320289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */; };
 		CA22432228941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
 		CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2243232894243D00332C01 /* 253. 会议室 II.swift */; };
+		CA22432628957D8900332C01 /* 125. 验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA22432528957D8900332C01 /* 125. 验证回文串.swift */; };
 		CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */; };
 		CA23E6A925F507A50048115F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E6A825F507A50048115F /* main.swift */; };
 		CA23E6B625F507BD0048115F /* 509.斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E69025F4FC590048115F /* 509.斐波那契数.swift */; };
@@ -450,6 +451,7 @@
 		CA22431F289191FE00332C01 /* 面试题 01.01. 判定字符是否唯一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 01.01. 判定字符是否唯一.swift"; sourceTree = "<group>"; };
 		CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
 		CA2243232894243D00332C01 /* 253. 会议室 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "253. 会议室 II.swift"; sourceTree = "<group>"; };
+		CA22432528957D8900332C01 /* 125. 验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. 验证回文串.swift"; sourceTree = "<group>"; };
 		CA23E67E25F3D0180048115F /* 300.最长递增子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长递增子序列.swift"; sourceTree = "<group>"; };
 		CA23E69025F4FC590048115F /* 509.斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509.斐波那契数.swift"; sourceTree = "<group>"; };
 		CA23E6A625F507A50048115F /* Recursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Recursion; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -881,6 +883,7 @@
 				CA5C2620286DE60C00836003 /* 409. 最长回文串.swift */,
 				CA5C262E28704CB800836003 /* 709. 转换成小写字母.swift */,
 				67E0BDE62872D6870066A653 /* 387.字符串中的第一个唯一字符.swift */,
+				CA22432528957D8900332C01 /* 125. 验证回文串.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1453,6 +1456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F2C12C25DE4D330051398B /* 344.Reverse String.swift in Sources */,
+				CA22432628957D8900332C01 /* 125. 验证回文串.swift in Sources */,
 				CA5C262F28704CB800836003 /* 709. 转换成小写字母.swift in Sources */,
 				67E0BDE72872D6870066A653 /* 387.字符串中的第一个唯一字符.swift in Sources */,
 				67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */,

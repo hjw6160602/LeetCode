@@ -38,7 +38,8 @@ class Solution {
 //test686repeatedStringMatch()
 //test409LongestPalindrome()
 //test709ToLowerCase()
-test387FirstUniqChar()
+//test387FirstUniqChar()
+test125IsPalindrome()
 
 extension String {
     

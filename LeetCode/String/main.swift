@@ -39,7 +39,8 @@ class Solution {
 //test409LongestPalindrome()
 //test709ToLowerCase()
 //test387FirstUniqChar()
-test125IsPalindrome()
+//test125IsPalindrome()
+test412FizzBuzz()
 
 extension String {
     

@@ -10,10 +10,9 @@ import Foundation
 
 extension Solution {
     
-    func fizzBuzz(_ n: Int) -> [String] {
-        
 //        20 ms 86.36%
 //        13.9 MB 100.00%
+    func fizzBuzz(_ n: Int) -> [String] {
         var res = [String]()
         for i in 1...n {
             var num = ""
@@ -33,10 +32,30 @@ extension Solution {
         }
         return res
     }
+    
+//    20 ms 86.36%
+//    14 MB 98.48%
+    func fizzBuzzP1(_ n: Int) -> [String] {
+        var res = [String]()
+        for i in 1...n {
+            var num = ""
+            if i % 3 == 0 {
+                num = "Fizz"
+            }
+            if i % 5 == 0 {
+                num.append("Buzz")
+            }
+            if num.count == 0 {
+                num = "\(i)"
+            }
+            res.append(num)
+        }
+        return res
+    }
 }
 
 func test412FizzBuzz() {
-    let x = LeetCode.fizzBuzz(15)
+    let x = LeetCode.fizzBuzzP1(15)
     print(x)
 }
 

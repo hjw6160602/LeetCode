@@ -47,6 +47,7 @@ extension Solution {
         var res = 0
         for num in nums {
             guard map[num] == nil else {
+                // 过滤重复元素
                 continue
             }
             let left = map[num - 1] ?? 0
@@ -66,7 +67,8 @@ extension Solution {
 }
 
 func test128LongestConsecutive() {
-    let nums = [-7,-1,3,-9,-4,7,-3,2,4,9,4,-9,8,-7,5,-1,-7]
+//    let nums = [-7,-1,3,-9,-4,7,-3,2,4,9,4,-9,8,-7,5,-1,-7]
+    let nums = [100,4,200,1,3,2]
     let x = LeetCode.longestConsecutive(nums)
     print(x)
 }

@@ -65,6 +65,7 @@
 		67C8F5EA2602FC89009CEB1C /* 14.最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F5E92602FC89009CEB1C /* 14.最长公共前缀.swift */; };
 		67C8F61926044F3B009CEB1C /* 104.二叉树的最大深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F61826044F3B009CEB1C /* 104.二叉树的最大深度.swift */; };
 		67C8F624260450D5009CEB1C /* 26.删除数组中的重复项.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8F623260450D5009CEB1C /* 26.删除数组中的重复项.swift */; };
+		67CA007728980F7100D6907B /* 406. 根据身高重建队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */; };
 		67D43F14287D5A1700682BAB /* 295. 数据流的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F13287D5A1700682BAB /* 295. 数据流的中位数.swift */; };
 		67D43F1B287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */; };
 		67D43F1D288003E100682BAB /* 94. 二叉树的中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D43F1C288003E100682BAB /* 94. 二叉树的中序遍历.swift */; };
@@ -373,6 +374,7 @@
 		67C8F5E92602FC89009CEB1C /* 14.最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14.最长公共前缀.swift"; sourceTree = "<group>"; };
 		67C8F61826044F3B009CEB1C /* 104.二叉树的最大深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104.二叉树的最大深度.swift"; sourceTree = "<group>"; };
 		67C8F623260450D5009CEB1C /* 26.删除数组中的重复项.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26.删除数组中的重复项.swift"; sourceTree = "<group>"; };
+		67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "406. 根据身高重建队列.swift"; sourceTree = "<group>"; };
 		67CE2B33227073FE0045A7B7 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		67D43F13287D5A1700682BAB /* 295. 数据流的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "295. 数据流的中位数.swift"; sourceTree = "<group>"; };
 		67D43F1A287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4. 寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
@@ -720,6 +722,7 @@
 				67BDD58828869F1400884306 /* 912.排序数组.swift */,
 				67E393BE2887ADB900B4F252 /* 56. 合并区间.swift */,
 				CA2243232894243D00332C01 /* 253. 会议室 II.swift */,
+				67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1379,6 +1382,7 @@
 				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
 				CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */,
+				67CA007728980F7100D6907B /* 406. 根据身高重建队列.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,
 				67C1294B226DD3F800403640 /* main.swift in Sources */,

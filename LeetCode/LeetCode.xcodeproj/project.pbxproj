@@ -154,6 +154,7 @@
 		CA23E70125FE48700048115F /* 75.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23E70025FE48700048115F /* 75.颜色分类.swift */; };
 		CA2551B62816E36500E48048 /* 686.重复叠加字符串匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */; };
 		CA45D7A92896DADF00436EFB /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45D7A82896DADF00436EFB /* 237. 删除链表中的节点.swift */; };
+		CA45D7AB2898254100436EFB /* 48. 旋转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA45D7AA2898254100436EFB /* 48. 旋转图像.swift */; };
 		CA487B4B28961EAB004EF75D /* 412. Fizz Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA487B4A28961EAB004EF75D /* 412. Fizz Buzz.swift */; };
 		CA4F6F93287F1B7400B4759E /* 572. 另一棵树的子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F6F92287F1B7400B4759E /* 572. 另一棵树的子树.swift */; };
 		CA4F6F9528806EB000B4759E /* 617. 合并二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F6F9428806EB000B4759E /* 617. 合并二叉树.swift */; };
@@ -467,6 +468,7 @@
 		CA23E70025FE48700048115F /* 75.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "75.颜色分类.swift"; sourceTree = "<group>"; };
 		CA2551B52816E36500E48048 /* 686.重复叠加字符串匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "686.重复叠加字符串匹配.swift"; sourceTree = "<group>"; };
 		CA45D7A82896DADF00436EFB /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
+		CA45D7AA2898254100436EFB /* 48. 旋转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "48. 旋转图像.swift"; sourceTree = "<group>"; };
 		CA487B4A28961EAB004EF75D /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
 		CA4F6F92287F1B7400B4759E /* 572. 另一棵树的子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "572. 另一棵树的子树.swift"; sourceTree = "<group>"; };
 		CA4F6F9428806EB000B4759E /* 617. 合并二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. 合并二叉树.swift"; sourceTree = "<group>"; };
@@ -863,6 +865,7 @@
 				67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */,
 				CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */,
 				CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */,
+				CA45D7AA2898254100436EFB /* 48. 旋转图像.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1427,6 +1430,7 @@
 				CAC4ADA22811AE8B00F0FF9B /* 27. 移除元素.swift in Sources */,
 				CA22431D28918E6B00332C01 /* 1480. 一维数组的动态和.swift in Sources */,
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
+				CA45D7AB2898254100436EFB /* 48. 旋转图像.swift in Sources */,
 				CAC4ADA42812FEA400F0FF9B /* 492. 构造矩形.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,

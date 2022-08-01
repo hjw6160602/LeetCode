@@ -18,9 +18,10 @@ class Solution {
 }
 
 
+test48Rotate()
 //test15ThreeSum()
 //test350Intersect()
-test1480RunningSum()
+//test1480RunningSum()
 //test163FindMissingRanges()
 
 //test217FindRepeatNumber()

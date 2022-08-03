@@ -40,7 +40,8 @@ class Solution {
 //test709ToLowerCase()
 //test387FirstUniqChar()
 //test125IsPalindrome()
-test412FizzBuzz()
+//test412FizzBuzz()
+test139WordBreak()
 
 extension String {
     
@@ -58,13 +59,13 @@ extension String {
     subscript (i: Int) -> String {
         return String(self[i] as Character)
     }
-//
-//    subscript (r: Range<Int>) -> String {
-//        let start = index(startIndex, offsetBy: r.lowerBound)
-//        let end = index(startIndex, offsetBy: r.upperBound)
-//        return String(self[start..<end])
-//    }
-//
+
+    subscript (r: Range<Int>) -> String {
+        let start = index(startIndex, offsetBy: r.lowerBound)
+        let end = index(startIndex, offsetBy: r.upperBound)
+        return String(self[start..<end])
+    }
+
     subscript (r: ClosedRange<Int>) -> String {
         let start = index(startIndex, offsetBy: r.lowerBound)
         let end = index(startIndex, offsetBy: r.upperBound)

@@ -12,6 +12,7 @@
 		676E87D725C98EF900E52125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E87D625C98EF900E52125 /* main.swift */; };
 		676E880625C98F2200E52125 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E880525C98F2200E52125 /* ListNode.swift */; };
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
+		676FBC4E289AB28B005882F5 /* 139. 单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */; };
 		679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E72293DEFA00D1CCC8 /* MergeSort.swift */; };
 		679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E92293E7BA00D1CCC8 /* QuickSort.swift */; };
 		679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */; };
@@ -317,6 +318,7 @@
 		676E87D625C98EF900E52125 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		676E880525C98F2200E52125 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		676E881C25C9938600E52125 /* 02. 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. 两数相加.swift"; sourceTree = "<group>"; };
+		676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. 单词拆分.swift"; sourceTree = "<group>"; };
 		67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347.TopKBigestNo.swift; sourceTree = "<group>"; };
 		679509E72293DEFA00D1CCC8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		679509E92293E7BA00D1CCC8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -896,6 +898,7 @@
 				67E0BDE62872D6870066A653 /* 387.字符串中的第一个唯一字符.swift */,
 				CA22432528957D8900332C01 /* 125. 验证回文串.swift */,
 				CA487B4A28961EAB004EF75D /* 412. Fizz Buzz.swift */,
+				676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1481,6 +1484,7 @@
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,
 				CAF524302809D1F200A62886 /* 67.二进制求和.swift in Sources */,
 				675D212725FF5893002D2C73 /* 821.字符串最短距离.swift in Sources */,
+				676FBC4E289AB28B005882F5 /* 139. 单词拆分.swift in Sources */,
 				80F2C32A25DE5BC40051398B /* 03. 无重复字符的最长子串.swift in Sources */,
 				CAF523D727F9F39400A62886 /* 13.罗马数字转整数.swift in Sources */,
 				CAF523DE28008F5B00A62886 /* 557. 反转字符串中的单词 III.swift in Sources */,

@@ -24,7 +24,8 @@ class Solution {
 //test56Merge()
 //test253MinMeetingRooms()
 //test406ReconstructQueue()
-test207CanFinish()
+//test207CanFinish()
+test210findOrder()
 
 //var list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26]
 //quickSortN(&list, 0, list.count - 1)

@@ -14,6 +14,7 @@
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
 		676FBC4E289AB28B005882F5 /* 139. 单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */; };
 		676FBC50289CED62005882F5 /* 207.课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4F289CED62005882F5 /* 207.课程表.swift */; };
+		676FBC52289CFBF6005882F5 /* 210.课程表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC51289CFBF6005882F5 /* 210.课程表II.swift */; };
 		679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E72293DEFA00D1CCC8 /* MergeSort.swift */; };
 		679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E92293E7BA00D1CCC8 /* QuickSort.swift */; };
 		679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */; };
@@ -321,6 +322,7 @@
 		676E881C25C9938600E52125 /* 02. 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. 两数相加.swift"; sourceTree = "<group>"; };
 		676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. 单词拆分.swift"; sourceTree = "<group>"; };
 		676FBC4F289CED62005882F5 /* 207.课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207.课程表.swift"; sourceTree = "<group>"; };
+		676FBC51289CFBF6005882F5 /* 210.课程表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "210.课程表II.swift"; sourceTree = "<group>"; };
 		67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347.TopKBigestNo.swift; sourceTree = "<group>"; };
 		679509E72293DEFA00D1CCC8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		679509E92293E7BA00D1CCC8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -730,6 +732,7 @@
 				CA2243232894243D00332C01 /* 253. 会议室 II.swift */,
 				67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */,
 				676FBC4F289CED62005882F5 /* 207.课程表.swift */,
+				676FBC51289CFBF6005882F5 /* 210.课程表II.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1398,6 +1401,7 @@
 				67C1294B226DD3F800403640 /* main.swift in Sources */,
 				67BDD58928869F1400884306 /* 912.排序数组.swift in Sources */,
 				679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */,
+				676FBC52289CFBF6005882F5 /* 210.课程表II.swift in Sources */,
 				CA5C262D287031B100836003 /* 561. 数组拆分 I.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

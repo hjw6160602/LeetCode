@@ -13,6 +13,7 @@
 		676E880625C98F2200E52125 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E880525C98F2200E52125 /* ListNode.swift */; };
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
 		676FBC4E289AB28B005882F5 /* 139. 单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */; };
+		676FBC50289CED62005882F5 /* 207.课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4F289CED62005882F5 /* 207.课程表.swift */; };
 		679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E72293DEFA00D1CCC8 /* MergeSort.swift */; };
 		679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E92293E7BA00D1CCC8 /* QuickSort.swift */; };
 		679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */; };
@@ -319,6 +320,7 @@
 		676E880525C98F2200E52125 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		676E881C25C9938600E52125 /* 02. 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02. 两数相加.swift"; sourceTree = "<group>"; };
 		676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. 单词拆分.swift"; sourceTree = "<group>"; };
+		676FBC4F289CED62005882F5 /* 207.课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207.课程表.swift"; sourceTree = "<group>"; };
 		67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347.TopKBigestNo.swift; sourceTree = "<group>"; };
 		679509E72293DEFA00D1CCC8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		679509E92293E7BA00D1CCC8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -727,6 +729,7 @@
 				67E393BE2887ADB900B4F252 /* 56. 合并区间.swift */,
 				CA2243232894243D00332C01 /* 253. 会议室 II.swift */,
 				67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */,
+				676FBC4F289CED62005882F5 /* 207.课程表.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1388,6 +1391,7 @@
 				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
 				CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */,
+				676FBC50289CED62005882F5 /* 207.课程表.swift in Sources */,
 				67CA007728980F7100D6907B /* 406. 根据身高重建队列.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,
 				679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */,

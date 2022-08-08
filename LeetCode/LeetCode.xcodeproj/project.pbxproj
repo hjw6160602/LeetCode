@@ -15,6 +15,7 @@
 		676FBC4E289AB28B005882F5 /* 139. 单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */; };
 		676FBC50289CED62005882F5 /* 207.课程表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC4F289CED62005882F5 /* 207.课程表.swift */; };
 		676FBC52289CFBF6005882F5 /* 210.课程表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC51289CFBF6005882F5 /* 210.课程表II.swift */; };
+		676FBC54289D004E005882F5 /* 62.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676FBC53289D004E005882F5 /* 62.不同路径.swift */; };
 		679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E72293DEFA00D1CCC8 /* MergeSort.swift */; };
 		679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E92293E7BA00D1CCC8 /* QuickSort.swift */; };
 		679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */; };
@@ -323,6 +324,7 @@
 		676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. 单词拆分.swift"; sourceTree = "<group>"; };
 		676FBC4F289CED62005882F5 /* 207.课程表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "207.课程表.swift"; sourceTree = "<group>"; };
 		676FBC51289CFBF6005882F5 /* 210.课程表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "210.课程表II.swift"; sourceTree = "<group>"; };
+		676FBC53289D004E005882F5 /* 62.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62.不同路径.swift"; sourceTree = "<group>"; };
 		67939ABC2272C21600826214 /* 347.TopKBigestNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347.TopKBigestNo.swift; sourceTree = "<group>"; };
 		679509E72293DEFA00D1CCC8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		679509E92293E7BA00D1CCC8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -808,6 +810,7 @@
 				67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */,
 				CAF523ED2805547800A62886 /* 994. 腐烂的橘子.swift */,
 				67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */,
+				676FBC53289D004E005882F5 /* 62.不同路径.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -1426,6 +1429,7 @@
 				67E0BDE02872CB3B0066A653 /* 22. 括号生成.swift in Sources */,
 				67BF3E90287837FD0033A69C /* 33. 搜索旋转排序数组.swift in Sources */,
 				67E0BDDF2872CB290066A653 /* 733. 图像渲染.swift in Sources */,
+				676FBC54289D004E005882F5 /* 62.不同路径.swift in Sources */,
 				67E0BDE12872CB4F0066A653 /* 46. 全排列.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

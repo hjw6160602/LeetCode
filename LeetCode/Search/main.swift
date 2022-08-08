@@ -21,11 +21,11 @@ class Solution {
 //test4findMedianSortedArrays()
 //test200NumIslands()
 //test34SearchRange()
-
+testUniquePaths()
 
 // MARK: - 排列组合
 //test46Permute()
 //testCombine()
 //testLetterCombinations()
 //test47PermuteUnique()
-test78Subsets()
+//test78Subsets()

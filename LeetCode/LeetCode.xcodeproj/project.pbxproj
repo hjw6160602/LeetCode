@@ -80,6 +80,7 @@
 		67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */; };
 		67D66FE1289177C60072A0D9 /* 279. 完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */; };
 		67D66FE328922BC70072A0D9 /* 128. 最长连续序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */; };
+		67D7C15D28A14A850064F4DF /* 49. 字母异位词分组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D7C15C28A14A850064F4DF /* 49. 字母异位词分组.swift */; };
 		67E0BDCD286E9D5B0066A653 /* 507. 完美数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */; };
 		67E0BDCF286ED7F10066A653 /* 496. 下一个更大元素 I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */; };
 		67E0BDD92872CACB0066A653 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E0BDD82872CACB0066A653 /* main.swift */; };
@@ -396,6 +397,7 @@
 		67D66FDD289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "96. 不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 		67D66FDF289170360072A0D9 /* 279. 完全平方数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. 完全平方数.swift"; sourceTree = "<group>"; };
 		67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. 最长连续序列.swift"; sourceTree = "<group>"; };
+		67D7C15C28A14A850064F4DF /* 49. 字母异位词分组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. 字母异位词分组.swift"; sourceTree = "<group>"; };
 		67E0BDCC286E9D5B0066A653 /* 507. 完美数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "507. 完美数.swift"; sourceTree = "<group>"; };
 		67E0BDCE286ED7F10066A653 /* 496. 下一个更大元素 I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. 下一个更大元素 I.swift"; sourceTree = "<group>"; };
 		67E0BDD0286EF12D0066A653 /* 733. 图像渲染.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. 图像渲染.swift"; sourceTree = "<group>"; };
@@ -735,6 +737,7 @@
 				67CA007628980F7100D6907B /* 406. 根据身高重建队列.swift */,
 				676FBC4F289CED62005882F5 /* 207.课程表.swift */,
 				676FBC51289CFBF6005882F5 /* 210.课程表II.swift */,
+				67D7C15C28A14A850064F4DF /* 49. 字母异位词分组.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1394,6 +1397,7 @@
 			files = (
 				67E393BF2887ADB900B4F252 /* 56. 合并区间.swift in Sources */,
 				CA55A6882860C51700154A15 /* 1030.距离顺序排列矩阵单元格.swift in Sources */,
+				67D7C15D28A14A850064F4DF /* 49. 字母异位词分组.swift in Sources */,
 				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
 				CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */,

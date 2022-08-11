@@ -16,7 +16,8 @@ class Solution {
     private init() {}
 }
 
-test128LongestConsecutive()
+test64MinPathSum()
+//test128LongestConsecutive()
 //testMaxValue()
 //textMaxArea()
 //testLongestCommonSubsequence()

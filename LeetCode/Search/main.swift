@@ -21,7 +21,8 @@ class Solution {
 //test4findMedianSortedArrays()
 //test200NumIslands()
 //test34SearchRange()
-testUniquePaths()
+//testUniquePaths()
+test39CombinationSum()
 
 // MARK: - 排列组合
 //test46Permute()

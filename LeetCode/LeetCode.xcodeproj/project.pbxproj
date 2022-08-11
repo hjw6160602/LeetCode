@@ -126,6 +126,8 @@
 		CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */; };
 		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
 		CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E87280F00F30092D94F /* 189. 轮转数组.swift */; };
+		CA1B8E65289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B8E64289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift */; };
+		CA1B8E6728A0002700C2D6E5 /* 394. 字符串解码.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B8E6628A0002700C2D6E5 /* 394. 字符串解码.swift */; };
 		CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */; };
 		CA1D75DE25E7E36500CD2432 /* 749.每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */; };
 		CA1D75F125E92C8100CD2432 /* 168.Excel表列名称.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D75F025E92C8100CD2432 /* 168.Excel表列名称.swift */; };
@@ -443,6 +445,8 @@
 		CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1010. 总持续时间可被 60 整除的歌曲.swift"; sourceTree = "<group>"; };
 		CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. 丢失的数字.swift"; sourceTree = "<group>"; };
 		CA189E87280F00F30092D94F /* 189. 轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 轮转数组.swift"; sourceTree = "<group>"; };
+		CA1B8E64289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "340. 至多包含 K 个不同字符的最长子串.swift"; sourceTree = "<group>"; };
+		CA1B8E6628A0002700C2D6E5 /* 394. 字符串解码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "394. 字符串解码.swift"; sourceTree = "<group>"; };
 		CA1D75C125E6A49500CD2432 /* 333.最大BST子树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "333.最大BST子树.swift"; sourceTree = "<group>"; };
 		CA1D75CB25E7514400CD2432 /* 46. 全排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. 全排列.swift"; sourceTree = "<group>"; };
 		CA1D75DD25E7E36500CD2432 /* 749.每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "749.每日温度.swift"; sourceTree = "<group>"; };
@@ -911,6 +915,8 @@
 				CA22432528957D8900332C01 /* 125. 验证回文串.swift */,
 				CA487B4A28961EAB004EF75D /* 412. Fizz Buzz.swift */,
 				676FBC4D289AB28B005882F5 /* 139. 单词拆分.swift */,
+				CA1B8E64289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift */,
+				CA1B8E6628A0002700C2D6E5 /* 394. 字符串解码.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -1496,6 +1502,7 @@
 				67C8F53526005F79009CEB1C /* 419.字符串相加.swift in Sources */,
 				80F2C08925DE49530051398B /* 242.有效的字母异位词.swift in Sources */,
 				80F2C07125DE49400051398B /* main.swift in Sources */,
+				CA1B8E6728A0002700C2D6E5 /* 394. 字符串解码.swift in Sources */,
 				CA5C2621286DE60C00836003 /* 409. 最长回文串.swift in Sources */,
 				80F2C0C925DE49D50051398B /* 08. StringToInteger.swift in Sources */,
 				CAF524302809D1F200A62886 /* 67.二进制求和.swift in Sources */,
@@ -1507,6 +1514,7 @@
 				80F2C1D125DE4F380051398B /* 72. Edit Distance.swift in Sources */,
 				67C8F5EA2602FC89009CEB1C /* 14.最长公共前缀.swift in Sources */,
 				CAA621D127F756AE0010E814 /* 28.实现strStr.swift in Sources */,
+				CA1B8E65289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift in Sources */,
 				671508F3279AA4C500BC7BC8 /* 05.最长回文子串.swift in Sources */,
 				CAF5242E2808681500A62886 /* 392.判断子序列.swift in Sources */,
 				80F2C09F25DE499B0051398B /* 01.09字符串轮转.swift in Sources */,

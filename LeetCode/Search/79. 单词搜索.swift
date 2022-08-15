@@ -10,41 +10,87 @@ import Foundation
 
 
 extension Solution {
+//    func exist(_ board: [[Character]], _ word: String) -> Bool {
+//        let m = board.count, n = board[0].count
+//        var visted = Array(repeating: Array.init(repeating: false, count: n),
+//                           count: m)
+//        var depth = 0
+//        _dfs(board, word, m,  n, &visted, 0, 0, &depth)
+//        return depth == word.count
+//    }
+//
+//    private func _dfs(_ board: [[Character]],  _ word: String, _ m: Int, _ n: Int,
+//                      _ visted: inout [[Bool]], _ i: Int, _ j: Int, _ depth: inout Int){
+//        guard depth < word.count else {
+//            return
+//        }
+//
+//        guard board[i][j] == word[depth] else {
+//            return
+//        }
+//
+//        depth += 1
+//        visted[i][j] = true
+//
+//        if i - 1 > 0 {
+//            _dfs(board, word, m,  n, &visted, i - 1, j, &depth)
+//        }
+//        if i + 1 < m {
+//            _dfs(board, word, m,  n, &visted, i + 1, j, &depth)
+//        }
+//        if j - 1 > 0 {
+//            _dfs(board, word, m,  n, &visted, i, j - 1, &depth)
+//        }
+//        if j + 1 < n {
+//            _dfs(board, word, m,  n, &visted, i, j + 1, &depth)
+//        }
+//
+//    }
+    
+//    124 ms 93.68%
+//    14.1 MB 35.79%
     func exist(_ board: [[Character]], _ word: String) -> Bool {
-        let m = board.count, n = board[0].count
-        var visted = Array(repeating: Array.init(repeating: false, count: n),
-                           count: m)
-        var depth = 0
-        _dfs(board, word, m,  n, &visted, 0, 0, &depth)
-        return depth == word.count
+        guard board.count > 0 && board[0].count > 0 else {
+            return false
+        }
+        
+        let m = board.count
+        let n = board[0].count
+        var visited = Array(repeating: Array.init(repeating: false, count: n),
+                                   count: m)
+        let wordContent = [Character](word)
+        
+        for i in 0..<m {
+            for j in 0..<n {
+                if board[i][j] == wordContent[0] && _dfs(board, wordContent, m, n, i, j, &visited, 0) {
+                    return true
+                }
+            }
+        }
+        
+        return false
     }
     
-    private func _dfs(_ board: [[Character]],  _ word: String, _ m: Int, _ n: Int,
-                      _ visted: inout [[Bool]], _ i: Int, _ j: Int, _ depth: inout Int){
-        guard depth < word.count else {
-            return
+    private func _dfs(_ board: [[Character]], _ wordContent: [Character], _ m: Int, _ n: Int, _ i: Int, _ j: Int, _ visited: inout [[Bool]], _ index: Int) -> Bool {
+        if index == wordContent.count {
+            return true
         }
         
-        guard board[i][j] == word[depth] else {
-            return
+        guard i >= 0 && i < m && j >= 0 && j < n else {
+            return false
+        }
+        guard !visited[i][j] && board[i][j] == wordContent[index] else {
+            return false
         }
         
-        depth += 1
-        visted[i][j] = true
+        visited[i][j] = true
         
-        if i - 1 > 0 {
-            _dfs(board, word, m,  n, &visted, i - 1, j, &depth)
+        if _dfs(board, wordContent, m, n, i + 1, j, &visited, index + 1) || _dfs(board, wordContent, m, n, i - 1, j, &visited, index + 1) || _dfs(board, wordContent, m, n, i, j + 1, &visited, index + 1) || _dfs(board, wordContent, m, n, i, j - 1, &visited, index + 1) {
+            return true
         }
-        if i + 1 < m {
-            _dfs(board, word, m,  n, &visted, i + 1, j, &depth)
-        }
-        if j - 1 > 0 {
-            _dfs(board, word, m,  n, &visted, i, j - 1, &depth)
-        }
-        if j + 1 < n {
-            _dfs(board, word, m,  n, &visted, i, j + 1, &depth)
-        }
+        visited[i][j] = false
         
+        return false
     }
     
 }

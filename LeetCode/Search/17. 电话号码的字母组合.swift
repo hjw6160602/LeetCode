@@ -95,7 +95,7 @@ class LetterCombinationP1 {
             return
         }
         // 取到当前这层的键盘对应的字母
-        let cur = digits[idx]
+        let cur: String = digits[idx]
         guard let curNum = Int(cur) else {
             fatalError("Invalid index")
         }
@@ -140,7 +140,7 @@ class LetterCombinationP2 {
             return
         }
         // 取到当前这层的键盘对应的字母
-        let cur = digits[idx]
+        let cur: String = digits[idx]
         guard let curNum = Int(cur) else {
             fatalError("Invalid index")
         }
@@ -158,13 +158,6 @@ class LetterCombinationP2 {
         }
     }
 }
-
-extension String {
-    subscript (i: Int) -> String {
-        return String(self[index(startIndex, offsetBy: i)])
-    }
-}
-
 
 func testLetterCombinations() {
     let lc = LetterCombinationP2()

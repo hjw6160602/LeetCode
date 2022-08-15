@@ -20,6 +20,7 @@
 		679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E72293DEFA00D1CCC8 /* MergeSort.swift */; };
 		679509EA2293E7BA00D1CCC8 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509E92293E7BA00D1CCC8 /* QuickSort.swift */; };
 		679509EC2293E7DC00D1CCC8 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */; };
+		67960E3A28AA7F2E0076C741 /* 79. 单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67960E3928AA7F2E0076C741 /* 79. 单词搜索.swift */; };
 		67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB0625CAD8B3009C53EE /* 86. 分隔链表.swift */; };
 		67ACEB1E25CAD8D0009C53EE /* 160.交叉链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB1D25CAD8D0009C53EE /* 160.交叉链表.swift */; };
 		67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB3425CAD922009C53EE /* 203.移除链表元素.swift */; };
@@ -332,6 +333,7 @@
 		679509E72293DEFA00D1CCC8 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		679509E92293E7BA00D1CCC8 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		679509EB2293E7DC00D1CCC8 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		67960E3928AA7F2E0076C741 /* 79. 单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "79. 单词搜索.swift"; sourceTree = "<group>"; };
 		67ACEB0625CAD8B3009C53EE /* 86. 分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86. 分隔链表.swift"; sourceTree = "<group>"; };
 		67ACEB1D25CAD8D0009C53EE /* 160.交叉链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160.交叉链表.swift"; sourceTree = "<group>"; };
 		67ACEB3425CAD922009C53EE /* 203.移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
@@ -817,6 +819,7 @@
 				67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */,
 				676FBC53289D004E005882F5 /* 62.不同路径.swift */,
 				6739313D28A5397300E425F8 /* 39. 组合总和.swift */,
+				67960E3928AA7F2E0076C741 /* 79. 单词搜索.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -1427,6 +1430,7 @@
 				67D43F1B287EBFA100682BAB /* 4. 寻找两个正序数组的中位数.swift in Sources */,
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
+				67960E3A28AA7F2E0076C741 /* 79. 单词搜索.swift in Sources */,
 				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,
 				CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				67E39423288979AE00B4F252 /* 200. 岛屿数量.swift in Sources */,

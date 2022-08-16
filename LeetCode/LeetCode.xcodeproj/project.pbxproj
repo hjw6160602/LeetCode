@@ -101,6 +101,7 @@
 		67E39427288A48F100B4F252 /* 560. 和为 K 的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
+		67EB31F728ABCF2100529B6D /* 114. 二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
 		67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA8227633451003C357F /* 977.独立数组的平方.swift */; };
 		67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDD8DF276059A00004D5E4 /* 283.零移动.swift */; };
@@ -415,6 +416,7 @@
 		67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. 和为 K 的子数组.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
+		67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114. 二叉树展开为链表.swift"; sourceTree = "<group>"; };
 		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
 		67FAFA8227633451003C357F /* 977.独立数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977.独立数组的平方.swift"; sourceTree = "<group>"; };
 		67FDD8DF276059A00004D5E4 /* 283.零移动.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283.零移动.swift"; sourceTree = "<group>"; };
@@ -707,6 +709,7 @@
 				801B2D46226CC182008E7CAB /* BinaryTree.swift */,
 				801B2D47226CC182008E7CAB /* TreeNode.swift */,
 				CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */,
+				67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -1375,6 +1378,7 @@
 				67D43F1D288003E100682BAB /* 94. 二叉树的中序遍历.swift in Sources */,
 				CA08BB672868B4C7005FD7A2 /* 437. 路径总和 III.swift in Sources */,
 				67B57DD125CC262A00814C1A /* main.swift in Sources */,
+				67EB31F728ABCF2100529B6D /* 114. 二叉树展开为链表.swift in Sources */,
 				67D43F2128800B8F00682BAB /* 102.二叉树的层序遍历.swift in Sources */,
 				CA4F6F93287F1B7400B4759E /* 572. 另一棵树的子树.swift in Sources */,
 				67B57DFD25CC263900814C1A /* TreeNode.swift in Sources */,

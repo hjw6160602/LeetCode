@@ -11,6 +11,38 @@ import Foundation
 
 extension Solution {
 //    12 ms 58.06%
+//    14.1 MB 64.52%
+//    Time Complexity: O(n), Space Complexity: O(1)
+    func flattenSoap(_ root: TreeNode?) {
+        helper(root)
+    }
+    
+    @discardableResult
+    private func helper(_ node: TreeNode?) -> TreeNode? {
+        var node = node
+        if node == nil {
+            return node
+        }
+        if node!.left == nil && node!.right == nil {
+            return node
+        }
+        
+        let left = node!.left, right = node!.right
+        node!.left = nil
+        
+        if let left = left {
+            node!.right = left
+            node = helper(left)
+        }
+        if let right = right {
+            node!.right = right
+            node = helper(right)
+        }
+        
+        return node
+    }
+    
+//    12 ms 58.06%
 //    14.4 MB 8.60%
     func flatten(_ root: TreeNode?) {
         guard let root = root else { return }
@@ -23,8 +55,6 @@ extension Solution {
             node.right = TreeNode(path[i])
             node = node.right!
         }
-        print(path)
-
     }
     
     private func _dfs(_ root: TreeNode?, _ path: inout [Int]) {

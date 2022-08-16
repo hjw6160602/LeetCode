@@ -42,6 +42,30 @@ extension Solution {
         return node
     }
     
+//    8 ms 98.92%
+//    13.9 MB 87.10%
+    func flattenJava(_ root: TreeNode?) {
+        var node = root
+        while (node != nil) {
+            //左子树为 nil，直接考虑下一个节点
+            guard var pre = node!.left else {
+                node = node!.right
+                continue
+            }
+            // 找左子树最右边的节点
+            while (pre.right != nil) {
+                pre = pre.right!
+            }
+            //将原来的右子树接到左子树的最右边节点
+            pre.right = node!.right
+            // 将左子树插入到右子树的地方
+            node!.right = node!.left
+            node!.left = nil
+            // 考虑下一个节点
+            node = node!.right
+        }
+    }
+    
 //    12 ms 58.06%
 //    14.4 MB 8.60%
     func flatten(_ root: TreeNode?) {

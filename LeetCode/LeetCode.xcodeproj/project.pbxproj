@@ -102,6 +102,7 @@
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67EB31F728ABCF2100529B6D /* 114. 二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */; };
+		67EB31FD28AD20F800529B6D /* 581. 最短无序连续子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EB31FC28AD20F800529B6D /* 581. 最短无序连续子数组.swift */; };
 		67FAFA81276237FD003C357F /* 16.16.部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA80276237FD003C357F /* 16.16.部分排序.swift */; };
 		67FAFA8327633451003C357F /* 977.独立数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA8227633451003C357F /* 977.独立数组的平方.swift */; };
 		67FDD8E0276059A00004D5E4 /* 283.零移动.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FDD8DF276059A00004D5E4 /* 283.零移动.swift */; };
@@ -417,6 +418,7 @@
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114. 二叉树展开为链表.swift"; sourceTree = "<group>"; };
+		67EB31FC28AD20F800529B6D /* 581. 最短无序连续子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "581. 最短无序连续子数组.swift"; sourceTree = "<group>"; };
 		67FAFA80276237FD003C357F /* 16.16.部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16.16.部分排序.swift"; sourceTree = "<group>"; };
 		67FAFA8227633451003C357F /* 977.独立数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "977.独立数组的平方.swift"; sourceTree = "<group>"; };
 		67FDD8DF276059A00004D5E4 /* 283.零移动.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283.零移动.swift"; sourceTree = "<group>"; };
@@ -745,6 +747,7 @@
 				676FBC4F289CED62005882F5 /* 207.课程表.swift */,
 				676FBC51289CFBF6005882F5 /* 210.课程表II.swift */,
 				67D7C15C28A14A850064F4DF /* 49. 字母异位词分组.swift */,
+				67EB31FC28AD20F800529B6D /* 581. 最短无序连续子数组.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -1411,6 +1414,7 @@
 				CA5C261F286CAC4C00836003 /* 922. 按奇偶排序数组 II.swift in Sources */,
 				CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */,
 				CA2243242894243D00332C01 /* 253. 会议室 II.swift in Sources */,
+				67EB31FD28AD20F800529B6D /* 581. 最短无序连续子数组.swift in Sources */,
 				676FBC50289CED62005882F5 /* 207.课程表.swift in Sources */,
 				67CA007728980F7100D6907B /* 406. 根据身高重建队列.swift in Sources */,
 				679509E82293DEFA00D1CCC8 /* MergeSort.swift in Sources */,

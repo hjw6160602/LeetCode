@@ -8,46 +8,48 @@
 
 import Foundation
 
+
 class Trie {
-    private var nodes: [Character: Trie]
-    
-    /** Initialize your data structure here. */
-    init() {
-        nodes = [:]
-    }
+    // 152 ms 97.22%
+    // 24.4 MB 36.11%
+    var isEnd = false
+    var nodes: [Trie?] = Array(repeating: nil, count: 26)
     
     /** Inserts a word into the trie. */
     func insert(_ word: String) {
         var trie = self
         for char in word {
-            if let subTrie = trie.nodes[char] {
+            let charAscii = Int(char.asciiValue!) - 97
+            if let subTrie = trie.nodes[charAscii] {
                 trie = subTrie
             } else {
                 let subTrie = Trie()
-                trie.nodes[char] = subTrie
+                trie.nodes[charAscii] = subTrie
                 trie = subTrie
             }
         }
-        trie.nodes["#"] = Trie()
+        trie.isEnd = true
     }
     
     /** Returns if the word is in the trie. */
     func search(_ word: String) -> Bool {
         var trie = self
         for char in word {
-            guard let subTrie = trie.nodes[char] else {
+            let charAscii = Int(char.asciiValue!) - 97
+            guard let subTrie = trie.nodes[charAscii] else {
                 return false
             }
             trie = subTrie
         }
-        return trie.nodes["#"] != nil;
+        return trie.isEnd;
     }
     
     /** Returns if there is any word in the trie that starts with the given prefix. */
     func startsWith(_ prefix: String) -> Bool {
         var trie = self
         for char in prefix {
-            guard let subTrie = trie.nodes[char] else {
+            let charAscii = Int(char.asciiValue!) - 97
+            guard let subTrie = trie.nodes[charAscii] else {
                 return false
             }
             trie = subTrie
@@ -55,6 +57,54 @@ class Trie {
         return true
     }
 }
+
+//class Trie {
+//    private var nodes: [Character: Trie]
+//
+//    /** Initialize your data structure here. */
+//    init() {
+//        nodes = [:]
+//    }
+//
+//    /** Inserts a word into the trie. */
+//    func insert(_ word: String) {
+//        var trie = self
+//        for char in word {
+//            if let subTrie = trie.nodes[char] {
+//                trie = subTrie
+//            } else {
+//                let subTrie = Trie()
+//                trie.nodes[char] = subTrie
+//                trie = subTrie
+//            }
+//        }
+//        trie.nodes["#"] = Trie()
+//    }
+//
+//    /** Returns if the word is in the trie. */
+//    func search(_ word: String) -> Bool {
+//        var trie = self
+//        for char in word {
+//            guard let subTrie = trie.nodes[char] else {
+//                return false
+//            }
+//            trie = subTrie
+//        }
+//        return trie.nodes["#"] != nil;
+//    }
+//
+//    /** Returns if there is any word in the trie that starts with the given prefix. */
+//    func startsWith(_ prefix: String) -> Bool {
+//        var trie = self
+//        for char in prefix {
+//            guard let subTrie = trie.nodes[char] else {
+//                return false
+//            }
+//            trie = subTrie
+//        }
+//        return true
+//    }
+//}
 
 func test208Trie() {
     //输入

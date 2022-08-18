@@ -36,7 +36,8 @@ class Solution {
 //test543DiameterOfBinaryTree()
 //test226InvertTree()
 //test124MaxPathSum()
-test114Flatten()
+//test114Flatten()
+test208Trie()
 
 // MARK: - BFS
 //test102levelOrder()

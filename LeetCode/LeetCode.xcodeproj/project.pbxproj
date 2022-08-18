@@ -28,6 +28,7 @@
 		67ACEB7825CAE013009C53EE /* 138.复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */; };
 		67B1744F25F8966500F27D40 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1744E25F8966500F27D40 /* 20.有效的括号.swift */; };
 		67B1746825F8B6C400F27D40 /* 7. 整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */; };
+		67B548D328AE755B002EFE76 /* 208. 实现 Trie (前缀树).swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B548D228AE755B002EFE76 /* 208. 实现 Trie (前缀树).swift */; };
 		67B568A127C7B554003B6487 /* 54.螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */; };
 		67B568A327C7BD4E003B6487 /* 42.接雨水.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B568A227C7BD4E003B6487 /* 42.接雨水.swift */; };
 		67B57C4625CB9CFF00814C1A /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */; };
@@ -343,6 +344,7 @@
 		67ACEB7725CAE013009C53EE /* 138.复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138.复制带随机指针的链表.swift"; sourceTree = "<group>"; };
 		67B1744E25F8966500F27D40 /* 20.有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
 		67B1746725F8B6C400F27D40 /* 7. 整数反转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. 整数反转.swift"; sourceTree = "<group>"; };
+		67B548D228AE755B002EFE76 /* 208. 实现 Trie (前缀树).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208. 实现 Trie (前缀树).swift"; sourceTree = "<group>"; };
 		67B568A027C7B554003B6487 /* 54.螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "54.螺旋矩阵.swift"; sourceTree = "<group>"; };
 		67B568A227C7BD4E003B6487 /* 42.接雨水.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42.接雨水.swift"; sourceTree = "<group>"; };
 		67B57C4525CB9CFF00814C1A /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
@@ -712,6 +714,7 @@
 				801B2D47226CC182008E7CAB /* TreeNode.swift */,
 				CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */,
 				67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */,
+				67B548D228AE755B002EFE76 /* 208. 实现 Trie (前缀树).swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -1363,6 +1366,7 @@
 				CA4F6F9528806EB000B4759E /* 617. 合并二叉树.swift in Sources */,
 				67D43F25288149E400682BAB /* 543.二叉树的直径.swift in Sources */,
 				CA1D75C225E6A49500CD2432 /* 333.最大BST子树.swift in Sources */,
+				67B548D328AE755B002EFE76 /* 208. 实现 Trie (前缀树).swift in Sources */,
 				67B8CD6525E680710059D7B5 /* 236.最近公共祖先.swift in Sources */,
 				CAE8C4E42875E3B8007B51D7 /* 107. 二叉树的层序遍历 II.swift in Sources */,
 				CA8C23C5287F1538005D40A0 /* 938. 二叉搜索树的范围和.swift in Sources */,

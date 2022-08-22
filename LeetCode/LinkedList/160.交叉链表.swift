@@ -136,7 +136,7 @@ func testGetIntersectionNode() {
     let list2 = LinkedList.createList([5,0,1,8,4,5])
     LinkedList.display(list2)
     let head = LeetCode.getIntersectionNodeP3(list1, list2)
-    print(head?.val)
+    print(head?.val ?? "")
 }
 
 // 示例 1：

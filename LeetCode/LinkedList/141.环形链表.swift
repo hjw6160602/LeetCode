@@ -10,6 +10,8 @@ import Foundation
 
 
 extension Solution {
+//    48 ms  90.26%
+//    15.3 MB 71.31%
     func hasCycle(_ head: ListNode?) -> Bool {
 
         var rabbit = head, turttle = head
@@ -23,9 +25,28 @@ extension Solution {
             guard let turttle = turttle else {
                 return false
             }
-            if rabbit.val == turttle.val {
+            if rabbit === turttle {
                 return true
             }
+        }
+    }
+    
+    func hasCycleP1(_ head: ListNode?) -> Bool {
+        guard head != nil else { return false }
+
+        // 快慢指针
+        var fast = head, slow = head
+        
+        while true {
+            // 没有环
+            if (fast == nil || fast?.next == nil) {
+                return false
+            }
+            fast = fast?.next?.next
+            slow = slow?.next
+            
+            // 有环了，退出
+            if fast === slow { return true }
         }
     }
 }

@@ -16,7 +16,8 @@ class Solution {
     private init() {}
 }
 
-test64MinPathSum()
+test647CountSubstrings()
+//test64MinPathSum()
 //test128LongestConsecutive()
 //testMaxValue()
 //textMaxArea()

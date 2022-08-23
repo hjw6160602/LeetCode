@@ -130,6 +130,7 @@
 		CA08BB672868B4C7005FD7A2 /* 437. 路径总和 III.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */; };
 		CA08BB692869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */; };
 		CA08BB6B286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */; };
+		CA09E95C28B127F60034CB57 /* 647. 回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA09E95B28B127F60034CB57 /* 647. 回文子串.swift */; };
 		CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */; };
 		CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA189E87280F00F30092D94F /* 189. 轮转数组.swift */; };
 		CA1B8E65289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1B8E64289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift */; };
@@ -454,6 +455,7 @@
 		CA08BB662868B4C7005FD7A2 /* 437. 路径总和 III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "437. 路径总和 III.swift"; sourceTree = "<group>"; };
 		CA08BB682869FAD4005FD7A2 /* 628. 三个数的最大乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "628. 三个数的最大乘积.swift"; sourceTree = "<group>"; };
 		CA08BB6A286A05F6005FD7A2 /* 1010. 总持续时间可被 60 整除的歌曲.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1010. 总持续时间可被 60 整除的歌曲.swift"; sourceTree = "<group>"; };
+		CA09E95B28B127F60034CB57 /* 647. 回文子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "647. 回文子串.swift"; sourceTree = "<group>"; };
 		CA189E85280EFE7D0092D94F /* 268. 丢失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. 丢失的数字.swift"; sourceTree = "<group>"; };
 		CA189E87280F00F30092D94F /* 189. 轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189. 轮转数组.swift"; sourceTree = "<group>"; };
 		CA1B8E64289D5F5500C2D6E5 /* 340. 至多包含 K 个不同字符的最长子串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "340. 至多包含 K 个不同字符的最长子串.swift"; sourceTree = "<group>"; };
@@ -705,6 +707,7 @@
 				CA5C2626286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift */,
 				CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */,
 				67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */,
+				CA09E95B28B127F60034CB57 /* 647. 回文子串.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -1346,6 +1349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B57D4E25CC253600814C1A /* 322.零钱兑换.swift in Sources */,
+				CA09E95C28B127F60034CB57 /* 647. 回文子串.swift in Sources */,
 				67D66FDE289169BD0072A0D9 /* 96. 不同的二叉搜索树.swift in Sources */,
 				67B57D3425CC251C00814C1A /* main.swift in Sources */,
 				80F2C34E25DE6B860051398B /* 62. 不同路径.swift in Sources */,

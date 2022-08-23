@@ -11,6 +11,7 @@
 		6739313E28A5397300E425F8 /* 39. 组合总和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739313D28A5397300E425F8 /* 39. 组合总和.swift */; };
 		675D212725FF5893002D2C73 /* 821.字符串最短距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D212625FF5893002D2C73 /* 821.字符串最短距离.swift */; };
 		67631DCB28B3758800F29636 /* 142.环形链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCA28B3758800F29636 /* 142.环形链表II.swift */; };
+		67631DCD28B3B88000F29636 /* 148. 排序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCC28B3B88000F29636 /* 148. 排序链表.swift */; };
 		676E87D725C98EF900E52125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E87D625C98EF900E52125 /* main.swift */; };
 		676E880625C98F2200E52125 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E880525C98F2200E52125 /* ListNode.swift */; };
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
@@ -320,6 +321,7 @@
 		6739313D28A5397300E425F8 /* 39. 组合总和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39. 组合总和.swift"; sourceTree = "<group>"; };
 		675D212625FF5893002D2C73 /* 821.字符串最短距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821.字符串最短距离.swift"; sourceTree = "<group>"; };
 		67631DCA28B3758800F29636 /* 142.环形链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142.环形链表II.swift"; sourceTree = "<group>"; };
+		67631DCC28B3B88000F29636 /* 148. 排序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "148. 排序链表.swift"; sourceTree = "<group>"; };
 		67635CF221EC8DFD00235C81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		67635CF721EC8E2900235C81 /* RangeSumOfBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumOfBST.h; sourceTree = "<group>"; };
 		67635CF821EC8E2900235C81 /* RangeSumOfBST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RangeSumOfBST.c; sourceTree = "<group>"; };
@@ -664,6 +666,7 @@
 				67B8CD1F25E6351B0059D7B5 /* 16.25 LRUCache.swift */,
 				CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */,
 				CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
+				67631DCC28B3B88000F29636 /* 148. 排序链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1306,6 +1309,7 @@
 				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
 				67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
+				67631DCD28B3B88000F29636 /* 148. 排序链表.swift in Sources */,
 				CA224312288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift in Sources */,
 				67ACEB0725CAD8B3009C53EE /* 86. 分隔链表.swift in Sources */,
 				676E87D725C98EF900E52125 /* main.swift in Sources */,

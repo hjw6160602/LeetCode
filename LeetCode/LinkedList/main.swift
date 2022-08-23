@@ -15,6 +15,7 @@ class Solution {
     private init() {}
 }
 
+test148sortList()
 // 两数之和
 //testAddSum()
 // 翻转链表
@@ -35,7 +36,7 @@ class Solution {
 //test19removeNthFromEnd()
 //testOffer24ReverseList()
 //test22GetKthFromEnd()
-test237DeleteNode()
+//test237DeleteNode()
 
 private func testRemveElement() {
     let list = LinkedList.createList([1, 2, 1])

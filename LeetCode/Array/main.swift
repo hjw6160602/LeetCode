@@ -17,8 +17,8 @@ class Solution {
     private init() {}
 }
 
-
-test48Rotate()
+test238productExceptSelf()
+//test48Rotate()
 //test15ThreeSum()
 //test350Intersect()
 //test1480RunningSum()

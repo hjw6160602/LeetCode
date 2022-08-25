@@ -12,6 +12,8 @@
 		675D212725FF5893002D2C73 /* 821.字符串最短距离.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675D212625FF5893002D2C73 /* 821.字符串最短距离.swift */; };
 		67631DCB28B3758800F29636 /* 142.环形链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCA28B3758800F29636 /* 142.环形链表II.swift */; };
 		67631DCD28B3B88000F29636 /* 148. 排序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCC28B3B88000F29636 /* 148. 排序链表.swift */; };
+		67631DCF28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCE28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift */; };
+		67631DD128B6614200F29636 /* 221. 最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DD028B6614200F29636 /* 221. 最大正方形.swift */; };
 		676E87D725C98EF900E52125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E87D625C98EF900E52125 /* main.swift */; };
 		676E880625C98F2200E52125 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E880525C98F2200E52125 /* ListNode.swift */; };
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
@@ -323,6 +325,8 @@
 		675D212625FF5893002D2C73 /* 821.字符串最短距离.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "821.字符串最短距离.swift"; sourceTree = "<group>"; };
 		67631DCA28B3758800F29636 /* 142.环形链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "142.环形链表II.swift"; sourceTree = "<group>"; };
 		67631DCC28B3B88000F29636 /* 148. 排序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "148. 排序链表.swift"; sourceTree = "<group>"; };
+		67631DCE28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. 除自身以外数组的乘积.swift"; sourceTree = "<group>"; };
+		67631DD028B6614200F29636 /* 221. 最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221. 最大正方形.swift"; sourceTree = "<group>"; };
 		67635CF221EC8DFD00235C81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		67635CF721EC8E2900235C81 /* RangeSumOfBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumOfBST.h; sourceTree = "<group>"; };
 		67635CF821EC8E2900235C81 /* RangeSumOfBST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RangeSumOfBST.c; sourceTree = "<group>"; };
@@ -708,6 +712,7 @@
 				CA22431A28918A1600332C01 /* 剑指 Offer 42. 连续子数组的最大和.swift */,
 				67D66FE228922BC70072A0D9 /* 128. 最长连续序列.swift */,
 				CA09E95B28B127F60034CB57 /* 647. 回文子串.swift */,
+				67631DD028B6614200F29636 /* 221. 最大正方形.swift */,
 			);
 			path = DynamicPrograming;
 			sourceTree = "<group>";
@@ -903,6 +908,7 @@
 				CA224313288D15CD00332C01 /* 163. 缺失的区间.swift */,
 				CA22431C28918E6B00332C01 /* 1480. 一维数组的动态和.swift */,
 				CA45D7AA2898254100436EFB /* 48. 旋转图像.swift */,
+				67631DCE28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -1357,6 +1363,7 @@
 				80F2C34225DE6B720051398B /* 64. 最小路径和.swift in Sources */,
 				CA23E67F25F3D0180048115F /* 300.最长递增子序列.swift in Sources */,
 				CA5C2627286F4BB200836003 /* 746. 使用最小花费爬楼梯.swift in Sources */,
+				67631DD128B6614200F29636 /* 221. 最大正方形.swift in Sources */,
 				CAB339A027F33FA1002A7776 /* 198. 打家劫舍.swift in Sources */,
 				67B98BAA288EC7F000B56E2D /* 152.乘积最大子数组.swift in Sources */,
 				CA23E6E125F527F50048115F /* 53.最大子序列和.swift in Sources */,
@@ -1482,6 +1489,7 @@
 				67B8CD0C25E5FD090059D7B5 /* 15. 三数之和.swift in Sources */,
 				CA45D7AB2898254100436EFB /* 48. 旋转图像.swift in Sources */,
 				CAC4ADA42812FEA400F0FF9B /* 492. 构造矩形.swift in Sources */,
+				67631DCF28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift in Sources */,
 				CAF523F22806D10200A62886 /* 455. 分发饼干.swift in Sources */,
 				CA189E86280EFE7D0092D94F /* 268. 丢失的数字.swift in Sources */,
 				CA189E88280F00F30092D94F /* 189. 轮转数组.swift in Sources */,

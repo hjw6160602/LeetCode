@@ -25,6 +25,7 @@ extension String {
     }
 }
 
+test240searchMatrix()
 //test733FloodFill()
 //test278FirstBadVersion()
 //test33Search()
@@ -33,7 +34,7 @@ extension String {
 //test34SearchRange()
 //testUniquePaths()
 //test39CombinationSum()
-test79Exist()
+//test79Exist()
 
 
 // MARK: - 排列组合

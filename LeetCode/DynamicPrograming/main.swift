@@ -16,8 +16,8 @@ class Solution {
     private init() {}
 }
 
-
-test647CountSubstrings()
+test66constructArr()
+//test647CountSubstrings()
 //test221maximalSquare()
 //test64MinPathSum()
 //test128LongestConsecutive()

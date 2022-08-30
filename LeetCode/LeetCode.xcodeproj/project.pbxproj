@@ -15,6 +15,7 @@
 		67631DCF28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DCE28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift */; };
 		67631DD128B6614200F29636 /* 221. 最大正方形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DD028B6614200F29636 /* 221. 最大正方形.swift */; };
 		67631DD328B71C7700F29636 /* 240. 搜索二维矩阵 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DD228B71C7700F29636 /* 240. 搜索二维矩阵 II.swift */; };
+		67631DD528B8CEEE00F29636 /* 287. 寻找重复数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67631DD428B8CEEE00F29636 /* 287. 寻找重复数.swift */; };
 		676E87D725C98EF900E52125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E87D625C98EF900E52125 /* main.swift */; };
 		676E880625C98F2200E52125 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E880525C98F2200E52125 /* ListNode.swift */; };
 		676E881D25C9938700E52125 /* 02. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E881C25C9938600E52125 /* 02. 两数相加.swift */; };
@@ -330,6 +331,7 @@
 		67631DCE28B510BA00F29636 /* 238. 除自身以外数组的乘积.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. 除自身以外数组的乘积.swift"; sourceTree = "<group>"; };
 		67631DD028B6614200F29636 /* 221. 最大正方形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "221. 最大正方形.swift"; sourceTree = "<group>"; };
 		67631DD228B71C7700F29636 /* 240. 搜索二维矩阵 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240. 搜索二维矩阵 II.swift"; sourceTree = "<group>"; };
+		67631DD428B8CEEE00F29636 /* 287. 寻找重复数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "287. 寻找重复数.swift"; sourceTree = "<group>"; };
 		67635CF221EC8DFD00235C81 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		67635CF721EC8E2900235C81 /* RangeSumOfBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeSumOfBST.h; sourceTree = "<group>"; };
 		67635CF821EC8E2900235C81 /* RangeSumOfBST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RangeSumOfBST.c; sourceTree = "<group>"; };
@@ -849,6 +851,7 @@
 				6739313D28A5397300E425F8 /* 39. 组合总和.swift */,
 				67960E3928AA7F2E0076C741 /* 79. 单词搜索.swift */,
 				67631DD228B71C7700F29636 /* 240. 搜索二维矩阵 II.swift */,
+				67631DD428B8CEEE00F29636 /* 287. 寻找重复数.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -1469,6 +1472,7 @@
 				67E0BDE22872CB5C0066A653 /* 17. 电话号码的字母组合.swift in Sources */,
 				67E0BDE32872CB6E0066A653 /* 77. Combinations.swift in Sources */,
 				67960E3A28AA7F2E0076C741 /* 79. 单词搜索.swift in Sources */,
+				67631DD528B8CEEE00F29636 /* 287. 寻找重复数.swift in Sources */,
 				67E0BDE52872CD670066A653 /* 278. 第一个错误的版本.swift in Sources */,
 				CA224316288EEC8C00332C01 /* 34. 在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				67E39423288979AE00B4F252 /* 200. 岛屿数量.swift in Sources */,

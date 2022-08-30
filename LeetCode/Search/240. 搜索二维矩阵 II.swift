@@ -71,22 +71,16 @@ extension Solution {
                 return true
             }
             if btmRight.x - topLeft.x < 2 && btmRight.y - topLeft.y < 2 {
-                return search4Nums(matrix, target)
+                return search4Nums(matrix, target, tl: topLeft, br: btmRight)
             }
-            
             if matrix[i][j] > target {
                 // 缩小矩阵范围 先记录下上次的 i,j
-                let x = i - 1 >= 0 ? i : i - 1
-                let y = j - 1 >= 0 ? j : j - 1
-                btmRight = Corner(x: x, y: y)
+                btmRight = Corner(x: i, y: j)
                 i = (topLeft.x + i) >> 1
                 j = (topLeft.y + j) >> 1
             } else {
                 // 扩大矩阵范围 先记录下上次的 i,j
-                let x = i + 1 >= m ? i : i + 1
-                let y = j + 1 >= n ? j : j + 1
-                topLeft = Corner(x: x, y: y)
-                
+                topLeft = Corner(x: i, y: j)
                 i = (btmRight.x + i) >> 1
                 j = (btmRight.y + j) >> 1
             }
@@ -94,14 +88,15 @@ extension Solution {
         return false
     }
     
-    private func search4Nums(_ matrix: [[Int]], _ target: Int) -> Bool {
-        let m = matrix.count, n = matrix[0].count
+    private func search4Nums(_ matrix: [[Int]], _ target: Int,
+                             tl: (x:Int, y:Int),
+                             br: (x:Int, y:Int)) -> Bool {
         
-        for i in 0..<m {
-            if matrix[i][0] > target {
+        for i in tl.x...br.x {
+            if matrix[i][tl.y] > target {
                 return false
             }
-            for j in 0..<n {
+            for j in tl.y...br.y {
                 if matrix[i][j] == target {
                     return true
                 }
@@ -115,9 +110,9 @@ extension Solution {
 }
 
 func test240searchMatrix() {
-    let matrix = [[1,4],[2,5]], target = 2
+//    let matrix = [[1,4],[2,5]], target = 2
 //    let matrix = [[1,3,5]], target = 5
-//    let (matrix, target) = testCase3()
+    let (matrix, target) = testCase3()
     let x = LeetCode.searchMatrixP1(matrix, target)
     print(x)
 }

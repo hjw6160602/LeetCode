@@ -9,19 +9,45 @@
 import Foundation
 
 extension Solution {
-    // 不满足空间复杂度
+    
+//    620 ms 59.42%
+//    18.3 MB 10.14%
+//    我们对 nums 数组建图，每个位置 i 连一条 i ~→ nums[i] 的边。
+//    由于存在的重复的数字 target，因此 target 这个位置一定有起码两条指向它的边，因此整张图一定存在环，
+//    且我们要找到的 target 就是这个环的入口，那么整个问题就等价于 142. 环形链表 II
+
+//    我们先设置慢指针 low 和快指针 fast ，慢指针每次走一步，快指针每次走两步，
+//    根据「Floyd 判圈算法」两个指针在有环的情况下一定会相遇，
+//    此时我们再将slow 放置起点 0，两个指针每次同时移动一步，相遇的点就是答案
+    
     func findDuplicate(_ nums: [Int]) -> Int {
-        let sum = nums.reduce(0, +)
-        var expertation = 0
-        for i in 1...nums.count {
-            expertation += i
+        var slow = 0, fast = 0
+//      每个位置连一条 i ~→ nums[i] 的边
+        repeat {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while slow != fast
+        
+        slow = 0
+        while (slow != fast) {
+            slow = nums[slow]
+            fast = nums[fast]
         }
-        
-        
-        return expertation - sum
+        return slow
     }
     
-    // 超出时间限制 O(n^2)
+//    func findDuplicate(_ nums: [Int]) -> Int {
+//        let sum = nums.reduce(0, +)
+//        var expertation = 0
+//        for i in 1...nums.count {
+//            expertation += i
+//        }
+//
+//
+//        return expertation - sum
+//    }
+    
+    // 双循环超出时间限制 O(n^2)
     func findDuplicateDeprecated2(_ nums: [Int]) -> Int {
         let n = nums.count
         for i in 0..<n-1 {
@@ -35,7 +61,7 @@ extension Solution {
         return 0
     }
     
-    // 不满足空间复杂度
+    // 哈希表不满足空间复杂度
 //    632 ms 36.23%
 //    18.4 MB 8.69%
     func findDuplicateDeprecated(_ nums: [Int]) -> Int {

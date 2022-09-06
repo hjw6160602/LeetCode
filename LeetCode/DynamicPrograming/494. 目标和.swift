@@ -12,26 +12,53 @@ extension Solution {
     //    4 ms 98.00%
     //    13.7 MB 82.00%
     func findTargetSumWays(_ nums: [Int], _ target: Int) -> Int {
-        var sum = nums.reduce(0, +)
-        
+        let sum = nums.reduce(0, +)
+        // sum − 2⋅neg = target
+        // neg = (sum - target) / 2
         let diff = sum - target
-        
+//        由于数组 nums 中的元素都是非负整数，neg 也必须是非负整数，
+//        所以上式成立的前提是 sum−target 是非负偶数。若不符合该条件可直接返回 0
         if diff < 0 || diff % 2 != 0 {
             return 0
         }
         
         let neg = diff / 2
-        var dp = [Int](repeating: 0, count: neg+1)
+        var dp = [Int](repeating: 0, count: neg + 1)
         dp[0] = 1
         for num in nums {
             var j = neg
             while j >= num {
-                dp[j] += dp[j-num]
-                j-=1
+                dp[j] += dp[j - num]
+                j -= 1
             }
         }
         return dp[neg]
     }
+    
+    func findTargetSumWays2(_ nums: [Int], _ target: Int) -> Int {
+        let sum = nums.reduce(0, +)
+        // sum − 2⋅neg = target
+        // neg = (sum - target) / 2
+        let diff = sum - target
+//        由于数组 nums 中的元素都是非负整数，neg 也必须是非负整数，
+//        所以上式成立的前提是 sum−target 是非负偶数。若不符合该条件可直接返回 0
+        if diff < 0 || diff % 2 != 0 {
+            return 0
+        }
+        
+        let neg = diff / 2
+        var dp = [Int](repeating: 0, count: neg + 1)
+        dp[0] = 1
+        for num in nums {
+            var j = neg
+            while j >= num {
+                dp[j] += dp[j - num]
+                j -= 1
+            }
+        }
+        return dp[neg]
+    }
+    
 }
 
 func test492FindTargetSumWays() {
@@ -39,7 +66,6 @@ func test492FindTargetSumWays() {
     let x = LeetCode.findTargetSumWays(nums, target)
     print(x)
 }
-
 
 
 //给你一个整数数组 nums 和一个整数 target 。
@@ -58,6 +84,9 @@ func test492FindTargetSumWays() {
 //+1 + 1 - 1 + 1 + 1 = 3
 //+1 + 1 + 1 - 1 + 1 = 3
 //+1 + 1 + 1 + 1 - 1 = 3
+
+
+
 
 //示例 2：
 //输入：nums = [1], target = 1

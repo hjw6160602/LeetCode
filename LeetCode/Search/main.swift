@@ -25,8 +25,9 @@ extension String {
     }
 }
 
-//test287findDuplicate()
-test240searchMatrix()
+
+test287findDuplicate()
+//test240searchMatrix()
 //test733FloodFill()
 //test278FirstBadVersion()
 //test33Search()

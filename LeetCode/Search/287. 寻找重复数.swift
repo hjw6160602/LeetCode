@@ -27,9 +27,10 @@ extension Solution {
             slow = nums[slow];
             fast = nums[nums[fast]];
         } while slow != fast
-        
+        //  此时我们再将slow 放置起点 0
         slow = 0
         while (slow != fast) {
+            // 两个指针每次同时移动一步，相遇的点就是答案
             slow = nums[slow]
             fast = nums[fast]
         }

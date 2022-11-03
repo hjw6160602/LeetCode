@@ -23,6 +23,20 @@ extension Solution {
     func missingNumberSwift(_ nums: [Int]) -> Int {
         return nums.count * (nums.count + 1) / 2 - nums.reduce(0, +)
     }
+    
+//    120 ms 13.24%
+//    14.2 MB 42.65%
+    
+    func missingNumberDong(_ nums: [Int]) -> Int {
+        let n = nums.count
+        var res = 0
+        // 新补的索引
+        res += n
+        for (i, num) in nums.enumerated() {
+            res += (i - num)
+        }
+        return res
+    }
 }
 
 func test268MissingNumber() {

@@ -14,7 +14,7 @@ extension Solution {
             return 0
         }
         var res = 1
-        var dp = Array.init(repeating: 1, count: nums.count)
+        var dp = Array(repeating: 1, count: nums.count)
         // 动态规划 时间复杂度为 O(n^2)
         for i in 0 ..< nums.count {
             for j in 0 ..< i {

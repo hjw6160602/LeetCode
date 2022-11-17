@@ -16,7 +16,7 @@ extension Solution {
     func coinChange(_ coins: [Int], _ amount: Int) -> Int {
         guard amount > 0 else { return 0 }
         // 先将数组里的每一元素用 当前amount + 1来初始化
-        var dp = Array.init(repeating: amount + 1, count: amount + 1)
+        var dp = Array(repeating: amount + 1, count: amount + 1)
         dp[0] = 0
         for i in 1 ... amount {
             for coin in coins {

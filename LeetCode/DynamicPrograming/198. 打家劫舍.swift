@@ -18,7 +18,7 @@ extension Solution {
         guard nums.count > 0 else { return 0 }
         
         var robbed = nums[0], clear = 0
-        var dp = Array.init(repeating: 0, count: nums.count)
+        var dp = Array(repeating: 0, count: nums.count)
         dp[0] = robbed
         
         for i in 1..<nums.count {

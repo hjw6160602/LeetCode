@@ -21,17 +21,18 @@ extension Solution {
 //        let lastIdx = nums.count - 2
         let lastRight = nums.count - 1
         for index in 0..<nums.count - 2 {
-            // 取出index的重复操作 如果 当前index指针的值和上一个元素的值相等
+            // 取出index的重复操作 如果 当前index指针的值 和上一个元素的值相等
             if index > 0 && sortedNums[index] == sortedNums[index - 1] {
                 // 直接跳过
                 continue
             }
             var l = index + 1
             var r = lastRight
-            let remian = -sortedNums[index]
+            // 在定位好第一个数之后剩下的数
+            let remain = -sortedNums[index]
             while l < r {
                 let sumLr = sortedNums[l] + nums[r]
-                if sumLr == remian {
+                if sumLr == remain {
                     res.append([index, l, r])
                     l += 1
                     r -= 1
@@ -42,7 +43,7 @@ extension Solution {
                     while l < r && sortedNums[r] == sortedNums[r - 1] {
                         r -= 1
                     }
-                } else if (sumLr < remian) {
+                } else if (sumLr < remain) {
                     l += 1
                 } else {
                     r -= 1

@@ -18,16 +18,18 @@ extension Solution {
         var hasCarrier = false
 
         while list1 != nil || list2 != nil {
+            //  链表不一样长的情况下 值等于0
             let sum = (list1?.val ?? 0) + (list2?.val ?? 0) + (hasCarrier ? 1 : 0)
             hasCarrier = sum >= 10
             let value = hasCarrier ? sum % 10 : sum
             let node = ListNode(value)
+            // 相加之后 移动 指针
             currentNode.next = node
             list1 = list1?.next
             list2 = list2?.next
             currentNode = node
         }
-
+        // 处理最高位的进位
         if hasCarrier {
             let node = ListNode(1)
             currentNode.next = node

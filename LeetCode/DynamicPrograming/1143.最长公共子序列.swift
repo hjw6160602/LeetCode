@@ -130,7 +130,8 @@ extension Solution {
             return 0
         }
         
-        var dp = [[Int]](repeating: Array(repeating: 0, count: chars2.count + 1), count: chars1.count + 1)
+        var dp = [[Int]](repeating: Array(repeating: 0, count: chars2.count + 1),
+                         count: chars1.count + 1)
         
         for i in 1...chars1.count {
             for j in 1...chars2.count {

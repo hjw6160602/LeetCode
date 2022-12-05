@@ -8,9 +8,24 @@
 
 import Foundation
 
-class Solution {
+extension Solution {
     func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
+        return nil
+    }
+    
+    func reverse(_ a: ListNode?, _ b: ListNode) -> ListNode? {
 
+        var cur = a
+        var nxt = a
+        var pre: ListNode?
+        
+        while cur?.next?.val != b.val {
+            nxt = cur?.next
+            cur?.next = pre
+            pre = cur
+            cur = nxt
+        }
+        return pre
     }
 }
 

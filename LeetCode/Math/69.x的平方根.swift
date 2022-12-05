@@ -18,9 +18,7 @@ extension Solution {
 //    4 ms 79.61%
 //    13.4 MB  63.16%
     func mySqrtSwift(_ x: Int) -> Int {
-        guard x >= 0 else {
-            return 0
-        }
+        guard x >= 0 else { return 0 }
 
         var left = 0, right = x >> 1 + 1
 
@@ -30,7 +28,7 @@ extension Solution {
                 return mid
             } else if mid * mid < x {
                 left = mid + 1
-            } else {
+            } else if mid * mid > x {
                 right = mid - 1
             }
         }
@@ -68,7 +66,7 @@ extension Solution {
     }
     
     // 超时
-    func mySqrtSwift(_ x: Int) -> Int {
+    func mySqrtSwiftP2(_ x: Int) -> Int {
         guard x >= 0 else { return 0 }
         
         var left = 0, right = x / 2 + 1

@@ -109,6 +109,7 @@
 		67E39423288979AE00B4F252 /* 200. 岛屿数量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */; };
 		67E3942528898CCC00B4F252 /* 124. 二叉树中的最大路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3942428898CCB00B4F252 /* 124. 二叉树中的最大路径和.swift */; };
 		67E39427288A48F100B4F252 /* 560. 和为 K 的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */; };
+		67E3EFB3293DFB9A005682C8 /* 25. K 个一组翻转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E3EFB2293DFB9A005682C8 /* 25. K 个一组翻转链表.swift */; };
 		67EAE6A725F9C1700077FC9D /* 9. 回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */; };
 		67EAE6CD25F9F6B00077FC9D /* 101.对称二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */; };
 		67EB31F728ABCF2100529B6D /* 114. 二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */; };
@@ -437,6 +438,7 @@
 		67E39422288979AE00B4F252 /* 200. 岛屿数量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200. 岛屿数量.swift"; sourceTree = "<group>"; };
 		67E3942428898CCB00B4F252 /* 124. 二叉树中的最大路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "124. 二叉树中的最大路径和.swift"; sourceTree = "<group>"; };
 		67E39426288A48F100B4F252 /* 560. 和为 K 的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. 和为 K 的子数组.swift"; sourceTree = "<group>"; };
+		67E3EFB2293DFB9A005682C8 /* 25. K 个一组翻转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25. K 个一组翻转链表.swift"; sourceTree = "<group>"; };
 		67EAE6A625F9C1700077FC9D /* 9. 回文数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. 回文数.swift"; sourceTree = "<group>"; };
 		67EAE6CC25F9F6B00077FC9D /* 101.对称二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101.对称二叉树.swift"; sourceTree = "<group>"; };
 		67EB31F628ABCF2100529B6D /* 114. 二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114. 二叉树展开为链表.swift"; sourceTree = "<group>"; };
@@ -685,6 +687,7 @@
 				CA224311288C43D000332C01 /* 剑指 Offer 24. 反转链表.swift */,
 				CA22432128941A2A00332C01 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
 				67631DCC28B3B88000F29636 /* 148. 排序链表.swift */,
+				67E3EFB2293DFB9A005682C8 /* 25. K 个一组翻转链表.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -1334,6 +1337,7 @@
 				67ACEB3525CAD922009C53EE /* 203.移除链表元素.swift in Sources */,
 				CA2242FE2885A33900332C01 /* 146.LRU缓存.swift in Sources */,
 				67B8CD2025E6351B0059D7B5 /* 16.25 LRUCache.swift in Sources */,
+				67E3EFB3293DFB9A005682C8 /* 25. K 个一组翻转链表.swift in Sources */,
 				67ACEB4C25CADA5C009C53EE /* 234.回文链表.swift in Sources */,
 				67BDD5812885876F00884306 /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
 				67631DCD28B3B88000F29636 /* 148. 排序链表.swift in Sources */,

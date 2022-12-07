@@ -55,17 +55,41 @@ extension Solution {
     }
     
     
-    
+//    4 ms 67.27%
+//    13.9 MB 86.33%
     func isValidP1(_ s: String) -> Bool {
         var stack = [Character]()
         
-        return stack.isEmpty
+        for char in s {
+            if char == "{" || char == "[" || char == "(" {
+                stack.append(char)
+                continue
+            }
+            if let last = stack.last,
+               last == leftOf(char) {
+                _ = stack.popLast()
+            } else {
+                return false
+            }
+        }
+        
+        return stack.count == 0
+    }
+    
+    private func leftOf(_ c: Character) -> Character {
+        if c == "}" {
+            return "{"
+        }
+        if c == ")" {
+            return "("
+        }
+        return "["
     }
     
 }
 
 func testIsValidBracket() {
-    let isValid = LeetCode.isValid("{[]}")
+    let isValid = LeetCode.isValidP1("{[[]}")
     print(isValid)
 }
 

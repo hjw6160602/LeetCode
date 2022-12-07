@@ -9,17 +9,36 @@
 import Foundation
 
 extension Solution {
+
+//    24 ms 96.15%
+//    14.7 MB 12.50%
     func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
-        return nil
+        guard let head = head else {
+            return nil
+        }
+        let a = head
+        var b: ListNode? = head
+        for _ in 0..<k {
+            if b == nil {
+                // 不足 k 个，不需要反转，base case
+                return head
+            }
+            b = b!.next
+        }
+        // 翻转的区间为：[a, b)
+        let newHead = reverse(a, b)
+        a.next = reverseKGroup(b, k)
+        
+        return newHead
     }
     
-    func reverse(_ a: ListNode?, _ b: ListNode) -> ListNode? {
+    func reverse(_ a: ListNode?, _ b: ListNode?) -> ListNode? {
 
+        var pre: ListNode?
         var cur = a
         var nxt = a
-        var pre: ListNode?
         
-        while cur?.next?.val != b.val {
+        while cur !== b {
             nxt = cur?.next
             cur?.next = pre
             pre = cur
@@ -27,6 +46,13 @@ extension Solution {
         }
         return pre
     }
+}
+
+func test25EqualNode() {
+    let list = LinkedList.createList([1, 2, 3, 4, 5])
+    LinkedList.display(list)
+    let head = LeetCode.reverseKGroup(list, 1)
+    LinkedList.display(head)
 }
 
 

@@ -15,7 +15,8 @@ class Solution {
     private init() {}
 }
 
-test148sortList()
+test25EqualNode()
+//test148sortList()
 // 两数之和
 //testAddSum()
 // 翻转链表

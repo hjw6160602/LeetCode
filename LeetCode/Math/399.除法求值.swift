@@ -9,17 +9,17 @@
 import Foundation
 
 extension Solution {
-    func calcEquation(_ equations: [[String]], _ values: [Double], _ queries: [[String]]) -> [Double] {
-        a = 2 * b
-        b = 3 * c
-    }
+//    func calcEquation(_ equations: [[String]], _ values: [Double], _ queries: [[String]]) -> [Double] {
+//        a = 2 * b
+//        b = 3 * c
+//    }
 }
 
 func test399calcEquation() {
     
     let equations = [["a","b"],["b","c"]], values = [2.0,3.0], queries = [["a","c"],["b","a"],["a","e"],["a","a"],["x","x"]]
-    let x = LeetCode.calcEquation(equations, values, queries)
-    print(x)
+//    let x = LeetCode.calcEquation(equations, values, queries)
+//    print(x)
     
 }
 

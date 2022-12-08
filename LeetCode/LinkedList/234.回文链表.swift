@@ -5,13 +5,38 @@
 //  Created by SaiDiCaprio on 2021/2/3.
 //  Copyright © 2021 saidicaprio. All rights reserved.
 //
-//链接：https://leetcode-cn.com/problems/palindrome-linked-list
+//  https://leetcode-cn.com/problems/palindrome-linked-list
 //
 
 import Foundation
 
-extension Solution {
+class TraverseSolution {
+//    796 ms 16.97%
+//    31 MB 41.82%
+    // 后续遍历的方法 时间和空间复杂度都是 O(N)
+    var left: ListNode?
+    
     /// 是否是回文链表
+    func isPalindrome(_ head: ListNode?) -> Bool {
+        left = head
+        return traverse(head)
+    }
+    
+    private func traverse(_ right: ListNode?) -> Bool {
+        if right == nil {
+            return true
+        }
+        var res = traverse(right?.next)
+        // 后续遍历代码
+        res = res && (right?.val == left?.val)
+        left = left?.next
+
+        return res
+    }
+}
+
+extension Solution {
+    
     func isPalindrome(_ head: ListNode?) -> Bool {
         guard let head = head,
               head.next != nil else {
@@ -132,26 +157,22 @@ extension Solution {
 }
 
 func testIsPalindrome() {
-    let list = LinkedList.createList( [1,2,1] )
+    let list = LinkedList.createList( [1,2] )
     LinkedList.display(list)
-    let x = Solution.shared.isPalindromeP1(list)
+//    let x = Solution.shared.isPalindromeP1(list)
+    let x = TraverseSolution().isPalindrome(list)
     print(x)
 }
 
 //请判断一个链表是否为回文链表。
-//
 //示例 1:
-//
 //输入: 1->2
 //输出: false
+
 //示例 2:
-//
-
-// 1->2->2->1 -> 1->2->2->1
-// 1->2->2->1 -> 1->2->2->1
-
 //输入: 1->2->2->1
 //输出: true
 //进阶：
+
 //你能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？
 

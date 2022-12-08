@@ -33,15 +33,6 @@ class ListNode {
     }
 }
 
-extension ListNode: Equatable {
-    static func == (lhs: ListNode?, rhs: ListNode?) -> Bool {
-        guard let lhs = lhs,
-              let rhs = rhs ekse {
-                  return false
-              }
-    }
-}
-
 struct LinkedList {
     /// 通过数组 创建一个链表
     static func createList(_ list: [Int]) -> ListNode? {

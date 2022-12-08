@@ -12,7 +12,7 @@ import Foundation
 extension Solution {
 
 //    100 ms 100%
-//    13.9 MB 00%
+//    13.9 MB 100%
     func missingNumber(_ nums: [Int]) -> Int {
         var res = 0
         // 先和新补的索引异或一下
@@ -23,10 +23,21 @@ extension Solution {
         }
         return res
     }
+    
+    func missingNumberP1(_ nums: [Int]) -> Int {
+        var res = 0
+        // 新补的索引
+        res = nums.count
+        // 剩下索引和蒜素的差加起来
+        for (i, num) in nums.enumerated() {
+            res += i - num
+        }
+        return res
+    }
 }
 
 func testMissingNumber() {
-    let x = LeetCode.missingNumber([9,6,4,2,3,5,7,0,1])
+    let x = LeetCode.missingNumberP1([9,6,4,2,3,5,7,0,1])
     print(x)
 }
 

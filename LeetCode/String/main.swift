@@ -28,7 +28,7 @@ class Solution {
 
 //testReverseWords()
 //testIsAnagram()
-//testLengthOfLongestSubstring()
+test03LengthOfLongestSubstring()
 //testMinDistance()
 //testLongestPalindrome()
 //testIndexOf()
@@ -41,7 +41,7 @@ class Solution {
 //test387FirstUniqChar()
 //test125IsPalindrome()
 //test412FizzBuzz()
-test139WordBreak()
+//test139WordBreak()
 
 extension String {
     

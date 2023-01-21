@@ -11,14 +11,14 @@ import Foundation
 
 extension Solution {
     func rob(_ root: TreeNode?) -> Int {
-
+        return 0
     }
 }
 
 func test337rob() {
-    let root = BinaryTree.initWithInput("[3,2,3,null,3,null,1]")
-    let x = LeetCode.rob(root)
-    print(x)
+//    let root = BinaryTree.initWithInput("[3,2,3,null,3,null,1]")
+//    let x = LeetCode.rob(root)
+//    print(x)
 }
 
 //小偷又发现了一个新的可行窃的地区。这个地区只有一个入口，我们称之为 root 。

@@ -11,6 +11,35 @@ import Foundation
 
 extension Solution {
     
+//    40 ms 19.91%
+//    14.1 MB 87.59%
+    func lengthOfLongestSubstringVS(_ s: String) -> Int {
+        guard s.count > 0 else { return 0 }
+        var res = 1
+        
+        var subString = [Character]()
+        
+        for char in s {
+            if subString.count == 0 {
+                subString = [char]
+                continue
+            }
+            
+            subString.append(char)
+            
+            for i in (0..<subString.count-1).reversed() {
+                let subChar = subString[i]
+                if subChar == char {
+                    subString = [Character](subString[i+1..<subString.count])
+                    break
+                }
+            }
+            res = max(res, subString.count)
+        }
+        return res
+    }
+    
+    
     // MARK: - 类似DP
     // 执行用时：16 ms 击败了 72.69%
     // 内存消耗：14.5 MB 击败了 5.10%
@@ -159,9 +188,9 @@ extension Solution {
 
 }
 
-func testLengthOfLongestSubstring() {
-    let string = "pwwkew"
-    let x = Solution.shared.lengthOfLongestSubstringO3(string)
+func test03LengthOfLongestSubstring() {
+    let string = ""
+    let x = Solution.shared.lengthOfLongestSubstringVS(string)
     print(x)
 }
 

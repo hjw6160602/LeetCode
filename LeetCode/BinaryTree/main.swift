@@ -37,9 +37,10 @@ class Solution {
 //test226InvertTree()
 //test124MaxPathSum()
 //test114Flatten()
-test208Trie()
+//test208Trie()
 
 // MARK: - BFS
+test297Codec()
 //test102levelOrder()
 //test107LevelOrderBottom()
 
@@ -47,7 +48,7 @@ test208Trie()
 //MARK: - 二叉搜索树
 //test783MinDiffInBST()
 //test572rangeSumBST()
-test108SortedArrayToBST()
+//test108SortedArrayToBST()
 
 private func _BSF_DFS() {
     let tree = BinaryTree()
